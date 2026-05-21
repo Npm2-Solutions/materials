@@ -8,7 +8,7 @@
   "description": "Most commonly used carbon steel plate specification for pressure vessel construction",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "asme_sa_516",
   "display_name": "ASME SA-516"
@@ -22,7 +22,7 @@
   "description": "Standard specification for seamless carbon steel pipe for high-temperature service",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "asme_sa_106",
   "display_name": "ASME SA-106"
@@ -36,7 +36,7 @@
   "description": "Standard specification for stainless steel plate, sheet and strip for pressure vessel construction",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "asme_sa_240",
   "display_name": "ASME SA-240"
@@ -50,7 +50,7 @@
   "description": "Standard specification for seamless and welded austenitic stainless steel pipes",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "asme_sa_312",
   "display_name": "ASME SA-312"
@@ -64,7 +64,7 @@
   "description": "Standard specification for seamless ferritic alloy steel pipe for high-temperature service",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "asme_sa_335",
   "display_name": "ASME SA-335"
@@ -78,7 +78,7 @@
   "description": "Standard specification for Cr-Mo alloy steel plates for pressure vessels",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "asme_sa_387",
   "display_name": "ASME SA-387"
@@ -92,7 +92,7 @@
   "description": "Standard specification for forged fittings, flanges and valves in alloy and stainless steel",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "asme_sa_182",
   "display_name": "ASME SA-182"
@@ -106,7 +106,7 @@
   "description": "Standard specification for carbon structural steel shapes, plates, and bars",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "asme_sa_36",
   "display_name": "ASME SA-36"
@@ -120,7 +120,7 @@
   "description": "Standard specification for seamless and welded steel pipe for low-temperature service",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "asme_sa_333",
   "display_name": "ASME SA-333"
@@ -134,7 +134,7 @@
   "description": "ASTM equivalent of SA-516",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "astm_a516",
   "display_name": "ASTM A516"
@@ -148,7 +148,7 @@
   "description": "HSLA structural steel specification commonly used in construction",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "astm_a572",
   "display_name": "ASTM A572"
@@ -162,7 +162,7 @@
   "description": "European standard for structural steel grades (S235, S275, S355, etc.)",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "en_10025_2",
   "display_name": "EN 10025-2"
@@ -176,7 +176,7 @@
   "description": "European standard for pressure vessel plates (P265GH, P355GH, etc.)",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "en_10028_2",
   "display_name": "EN 10028-2"
@@ -190,7 +190,7 @@
   "description": "European standard for stainless steel plate and sheet",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "en_10088_2",
   "display_name": "EN 10088-2"
@@ -204,7 +204,7 @@
   "description": "API specification for steel line pipe used in pipeline transportation systems",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "api_5l",
   "display_name": "API 5L"
@@ -218,7 +218,7 @@
   "description": "Most commonly used carbon structural steel for shapes, plates, and bars (yield ~250 MPa). ASTM equivalent of SA-36.",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "astm_a36",
   "display_name": "ASTM A36"
@@ -232,7 +232,7 @@
   "description": "General-purpose carbon steel pipe; available as Type E (ERW), Type S (seamless), Type F (furnace butt-welded).",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "astm_a53",
   "display_name": "ASTM A53"
@@ -246,7 +246,7 @@
   "description": "ASTM equivalent of SA-106. Seamless carbon steel pipe for high-temperature service in process and power piping.",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "astm_a106",
   "display_name": "ASTM A106"
@@ -260,7 +260,7 @@
   "description": "Carbon steel plates of structural quality. Grades A, B, C, D \u2014 increasing tensile strength.",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "astm_a283",
   "display_name": "ASTM A283"
@@ -274,7 +274,7 @@
   "description": "Carbon steel pressure vessel plates for low/intermediate tensile applications. Grades A, B, C.",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "astm_a285",
   "display_name": "ASTM A285"
@@ -288,7 +288,7 @@
   "description": "ASTM equivalent of SA-335. Cr-Mo creep-resistant alloy steel pipe for power, refining, and petrochemical service.",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "astm_a335",
   "display_name": "ASTM A335"
@@ -302,7 +302,7 @@
   "description": "ASTM equivalent of SA-387. Cr-Mo plates in Class 1 (annealed) and Class 2 (normalized + tempered) strength tiers.",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "astm_a387",
   "display_name": "ASTM A387"
@@ -316,7 +316,7 @@
   "description": "Weathering steel (Cor-Ten family) with atmospheric corrosion resistance ~4\u00d7 plain carbon steel.",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "astm_a588",
   "display_name": "ASTM A588"
@@ -330,7 +330,7 @@
   "description": "EFW pipe made from A285, A516, etc. plate. Class 12 / 22 / 32 designate test/HT requirements.",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "astm_a671",
   "display_name": "ASTM A671"
@@ -344,7 +344,7 @@
   "description": "EFW pipe from A285/A515/A516/A537 plate for moderate-temperature high-pressure service.",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "astm_a672",
   "display_name": "ASTM A672"
@@ -358,7 +358,7 @@
   "description": "EFW pipe from C-Mo / Cr-Mo plate (incl. A387 grades) for high-pressure / high-temperature service.",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "astm_a691",
   "display_name": "ASTM A691"
@@ -372,7 +372,7 @@
   "description": "Default spec for structural wide-flange (W) shapes in US construction. Replaces A36/A572-50 for shapes.",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "astm_a992",
   "display_name": "ASTM A992"
@@ -386,7 +386,7 @@
   "description": "ASTM equivalent of SA-240. Austenitic, ferritic, martensitic, and duplex grades for plate/sheet/strip. Full title: 'Standard Specification for Chromium and Chromium-Nickel Stainless Steel Plate, Sheet, and Strip for Pressure Vessels and General Applications'.",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "astm_a240",
   "display_name": "ASTM A240"
@@ -400,7 +400,7 @@
   "description": "ASTM equivalent of SA-312. Austenitic stainless pipe for general corrosive and high-temperature service.",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "astm_a312",
   "display_name": "ASTM A312"
@@ -414,7 +414,7 @@
   "description": "Duplex stainless pipe \u2014 UNS S31803 (2205), S32205 (2205+), S32750 (2507) for chloride/sour service.",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "astm_a790",
   "display_name": "ASTM A790"
@@ -428,7 +428,7 @@
   "description": "API line pipe in corrosion-resistant alloys (martensitic, duplex, austenitic stainless and Ni-base) for sour and corrosive service.",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "api_5lc",
   "display_name": "API 5LC"
@@ -442,7 +442,7 @@
   "description": "API line pipe with internal CRA cladding/lining over carbon steel substrate. Used where bulk carbon steel + corrosion barrier is economic.",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "api_5ld",
   "display_name": "API 5LD"
@@ -456,7 +456,7 @@
   "description": "Normalized weldable fine grain structural steels: S275N/NL, S355N/NL, S420N/NL, S460N/NL. Full title: 'Hot rolled products of structural steels - Part 3: Technical delivery conditions for normalized/normalized rolled weldable fine grain structural steels'.",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "en_10025_3",
   "display_name": "EN 10025-3"
@@ -470,7 +470,7 @@
   "description": "TMCP (thermomechanical control process) steels: S275M/ML, S355M/ML, S420M/ML, S460M/ML. Full title: 'Hot rolled products of structural steels - Part 4: Technical delivery conditions for thermomechanical rolled weldable fine grain structural steels'.",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "en_10025_4",
   "display_name": "EN 10025-4"
@@ -484,7 +484,7 @@
   "description": "Weathering steels \u2014 European equivalents of ASTM A588 (S355J0W, S355J2W, S355J2WP). Full title: 'Hot rolled products of structural steels - Part 5: Technical delivery conditions for structural steels with improved atmospheric corrosion resistance'.",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "en_10025_5",
   "display_name": "EN 10025-5"
@@ -498,7 +498,7 @@
   "description": "Q&T high-yield structural plate: S460Q/QL/QL1, S500Q, S690Q/QL/QL1, S960Q/QL. Full title: 'Hot rolled products of structural steels - Part 6: Technical delivery conditions for flat products of high yield strength structural steels in the quenched and tempered condition'.",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "en_10025_6",
   "display_name": "EN 10025-6"
@@ -512,7 +512,7 @@
   "description": "Normalized weldable fine grain pressure vessel plate: P275N/NH/NL1/NL2, P355N/NH/NL1/NL2, P460N/NH/NL1/NL2.",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "en_10028_3",
   "display_name": "EN 10028-3"
@@ -526,7 +526,7 @@
   "description": "Stainless steel pressure vessel plates \u2014 austenitic, austenitic-ferritic (duplex), ferritic, and martensitic grades.",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "en_10028_7",
   "display_name": "EN 10028-7"
@@ -540,7 +540,7 @@
   "description": "Seamless pressure tubes: P195GH, P235GH, P265GH, 16Mo3, 13CrMo4-5, 10CrMo9-10, X10CrMoVNb9-1 (P91). Full title: 'Seamless steel tubes for pressure purposes - Technical delivery conditions - Part 2: Non-alloy and alloy steel tubes with specified elevated temperature properties'.",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "en_10216_2",
   "display_name": "EN 10216-2"
@@ -554,7 +554,7 @@
   "description": "Seamless stainless pressure tubes \u2014 austenitic and austenitic-ferritic grades for elevated and low-temperature service.",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "en_10216_5",
   "display_name": "EN 10216-5"
@@ -568,7 +568,7 @@
   "description": "Welded stainless pressure tubes for general process service.",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "en_10217_7",
   "display_name": "EN 10217-7"
@@ -582,7 +582,7 @@
   "description": "Hot-finished structural hollow sections (RHS, SHS, CHS) for steel construction \u2014 typically S275 and S355 grades.",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "en_10210_1",
   "display_name": "EN 10210-1"
@@ -596,7 +596,7 @@
   "description": "Cold-formed welded structural hollow sections (RHS, SHS, CHS) for steel construction.",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "en_10219_1",
   "display_name": "EN 10219-1"
@@ -610,7 +610,7 @@
   "description": "Cold-rolled low-carbon flat products for forming/drawing \u2014 DC01, DC03, DC04, DC05, DC06, DC07.",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "en_10130",
   "display_name": "EN 10130"
@@ -624,7 +624,7 @@
   "description": "General structural carbon steels \u2014 SS330, SS400, SS490, SS540.",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "jis_g3101",
   "display_name": "JIS g3101"
@@ -638,7 +638,7 @@
   "description": "Carbon steels for welded structures \u2014 SM400A/B/C, SM490A/B/C, SM490YA/YB, SM520B/C, SM570.",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "jis_g3106",
   "display_name": "JIS g3106"
@@ -652,7 +652,7 @@
   "description": "Carbon steel pressure pipe \u2014 STPG370, STPG410. Equivalent to ASTM A53 / A106 lower grades.",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "jis_g3454",
   "display_name": "JIS g3454"
@@ -666,7 +666,7 @@
   "description": "Cr-Mo alloy pipe \u2014 STPA12 (~P11), STPA22 (~P22), STPA23, STPA24, STPA25, STPA26.",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "jis_g3458",
   "display_name": "JIS g3458"
@@ -680,7 +680,7 @@
   "description": "Hot rolled stainless steel plate \u2014 SUS304, SUS304L, SUS316, SUS316L, SUS321, SUS347, etc.",
   "is_standard": 1,
   "enabled": 1,
-  "doctype": "Base Material Specification",
+  "doctype": "Material Specification",
   "docstatus": 0,
   "name": "jis_g4304",
   "display_name": "JIS g4304"

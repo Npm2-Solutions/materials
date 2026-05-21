@@ -45,7 +45,7 @@
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Specification",
-   "options": "Base Material Specification",
+   "options": "Material Specification",
    "reqd": 1,
    "description": "The parent material specification (e.g., ASME-SA-516)"
   },
@@ -91,7 +91,7 @@
    "fieldname": "product_forms",
    "fieldtype": "Table",
    "label": "Product Forms",
-   "options": "Grade Product Form",
+   "options": "Material Form",
    "description": "Available forms with thickness/diameter ranges"
   },
   {
@@ -117,7 +117,7 @@
    "fieldname": "mechanical_property_sets",
    "fieldtype": "Table",
    "label": "Mechanical Property Sets",
-   "options": "Grade Mechanical Property Set",
+   "options": "Material Mechanical Property",
    "description": "Mechanical properties per supply / heat-treatment condition AND optionally per thickness band (steel mechanicals degrade with thickness)."
   },
   {
@@ -241,7 +241,7 @@
  "modified": "2026-05-04 00:00:00.000000",
  "modified_by": "Administrator",
  "module": "Material Classifications",
- "name": "Base Material Grade",
+ "name": "Material Grade",
  "naming_rule": "By script",
  "owner": "Administrator",
  "permissions": [

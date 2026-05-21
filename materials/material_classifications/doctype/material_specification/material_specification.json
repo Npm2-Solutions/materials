@@ -92,7 +92,7 @@
    "fieldname": "supersedes",
    "fieldtype": "Link",
    "label": "Supersedes",
-   "options": "Base Material Specification",
+   "options": "Material Specification",
    "description": "Previous specification this replaces"
   },
   {
@@ -110,7 +110,7 @@
    "fieldname": "equivalent_specifications",
    "fieldtype": "Table MultiSelect",
    "label": "Equivalents",
-   "options": "Base Material Specification Link"
+   "options": "Material Specification Link"
   },
   {
    "fieldname": "section_break_settings",
@@ -138,7 +138,7 @@
  "modified": "2026-05-04 00:00:00.000000",
  "modified_by": "Administrator",
  "module": "Material Classifications",
- "name": "Base Material Specification",
+ "name": "Material Specification",
  "naming_rule": "By script",
  "owner": "Administrator",
  "permissions": [

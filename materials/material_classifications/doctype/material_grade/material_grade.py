@@ -9,13 +9,13 @@ from weldcore.utils.display_name import pretty_spec_code, slugify
 
 class BaseMaterialGrade(Document):
     """
-    Base Material Grade DocType - Specific grade within a specification.
+    Material Grade DocType - Specific grade within a specification.
 
     Examples: SA-516 Gr.70, EN 10025-2 S355J2
 
     This is the second level of the two-level base material hierarchy:
-    1. Base Material Specification - the document (SA-516)
-    2. Base Material Grade - the specific grade (Gr.70)
+    1. Material Specification - the document (SA-516)
+    2. Material Grade - the specific grade (Gr.70)
 
     Key features:
     - Multi-standard group assignments via child table
@@ -30,7 +30,7 @@ class BaseMaterialGrade(Document):
     def autoname(self):
         """Slug name: '{specification}__{slug(grade)}'.
 
-        specification is already a slug (Link to Base Material Specification);
+        specification is already a slug (Link to Material Specification);
         slugify grade to handle the unusual chars some carry (spaces, dots,
         Roman numerals, dashes — e.g. 'Gr B', 'TP304L').
         """
@@ -44,7 +44,7 @@ class BaseMaterialGrade(Document):
         # or '{Spec} {grade}' for everything else (EN material numbers
         # like 'EN 10088-2 1.4301', JIS, etc.).
         spec_dn = pretty_spec_code(
-            frappe.db.get_value("Base Material Specification", self.specification, "display_name")
+            frappe.db.get_value("Material Specification", self.specification, "display_name")
             or self.specification,
             self.specification,
         ) if self.specification else ""

@@ -70,7 +70,7 @@
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Material",
-   "options": "Base Material Grade",
+   "options": "Material Grade",
    "description": "Select base material item (consumable_type = Base Material)"
   },
   {

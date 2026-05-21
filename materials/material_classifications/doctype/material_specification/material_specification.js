@@ -1,7 +1,7 @@
 // Copyright (c) 2025, WeldTrack and contributors
 // For license information, please see license.txt
 
-frappe.ui.form.on("Base Material Specification", {
+frappe.ui.form.on("Material Specification", {
 	refresh(frm) {
 		if (!frm.is_new() && frm.doc.spec_status !== "Withdrawn") {
 			frm.add_custom_button(__("Withdraw"), function () {
