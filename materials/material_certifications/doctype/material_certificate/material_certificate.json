@@ -1,0 +1,437 @@
+{
+ "actions": [],
+ "autoname": "format:MCERT-{YYYY}-{#####}",
+ "creation": "2025-01-22 00:00:00",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "details_tab",
+  "identity_section",
+  "naming_series",
+  "certificate_number",
+  "certificate_type",
+  "cb_identity",
+  "certificate_date",
+  "status",
+  "batch_section",
+  "batch",
+  "item_code",
+  "cb_batch",
+  "supplier",
+  "validation_section",
+  "validation_status",
+  "cb_validation",
+  "validation_notes",
+  "issuer_section",
+  "issuing_organization",
+  "issuing_body",
+  "cb_issuer",
+  "applicable_standard",
+  "third_party_verified",
+  "heat_tab",
+  "heat_section",
+  "heat_numbers_covered",
+  "chemical_tab",
+  "chemical_section",
+  "chemical_results",
+  "mechanical_tab",
+  "mechanical_section",
+  "mechanical_results",
+  "pmi_tab",
+  "pmi_section",
+  "pmi_test_points",
+  "pmi_details_section",
+  "pmi_equipment",
+  "pmi_procedure",
+  "cb_pmi",
+  "pmi_operator",
+  "pmi_overall_result",
+  "document_tab",
+  "attachment_section",
+  "attachment",
+  "verification_section",
+  "verified",
+  "verified_by",
+  "verification_date",
+  "cb_verification",
+  "verification_remarks",
+  "expiry_section",
+  "expiry_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Details"
+  },
+  {
+   "fieldname": "identity_section",
+   "fieldtype": "Section Break",
+   "label": "Certificate Identity"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "MCERT-.YYYY.-.#####",
+   "reqd": 1,
+   "hidden": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "certificate_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Certificate Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "certificate_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Certificate Type",
+   "options": "EN 10204 2.2\nEN 10204 3.1\nEN 10204 3.2\nMill Test Report\nPMI Report\nHydrostatic Test\nCoating Certificate\nOther",
+   "reqd": 1
+  },
+  {
+   "fieldname": "cb_identity",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "certificate_date",
+   "fieldtype": "Date",
+   "label": "Certificate Date",
+   "reqd": 1
+  },
+  {
+   "default": "Valid",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Status",
+   "options": "Valid\nExpired\nRevoked",
+   "read_only": 1
+  },
+  {
+   "fieldname": "batch_section",
+   "fieldtype": "Section Break",
+   "label": "Linked Batch"
+  },
+  {
+   "fieldname": "batch",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Batch",
+   "options": "Batch"
+  },
+  {
+   "fetch_from": "batch.item",
+   "fieldname": "item_code",
+   "fieldtype": "Link",
+   "label": "Item",
+   "options": "Item",
+   "read_only": 1
+  },
+  {
+   "fieldname": "cb_batch",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "supplier",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Supplier",
+   "options": "Supplier"
+  },
+  {
+   "fieldname": "validation_section",
+   "fieldtype": "Section Break",
+   "label": "Validation"
+  },
+  {
+   "default": "Pending Review",
+   "fieldname": "validation_status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Validation Status",
+   "options": "Pending Review\nValidated\nRejected\nConditional",
+   "read_only": 1
+  },
+  {
+   "fieldname": "cb_validation",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "validation_notes",
+   "fieldtype": "Small Text",
+   "label": "Validation Notes"
+  },
+  {
+   "fieldname": "issuer_section",
+   "fieldtype": "Section Break",
+   "label": "Issuer"
+  },
+  {
+   "fieldname": "issuing_organization",
+   "fieldtype": "Link",
+   "label": "Issuing Organization",
+   "options": "Standard Organization"
+  },
+  {
+   "description": "Free-text name when organization is not in the system",
+   "fieldname": "issuing_body",
+   "fieldtype": "Data",
+   "in_standard_filter": 1,
+   "label": "Issuing Body / Laboratory"
+  },
+  {
+   "fieldname": "cb_issuer",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "applicable_standard",
+   "fieldtype": "Link",
+   "label": "Applicable Standard",
+   "options": "Standard"
+  },
+  {
+   "default": "0",
+   "fieldname": "third_party_verified",
+   "fieldtype": "Check",
+   "label": "Third Party Verified"
+  },
+  {
+   "fieldname": "heat_tab",
+   "fieldtype": "Tab Break",
+   "label": "Heat Numbers"
+  },
+  {
+   "fieldname": "heat_section",
+   "fieldtype": "Section Break",
+   "label": "Heat Numbers Covered"
+  },
+  {
+   "description": "One heat number per line. Cross-referenced against batch heat numbers at validation.",
+   "fieldname": "heat_numbers_covered",
+   "fieldtype": "Small Text",
+   "label": "Heat Numbers Covered"
+  },
+  {
+   "fieldname": "chemical_tab",
+   "fieldtype": "Tab Break",
+   "label": "Chemical Composition"
+  },
+  {
+   "fieldname": "chemical_section",
+   "fieldtype": "Section Break",
+   "label": "Chemical Analysis Results"
+  },
+  {
+   "fieldname": "chemical_results",
+   "fieldtype": "Table",
+   "label": "Chemical Results",
+   "options": "Certificate Chemical Result"
+  },
+  {
+   "fieldname": "mechanical_tab",
+   "fieldtype": "Tab Break",
+   "label": "Mechanical Tests"
+  },
+  {
+   "fieldname": "mechanical_section",
+   "fieldtype": "Section Break",
+   "label": "Mechanical Test Results"
+  },
+  {
+   "fieldname": "mechanical_results",
+   "fieldtype": "Table",
+   "label": "Mechanical Results",
+   "options": "Certificate Mechanical Result"
+  },
+  {
+   "depends_on": "eval:doc.certificate_type=='PMI Report'",
+   "fieldname": "pmi_tab",
+   "fieldtype": "Tab Break",
+   "label": "PMI Results"
+  },
+  {
+   "fieldname": "pmi_section",
+   "fieldtype": "Section Break",
+   "label": "PMI Test Points"
+  },
+  {
+   "fieldname": "pmi_test_points",
+   "fieldtype": "Table",
+   "label": "Test Points",
+   "options": "PMI Test Point"
+  },
+  {
+   "fieldname": "pmi_details_section",
+   "fieldtype": "Section Break",
+   "label": "PMI Details"
+  },
+  {
+   "fieldname": "pmi_equipment",
+   "fieldtype": "Data",
+   "label": "PMI Equipment"
+  },
+  {
+   "fieldname": "pmi_procedure",
+   "fieldtype": "Data",
+   "label": "PMI Procedure"
+  },
+  {
+   "fieldname": "cb_pmi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pmi_operator",
+   "fieldtype": "Link",
+   "label": "PMI Operator",
+   "options": "User"
+  },
+  {
+   "fieldname": "pmi_overall_result",
+   "fieldtype": "Select",
+   "label": "Overall PMI Result",
+   "options": "\nPass\nFail\nConditional",
+   "read_only": 1
+  },
+  {
+   "fieldname": "document_tab",
+   "fieldtype": "Tab Break",
+   "label": "Document & Verification"
+  },
+  {
+   "fieldname": "attachment_section",
+   "fieldtype": "Section Break",
+   "label": "Certificate File"
+  },
+  {
+   "fieldname": "attachment",
+   "fieldtype": "Attach",
+   "label": "Certificate File (PDF)"
+  },
+  {
+   "collapsible": 0,
+   "fieldname": "verification_section",
+   "fieldtype": "Section Break",
+   "label": "Verification"
+  },
+  {
+   "default": "0",
+   "fieldname": "verified",
+   "fieldtype": "Check",
+   "label": "Verified"
+  },
+  {
+   "depends_on": "eval:doc.verified",
+   "fieldname": "verified_by",
+   "fieldtype": "Link",
+   "label": "Verified By",
+   "options": "User",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.verified",
+   "fieldname": "verification_date",
+   "fieldtype": "Date",
+   "label": "Verification Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "cb_verification",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "verification_remarks",
+   "fieldtype": "Small Text",
+   "label": "Verification Remarks"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "expiry_section",
+   "fieldtype": "Section Break",
+   "label": "Expiry"
+  },
+  {
+   "fieldname": "expiry_date",
+   "fieldtype": "Date",
+   "label": "Expiry Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-02-27 10:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Material Certifications",
+ "name": "Material Certificate",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "role": "STK Material Inspector",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "report": 1,
+   "export": 1,
+   "share": 1,
+   "print": 1,
+   "email": 1
+  },
+  {
+   "role": "STK Quality Manager",
+   "read": 1,
+   "write": 1,
+   "report": 1,
+   "export": 1,
+   "share": 1,
+   "print": 1,
+   "email": 1
+  },
+  {
+   "role": "STK Manager",
+   "read": 1,
+   "write": 1,
+   "report": 1,
+   "export": 1,
+   "share": 1,
+   "print": 1,
+   "email": 1
+  },
+  {
+   "role": "STK Purchase Manager",
+   "read": 1,
+   "print": 1
+  },
+  {
+   "role": "Projects User",
+   "read": 1
+  },
+  {
+   "role": "System Manager",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "export": 1,
+   "report": 1,
+   "share": 1
+  }
+ ],
+ "search_fields": "batch,certificate_type,certificate_number,heat_numbers_covered",
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "certificate_number",
+ "track_changes": 1
+}

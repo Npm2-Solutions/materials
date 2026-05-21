@@ -1,4 +1,4 @@
-# Copyright (c) 2026, NPM2 Solutions and Contributors
+# Copyright (c) 2026, NPM2 Solutions Srl and Contributors
 # See license.txt
 
 # import frappe
@@ -13,9 +13,9 @@ IGNORE_TEST_RECORD_DEPENDENCIES = []  # eg. ["User"]
 
 
 
-class IntegrationTestMaterialTestCertificate(IntegrationTestCase):
+class IntegrationTestMaterialCertificate(IntegrationTestCase):
 	"""
-	Integration tests for MaterialTestCertificate.
+	Integration tests for MaterialCertificate.
 	Use this class for testing interactions between multiple components.
 	"""
 
