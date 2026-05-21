@@ -1,0 +1,6016 @@
+[
+ {
+  "specification": "asme_sa_516",
+  "grade": "70",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "asme_sa_516__70",
+  "uns_number": "K02700",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_2"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_2"
+   },
+   {
+    "grouping_system": "aws_d1_1_base",
+    "material_group": "aws_d1_1_base_ii"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 6,
+    "thickness_max": 200
+   }
+  ],
+  "display_name": "ASME SA-516 Gr.70"
+ },
+ {
+  "specification": "asme_sa_516",
+  "grade": "60",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "asme_sa_516__60",
+  "uns_number": "K02100",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_2"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 6,
+    "thickness_max": 200
+   }
+  ],
+  "display_name": "ASME SA-516 Gr.60"
+ },
+ {
+  "specification": "asme_sa_516",
+  "grade": "55",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "asme_sa_516__55",
+  "uns_number": "K01800",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 6,
+    "thickness_max": 200
+   }
+  ],
+  "display_name": "ASME SA-516 Gr.55"
+ },
+ {
+  "specification": "asme_sa_106",
+  "grade": "B",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "asme_sa_106__b",
+  "uns_number": "K03006",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_2"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 2.77,
+    "thickness_max": 25.4,
+    "diameter_min": 10.3,
+    "diameter_max": 660
+   }
+  ],
+  "display_name": "ASME SA-106 B"
+ },
+ {
+  "specification": "asme_sa_240",
+  "grade": "304",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "asme_sa_240__304",
+  "uns_number": "S30400",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_8"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_8_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_8_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 100
+   },
+   {
+    "product_form": "Sheet",
+    "thickness_min": 0.4,
+    "thickness_max": 3
+   }
+  ],
+  "display_name": "ASME SA-240 Gr.304"
+ },
+ {
+  "specification": "asme_sa_240",
+  "grade": "304L",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "asme_sa_240__304l",
+  "uns_number": "S30403",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_8"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_8_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_8_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 100
+   }
+  ],
+  "display_name": "ASME SA-240 304L"
+ },
+ {
+  "specification": "asme_sa_240",
+  "grade": "316",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "asme_sa_240__316",
+  "uns_number": "S31600",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_8"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_8_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_8_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 100
+   }
+  ],
+  "display_name": "ASME SA-240 Gr.316"
+ },
+ {
+  "specification": "asme_sa_240",
+  "grade": "316L",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "asme_sa_240__316l",
+  "uns_number": "S31603",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_8"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_8_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_8_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 100
+   }
+  ],
+  "display_name": "ASME SA-240 316L"
+ },
+ {
+  "specification": "asme_sa_312",
+  "grade": "TP304",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "asme_sa_312__tp304",
+  "uns_number": "S30400",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_8"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_8_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_8_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 1.65,
+    "thickness_max": 25.4,
+    "diameter_min": 10.3,
+    "diameter_max": 914
+   }
+  ],
+  "display_name": "ASME SA-312 TP304"
+ },
+ {
+  "specification": "asme_sa_312",
+  "grade": "TP316",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "asme_sa_312__tp316",
+  "uns_number": "S31600",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_8"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_8_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_8_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 1.65,
+    "thickness_max": 25.4,
+    "diameter_min": 10.3,
+    "diameter_max": 914
+   }
+  ],
+  "display_name": "ASME SA-312 TP316"
+ },
+ {
+  "specification": "asme_sa_335",
+  "grade": "P11",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "asme_sa_335__p11",
+  "uns_number": "K11597",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_4"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_5_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 2.11,
+    "thickness_max": 60,
+    "diameter_min": 10.3,
+    "diameter_max": 660
+   }
+  ],
+  "display_name": "ASME SA-335 P11"
+ },
+ {
+  "specification": "asme_sa_335",
+  "grade": "P22",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "asme_sa_335__p22",
+  "uns_number": "K21590",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_5a"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_5_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 2.11,
+    "thickness_max": 60,
+    "diameter_min": 10.3,
+    "diameter_max": 660
+   }
+  ],
+  "display_name": "ASME SA-335 P22"
+ },
+ {
+  "specification": "asme_sa_335",
+  "grade": "P91",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "asme_sa_335__p91",
+  "uns_number": "K91560",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_5c"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_6_4"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 2.77,
+    "thickness_max": 60,
+    "diameter_min": 21.3,
+    "diameter_max": 660
+   }
+  ],
+  "display_name": "ASME SA-335 P91"
+ },
+ {
+  "specification": "asme_sa_36",
+  "grade": "Standard",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "asme_sa_36",
+  "uns_number": "K02600",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_1"
+   },
+   {
+    "grouping_system": "aws_d1_1_base",
+    "material_group": "aws_d1_1_base_i"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 3,
+    "thickness_max": 200
+   }
+  ],
+  "display_name": "ASME SA-36 asme_sa_36"
+ },
+ {
+  "specification": "en_10025_2",
+  "grade": "S355J2",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10025_2__s355j2",
+  "group_assignments": [
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_2"
+   },
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 3,
+    "thickness_max": 150
+   }
+  ],
+  "display_name": "EN 10025-2 S355J2"
+ },
+ {
+  "specification": "astm_a36",
+  "grade": "A36",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a36",
+  "uns_number": "K02600",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_1"
+   },
+   {
+    "grouping_system": "aws_d1_1_base",
+    "material_group": "aws_d1_1_base_i"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 3,
+    "thickness_max": 200
+   },
+   {
+    "product_form": "Structural Shape",
+    "thickness_min": 3,
+    "thickness_max": 100
+   },
+   {
+    "product_form": "Bar",
+    "thickness_min": 3,
+    "thickness_max": 200
+   }
+  ],
+  "notes": "Yield 250 MPa min, tensile 400-550 MPa. Most common general-purpose carbon structural steel.",
+  "display_name": "ASTM A36 astm_a36"
+ },
+ {
+  "specification": "astm_a53",
+  "grade": "Gr A",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a53__gr_a",
+  "uns_number": "K02504",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 2.77,
+    "thickness_max": 25.4,
+    "diameter_min": 10.3,
+    "diameter_max": 660
+   }
+  ],
+  "notes": "Yield 207 MPa min, tensile 331 MPa min. Black/galvanized carbon steel pipe.",
+  "display_name": "ASTM A53 GR_A"
+ },
+ {
+  "specification": "astm_a53",
+  "grade": "Gr B",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a53__gr_b",
+  "uns_number": "K03005",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_2"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 2.77,
+    "thickness_max": 25.4,
+    "diameter_min": 10.3,
+    "diameter_max": 660
+   }
+  ],
+  "notes": "Yield 241 MPa min, tensile 414 MPa min. Most common A53 pipe grade.",
+  "display_name": "ASTM A53 GR_B"
+ },
+ {
+  "specification": "astm_a53",
+  "grade": "Type E",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a53__type_e",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_2"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 2.77,
+    "thickness_max": 25.4,
+    "diameter_min": 10.3,
+    "diameter_max": 660
+   }
+  ],
+  "notes": "ERW pipe \u2014 manufacturing process variant of A53 Gr A or B.",
+  "display_name": "ASTM A53 TYPE_E"
+ },
+ {
+  "specification": "astm_a53",
+  "grade": "Type S",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a53__type_s",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_2"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 2.77,
+    "thickness_max": 25.4,
+    "diameter_min": 10.3,
+    "diameter_max": 660
+   }
+  ],
+  "notes": "Seamless pipe \u2014 manufacturing process variant of A53 Gr A or B.",
+  "display_name": "ASTM A53 TYPE_S"
+ },
+ {
+  "specification": "astm_a53",
+  "grade": "Type F",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a53__type_f",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 2.77,
+    "thickness_max": 25.4,
+    "diameter_min": 10.3,
+    "diameter_max": 168.3
+   }
+  ],
+  "notes": "Furnace butt-welded pipe; only Grade A. Limited to NPS 4 and smaller.",
+  "display_name": "ASTM A53 TYPE_F"
+ },
+ {
+  "specification": "astm_a106",
+  "grade": "Gr A",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a106__gr_a",
+  "uns_number": "K02501",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 2.77,
+    "thickness_max": 25.4,
+    "diameter_min": 10.3,
+    "diameter_max": 660
+   }
+  ],
+  "notes": "Yield 207 MPa min, tensile 331 MPa min. Seamless carbon steel pipe for high-temperature service.",
+  "display_name": "ASTM A106 GR_A"
+ },
+ {
+  "specification": "astm_a106",
+  "grade": "Gr B",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a106__gr_b",
+  "uns_number": "K03006",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_2"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 2.77,
+    "thickness_max": 25.4,
+    "diameter_min": 10.3,
+    "diameter_max": 660
+   }
+  ],
+  "notes": "Yield 241 MPa min, tensile 414 MPa min. Most common process piping grade.",
+  "display_name": "ASTM A106 GR_B"
+ },
+ {
+  "specification": "astm_a106",
+  "grade": "Gr C",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a106__gr_c",
+  "uns_number": "K03501",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_2"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 2.77,
+    "thickness_max": 25.4,
+    "diameter_min": 10.3,
+    "diameter_max": 660
+   }
+  ],
+  "notes": "Yield 276 MPa min, tensile 483 MPa min. Higher-strength A106 variant.",
+  "display_name": "ASTM A106 GR_C"
+ },
+ {
+  "specification": "astm_a283",
+  "grade": "Gr A",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a283__gr_a",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 5,
+    "thickness_max": 50
+   }
+  ],
+  "notes": "Yield 165 MPa, tensile 310-415 MPa. Low-tensile carbon steel plate.",
+  "display_name": "ASTM A283 GR_A"
+ },
+ {
+  "specification": "astm_a283",
+  "grade": "Gr B",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a283__gr_b",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 5,
+    "thickness_max": 50
+   }
+  ],
+  "notes": "Yield 186 MPa, tensile 345-450 MPa.",
+  "display_name": "ASTM A283 GR_B"
+ },
+ {
+  "specification": "astm_a283",
+  "grade": "Gr C",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a283__gr_c",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 5,
+    "thickness_max": 50
+   }
+  ],
+  "notes": "Yield 207 MPa, tensile 380-485 MPa. Most common A283 grade.",
+  "display_name": "ASTM A283 GR_C"
+ },
+ {
+  "specification": "astm_a283",
+  "grade": "Gr D",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a283__gr_d",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 5,
+    "thickness_max": 50
+   }
+  ],
+  "notes": "Yield 230 MPa, tensile 415-515 MPa.",
+  "display_name": "ASTM A283 GR_D"
+ },
+ {
+  "specification": "astm_a285",
+  "grade": "Gr A",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a285__gr_a",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 5,
+    "thickness_max": 50
+   }
+  ],
+  "notes": "Yield 165 MPa, tensile 310-415 MPa. PV plate, low tensile.",
+  "display_name": "ASTM A285 GR_A"
+ },
+ {
+  "specification": "astm_a285",
+  "grade": "Gr B",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a285__gr_b",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 5,
+    "thickness_max": 50
+   }
+  ],
+  "notes": "Yield 186 MPa, tensile 345-450 MPa.",
+  "display_name": "ASTM A285 GR_B"
+ },
+ {
+  "specification": "astm_a285",
+  "grade": "Gr C",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a285__gr_c",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 5,
+    "thickness_max": 50
+   }
+  ],
+  "notes": "Yield 207 MPa, tensile 380-515 MPa. Most common A285 grade.",
+  "display_name": "ASTM A285 GR_C"
+ },
+ {
+  "specification": "astm_a335",
+  "grade": "P1",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a335__p1",
+  "uns_number": "K11522",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_3"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_4_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 2.11,
+    "thickness_max": 60,
+    "diameter_min": 10.3,
+    "diameter_max": 660
+   }
+  ],
+  "notes": "0.5Mo (no Cr). Discontinued by some users; superseded by P11/P22 in new design.",
+  "display_name": "ASTM A335 P1"
+ },
+ {
+  "specification": "astm_a335",
+  "grade": "P2",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a335__p2",
+  "uns_number": "K11547",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_3"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_4_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 2.11,
+    "thickness_max": 60,
+    "diameter_min": 10.3,
+    "diameter_max": 660
+   }
+  ],
+  "notes": "0.5Cr-0.5Mo creep alloy.",
+  "display_name": "ASTM A335 P2"
+ },
+ {
+  "specification": "astm_a335",
+  "grade": "P5",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a335__p5",
+  "uns_number": "K41545",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_5b"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_5_3"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 2.77,
+    "thickness_max": 60,
+    "diameter_min": 21.3,
+    "diameter_max": 660
+   }
+  ],
+  "notes": "5Cr-0.5Mo. Refining service to ~600\u00b0C.",
+  "display_name": "ASTM A335 P5"
+ },
+ {
+  "specification": "astm_a335",
+  "grade": "P5b",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a335__p5b",
+  "uns_number": "K51545",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_5b"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_5_3"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 2.77,
+    "thickness_max": 60,
+    "diameter_min": 21.3,
+    "diameter_max": 660
+   }
+  ],
+  "notes": "5Cr-0.5Mo-0.5Si modification of P5.",
+  "display_name": "ASTM A335 P5B"
+ },
+ {
+  "specification": "astm_a335",
+  "grade": "P5c",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a335__p5c",
+  "uns_number": "K41245",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_5b"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_5_3"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 2.77,
+    "thickness_max": 60,
+    "diameter_min": 21.3,
+    "diameter_max": 660
+   }
+  ],
+  "notes": "5Cr-0.5Mo-Ti or Cb modification of P5.",
+  "display_name": "ASTM A335 P5C"
+ },
+ {
+  "specification": "astm_a335",
+  "grade": "P9",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a335__p9",
+  "uns_number": "K90941",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_5b"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_5_4"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 2.77,
+    "thickness_max": 60,
+    "diameter_min": 21.3,
+    "diameter_max": 660
+   }
+  ],
+  "notes": "9Cr-1Mo. Refining/heater tubes; superseded by P91 in many designs.",
+  "display_name": "ASTM A335 P9"
+ },
+ {
+  "specification": "astm_a335",
+  "grade": "P11",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a335__p11",
+  "uns_number": "K11597",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_4"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_5_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 2.11,
+    "thickness_max": 60,
+    "diameter_min": 10.3,
+    "diameter_max": 660
+   }
+  ],
+  "notes": "1.25Cr-0.5Mo. Most common Cr-Mo pipe grade for 480-565\u00b0C service.",
+  "display_name": "ASTM A335 P11"
+ },
+ {
+  "specification": "astm_a335",
+  "grade": "P12",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a335__p12",
+  "uns_number": "K11562",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_4"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_5_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 2.11,
+    "thickness_max": 60,
+    "diameter_min": 10.3,
+    "diameter_max": 660
+   }
+  ],
+  "notes": "1Cr-0.5Mo. Lower Cr variant of P11.",
+  "display_name": "ASTM A335 P12"
+ },
+ {
+  "specification": "astm_a335",
+  "grade": "P15",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a335__p15",
+  "uns_number": "K11578",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_3"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_4_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 2.11,
+    "thickness_max": 60,
+    "diameter_min": 10.3,
+    "diameter_max": 660
+   }
+  ],
+  "notes": "0.5Mo-1.5Si. Less common Cr-free Mo pipe.",
+  "display_name": "ASTM A335 P15"
+ },
+ {
+  "specification": "astm_a335",
+  "grade": "P21",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a335__p21",
+  "uns_number": "K31545",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_5a"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_5_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 2.77,
+    "thickness_max": 60,
+    "diameter_min": 21.3,
+    "diameter_max": 660
+   }
+  ],
+  "notes": "3Cr-1Mo creep alloy.",
+  "display_name": "ASTM A335 P21"
+ },
+ {
+  "specification": "astm_a335",
+  "grade": "P22",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a335__p22",
+  "uns_number": "K21590",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_5a"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_5_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 2.11,
+    "thickness_max": 60,
+    "diameter_min": 10.3,
+    "diameter_max": 660
+   }
+  ],
+  "notes": "2.25Cr-1Mo. Standard heater-tube grade in refining/petrochemical.",
+  "display_name": "ASTM A335 P22"
+ },
+ {
+  "specification": "astm_a335",
+  "grade": "P23",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a335__p23",
+  "uns_number": "K41650",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_5a"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_5_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 2.77,
+    "thickness_max": 60,
+    "diameter_min": 21.3,
+    "diameter_max": 660
+   }
+  ],
+  "notes": "2.25Cr-1.6W-V-Nb advanced low-alloy creep grade.",
+  "display_name": "ASTM A335 P23"
+ },
+ {
+  "specification": "astm_a335",
+  "grade": "P24",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a335__p24",
+  "uns_number": "K30736",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_4"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_5_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 2.77,
+    "thickness_max": 60,
+    "diameter_min": 21.3,
+    "diameter_max": 660
+   }
+  ],
+  "notes": "2.25Cr-1Mo-V-Ti-B advanced low-alloy creep grade. Used in supercritical boilers.",
+  "display_name": "ASTM A335 P24"
+ },
+ {
+  "specification": "astm_a335",
+  "grade": "P36",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a335__p36",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_11a"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_3_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 2.77,
+    "thickness_max": 60,
+    "diameter_min": 21.3,
+    "diameter_max": 660
+   }
+  ],
+  "notes": "Mn-Ni-Cu-Mo-V high-strength pipe.",
+  "display_name": "ASTM A335 P36"
+ },
+ {
+  "specification": "astm_a335",
+  "grade": "P91",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a335__p91",
+  "uns_number": "K91560",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_5c"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_6_4"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 2.77,
+    "thickness_max": 60,
+    "diameter_min": 21.3,
+    "diameter_max": 660
+   }
+  ],
+  "notes": "9Cr-1Mo-V-Nb (modified 9Cr-1Mo). Standard supercritical boiler grade. Strict heat-treatment & weld procedure controls.",
+  "display_name": "ASTM A335 P91"
+ },
+ {
+  "specification": "astm_a335",
+  "grade": "P92",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a335__p92",
+  "uns_number": "K92460",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_5c"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_6_4"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 2.77,
+    "thickness_max": 60,
+    "diameter_min": 21.3,
+    "diameter_max": 660
+   }
+  ],
+  "notes": "9Cr-1.8W-0.5Mo-V-Nb. Higher creep strength than P91 for ultra-supercritical service.",
+  "display_name": "ASTM A335 P92"
+ },
+ {
+  "specification": "astm_a335",
+  "grade": "P911",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a335__p911",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_5c"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_6_4"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 2.77,
+    "thickness_max": 60,
+    "diameter_min": 21.3,
+    "diameter_max": 660
+   }
+  ],
+  "notes": "9Cr-1Mo-1W-V-Nb-N enhanced creep alloy.",
+  "display_name": "ASTM A335 P911"
+ },
+ {
+  "specification": "astm_a387",
+  "grade": "Gr 2 Cl 1",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a387__gr_2_cl_1",
+  "uns_number": "K11547",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_3"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_4_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 6,
+    "thickness_max": 200
+   }
+  ],
+  "notes": "0.5Cr-0.5Mo plate. Class 1: annealed. Lower yield/tensile than Cl 2.",
+  "display_name": "ASTM A387 gr_2_cl_1"
+ },
+ {
+  "specification": "astm_a387",
+  "grade": "Gr 2 Cl 2",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a387__gr_2_cl_2",
+  "uns_number": "K11547",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_3"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_4_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 6,
+    "thickness_max": 200
+   }
+  ],
+  "notes": "0.5Cr-0.5Mo plate. Class 2: normalized + tempered. Higher strength.",
+  "display_name": "ASTM A387 gr_2_cl_2"
+ },
+ {
+  "specification": "astm_a387",
+  "grade": "Gr 11 Cl 1",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a387__gr_11_cl_1",
+  "uns_number": "K11789",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_4"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_5_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 6,
+    "thickness_max": 200
+   }
+  ],
+  "notes": "1.25Cr-0.5Mo plate. PV equivalent of A335 P11 pipe. Class 1: annealed. Lower yield/tensile than Cl 2.",
+  "display_name": "ASTM A387 gr_11_cl_1"
+ },
+ {
+  "specification": "astm_a387",
+  "grade": "Gr 11 Cl 2",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a387__gr_11_cl_2",
+  "uns_number": "K11789",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_4"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_5_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 6,
+    "thickness_max": 200
+   }
+  ],
+  "notes": "1.25Cr-0.5Mo plate. PV equivalent of A335 P11 pipe. Class 2: normalized + tempered. Higher strength.",
+  "display_name": "ASTM A387 gr_11_cl_2"
+ },
+ {
+  "specification": "astm_a387",
+  "grade": "Gr 12 Cl 1",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a387__gr_12_cl_1",
+  "uns_number": "K11757",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_4"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_5_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 6,
+    "thickness_max": 200
+   }
+  ],
+  "notes": "1Cr-0.5Mo plate. PV equivalent of A335 P12 pipe. Class 1: annealed. Lower yield/tensile than Cl 2.",
+  "display_name": "ASTM A387 gr_12_cl_1"
+ },
+ {
+  "specification": "astm_a387",
+  "grade": "Gr 12 Cl 2",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a387__gr_12_cl_2",
+  "uns_number": "K11757",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_4"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_5_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 6,
+    "thickness_max": 200
+   }
+  ],
+  "notes": "1Cr-0.5Mo plate. PV equivalent of A335 P12 pipe. Class 2: normalized + tempered. Higher strength.",
+  "display_name": "ASTM A387 gr_12_cl_2"
+ },
+ {
+  "specification": "astm_a387",
+  "grade": "Gr 21 Cl 1",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a387__gr_21_cl_1",
+  "uns_number": "K31545",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_5a"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_5_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 6,
+    "thickness_max": 200
+   }
+  ],
+  "notes": "3Cr-1Mo plate. Class 1: annealed. Lower yield/tensile than Cl 2.",
+  "display_name": "ASTM A387 gr_21_cl_1"
+ },
+ {
+  "specification": "astm_a387",
+  "grade": "Gr 21 Cl 2",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a387__gr_21_cl_2",
+  "uns_number": "K31545",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_5a"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_5_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 6,
+    "thickness_max": 200
+   }
+  ],
+  "notes": "3Cr-1Mo plate. Class 2: normalized + tempered. Higher strength.",
+  "display_name": "ASTM A387 gr_21_cl_2"
+ },
+ {
+  "specification": "astm_a387",
+  "grade": "Gr 22 Cl 1",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a387__gr_22_cl_1",
+  "uns_number": "K21590",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_5a"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_5_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 6,
+    "thickness_max": 200
+   }
+  ],
+  "notes": "2.25Cr-1Mo plate. PV equivalent of A335 P22 pipe. Class 1: annealed. Lower yield/tensile than Cl 2.",
+  "display_name": "ASTM A387 gr_22_cl_1"
+ },
+ {
+  "specification": "astm_a387",
+  "grade": "Gr 22 Cl 2",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a387__gr_22_cl_2",
+  "uns_number": "K21590",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_5a"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_5_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 6,
+    "thickness_max": 200
+   }
+  ],
+  "notes": "2.25Cr-1Mo plate. PV equivalent of A335 P22 pipe. Class 2: normalized + tempered. Higher strength.",
+  "display_name": "ASTM A387 gr_22_cl_2"
+ },
+ {
+  "specification": "astm_a387",
+  "grade": "Gr 23 Cl 1",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a387__gr_23_cl_1",
+  "uns_number": "K41650",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_5a"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_5_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 6,
+    "thickness_max": 200
+   }
+  ],
+  "notes": "2.25Cr-1.6W-V-Nb advanced creep plate. Class 1: annealed. Lower yield/tensile than Cl 2.",
+  "display_name": "ASTM A387 gr_23_cl_1"
+ },
+ {
+  "specification": "astm_a387",
+  "grade": "Gr 23 Cl 2",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a387__gr_23_cl_2",
+  "uns_number": "K41650",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_5a"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_5_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 6,
+    "thickness_max": 200
+   }
+  ],
+  "notes": "2.25Cr-1.6W-V-Nb advanced creep plate. Class 2: normalized + tempered. Higher strength.",
+  "display_name": "ASTM A387 gr_23_cl_2"
+ },
+ {
+  "specification": "astm_a387",
+  "grade": "Gr 91 Cl 1",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a387__gr_91_cl_1",
+  "uns_number": "K90901",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_5c"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_6_4"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 6,
+    "thickness_max": 200
+   }
+  ],
+  "notes": "9Cr-1Mo-V-Nb (modified). PV equivalent of A335 P91. Class 2 only typical. Class 1: annealed. Lower yield/tensile than Cl 2.",
+  "display_name": "ASTM A387 gr_91_cl_1"
+ },
+ {
+  "specification": "astm_a387",
+  "grade": "Gr 91 Cl 2",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a387__gr_91_cl_2",
+  "uns_number": "K90901",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_5c"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_6_4"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 6,
+    "thickness_max": 200
+   }
+  ],
+  "notes": "9Cr-1Mo-V-Nb (modified). PV equivalent of A335 P91. Class 2 only typical. Class 2: normalized + tempered. Higher strength.",
+  "display_name": "ASTM A387 gr_91_cl_2"
+ },
+ {
+  "specification": "astm_a516",
+  "grade": "Gr 55",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a516__gr_55",
+  "uns_number": "K01800",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 6,
+    "thickness_max": 200
+   }
+  ],
+  "notes": "Yield 205 MPa min, tensile 380-515 MPa. Lowest A516 grade.",
+  "display_name": "ASTM A516 GR_55"
+ },
+ {
+  "specification": "astm_a516",
+  "grade": "Gr 60",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a516__gr_60",
+  "uns_number": "K02100",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_2"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 6,
+    "thickness_max": 200
+   }
+  ],
+  "notes": "Yield 220 MPa min, tensile 415-550 MPa.",
+  "display_name": "ASTM A516 GR_60"
+ },
+ {
+  "specification": "astm_a516",
+  "grade": "Gr 65",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a516__gr_65",
+  "uns_number": "K02403",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_2"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 6,
+    "thickness_max": 200
+   }
+  ],
+  "notes": "Yield 240 MPa min, tensile 450-585 MPa.",
+  "display_name": "ASTM A516 GR_65"
+ },
+ {
+  "specification": "astm_a516",
+  "grade": "Gr 70",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a516__gr_70",
+  "uns_number": "K02700",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_2"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_2"
+   },
+   {
+    "grouping_system": "aws_d1_1_base",
+    "material_group": "aws_d1_1_base_ii"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 6,
+    "thickness_max": 200
+   }
+  ],
+  "notes": "Yield 260 MPa min, tensile 485-620 MPa. Most common pressure vessel plate.",
+  "display_name": "ASTM A516 GR_70"
+ },
+ {
+  "specification": "astm_a572",
+  "grade": "Gr 42",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a572__gr_42",
+  "uns_number": "K02600",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_1"
+   },
+   {
+    "grouping_system": "aws_d1_1_base",
+    "material_group": "aws_d1_1_base_i"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 3,
+    "thickness_max": 150
+   },
+   {
+    "product_form": "Structural Shape",
+    "thickness_min": 3,
+    "thickness_max": 100
+   }
+  ],
+  "notes": "Yield 290 MPa, tensile 415 MPa min. HSLA Cb-V.",
+  "display_name": "ASTM A572 GR_42"
+ },
+ {
+  "specification": "astm_a572",
+  "grade": "Gr 50",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a572__gr_50",
+  "uns_number": "K02303",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_2"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_2"
+   },
+   {
+    "grouping_system": "aws_d1_1_base",
+    "material_group": "aws_d1_1_base_ii"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 3,
+    "thickness_max": 150
+   },
+   {
+    "product_form": "Structural Shape",
+    "thickness_min": 3,
+    "thickness_max": 100
+   }
+  ],
+  "notes": "Yield 345 MPa, tensile 450 MPa min. Most common HSLA structural grade \u2014 replaces A36 in many bridge/building applications.",
+  "display_name": "ASTM A572 GR_50"
+ },
+ {
+  "specification": "astm_a572",
+  "grade": "Gr 55",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a572__gr_55",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_3"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_2"
+   },
+   {
+    "grouping_system": "aws_d1_1_base",
+    "material_group": "aws_d1_1_base_iii"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 3,
+    "thickness_max": 100
+   },
+   {
+    "product_form": "Structural Shape",
+    "thickness_min": 3,
+    "thickness_max": 100
+   }
+  ],
+  "notes": "Yield 380 MPa, tensile 485 MPa min.",
+  "display_name": "ASTM A572 GR_55"
+ },
+ {
+  "specification": "astm_a572",
+  "grade": "Gr 60",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a572__gr_60",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_3"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_2"
+   },
+   {
+    "grouping_system": "aws_d1_1_base",
+    "material_group": "aws_d1_1_base_iii"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 3,
+    "thickness_max": 100
+   },
+   {
+    "product_form": "Structural Shape",
+    "thickness_min": 3,
+    "thickness_max": 100
+   }
+  ],
+  "notes": "Yield 415 MPa, tensile 520 MPa min.",
+  "display_name": "ASTM A572 GR_60"
+ },
+ {
+  "specification": "astm_a572",
+  "grade": "Gr 65",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a572__gr_65",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_3"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_2"
+   },
+   {
+    "grouping_system": "aws_d1_1_base",
+    "material_group": "aws_d1_1_base_iii"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 3,
+    "thickness_max": 50
+   },
+   {
+    "product_form": "Structural Shape",
+    "thickness_min": 3,
+    "thickness_max": 50
+   }
+  ],
+  "notes": "Yield 450 MPa, tensile 550 MPa min.",
+  "display_name": "ASTM A572 GR_65"
+ },
+ {
+  "specification": "astm_a588",
+  "grade": "Gr A",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a588__gr_a",
+  "uns_number": "K11430",
+  "group_assignments": [
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_4"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 3,
+    "thickness_max": 200
+   }
+  ],
+  "notes": "Yield 345 MPa, tensile 485 MPa min. Weathering steel (Cor-Ten A type).",
+  "display_name": "ASTM A588 GR_A"
+ },
+ {
+  "specification": "astm_a588",
+  "grade": "Gr B",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a588__gr_b",
+  "uns_number": "K12043",
+  "group_assignments": [
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_4"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 3,
+    "thickness_max": 200
+   }
+  ],
+  "notes": "Yield 345 MPa, tensile 485 MPa min. Weathering steel.",
+  "display_name": "ASTM A588 GR_B"
+ },
+ {
+  "specification": "astm_a588",
+  "grade": "Gr C",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a588__gr_c",
+  "group_assignments": [
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_4"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 3,
+    "thickness_max": 200
+   }
+  ],
+  "notes": "Yield 345 MPa, tensile 485 MPa min. Weathering steel.",
+  "display_name": "ASTM A588 GR_C"
+ },
+ {
+  "specification": "astm_a588",
+  "grade": "Gr K",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a588__gr_k",
+  "group_assignments": [
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_4"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 3,
+    "thickness_max": 100
+   }
+  ],
+  "notes": "Yield 345 MPa, tensile 485 MPa min. Weathering steel \u2014 niobium variant.",
+  "display_name": "ASTM A588 GR_K"
+ },
+ {
+  "specification": "astm_a992",
+  "grade": "A992",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a992",
+  "uns_number": "K02400",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_2"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_2"
+   },
+   {
+    "grouping_system": "aws_d1_1_base",
+    "material_group": "aws_d1_1_base_ii"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Structural Shape",
+    "thickness_min": 3,
+    "thickness_max": 100
+   }
+  ],
+  "notes": "Yield 345-450 MPa, tensile 450 MPa min. Default US wide-flange (W) shape grade. Replaces A36 / A572-50 for shapes since 1998.",
+  "display_name": "ASTM A992 astm_a992"
+ },
+ {
+  "specification": "astm_a240",
+  "grade": "304",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a240__304",
+  "uns_number": "S30400",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_8"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_8_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_8_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 100
+   },
+   {
+    "product_form": "Sheet",
+    "thickness_min": 0.4,
+    "thickness_max": 3
+   }
+  ],
+  "notes": "Standard 18-8 austenitic stainless. Yield 205 MPa, tensile 515 MPa min.",
+  "display_name": "ASTM A240 Gr.304"
+ },
+ {
+  "specification": "astm_a240",
+  "grade": "304L",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a240__304l",
+  "uns_number": "S30403",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_8"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_8_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_8_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 100
+   },
+   {
+    "product_form": "Sheet",
+    "thickness_min": 0.4,
+    "thickness_max": 3
+   }
+  ],
+  "notes": "Low carbon variant of 304. Improves intergranular corrosion resistance after welding. Yield 170 MPa, tensile 485 MPa min.",
+  "display_name": "ASTM A240 304L"
+ },
+ {
+  "specification": "asme_sa_240",
+  "grade": "304LN",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "asme_sa_240__304ln",
+  "uns_number": "S30453",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_8"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_8_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_8_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 100
+   },
+   {
+    "product_form": "Sheet",
+    "thickness_min": 0.4,
+    "thickness_max": 3
+   }
+  ],
+  "notes": "Low-carbon nitrogen-strengthened 304L. Yield 240 MPa min.",
+  "display_name": "ASME SA-240 304LN"
+ },
+ {
+  "specification": "astm_a240",
+  "grade": "304LN",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a240__304ln",
+  "uns_number": "S30453",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_8"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_8_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_8_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 100
+   },
+   {
+    "product_form": "Sheet",
+    "thickness_min": 0.4,
+    "thickness_max": 3
+   }
+  ],
+  "notes": "Low-carbon nitrogen-strengthened 304L. Yield 240 MPa min.",
+  "display_name": "ASTM A240 304LN"
+ },
+ {
+  "specification": "asme_sa_240",
+  "grade": "321",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "asme_sa_240__321",
+  "uns_number": "S32100",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_8"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_8_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_8_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 100
+   },
+   {
+    "product_form": "Sheet",
+    "thickness_min": 0.4,
+    "thickness_max": 3
+   }
+  ],
+  "notes": "Ti-stabilized austenitic, prevents sensitization in 425-815\u00b0C range. Yield 205 MPa min.",
+  "display_name": "ASME SA-240 Gr.321"
+ },
+ {
+  "specification": "astm_a240",
+  "grade": "321",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a240__321",
+  "uns_number": "S32100",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_8"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_8_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_8_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 100
+   },
+   {
+    "product_form": "Sheet",
+    "thickness_min": 0.4,
+    "thickness_max": 3
+   }
+  ],
+  "notes": "Ti-stabilized austenitic, prevents sensitization in 425-815\u00b0C range. Yield 205 MPa min.",
+  "display_name": "ASTM A240 Gr.321"
+ },
+ {
+  "specification": "asme_sa_240",
+  "grade": "321H",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "asme_sa_240__321h",
+  "uns_number": "S32109",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_8"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_8_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_8_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 100
+   },
+   {
+    "product_form": "Sheet",
+    "thickness_min": 0.4,
+    "thickness_max": 3
+   }
+  ],
+  "notes": "Higher carbon 321 for elevated-temperature service per ASME.",
+  "display_name": "ASME SA-240 321H"
+ },
+ {
+  "specification": "astm_a240",
+  "grade": "321H",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a240__321h",
+  "uns_number": "S32109",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_8"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_8_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_8_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 100
+   },
+   {
+    "product_form": "Sheet",
+    "thickness_min": 0.4,
+    "thickness_max": 3
+   }
+  ],
+  "notes": "Higher carbon 321 for elevated-temperature service per ASME.",
+  "display_name": "ASTM A240 321H"
+ },
+ {
+  "specification": "asme_sa_240",
+  "grade": "347",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "asme_sa_240__347",
+  "uns_number": "S34700",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_8"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_8_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_8_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 100
+   },
+   {
+    "product_form": "Sheet",
+    "thickness_min": 0.4,
+    "thickness_max": 3
+   }
+  ],
+  "notes": "Nb-stabilized austenitic \u2014 equivalent of 321 with Nb instead of Ti.",
+  "display_name": "ASME SA-240 Gr.347"
+ },
+ {
+  "specification": "astm_a240",
+  "grade": "347",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a240__347",
+  "uns_number": "S34700",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_8"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_8_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_8_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 100
+   },
+   {
+    "product_form": "Sheet",
+    "thickness_min": 0.4,
+    "thickness_max": 3
+   }
+  ],
+  "notes": "Nb-stabilized austenitic \u2014 equivalent of 321 with Nb instead of Ti.",
+  "display_name": "ASTM A240 Gr.347"
+ },
+ {
+  "specification": "asme_sa_240",
+  "grade": "347H",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "asme_sa_240__347h",
+  "uns_number": "S34709",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_8"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_8_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_8_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 100
+   },
+   {
+    "product_form": "Sheet",
+    "thickness_min": 0.4,
+    "thickness_max": 3
+   }
+  ],
+  "notes": "Higher carbon 347 for elevated-temperature service per ASME.",
+  "display_name": "ASME SA-240 347H"
+ },
+ {
+  "specification": "astm_a240",
+  "grade": "347H",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a240__347h",
+  "uns_number": "S34709",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_8"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_8_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_8_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 100
+   },
+   {
+    "product_form": "Sheet",
+    "thickness_min": 0.4,
+    "thickness_max": 3
+   }
+  ],
+  "notes": "Higher carbon 347 for elevated-temperature service per ASME.",
+  "display_name": "ASTM A240 347H"
+ },
+ {
+  "specification": "astm_a240",
+  "grade": "316",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a240__316",
+  "uns_number": "S31600",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_8"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_8_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_8_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 100
+   },
+   {
+    "product_form": "Sheet",
+    "thickness_min": 0.4,
+    "thickness_max": 3
+   }
+  ],
+  "notes": "Mo-bearing austenitic, improved chloride pitting resistance. Yield 205 MPa, tensile 515 MPa min.",
+  "display_name": "ASTM A240 Gr.316"
+ },
+ {
+  "specification": "astm_a240",
+  "grade": "316L",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a240__316l",
+  "uns_number": "S31603",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_8"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_8_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_8_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 100
+   },
+   {
+    "product_form": "Sheet",
+    "thickness_min": 0.4,
+    "thickness_max": 3
+   }
+  ],
+  "notes": "Low-carbon 316. Yield 170 MPa, tensile 485 MPa min. Most common stainless for piping/vessels in chemical service.",
+  "display_name": "ASTM A240 316L"
+ },
+ {
+  "specification": "astm_a240",
+  "grade": "316LN",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a240__316ln",
+  "uns_number": "S31653",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_8"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_8_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_8_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 100
+   },
+   {
+    "product_form": "Sheet",
+    "thickness_min": 0.4,
+    "thickness_max": 3
+   }
+  ],
+  "notes": "Low-C nitrogen-strengthened 316L. Yield 240 MPa min.",
+  "display_name": "ASTM A240 316LN"
+ },
+ {
+  "specification": "astm_a240",
+  "grade": "316Ti",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a240__316ti",
+  "uns_number": "S31635",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_8"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_8_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_8_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 100
+   },
+   {
+    "product_form": "Sheet",
+    "thickness_min": 0.4,
+    "thickness_max": 3
+   }
+  ],
+  "notes": "Ti-stabilized 316 \u2014 combines 316 corrosion resistance with sensitization resistance.",
+  "display_name": "ASTM A240 316TI"
+ },
+ {
+  "specification": "astm_a240",
+  "grade": "317L",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a240__317l",
+  "uns_number": "S31703",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_8"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_8_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_8_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 100
+   },
+   {
+    "product_form": "Sheet",
+    "thickness_min": 0.4,
+    "thickness_max": 3
+   }
+  ],
+  "notes": "Higher Mo (3-4%) than 316 \u2014 better chloride pitting resistance.",
+  "display_name": "ASTM A240 317L"
+ },
+ {
+  "specification": "astm_a240",
+  "grade": "309",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a240__309",
+  "uns_number": "S30900",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_8"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_8_gr_2"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_8_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 100
+   },
+   {
+    "product_form": "Sheet",
+    "thickness_min": 0.4,
+    "thickness_max": 3
+   }
+  ],
+  "notes": "Heat-resistant austenitic 22Cr-12Ni for service to 980\u00b0C. Common as filler for joining dissimilar metals.",
+  "display_name": "ASTM A240 Gr.309"
+ },
+ {
+  "specification": "astm_a240",
+  "grade": "309S",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a240__309s",
+  "uns_number": "S30908",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_8"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_8_gr_2"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_8_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 100
+   },
+   {
+    "product_form": "Sheet",
+    "thickness_min": 0.4,
+    "thickness_max": 3
+   }
+  ],
+  "notes": "Low-carbon 309.",
+  "display_name": "ASTM A240 309S"
+ },
+ {
+  "specification": "astm_a240",
+  "grade": "309H",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a240__309h",
+  "uns_number": "S30909",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_8"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_8_gr_2"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_8_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 100
+   },
+   {
+    "product_form": "Sheet",
+    "thickness_min": 0.4,
+    "thickness_max": 3
+   }
+  ],
+  "notes": "Higher-C 309 for creep service.",
+  "display_name": "ASTM A240 309H"
+ },
+ {
+  "specification": "astm_a240",
+  "grade": "310",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a240__310",
+  "uns_number": "S31000",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_8"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_8_gr_2"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_8_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 100
+   },
+   {
+    "product_form": "Sheet",
+    "thickness_min": 0.4,
+    "thickness_max": 3
+   }
+  ],
+  "notes": "Heat-resistant austenitic 25Cr-20Ni for service to 1100\u00b0C.",
+  "display_name": "ASTM A240 Gr.310"
+ },
+ {
+  "specification": "astm_a240",
+  "grade": "310S",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a240__310s",
+  "uns_number": "S31008",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_8"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_8_gr_2"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_8_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 100
+   },
+   {
+    "product_form": "Sheet",
+    "thickness_min": 0.4,
+    "thickness_max": 3
+   }
+  ],
+  "notes": "Low-carbon 310.",
+  "display_name": "ASTM A240 310S"
+ },
+ {
+  "specification": "astm_a240",
+  "grade": "904L",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a240__904l",
+  "uns_number": "N08904",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_45"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 50
+   },
+   {
+    "product_form": "Sheet",
+    "thickness_min": 0.4,
+    "thickness_max": 3
+   }
+  ],
+  "notes": "Super-austenitic 25Ni-20Cr-4.5Mo-Cu. P-No 45 (high-Ni). Yield 220 MPa, tensile 490 MPa min. Sulfuric acid / chloride service.",
+  "display_name": "ASTM A240 904L"
+ },
+ {
+  "specification": "astm_a240",
+  "grade": "405",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a240__405",
+  "uns_number": "S40500",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_7"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_7_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 50
+   }
+  ],
+  "notes": "Low-Cr ferritic 12Cr-Al. Yield 170 MPa, tensile 415 MPa min. Heat-resistant cladding.",
+  "display_name": "ASTM A240 Gr.405"
+ },
+ {
+  "specification": "astm_a240",
+  "grade": "430",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a240__430",
+  "uns_number": "S43000",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_7"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_7_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 50
+   }
+  ],
+  "notes": "17Cr ferritic stainless. Yield 205 MPa, tensile 450 MPa min. Decorative + appliance grade.",
+  "display_name": "ASTM A240 Gr.430"
+ },
+ {
+  "specification": "astm_a240",
+  "grade": "446",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a240__446",
+  "uns_number": "S44600",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_7"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_7_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 50
+   }
+  ],
+  "notes": "27Cr ferritic stainless. Heat-resistant to 1100\u00b0C in oxidizing atmospheres.",
+  "display_name": "ASTM A240 Gr.446"
+ },
+ {
+  "specification": "astm_a240",
+  "grade": "410",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a240__410",
+  "uns_number": "S41000",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_6"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_7_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 50
+   }
+  ],
+  "notes": "12Cr martensitic stainless. Yield 205 MPa, tensile 450 MPa min in annealed. Strengthened by Q&T.",
+  "display_name": "ASTM A240 Gr.410"
+ },
+ {
+  "specification": "astm_a240",
+  "grade": "410S",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a240__410s",
+  "uns_number": "S41008",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_6"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_7_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 50
+   }
+  ],
+  "notes": "Low-C 410 \u2014 does not harden on cooling, weldable without preheat.",
+  "display_name": "ASTM A240 410S"
+ },
+ {
+  "specification": "astm_a240",
+  "grade": "420",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a240__420",
+  "uns_number": "S42000",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_6"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_7_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 50
+   }
+  ],
+  "notes": "13Cr martensitic \u2014 higher C than 410 for hardness/cutlery.",
+  "display_name": "ASTM A240 Gr.420"
+ },
+ {
+  "specification": "astm_a240",
+  "grade": "2205",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a240__2205",
+  "uns_number": "S31803",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_10h"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_10_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 75
+   }
+  ],
+  "notes": "22Cr-5Ni-3Mo-N duplex. Yield 450 MPa, tensile 620 MPa min. Standard duplex for chloride service.",
+  "display_name": "ASTM A240 Gr.2205"
+ },
+ {
+  "specification": "astm_a240",
+  "grade": "S32205",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a240__s32205",
+  "uns_number": "S32205",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_10h"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_10_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 75
+   }
+  ],
+  "notes": "Variant of 2205 with tighter chemistry \u2014 same group.",
+  "display_name": "ASTM A240 S32205"
+ },
+ {
+  "specification": "astm_a240",
+  "grade": "2507",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a240__2507",
+  "uns_number": "S32750",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_10h"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_10_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 75
+   }
+  ],
+  "notes": "Super-duplex 25Cr-7Ni-4Mo-N. Yield 550 MPa, tensile 795 MPa min. Highest chloride/sour resistance among duplex grades.",
+  "display_name": "ASTM A240 Gr.2507"
+ },
+ {
+  "specification": "astm_a312",
+  "grade": "TP304",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a312__tp304",
+  "uns_number": "S30400",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_8"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_8_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_8_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 1.65,
+    "thickness_max": 25.4,
+    "diameter_min": 10.3,
+    "diameter_max": 914
+   }
+  ],
+  "notes": "Standard 18-8 stainless pipe.",
+  "display_name": "ASTM A312 TP304"
+ },
+ {
+  "specification": "astm_a312",
+  "grade": "TP304L",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a312__tp304l",
+  "uns_number": "S30403",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_8"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_8_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_8_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 1.65,
+    "thickness_max": 25.4,
+    "diameter_min": 10.3,
+    "diameter_max": 914
+   }
+  ],
+  "notes": "Low-carbon 304 pipe.",
+  "display_name": "ASTM A312 TP304L"
+ },
+ {
+  "specification": "astm_a312",
+  "grade": "TP316",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a312__tp316",
+  "uns_number": "S31600",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_8"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_8_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_8_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 1.65,
+    "thickness_max": 25.4,
+    "diameter_min": 10.3,
+    "diameter_max": 914
+   }
+  ],
+  "notes": "Mo-bearing 316 pipe.",
+  "display_name": "ASTM A312 TP316"
+ },
+ {
+  "specification": "astm_a312",
+  "grade": "TP316L",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a312__tp316l",
+  "uns_number": "S31603",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_8"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_8_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_8_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 1.65,
+    "thickness_max": 25.4,
+    "diameter_min": 10.3,
+    "diameter_max": 914
+   }
+  ],
+  "notes": "Low-carbon 316 pipe.",
+  "display_name": "ASTM A312 TP316L"
+ },
+ {
+  "specification": "astm_a312",
+  "grade": "TP321",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a312__tp321",
+  "uns_number": "S32100",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_8"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_8_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_8_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 1.65,
+    "thickness_max": 25.4,
+    "diameter_min": 10.3,
+    "diameter_max": 914
+   }
+  ],
+  "notes": "Ti-stabilized austenitic pipe.",
+  "display_name": "ASTM A312 TP321"
+ },
+ {
+  "specification": "astm_a312",
+  "grade": "TP347",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a312__tp347",
+  "uns_number": "S34700",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_8"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_8_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_8_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 1.65,
+    "thickness_max": 25.4,
+    "diameter_min": 10.3,
+    "diameter_max": 914
+   }
+  ],
+  "notes": "Nb-stabilized austenitic pipe.",
+  "display_name": "ASTM A312 TP347"
+ },
+ {
+  "specification": "astm_a790",
+  "grade": "S31803",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a790__s31803",
+  "uns_number": "S31803",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_10h"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_10_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 1.65,
+    "thickness_max": 60,
+    "diameter_min": 10.3,
+    "diameter_max": 914
+   }
+  ],
+  "notes": "Standard 22Cr duplex pipe. Chloride service.",
+  "display_name": "ASTM A790 S31803"
+ },
+ {
+  "specification": "astm_a790",
+  "grade": "S32205",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a790__s32205",
+  "uns_number": "S32205",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_10h"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_10_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 1.65,
+    "thickness_max": 60,
+    "diameter_min": 10.3,
+    "diameter_max": 914
+   }
+  ],
+  "notes": "Variant of 2205 with tighter chemistry.",
+  "display_name": "ASTM A790 S32205"
+ },
+ {
+  "specification": "astm_a790",
+  "grade": "S32750",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "astm_a790__s32750",
+  "uns_number": "S32750",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_10h"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_10_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 1.65,
+    "thickness_max": 60,
+    "diameter_min": 10.3,
+    "diameter_max": 914
+   }
+  ],
+  "notes": "Super-duplex 25Cr-7Ni-4Mo-N pipe. Highest chloride/sour resistance.",
+  "display_name": "ASTM A790 S32750"
+ },
+ {
+  "specification": "api_5l",
+  "grade": "B",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "api_5l__b",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_2"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 3.2,
+    "thickness_max": 25.4,
+    "diameter_min": 114.3,
+    "diameter_max": 1422
+   }
+  ],
+  "notes": "Equivalent of A53 Gr B / A106 Gr B. Yield 241 MPa, tensile 414 MPa min.",
+  "display_name": "API 5L B"
+ },
+ {
+  "specification": "api_5l",
+  "grade": "X42",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "api_5l__x42",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_2"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 3.2,
+    "thickness_max": 25.4,
+    "diameter_min": 114.3,
+    "diameter_max": 1422
+   }
+  ],
+  "notes": "Yield 290 MPa, tensile 414 MPa min.",
+  "display_name": "API 5L X42"
+ },
+ {
+  "specification": "api_5l",
+  "grade": "X46",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "api_5l__x46",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_2"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 3.2,
+    "thickness_max": 25.4,
+    "diameter_min": 114.3,
+    "diameter_max": 1422
+   }
+  ],
+  "notes": "Yield 317 MPa, tensile 434 MPa min.",
+  "display_name": "API 5L X46"
+ },
+ {
+  "specification": "api_5l",
+  "grade": "X52",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "api_5l__x52",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_2"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 3.2,
+    "thickness_max": 25.4,
+    "diameter_min": 114.3,
+    "diameter_max": 1422
+   }
+  ],
+  "notes": "Yield 359 MPa, tensile 455 MPa min. Most common pipeline grade.",
+  "display_name": "API 5L X52"
+ },
+ {
+  "specification": "api_5l",
+  "grade": "X56",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "api_5l__x56",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_3"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 3.2,
+    "thickness_max": 25.4,
+    "diameter_min": 114.3,
+    "diameter_max": 1422
+   }
+  ],
+  "notes": "Yield 386 MPa, tensile 490 MPa min.",
+  "display_name": "API 5L X56"
+ },
+ {
+  "specification": "api_5l",
+  "grade": "X60",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "api_5l__x60",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_3"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 3.2,
+    "thickness_max": 25.4,
+    "diameter_min": 114.3,
+    "diameter_max": 1422
+   }
+  ],
+  "notes": "Yield 414 MPa, tensile 517 MPa min.",
+  "display_name": "API 5L X60"
+ },
+ {
+  "specification": "api_5l",
+  "grade": "X65",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "api_5l__x65",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_3"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 3.2,
+    "thickness_max": 25.4,
+    "diameter_min": 114.3,
+    "diameter_max": 1422
+   }
+  ],
+  "notes": "Yield 448 MPa, tensile 530 MPa min.",
+  "display_name": "API 5L X65"
+ },
+ {
+  "specification": "api_5l",
+  "grade": "X70",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "api_5l__x70",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_3"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 3.2,
+    "thickness_max": 25.4,
+    "diameter_min": 114.3,
+    "diameter_max": 1422
+   }
+  ],
+  "notes": "Yield 483 MPa, tensile 565 MPa min. Common high-pressure long-distance pipeline grade.",
+  "display_name": "API 5L X70"
+ },
+ {
+  "specification": "api_5l",
+  "grade": "X80",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "api_5l__x80",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_3"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 3.2,
+    "thickness_max": 25.4,
+    "diameter_min": 114.3,
+    "diameter_max": 1422
+   }
+  ],
+  "notes": "Yield 552 MPa, tensile 621 MPa min. Modern long-distance pipeline grade (TMCP).",
+  "display_name": "API 5L X80"
+ },
+ {
+  "specification": "en_10025_2",
+  "grade": "S235JR",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10025_2__s235jr",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_1"
+   },
+   {
+    "grouping_system": "aws_d1_1_base",
+    "material_group": "aws_d1_1_base_i"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 3,
+    "thickness_max": 150
+   },
+   {
+    "product_form": "Structural Shape",
+    "thickness_min": 3,
+    "thickness_max": 100
+   }
+  ],
+  "notes": "Yield 235 MPa min, tensile 360-510 MPa. Most basic European structural steel \u2014 no impact requirement.",
+  "display_name": "EN 10025-2 S235JR"
+ },
+ {
+  "specification": "en_10025_2",
+  "grade": "S235J0",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10025_2__s235j0",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_1"
+   },
+   {
+    "grouping_system": "aws_d1_1_base",
+    "material_group": "aws_d1_1_base_i"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 3,
+    "thickness_max": 150
+   },
+   {
+    "product_form": "Structural Shape",
+    "thickness_min": 3,
+    "thickness_max": 100
+   }
+  ],
+  "notes": "S235 with Charpy 27J at 0\u00b0C.",
+  "display_name": "EN 10025-2 S235J0"
+ },
+ {
+  "specification": "en_10025_2",
+  "grade": "S235J2",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10025_2__s235j2",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_1"
+   },
+   {
+    "grouping_system": "aws_d1_1_base",
+    "material_group": "aws_d1_1_base_i"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 3,
+    "thickness_max": 150
+   },
+   {
+    "product_form": "Structural Shape",
+    "thickness_min": 3,
+    "thickness_max": 100
+   }
+  ],
+  "notes": "S235 with Charpy 27J at -20\u00b0C.",
+  "display_name": "EN 10025-2 S235J2"
+ },
+ {
+  "specification": "en_10025_2",
+  "grade": "S275JR",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10025_2__s275jr",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_1"
+   },
+   {
+    "grouping_system": "aws_d1_1_base",
+    "material_group": "aws_d1_1_base_i"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 3,
+    "thickness_max": 150
+   },
+   {
+    "product_form": "Structural Shape",
+    "thickness_min": 3,
+    "thickness_max": 100
+   }
+  ],
+  "notes": "Yield 275 MPa min, tensile 410-560 MPa.",
+  "display_name": "EN 10025-2 S275JR"
+ },
+ {
+  "specification": "en_10025_2",
+  "grade": "S275J0",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10025_2__s275j0",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_1"
+   },
+   {
+    "grouping_system": "aws_d1_1_base",
+    "material_group": "aws_d1_1_base_i"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 3,
+    "thickness_max": 150
+   },
+   {
+    "product_form": "Structural Shape",
+    "thickness_min": 3,
+    "thickness_max": 100
+   }
+  ],
+  "notes": "S275 with Charpy 27J at 0\u00b0C.",
+  "display_name": "EN 10025-2 S275J0"
+ },
+ {
+  "specification": "en_10025_2",
+  "grade": "S275J2",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10025_2__s275j2",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_1"
+   },
+   {
+    "grouping_system": "aws_d1_1_base",
+    "material_group": "aws_d1_1_base_i"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 3,
+    "thickness_max": 150
+   },
+   {
+    "product_form": "Structural Shape",
+    "thickness_min": 3,
+    "thickness_max": 100
+   }
+  ],
+  "notes": "S275 with Charpy 27J at -20\u00b0C.",
+  "display_name": "EN 10025-2 S275J2"
+ },
+ {
+  "specification": "en_10025_2",
+  "grade": "S355JR",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10025_2__s355jr",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_2"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_2"
+   },
+   {
+    "grouping_system": "aws_d1_1_base",
+    "material_group": "aws_d1_1_base_ii"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 3,
+    "thickness_max": 150
+   },
+   {
+    "product_form": "Structural Shape",
+    "thickness_min": 3,
+    "thickness_max": 100
+   }
+  ],
+  "notes": "Yield 355 MPa min, tensile 470-630 MPa. Most common European mid-strength structural grade.",
+  "display_name": "EN 10025-2 S355JR"
+ },
+ {
+  "specification": "en_10025_2",
+  "grade": "S355J0",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10025_2__s355j0",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_2"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_2"
+   },
+   {
+    "grouping_system": "aws_d1_1_base",
+    "material_group": "aws_d1_1_base_ii"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 3,
+    "thickness_max": 150
+   },
+   {
+    "product_form": "Structural Shape",
+    "thickness_min": 3,
+    "thickness_max": 100
+   }
+  ],
+  "notes": "S355 with Charpy 27J at 0\u00b0C.",
+  "display_name": "EN 10025-2 S355J0"
+ },
+ {
+  "specification": "en_10025_2",
+  "grade": "S355K2",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10025_2__s355k2",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_2"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_2"
+   },
+   {
+    "grouping_system": "aws_d1_1_base",
+    "material_group": "aws_d1_1_base_ii"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 3,
+    "thickness_max": 150
+   },
+   {
+    "product_form": "Structural Shape",
+    "thickness_min": 3,
+    "thickness_max": 100
+   }
+  ],
+  "notes": "S355 with Charpy 40J at -20\u00b0C (higher impact than J2).",
+  "display_name": "EN 10025-2 S355K2"
+ },
+ {
+  "specification": "en_10025_3",
+  "grade": "S275N",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10025_3__s275n",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 3,
+    "thickness_max": 150
+   }
+  ],
+  "notes": "Normalized 275 MPa yield steel.",
+  "display_name": "EN 10025-3 S275N"
+ },
+ {
+  "specification": "en_10025_3",
+  "grade": "S275NL",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10025_3__s275nl",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 3,
+    "thickness_max": 150
+   }
+  ],
+  "notes": "S275N with Charpy at -50\u00b0C.",
+  "display_name": "EN 10025-3 S275NL"
+ },
+ {
+  "specification": "en_10025_3",
+  "grade": "S355N",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10025_3__s355n",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_2"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 3,
+    "thickness_max": 150
+   }
+  ],
+  "notes": "Normalized 355 MPa yield steel.",
+  "display_name": "EN 10025-3 S355N"
+ },
+ {
+  "specification": "en_10025_3",
+  "grade": "S355NL",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10025_3__s355nl",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_2"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 3,
+    "thickness_max": 150
+   }
+  ],
+  "notes": "S355N with Charpy at -50\u00b0C.",
+  "display_name": "EN 10025-3 S355NL"
+ },
+ {
+  "specification": "en_10025_3",
+  "grade": "S420N",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10025_3__s420n",
+  "group_assignments": [
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_3"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 3,
+    "thickness_max": 150
+   }
+  ],
+  "notes": "Normalized 420 MPa yield steel.",
+  "display_name": "EN 10025-3 S420N"
+ },
+ {
+  "specification": "en_10025_3",
+  "grade": "S420NL",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10025_3__s420nl",
+  "group_assignments": [
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_3"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 3,
+    "thickness_max": 150
+   }
+  ],
+  "notes": "S420N with Charpy at -50\u00b0C.",
+  "display_name": "EN 10025-3 S420NL"
+ },
+ {
+  "specification": "en_10025_3",
+  "grade": "S460N",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10025_3__s460n",
+  "group_assignments": [
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_3"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 3,
+    "thickness_max": 150
+   }
+  ],
+  "notes": "Normalized 460 MPa yield steel.",
+  "display_name": "EN 10025-3 S460N"
+ },
+ {
+  "specification": "en_10025_3",
+  "grade": "S460NL",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10025_3__s460nl",
+  "group_assignments": [
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_3"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 3,
+    "thickness_max": 150
+   }
+  ],
+  "notes": "S460N with Charpy at -50\u00b0C.",
+  "display_name": "EN 10025-3 S460NL"
+ },
+ {
+  "specification": "en_10025_4",
+  "grade": "S275M",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10025_4__s275m",
+  "group_assignments": [
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_2_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 3,
+    "thickness_max": 120
+   }
+  ],
+  "notes": "TMCP 275 MPa yield steel.",
+  "display_name": "EN 10025-4 S275M"
+ },
+ {
+  "specification": "en_10025_4",
+  "grade": "S275ML",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10025_4__s275ml",
+  "group_assignments": [
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_2_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 3,
+    "thickness_max": 120
+   }
+  ],
+  "notes": "S275M with Charpy at -50\u00b0C.",
+  "display_name": "EN 10025-4 S275ML"
+ },
+ {
+  "specification": "en_10025_4",
+  "grade": "S355M",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10025_4__s355m",
+  "group_assignments": [
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_2_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 3,
+    "thickness_max": 120
+   }
+  ],
+  "notes": "TMCP 355 MPa yield steel.",
+  "display_name": "EN 10025-4 S355M"
+ },
+ {
+  "specification": "en_10025_4",
+  "grade": "S355ML",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10025_4__s355ml",
+  "group_assignments": [
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_2_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 3,
+    "thickness_max": 120
+   }
+  ],
+  "notes": "S355M with Charpy at -50\u00b0C.",
+  "display_name": "EN 10025-4 S355ML"
+ },
+ {
+  "specification": "en_10025_4",
+  "grade": "S420M",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10025_4__s420m",
+  "group_assignments": [
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_2_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 3,
+    "thickness_max": 120
+   }
+  ],
+  "notes": "TMCP 420 MPa yield steel.",
+  "display_name": "EN 10025-4 S420M"
+ },
+ {
+  "specification": "en_10025_4",
+  "grade": "S420ML",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10025_4__s420ml",
+  "group_assignments": [
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_2_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 3,
+    "thickness_max": 120
+   }
+  ],
+  "notes": "S420M with Charpy at -50\u00b0C.",
+  "display_name": "EN 10025-4 S420ML"
+ },
+ {
+  "specification": "en_10025_4",
+  "grade": "S460M",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10025_4__s460m",
+  "group_assignments": [
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_2_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 3,
+    "thickness_max": 120
+   }
+  ],
+  "notes": "TMCP 460 MPa yield steel.",
+  "display_name": "EN 10025-4 S460M"
+ },
+ {
+  "specification": "en_10025_4",
+  "grade": "S460ML",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10025_4__s460ml",
+  "group_assignments": [
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_2_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 3,
+    "thickness_max": 120
+   }
+  ],
+  "notes": "S460M with Charpy at -50\u00b0C.",
+  "display_name": "EN 10025-4 S460ML"
+ },
+ {
+  "specification": "en_10025_6",
+  "grade": "S460Q",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10025_6__s460q",
+  "group_assignments": [
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_3_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 3,
+    "thickness_max": 150
+   }
+  ],
+  "notes": "Q&T 460 MPa min yield.",
+  "display_name": "EN 10025-6 S460Q"
+ },
+ {
+  "specification": "en_10025_6",
+  "grade": "S500Q",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10025_6__s500q",
+  "group_assignments": [
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_3_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 3,
+    "thickness_max": 150
+   }
+  ],
+  "notes": "Q&T 500 MPa min yield.",
+  "display_name": "EN 10025-6 S500Q"
+ },
+ {
+  "specification": "en_10025_6",
+  "grade": "S690Q",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10025_6__s690q",
+  "group_assignments": [
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_3_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 3,
+    "thickness_max": 150
+   }
+  ],
+  "notes": "Q&T 690 MPa min yield. Common heavy machinery & crane plate.",
+  "display_name": "EN 10025-6 S690Q"
+ },
+ {
+  "specification": "en_10025_6",
+  "grade": "S960Q",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10025_6__s960q",
+  "group_assignments": [
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_3_3"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 3,
+    "thickness_max": 150
+   }
+  ],
+  "notes": "Q&T 960 MPa min yield. Highest-strength structural plate; strict weld procedure controls.",
+  "display_name": "EN 10025-6 S960Q"
+ },
+ {
+  "specification": "en_10028_2",
+  "grade": "P235GH",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10028_2__p235gh",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 5,
+    "thickness_max": 150
+   }
+  ],
+  "notes": "Yield 235 MPa min. Pressure vessel C-Mn plate for elevated temperature.",
+  "display_name": "EN 10028-2 P235GH"
+ },
+ {
+  "specification": "en_10028_2",
+  "grade": "P265GH",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10028_2__p265gh",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_2"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 5,
+    "thickness_max": 150
+   }
+  ],
+  "notes": "Yield 265 MPa min. Most common European PV plate.",
+  "display_name": "EN 10028-2 P265GH"
+ },
+ {
+  "specification": "en_10028_2",
+  "grade": "P295GH",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10028_2__p295gh",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_2"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 5,
+    "thickness_max": 150
+   }
+  ],
+  "notes": "Yield 295 MPa min.",
+  "display_name": "EN 10028-2 P295GH"
+ },
+ {
+  "specification": "en_10028_2",
+  "grade": "P355GH",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10028_2__p355gh",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_2"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 5,
+    "thickness_max": 150
+   }
+  ],
+  "notes": "Yield 355 MPa min. European equivalent of A516 Gr 70.",
+  "display_name": "EN 10028-2 P355GH"
+ },
+ {
+  "specification": "en_10028_3",
+  "grade": "P275N",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10028_3__p275n",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 5,
+    "thickness_max": 150
+   }
+  ],
+  "notes": "Normalized 275 MPa yield PV plate.",
+  "display_name": "EN 10028-3 P275N"
+ },
+ {
+  "specification": "en_10028_3",
+  "grade": "P275NL1",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10028_3__p275nl1",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 5,
+    "thickness_max": 150
+   }
+  ],
+  "notes": "P275N with Charpy at -40\u00b0C.",
+  "display_name": "EN 10028-3 p275nl1"
+ },
+ {
+  "specification": "en_10028_3",
+  "grade": "P275NL2",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10028_3__p275nl2",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 5,
+    "thickness_max": 150
+   }
+  ],
+  "notes": "P275N with Charpy at -50\u00b0C.",
+  "display_name": "EN 10028-3 p275nl2"
+ },
+ {
+  "specification": "en_10028_3",
+  "grade": "P355N",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10028_3__p355n",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_2"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 5,
+    "thickness_max": 150
+   }
+  ],
+  "notes": "Normalized 355 MPa yield PV plate.",
+  "display_name": "EN 10028-3 P355N"
+ },
+ {
+  "specification": "en_10028_3",
+  "grade": "P355NL1",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10028_3__p355nl1",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_2"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 5,
+    "thickness_max": 150
+   }
+  ],
+  "notes": "P355N with Charpy at -40\u00b0C.",
+  "display_name": "EN 10028-3 p355nl1"
+ },
+ {
+  "specification": "en_10028_3",
+  "grade": "P355NL2",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10028_3__p355nl2",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_2"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 5,
+    "thickness_max": 150
+   }
+  ],
+  "notes": "P355N with Charpy at -50\u00b0C.",
+  "display_name": "EN 10028-3 p355nl2"
+ },
+ {
+  "specification": "en_10028_3",
+  "grade": "P460N",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10028_3__p460n",
+  "group_assignments": [
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_3"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 5,
+    "thickness_max": 150
+   }
+  ],
+  "notes": "Normalized 460 MPa yield PV plate.",
+  "display_name": "EN 10028-3 P460N"
+ },
+ {
+  "specification": "en_10028_3",
+  "grade": "P460NL1",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10028_3__p460nl1",
+  "group_assignments": [
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_3"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 5,
+    "thickness_max": 150
+   }
+  ],
+  "notes": "P460N with Charpy at -40\u00b0C.",
+  "display_name": "EN 10028-3 p460nl1"
+ },
+ {
+  "specification": "en_10028_3",
+  "grade": "P460NL2",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10028_3__p460nl2",
+  "group_assignments": [
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_3"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 5,
+    "thickness_max": 150
+   }
+  ],
+  "notes": "P460N with Charpy at -50\u00b0C.",
+  "display_name": "EN 10028-3 p460nl2"
+ },
+ {
+  "specification": "en_10216_2",
+  "grade": "P195GH",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10216_2__p195gh",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 2,
+    "thickness_max": 60,
+    "diameter_min": 10.3,
+    "diameter_max": 660
+   }
+  ],
+  "notes": "Carbon steel seamless pressure tube, low strength.",
+  "display_name": "EN 10216-2 P195GH"
+ },
+ {
+  "specification": "en_10216_2",
+  "grade": "P235GH",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10216_2__p235gh",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 2,
+    "thickness_max": 60,
+    "diameter_min": 10.3,
+    "diameter_max": 660
+   }
+  ],
+  "notes": "Carbon steel seamless pressure tube, 235 MPa yield.",
+  "display_name": "EN 10216-2 P235GH"
+ },
+ {
+  "specification": "en_10216_2",
+  "grade": "P265GH",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10216_2__p265gh",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_1"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_1_gr_2"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_1_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 2,
+    "thickness_max": 60,
+    "diameter_min": 10.3,
+    "diameter_max": 660
+   }
+  ],
+  "notes": "Carbon steel seamless pressure tube, 265 MPa yield. Common power-piping grade.",
+  "display_name": "EN 10216-2 P265GH"
+ },
+ {
+  "specification": "en_10216_2",
+  "grade": "16Mo3",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10216_2__16mo3",
+  "group_assignments": [
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_4_1"
+   },
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_3"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 2,
+    "thickness_max": 60,
+    "diameter_min": 10.3,
+    "diameter_max": 660
+   }
+  ],
+  "notes": "0.5Mo creep alloy seamless tube. Equivalent of ASTM A335 P1 / A209 T1.",
+  "display_name": "EN 10216-2 16MO3"
+ },
+ {
+  "specification": "en_10216_2",
+  "grade": "13CrMo4-5",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10216_2__13crmo4_5",
+  "group_assignments": [
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_4_2"
+   },
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_4"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 2,
+    "thickness_max": 60,
+    "diameter_min": 10.3,
+    "diameter_max": 660
+   }
+  ],
+  "notes": "1Cr-0.5Mo creep alloy seamless tube. Equivalent of ASTM A335 P12.",
+  "display_name": "EN 10216-2 13crmo4_5"
+ },
+ {
+  "specification": "en_10216_2",
+  "grade": "10CrMo9-10",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10216_2__10crmo9_10",
+  "group_assignments": [
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_5_2"
+   },
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_5a"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 2,
+    "thickness_max": 60,
+    "diameter_min": 10.3,
+    "diameter_max": 660
+   }
+  ],
+  "notes": "2.25Cr-1Mo creep alloy seamless tube. Equivalent of ASTM A335 P22.",
+  "display_name": "EN 10216-2 10crmo9_10"
+ },
+ {
+  "specification": "en_10216_2",
+  "grade": "X10CrMoVNb9-1",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10216_2__x10crmovnb9_1",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_5c"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_6_4"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Pipe",
+    "thickness_min": 2,
+    "thickness_max": 60,
+    "diameter_min": 10.3,
+    "diameter_max": 660
+   }
+  ],
+  "notes": "9Cr-1Mo-V-Nb (P91 equivalent) seamless tube for supercritical service.",
+  "display_name": "EN 10216-2 x10crmovnb9_1"
+ },
+ {
+  "specification": "en_10088_2",
+  "grade": "1.4301",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10088_2__1_4301",
+  "uns_number": "S30400",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_8"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_8_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_8_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 100
+   },
+   {
+    "product_form": "Sheet",
+    "thickness_min": 0.4,
+    "thickness_max": 3
+   }
+  ],
+  "notes": "European 304 austenitic stainless.",
+  "display_name": "EN 10088-2 1.4301"
+ },
+ {
+  "specification": "en_10088_2",
+  "grade": "1.4307",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10088_2__1_4307",
+  "uns_number": "S30403",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_8"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_8_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_8_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 100
+   },
+   {
+    "product_form": "Sheet",
+    "thickness_min": 0.4,
+    "thickness_max": 3
+   }
+  ],
+  "notes": "European 304L low-C austenitic stainless.",
+  "display_name": "EN 10088-2 1.4307"
+ },
+ {
+  "specification": "en_10088_2",
+  "grade": "1.4401",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10088_2__1_4401",
+  "uns_number": "S31600",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_8"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_8_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_8_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 100
+   },
+   {
+    "product_form": "Sheet",
+    "thickness_min": 0.4,
+    "thickness_max": 3
+   }
+  ],
+  "notes": "European 316 Mo-bearing austenitic.",
+  "display_name": "EN 10088-2 1.4401"
+ },
+ {
+  "specification": "en_10088_2",
+  "grade": "1.4404",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10088_2__1_4404",
+  "uns_number": "S31603",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_8"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_8_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_8_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 100
+   },
+   {
+    "product_form": "Sheet",
+    "thickness_min": 0.4,
+    "thickness_max": 3
+   }
+  ],
+  "notes": "European 316L low-C austenitic.",
+  "display_name": "EN 10088-2 1.4404"
+ },
+ {
+  "specification": "en_10088_2",
+  "grade": "1.4571",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10088_2__1_4571",
+  "uns_number": "S31635",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_8"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_8_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_8_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 100
+   },
+   {
+    "product_form": "Sheet",
+    "thickness_min": 0.4,
+    "thickness_max": 3
+   }
+  ],
+  "notes": "European 316Ti \u2014 Ti stabilized 316.",
+  "display_name": "EN 10088-2 1.4571"
+ },
+ {
+  "specification": "en_10088_2",
+  "grade": "1.4541",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10088_2__1_4541",
+  "uns_number": "S32100",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_8"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_8_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_8_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 100
+   },
+   {
+    "product_form": "Sheet",
+    "thickness_min": 0.4,
+    "thickness_max": 3
+   }
+  ],
+  "notes": "European 321 Ti-stabilized austenitic.",
+  "display_name": "EN 10088-2 1.4541"
+ },
+ {
+  "specification": "en_10088_2",
+  "grade": "1.4550",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10088_2__1_4550",
+  "uns_number": "S34700",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_8"
+   },
+   {
+    "grouping_system": "asme_group",
+    "material_group": "asme_p_8_gr_1"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_8_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 100
+   },
+   {
+    "product_form": "Sheet",
+    "thickness_min": 0.4,
+    "thickness_max": 3
+   }
+  ],
+  "notes": "European 347 Nb-stabilized austenitic.",
+  "display_name": "EN 10088-2 1.4550"
+ },
+ {
+  "specification": "en_10088_2",
+  "grade": "1.4462",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10088_2__1_4462",
+  "uns_number": "S31803",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_10h"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_10_1"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 100
+   },
+   {
+    "product_form": "Sheet",
+    "thickness_min": 0.4,
+    "thickness_max": 3
+   }
+  ],
+  "notes": "European 2205 duplex stainless.",
+  "display_name": "EN 10088-2 1.4462"
+ },
+ {
+  "specification": "en_10088_2",
+  "grade": "1.4410",
+  "is_standard": 1,
+  "enabled": 1,
+  "doctype": "Base Material Grade",
+  "docstatus": 0,
+  "name": "en_10088_2__1_4410",
+  "uns_number": "S32750",
+  "group_assignments": [
+   {
+    "grouping_system": "asme_p",
+    "material_group": "asme_p_10h"
+   },
+   {
+    "grouping_system": "iso_15608",
+    "material_group": "iso_15608_10_2"
+   }
+  ],
+  "product_forms": [
+   {
+    "product_form": "Plate",
+    "thickness_min": 1.5,
+    "thickness_max": 100
+   },
+   {
+    "product_form": "Sheet",
+    "thickness_min": 0.4,
+    "thickness_max": 3
+   }
+  ],
+  "notes": "European 2507 super-duplex stainless.",
+  "display_name": "EN 10088-2 1.4410"
+ }
+]

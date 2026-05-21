@@ -1,0 +1,296 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "",
+ "creation": "2025-01-29 00:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "specification",
+  "grade",
+  "col_id_1",
+  "uns_number",
+  "section_groups",
+  "group_assignments",
+  "section_products",
+  "product_forms",
+  "section_composition",
+  "alloy_composition",
+  "section_mech",
+  "mechanical_property_sets",
+  "section_weldability",
+  "carbon_equivalent_formula",
+  "carbon_equivalent_max",
+  "density_kg_m3",
+  "col_weld_1",
+  "thermal_conductivity_w_mk",
+  "coefficient_thermal_expansion_um_mk",
+  "section_service",
+  "sour_service_compatible",
+  "cryogenic_compatible",
+  "col_svc_1",
+  "min_service_temp_c",
+  "max_service_temp_c",
+  "section_notes",
+  "notes",
+  "section_settings",
+  "is_standard",
+  "enabled",
+  "display_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "specification",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Specification",
+   "options": "Base Material Specification",
+   "reqd": 1,
+   "description": "The parent material specification (e.g., ASME-SA-516)"
+  },
+  {
+   "fieldname": "grade",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Grade",
+   "reqd": 1,
+   "description": "Grade designation (e.g., 70, S355J2, 304)"
+  },
+  {
+   "fieldname": "col_id_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "uns_number",
+   "fieldtype": "Data",
+   "label": "UNS Number",
+   "description": "Unified Numbering System designation for cross-reference",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "section_groups",
+   "fieldtype": "Section Break",
+   "label": "Material Group Assignments"
+  },
+  {
+   "fieldname": "group_assignments",
+   "fieldtype": "Table",
+   "label": "Group Assignments",
+   "options": "Grade Group Assignment",
+   "description": "Multi-standard classification (ASME P-Numbers, ISO 15608, AWS, etc.)"
+  },
+  {
+   "fieldname": "section_products",
+   "fieldtype": "Section Break",
+   "label": "Available Product Forms",
+   "collapsible": 1
+  },
+  {
+   "fieldname": "product_forms",
+   "fieldtype": "Table",
+   "label": "Product Forms",
+   "options": "Grade Product Form",
+   "description": "Available forms with thickness/diameter ranges"
+  },
+  {
+   "fieldname": "section_composition",
+   "fieldtype": "Section Break",
+   "label": "Composition (Spec Limits)",
+   "collapsible": 1
+  },
+  {
+   "fieldname": "alloy_composition",
+   "fieldtype": "Table",
+   "label": "Alloy Composition",
+   "options": "Material Group Composition Range",
+   "description": "Element-level composition limits per the spec. Reuses the same child DocType as Material Group composition since the schema (element / min / max / rationale) is identical."
+  },
+  {
+   "fieldname": "section_mech",
+   "fieldtype": "Section Break",
+   "label": "Mechanical Properties",
+   "collapsible": 1
+  },
+  {
+   "fieldname": "mechanical_property_sets",
+   "fieldtype": "Table",
+   "label": "Mechanical Property Sets",
+   "options": "Grade Mechanical Property Set",
+   "description": "Mechanical properties per supply / heat-treatment condition AND optionally per thickness band (steel mechanicals degrade with thickness)."
+  },
+  {
+   "fieldname": "section_weldability",
+   "fieldtype": "Section Break",
+   "label": "Weldability",
+   "collapsible": 1
+  },
+  {
+   "fieldname": "carbon_equivalent_formula",
+   "fieldtype": "Select",
+   "label": "Carbon Equivalent Formula",
+   "options": "\nIIW (CE)\nAWS D1.1 (CE)\nIto-Bessyo (Pcm)\nDearden-O'Neill\nCET (EN 1011)",
+   "description": "Formula used to compute the carbon equivalent. IIW most common worldwide; CET for low-temp service per EN 1011-2."
+  },
+  {
+   "fieldname": "carbon_equivalent_max",
+   "fieldtype": "Float",
+   "label": "Carbon Equivalent Max (%)",
+   "description": "Maximum allowed CE per the formula. Drives preheat requirements per EN 1011-2 / AWS D1.1 Annex H.",
+   "precision": "4"
+  },
+  {
+   "fieldname": "density_kg_m3",
+   "fieldtype": "Float",
+   "label": "Density (kg/m\u00b3)",
+   "description": "For weight + cost calculations (steel \u2248 7850; aluminum \u2248 2700; titanium \u2248 4500)."
+  },
+  {
+   "fieldname": "col_weld_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "thermal_conductivity_w_mk",
+   "fieldtype": "Float",
+   "label": "Thermal Conductivity (W/m\u00b7K)",
+   "description": "For heat-input + preheat calculations."
+  },
+  {
+   "fieldname": "coefficient_thermal_expansion_um_mk",
+   "fieldtype": "Float",
+   "label": "CTE (\u00b5m/m\u00b7K)",
+   "description": "For distortion calculations.",
+   "precision": "2"
+  },
+  {
+   "fieldname": "section_service",
+   "fieldtype": "Section Break",
+   "label": "Service Conditions",
+   "collapsible": 1
+  },
+  {
+   "fieldname": "sour_service_compatible",
+   "fieldtype": "Check",
+   "label": "Sour Service Compatible (NACE MR0175)",
+   "default": "0"
+  },
+  {
+   "fieldname": "cryogenic_compatible",
+   "fieldtype": "Check",
+   "label": "Cryogenic Compatible",
+   "default": "0"
+  },
+  {
+   "fieldname": "col_svc_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "min_service_temp_c",
+   "fieldtype": "Float",
+   "label": "Min Service Temp (\u00b0C)"
+  },
+  {
+   "fieldname": "max_service_temp_c",
+   "fieldtype": "Float",
+   "label": "Max Service Temp (\u00b0C)"
+  },
+  {
+   "fieldname": "section_notes",
+   "fieldtype": "Section Break",
+   "label": "Notes",
+   "collapsible": 1
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Text",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "section_settings",
+   "fieldtype": "Section Break",
+   "label": "Settings",
+   "collapsible": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "is_standard",
+   "fieldtype": "Check",
+   "label": "Is Standard Data",
+   "read_only": 1
+  },
+  {
+   "default": "1",
+   "fieldname": "enabled",
+   "fieldtype": "Check",
+   "label": "Enabled",
+   "in_list_view": 1,
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "display_name",
+   "fieldtype": "Data",
+   "label": "Display Name",
+   "read_only": 1,
+   "hidden": 1,
+   "description": "Computed in before_save: '{grade} \u2014 {specification designation}'. Drives form title + link dropdowns."
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-05-04 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Material Classifications",
+ "name": "Base Material Grade",
+ "naming_rule": "By script",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "role": "WTK Welding Engineer",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "report": 1,
+   "export": 1,
+   "share": 1,
+   "print": 1,
+   "email": 1
+  },
+  {
+   "role": "WTK QA Manager",
+   "read": 1,
+   "report": 1,
+   "export": 1,
+   "print": 1
+  },
+  {
+   "role": "WTK QC Inspector",
+   "read": 1,
+   "print": 1
+  },
+  {
+   "role": "WTK Welder",
+   "read": 1
+  },
+  {
+   "role": "WC Material Specialist",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1,
+   "report": 1,
+   "export": 1,
+   "share": 1,
+   "print": 1,
+   "email": 1
+  }
+ ],
+ "quick_entry": 1,
+ "search_fields": "display_name,specification,grade,uns_number",
+ "sort_field": "display_name",
+ "sort_order": "ASC",
+ "states": [],
+ "title_field": "display_name",
+ "track_changes": 1,
+ "show_title_field_in_link": 1
+}
