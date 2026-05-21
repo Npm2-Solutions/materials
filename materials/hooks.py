@@ -1,14 +1,22 @@
 app_name = "materials"
 app_title = "Materials"
 app_publisher = "NPM2 Solutions Srl"
-app_description = "Universal materials library — base material grades, specifications, MTRs, testing labs. Tier-1 knowledge library consumed by weldcore, stock, ndtnext, inspecta."
+app_description = "Universal materials library — material grades, specifications, MTRs, testing labs. Tier-1 knowledge library consumed by weldcore, stock, ndtnext, inspecta."
 app_email = "info@npm2solutions.it"
 app_license = "mit"
 
-# Apps
-# ------------------
+# Pattern B: invisible library — no apps-screen entry, no workspace. Consumers
+# (weldcore, stock, ndtnext, inspecta) Link to materials' DocTypes directly.
+required_apps = ["frappe"]
 
-# required_apps = []
+# Domain-neutral reference catalog. Each DocType is seeded by the consuming
+# project's demo/init; materials itself only ships schema + display_name
+# controllers. Fixtures keep the seed data exportable for diff-based audits.
+fixtures = [
+	"Material Specification",
+	"Material Grade",
+	"Material Form",
+]
 
 # Each item in the list will be shown as an app in the apps page
 # add_to_apps_screen = [
