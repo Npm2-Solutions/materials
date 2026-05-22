@@ -1,0 +1,149 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "autoname": "field:heat_number",
+ "creation": "2026-05-22 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 0,
+ "engine": "InnoDB",
+ "field_order": [
+  "identity_section",
+  "heat_number",
+  "cast_number",
+  "column_break_identity",
+  "mill",
+  "grade",
+  "production_date",
+  "status_section",
+  "status",
+  "column_break_status",
+  "notes_section",
+  "notes"
+ ],
+ "fields": [
+  {
+   "fieldname": "identity_section",
+   "fieldtype": "Section Break",
+   "label": "Identity"
+  },
+  {
+   "fieldname": "heat_number",
+   "fieldtype": "Data",
+   "label": "Heat Number",
+   "reqd": 1,
+   "unique": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "description": "Mill-assigned identifier for this molten-metal pour. Becomes the row's primary key."
+  },
+  {
+   "fieldname": "cast_number",
+   "fieldtype": "Data",
+   "label": "Cast Number",
+   "description": "Optional secondary identifier for continuously-cast products."
+  },
+  {
+   "fieldname": "column_break_identity",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mill",
+   "fieldtype": "Link",
+   "label": "Mill (Supplier)",
+   "options": "Supplier",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "description": "The supplier that poured this heat."
+  },
+  {
+   "fieldname": "grade",
+   "fieldtype": "Link",
+   "label": "Material Grade",
+   "options": "Material Grade",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "description": "Grade specification the heat was poured to."
+  },
+  {
+   "fieldname": "production_date",
+   "fieldtype": "Date",
+   "label": "Production Date"
+  },
+  {
+   "fieldname": "status_section",
+   "fieldtype": "Section Break",
+   "label": "Status"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Active\nReleased\nQuarantined\nRecalled",
+   "default": "Active",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "reqd": 1,
+   "description": "Recalled propagates downstream — every consumer linking to this heat surfaces it as recalled."
+  },
+  {
+   "fieldname": "column_break_status",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "notes_section",
+   "fieldtype": "Section Break",
+   "label": "Notes",
+   "collapsible": 1
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Long Text",
+   "label": "Notes"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-05-22 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Material Certifications",
+ "name": "Material Heat",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Stock User",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Stock Manager",
+   "share": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

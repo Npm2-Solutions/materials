@@ -22,7 +22,7 @@
   "third_party_verified",
   "heat_tab",
   "heat_section",
-  "heat_numbers_covered",
+  "heats_covered",
   "chemical_tab",
   "chemical_section",
   "chemical_results",
@@ -159,10 +159,11 @@
    "label": "Heat Numbers Covered"
   },
   {
-   "description": "One heat number per line. Cross-referenced against batch heat numbers at validation.",
-   "fieldname": "heat_numbers_covered",
-   "fieldtype": "Small Text",
-   "label": "Heat Numbers Covered"
+   "description": "Heats this certificate documents. Each row links to a Material Heat record — single source of truth for heat-level chemistry, mechanicals, and recall status.",
+   "fieldname": "heats_covered",
+   "fieldtype": "Table",
+   "label": "Heats Covered",
+   "options": "Material Heat Coverage"
   },
   {
    "fieldname": "chemical_tab",
@@ -370,7 +371,7 @@
    "share": 1
   }
  ],
- "search_fields": "batch,certificate_type,certificate_number,heat_numbers_covered",
+ "search_fields": "batch,certificate_type,certificate_number",
  "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",

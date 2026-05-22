@@ -6,3 +6,4 @@ materials.patches.consolidate_material_certificate
 
 [post_model_sync]
 # Patches added in this section will be executed after doctypes are migrated
+materials.patches.migrate_heat_numbers_covered_to_table
