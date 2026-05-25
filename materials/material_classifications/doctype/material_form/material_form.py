@@ -4,7 +4,7 @@
 from frappe.model.document import Document
 
 
-class GradeProductForm(Document):
+class MaterialForm(Document):
     """
     Child table for Base Material Grade product form variations.
 

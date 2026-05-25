@@ -7,7 +7,7 @@ from frappe.model.document import Document
 from weldcore.utils.display_name import pretty_spec_code, slugify
 
 
-class BaseMaterialGrade(Document):
+class MaterialGrade(Document):
     """
     Material Grade DocType - Specific grade within a specification.
 

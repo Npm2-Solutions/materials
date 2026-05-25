@@ -4,7 +4,7 @@
 from frappe.model.document import Document
 
 
-class BaseMaterialSpecificationLink(Document):
+class MaterialSpecificationLink(Document):
     """
     Child table for linking equivalent Base Material Specifications.
     Used for cross-standard equivalence (SA-516 = A516 = P355).

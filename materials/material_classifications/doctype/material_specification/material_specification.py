@@ -7,7 +7,7 @@ from frappe.model.document import Document
 from weldcore.utils.display_name import pretty_spec_code, slugify
 
 
-class BaseMaterialSpecification(Document):
+class MaterialSpecification(Document):
     """
     Base Material Specification DocType - The document/standard level.
 

@@ -4,5 +4,5 @@
 from frappe.model.document import Document
 
 
-class GradeMechanicalPropertySet(Document):
+class MaterialMechanicalProperty(Document):
 	pass
