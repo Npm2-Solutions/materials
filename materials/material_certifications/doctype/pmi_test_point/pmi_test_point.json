@@ -56,7 +56,7 @@
    "fieldname": "operator",
    "fieldtype": "Link",
    "label": "Operator",
-   "options": "User"
+   "options": "Personnel"
   },
   {
    "fieldname": "procedure_reference",

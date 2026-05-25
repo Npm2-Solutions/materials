@@ -237,7 +237,7 @@
    "fieldname": "pmi_operator",
    "fieldtype": "Link",
    "label": "PMI Operator",
-   "options": "User"
+   "options": "Personnel"
   },
   {
    "fieldname": "pmi_overall_result",
