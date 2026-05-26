@@ -15,22 +15,11 @@
   "section_products",
   "product_forms",
   "section_composition",
-  "alloy_composition",
   "section_mech",
-  "mechanical_property_sets",
   "section_weldability",
-  "carbon_equivalent_formula",
-  "carbon_equivalent_max",
-  "density_kg_m3",
   "col_weld_1",
-  "thermal_conductivity_w_mk",
-  "coefficient_thermal_expansion_um_mk",
   "section_service",
-  "sour_service_compatible",
-  "cryogenic_compatible",
   "col_svc_1",
-  "min_service_temp_c",
-  "max_service_temp_c",
   "section_notes",
   "notes",
   "section_settings",
@@ -101,24 +90,10 @@
    "collapsible": 1
   },
   {
-   "fieldname": "alloy_composition",
-   "fieldtype": "Table",
-   "label": "Alloy Composition",
-   "options": "Material Group Composition Range",
-   "description": "Element-level composition limits per the spec. Reuses the same child DocType as Material Group composition since the schema (element / min / max / rationale) is identical."
-  },
-  {
    "fieldname": "section_mech",
    "fieldtype": "Section Break",
    "label": "Mechanical Properties",
    "collapsible": 1
-  },
-  {
-   "fieldname": "mechanical_property_sets",
-   "fieldtype": "Table",
-   "label": "Mechanical Property Sets",
-   "options": "Material Mechanical Property",
-   "description": "Mechanical properties per supply / heat-treatment condition AND optionally per thickness band (steel mechanicals degrade with thickness)."
   },
   {
    "fieldname": "section_weldability",
@@ -127,41 +102,8 @@
    "collapsible": 1
   },
   {
-   "fieldname": "carbon_equivalent_formula",
-   "fieldtype": "Select",
-   "label": "Carbon Equivalent Formula",
-   "options": "\nIIW (CE)\nAWS D1.1 (CE)\nIto-Bessyo (Pcm)\nDearden-O'Neill\nCET (EN 1011)",
-   "description": "Formula used to compute the carbon equivalent. IIW most common worldwide; CET for low-temp service per EN 1011-2."
-  },
-  {
-   "fieldname": "carbon_equivalent_max",
-   "fieldtype": "Float",
-   "label": "Carbon Equivalent Max (%)",
-   "description": "Maximum allowed CE per the formula. Drives preheat requirements per EN 1011-2 / AWS D1.1 Annex H.",
-   "precision": "4"
-  },
-  {
-   "fieldname": "density_kg_m3",
-   "fieldtype": "Float",
-   "label": "Density (kg/m\u00b3)",
-   "description": "For weight + cost calculations (steel \u2248 7850; aluminum \u2248 2700; titanium \u2248 4500)."
-  },
-  {
    "fieldname": "col_weld_1",
    "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "thermal_conductivity_w_mk",
-   "fieldtype": "Float",
-   "label": "Thermal Conductivity (W/m\u00b7K)",
-   "description": "For heat-input + preheat calculations."
-  },
-  {
-   "fieldname": "coefficient_thermal_expansion_um_mk",
-   "fieldtype": "Float",
-   "label": "CTE (\u00b5m/m\u00b7K)",
-   "description": "For distortion calculations.",
-   "precision": "2"
   },
   {
    "fieldname": "section_service",
@@ -170,30 +112,8 @@
    "collapsible": 1
   },
   {
-   "fieldname": "sour_service_compatible",
-   "fieldtype": "Check",
-   "label": "Sour Service Compatible (NACE MR0175)",
-   "default": "0"
-  },
-  {
-   "fieldname": "cryogenic_compatible",
-   "fieldtype": "Check",
-   "label": "Cryogenic Compatible",
-   "default": "0"
-  },
-  {
    "fieldname": "col_svc_1",
    "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "min_service_temp_c",
-   "fieldtype": "Float",
-   "label": "Min Service Temp (\u00b0C)"
-  },
-  {
-   "fieldname": "max_service_temp_c",
-   "fieldtype": "Float",
-   "label": "Max Service Temp (\u00b0C)"
   },
   {
    "fieldname": "section_notes",
@@ -238,7 +158,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-05-04 00:00:00.000000",
+ "modified": "2026-05-26 14:00:00.000000",
  "modified_by": "Administrator",
  "module": "Material Classifications",
  "name": "Material Grade",
