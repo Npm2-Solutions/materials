@@ -60,9 +60,10 @@
    "fieldtype": "Link",
    "label": "Material Grade",
    "options": "Material Grade",
+   "reqd": 1,
    "in_list_view": 1,
    "in_standard_filter": 1,
-   "description": "Grade specification the heat was poured to."
+   "description": "Grade specification the heat was poured to. Required — a heat without a grade is untraceable."
   },
   {
    "fieldname": "production_date",

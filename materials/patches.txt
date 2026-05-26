@@ -13,3 +13,7 @@ materials.patches.backfill_issue16_classb_personnel
 # no functional code reads them — audit 2026-05-26). Material Specification's
 # equivalent_specifications Table MultiSelect handled by JSON sync.
 materials.patches.drop_dead_material_fields_2026_05
+
+# Drop Material Specification Link orphan child (only parent was the dropped
+# Material Specification.equivalent_specifications field).
+materials.patches.drop_material_specification_link_orphan
