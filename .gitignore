@@ -56,3 +56,6 @@ jspm_packages/
 
 # Source PDFs (copyrighted, used for fixture extraction)
 source/
+
+# MakeItFrom scraper HTML cache (regenerable)
+materials/fixtures/_importers/cache/
