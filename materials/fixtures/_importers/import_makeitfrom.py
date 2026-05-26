@@ -94,14 +94,18 @@ SPEC_FIXTURE = "/workspace/frappe-bench/apps/materials/materials/fixtures/materi
 # Group index URLs — discovery starts here. Add more as needed; keys must
 # match the canonical "Material Category" enum used on Material Specification.
 GROUP_INDEX_URLS = {
-    "Carbon Steel": f"{BASE_URL}/material-group/Carbon-Steel",
-    "Low Alloy Steel": f"{BASE_URL}/material-group/Low-Alloy-Steel",
-    "Stainless Steel": f"{BASE_URL}/material-group/Stainless-Steel",
-    "Nickel Alloy": f"{BASE_URL}/material-group/Nickel-Alloy",
+    # MakeItFrom uses alloy-type grouping (not carbon/stainless split — those are
+    # sub-categories within Iron-Alloy). Verified live 2026-05-26 from
+    # https://www.makeitfrom.com/ navigation.
+    "Iron Alloy": f"{BASE_URL}/material-group/Iron-Alloy",
     "Aluminum Alloy": f"{BASE_URL}/material-group/Aluminum-Alloy",
+    "Cobalt Alloy": f"{BASE_URL}/material-group/Cobalt-Alloy",
     "Copper Alloy": f"{BASE_URL}/material-group/Copper-Alloy",
+    "Magnesium Alloy": f"{BASE_URL}/material-group/Magnesium-Alloy",
+    "Nickel Alloy": f"{BASE_URL}/material-group/Nickel-Alloy",
     "Titanium Alloy": f"{BASE_URL}/material-group/Titanium-Alloy",
-    "Cast Iron": f"{BASE_URL}/material-group/Cast-Iron",
+    "Zinc Alloy": f"{BASE_URL}/material-group/Zinc-Alloy",
+    "Other Metal Alloy": f"{BASE_URL}/material-group/Other-Metal-Alloy",
 }
 
 # Designation patterns we'll try to match against existing Material Specification slugs.
@@ -196,22 +200,52 @@ def fetch(url: str, delay: float = 1.5, force: bool = False) -> str:
 # Discovery — find material URLs from group index pages
 # ---------------------------------------------------------------------------
 
-def discover_material_urls(group_url: str, delay: float) -> list[str]:
-    """Find all /material-properties/* URLs linked from a group page."""
-    log.info("Discovering: %s", group_url)
+def discover_material_urls(group_url: str, delay: float,
+                           max_depth: int = 4, _visited: set | None = None) -> list[str]:
+    """Recursively find all /material-properties/* URLs reachable from a group page.
+
+    MakeItFrom organizes materials hierarchically:
+      /material-group/Iron-Alloy
+        → /material-group/Wrought-Carbon-Or-Non-Alloy-Steel
+          → /material-properties/ASTM-A36-...
+          → /material-properties/ASTM-A516-...
+    So we recurse through /material-group/* links to depth max_depth,
+    collecting all /material-properties/* URLs we find along the way.
+    """
+    if _visited is None:
+        _visited = set()
+    if group_url in _visited or max_depth <= 0:
+        return []
+    _visited.add(group_url)
+    log.info("Discovering [depth %d]: %s", max_depth, group_url.replace(BASE_URL, ""))
+
     html = fetch(group_url, delay=delay)
     if not html:
         return []
     soup = BeautifulSoup(html, "html.parser")
-    urls = set()
+
+    material_urls = set()
+    subgroup_urls = set()
+
     for a in soup.find_all("a", href=True):
         href = a["href"]
-        if "/material-properties/" not in href:
-            continue
-        full = urllib.parse.urljoin(BASE_URL, href)
-        urls.add(full)
-    log.info("  found %d material URLs", len(urls))
-    return sorted(urls)
+        if "/material-properties/" in href:
+            material_urls.add(urllib.parse.urljoin(BASE_URL, href))
+        elif "/material-group/" in href:
+            subgroup = urllib.parse.urljoin(BASE_URL, href)
+            if subgroup not in _visited:
+                subgroup_urls.add(subgroup)
+
+    log.info("  +%d materials, +%d sub-groups to recurse",
+             len(material_urls), len(subgroup_urls))
+
+    # Recurse into sub-groups
+    for sg in sorted(subgroup_urls):
+        material_urls.update(
+            discover_material_urls(sg, delay, max_depth - 1, _visited)
+        )
+
+    return sorted(material_urls)
 
 
 # ---------------------------------------------------------------------------
