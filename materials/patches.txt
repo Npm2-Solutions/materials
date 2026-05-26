@@ -17,3 +17,6 @@ materials.patches.drop_dead_material_fields_2026_05
 # Drop Material Specification Link orphan child (only parent was the dropped
 # Material Specification.equivalent_specifications field).
 materials.patches.drop_material_specification_link_orphan
+
+# Rename child Material Form → Material Grade Form (clearer semantics).
+materials.patches.rename_material_form_to_grade_form
