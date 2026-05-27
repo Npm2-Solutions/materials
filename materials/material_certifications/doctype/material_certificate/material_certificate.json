@@ -123,7 +123,8 @@
    "fieldname": "issuing_organization",
    "fieldtype": "Link",
    "label": "Issuing Organization",
-   "options": "Standard Organization"
+   "options": "Standard Organization",
+   "description": "Standards body that issued/govern this certification (e.g. AWS, ASME, ISO). Required for regulatory traceability \u2014 auditors need to know which authority backs the certification. NOT enforced as reqd=1 yet because demo data is 100% NULL; backfill required first."
   },
   {
    "description": "Free-text name when organization is not in the system",
@@ -140,7 +141,8 @@
    "fieldname": "applicable_standard",
    "fieldtype": "Link",
    "label": "Applicable Standard",
-   "options": "Standard"
+   "options": "Standard",
+   "description": "Specific Standard edition this certificate validates against (e.g. ASTM A516:2020). The \"under WHICH RULES\" snapshot per platform-guides ch.10 Flow 2 RULES. NOT enforced as reqd=1 yet because demo data is 100% NULL; backfill required first."
   },
   {
    "default": "0",
@@ -159,7 +161,7 @@
    "label": "Heat Numbers Covered"
   },
   {
-   "description": "Heats this certificate documents. Each row links to a Material Heat record — single source of truth for heat-level chemistry, mechanicals, and recall status.",
+   "description": "Heats this certificate documents. Each row links to a Material Heat record \u2014 single source of truth for heat-level chemistry, mechanicals, and recall status.",
    "fieldname": "heats_covered",
    "fieldtype": "Table",
    "label": "Heats Covered",
