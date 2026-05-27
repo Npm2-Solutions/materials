@@ -7,7 +7,6 @@
  "field_order": [
   "details_tab",
   "identity_section",
-  "naming_series",
   "certificate_number",
   "certificate_type",
   "cb_identity",
@@ -17,6 +16,7 @@
   "issuer_section",
   "issuing_organization",
   "issuing_body",
+  "testing_laboratory",
   "cb_issuer",
   "applicable_standard",
   "third_party_verified",
@@ -60,15 +60,6 @@
    "fieldname": "identity_section",
    "fieldtype": "Section Break",
    "label": "Certificate Identity"
-  },
-  {
-   "fieldname": "naming_series",
-   "fieldtype": "Select",
-   "label": "Series",
-   "options": "MCERT-.YYYY.-.#####",
-   "reqd": 1,
-   "hidden": 1,
-   "read_only": 1
   },
   {
    "fieldname": "certificate_number",
@@ -132,6 +123,13 @@
    "fieldtype": "Data",
    "in_standard_filter": 1,
    "label": "Issuing Body / Laboratory"
+  },
+  {
+   "fieldname": "testing_laboratory",
+   "fieldtype": "Link",
+   "label": "Testing Laboratory",
+   "options": "Testing Laboratory",
+   "description": "Third-party testing lab that executed the mechanical/chemical/PMI tests cited in this certificate (TWI, EWI, NIST, etc.). Distinct from issuing_organization (who governs the standard) and issuing_body (who issued the document — usually the mill itself for EN 10204 3.1)."
   },
   {
    "fieldname": "cb_issuer",

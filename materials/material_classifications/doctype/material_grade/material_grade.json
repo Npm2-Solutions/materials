@@ -14,12 +14,6 @@
   "group_assignments",
   "section_products",
   "product_forms",
-  "section_composition",
-  "section_mech",
-  "section_weldability",
-  "col_weld_1",
-  "section_service",
-  "col_svc_1",
   "section_notes",
   "notes",
   "section_settings",
@@ -82,38 +76,6 @@
    "label": "Product Forms",
    "options": "Material Grade Form",
    "description": "Available forms with thickness/diameter ranges"
-  },
-  {
-   "fieldname": "section_composition",
-   "fieldtype": "Section Break",
-   "label": "Composition (Spec Limits)",
-   "collapsible": 1
-  },
-  {
-   "fieldname": "section_mech",
-   "fieldtype": "Section Break",
-   "label": "Mechanical Properties",
-   "collapsible": 1
-  },
-  {
-   "fieldname": "section_weldability",
-   "fieldtype": "Section Break",
-   "label": "Weldability",
-   "collapsible": 1
-  },
-  {
-   "fieldname": "col_weld_1",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "section_service",
-   "fieldtype": "Section Break",
-   "label": "Service Conditions",
-   "collapsible": 1
-  },
-  {
-   "fieldname": "col_svc_1",
-   "fieldtype": "Column Break"
   },
   {
    "fieldname": "section_notes",
