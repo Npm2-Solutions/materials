@@ -73,6 +73,7 @@ from typing import Iterable
 
 import requests
 from bs4 import BeautifulSoup
+from _paths import fixture, source, apps_path
 
 # ---------------------------------------------------------------------------
 # Constants
@@ -83,13 +84,13 @@ USER_AGENT = (
     "OptiSuites-fixtures-bot/1.0 "
     "(material-reference-data extraction; contact: mm@mmwebagency.it)"
 )
-CACHE_DIR = "/workspace/frappe-bench/apps/materials/source/cache/makeitfrom"
+CACHE_DIR = apps_path("materials/source/cache/makeitfrom")
 OUT_RAW = "/tmp/makeitfrom_raw.json"
 OUT_UNMATCHED = "/tmp/makeitfrom_unmatched.json"
 SOURCE_LABEL = "MakeItFrom.com"
 
 # Existing material specification fixture — used to match equivalent designations.
-SPEC_FIXTURE = "/workspace/frappe-bench/apps/materials/materials/fixtures/material_specification.json"
+SPEC_FIXTURE = fixture("material_specification.json")
 
 # Group index URLs — discovery starts here. Add more as needed; keys must
 # match the canonical "Material Category" enum used on Material Specification.

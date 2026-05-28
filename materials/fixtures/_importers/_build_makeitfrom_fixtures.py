@@ -12,9 +12,10 @@ with new MakeItFrom data augment the `notes` field with the source URL.
 import json
 import os
 import re
+from _paths import fixture, source
 
 RAW = "/tmp/makeitfrom_raw.json"
-GRADE_FIXTURE = "/workspace/frappe-bench/apps/materials/materials/fixtures/material_grade.json"
+GRADE_FIXTURE = fixture("material_grade.json")
 SOURCE_LABEL = "MakeItFrom.com"
 
 
