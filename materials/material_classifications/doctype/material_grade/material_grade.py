@@ -4,7 +4,7 @@
 import frappe
 from frappe import _
 from frappe.model.document import Document
-from weldcore.utils.display_name import pretty_spec_code, slugify
+from optisuites.utils.display_name import pretty_spec_code, slugify
 
 
 class MaterialGrade(Document):
@@ -68,14 +68,14 @@ class MaterialGrade(Document):
         if not self.group_assignments:
             return
 
-        systems = []
+        systems = set()
         for row in self.group_assignments:
             if row.grouping_system in systems:
                 frappe.throw(
                     _("Duplicate grouping system: {0}. Each material can only "
                       "have one group per grouping system.").format(row.grouping_system)
                 )
-            systems.append(row.grouping_system)
+            systems.add(row.grouping_system)
 
     def get_group_for_system(self, system_code):
         """Get the Base Material Group for a specific grouping system.

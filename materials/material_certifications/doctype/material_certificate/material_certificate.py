@@ -5,9 +5,20 @@
 Material Certificate Controller
 ================================
 
-Structured certificate document with chemical composition and mechanical test
-results stored as queryable child tables. Results are auto-validated against
-spec limits, and heat numbers are cross-checked against the linked batch.
+A material certificate is a DOCUMENTARY artifact (EN 10204 / EN 10168 / ASME MTR)
+that *reports* intrinsic heat data — it does NOT carry the incoming-acceptance
+verdict. Per the canonical model (guides/01-ecosystem/12), three concerns are
+kept on three different objects:
+
+  - certificate lifecycle (Valid / Expired / Revoked)  → here, on the certificate
+  - incoming acceptance verdict (accept / reject / …)  → on stock's Material
+        Inspection Request (status + disposition) — NOT here
+  - goods receipt                                       → on the stock batch
+
+The certificate→batch association is stored on the BATCH side
+(Batch.certificates child table, "Mill Test Certificate" junction), never as a
+field on the certificate. Both the batch and the certificate reference shared
+Material Heat records; the association is via the heat bridge.
 """
 
 import frappe
@@ -19,15 +30,17 @@ from frappe.utils import flt, getdate, nowdate
 class MaterialCertificate(Document):
 	def validate(self):
 		self.update_status()
-		self.update_validation_status()
 		self.validate_spec_ranges()
 		self.validate_results_within_spec()
 		self.validate_certificate_uniqueness()
-		self.cross_check_heat_numbers_with_batch()
 		self.validate_pmi_fields()
 
 	def update_status(self):
-		"""Auto-compute status based on expiry date."""
+		"""Auto-compute lifecycle status based on expiry date.
+
+		Lifecycle only: Valid / Expired / Revoked. The incoming-acceptance
+		verdict lives on stock's Material Inspection Request, not here.
+		"""
 		if self.status == "Revoked":
 			return
 		if self.expiry_date and getdate(self.expiry_date) < getdate(nowdate()):
@@ -35,43 +48,11 @@ class MaterialCertificate(Document):
 		else:
 			self.status = "Valid"
 
-	def update_validation_status(self):
-		"""Auto-compute validation_status based on verification and test results."""
-		if self.validation_status == "Rejected":
-			return  # terminal state
-		if self.verified and self.verification_date:
-			# Check if there are out-of-spec results that warrant Conditional
-			has_out_of_spec = False
-			for row in (self.chemical_results or []):
-				if (row.spec_min or row.spec_max) and not self._check_within_spec(
-					row.value_percent, row.spec_min, row.spec_max
-				):
-					has_out_of_spec = True
-					break
-			if not has_out_of_spec:
-				for row in (self.mechanical_results or []):
-					if (row.spec_min or row.spec_max) and not self._check_within_spec(
-						row.value, row.spec_min, row.spec_max
-					):
-						has_out_of_spec = True
-						break
-			if has_out_of_spec:
-				self.validation_status = "Conditional"
-			else:
-				self.validation_status = "Validated"
-		elif self.validation_status != "Conditional":
-			self.validation_status = "Pending Review"
-
 	@frappe.whitelist()
 	def revoke(self):
-		"""Revoke this certificate."""
+		"""Revoke this certificate (lifecycle action — quality decision)."""
+		frappe.only_for(["STK Quality Manager", "STK Manager", "System Manager"])
 		self.status = "Revoked"
-		self.save()
-
-	@frappe.whitelist()
-	def reject(self):
-		"""Reject this certificate's validation."""
-		self.validation_status = "Rejected"
 		self.save()
 
 	def validate_spec_ranges(self):
@@ -158,68 +139,13 @@ class MaterialCertificate(Document):
 				title=_("Duplicate Certificate Number"),
 			)
 
-	def cross_check_heat_numbers_with_batch(self):
-		"""Compare certificate heat numbers against batch heat numbers.
-
-		Warns (does not block) if the certificate covers heats not found
-		in the batch, or if the batch has heats not covered by the certificate.
-		"""
-		if not self.batch or not self.heat_numbers_covered:
-			return
-
-		# Parse certificate heat numbers (one per line, strip whitespace)
-		cert_heats = {
-			h.strip()
-			for h in self.heat_numbers_covered.split("\n")
-			if h.strip()
-		}
-
-		if not cert_heats:
-			return
-
-		# Get batch heat numbers from Batch Heat Number child table
-		batch_heats = set()
-		batch_doc = frappe.get_doc("Batch", self.batch)
-
-		# Primary heat number
-		if batch_doc.heat_number:
-			batch_heats.add(batch_doc.heat_number.strip())
-
-		# Child table heat numbers
-		for row in (batch_doc.heat_numbers or []):
-			if row.heat_number:
-				batch_heats.add(row.heat_number.strip())
-
-		if not batch_heats:
-			return
-
-		# Find mismatches
-		cert_only = cert_heats - batch_heats
-		batch_only = batch_heats - cert_heats
-
-		warnings = []
-		if cert_only:
-			warnings.append(
-				_("Heat numbers on certificate but not on batch: {0}").format(
-					", ".join(sorted(cert_only))
-				)
-			)
-		if batch_only:
-			warnings.append(
-				_("Heat numbers on batch but not on certificate: {0}").format(
-					", ".join(sorted(batch_only))
-				)
-			)
-
-		if warnings:
-			frappe.msgprint(
-				"<br>".join(warnings),
-				indicator="yellow",
-				title=_("Heat Number Mismatch"),
-			)
-
 	def validate_pmi_fields(self):
-		"""Validate PMI fields when certificate type is PMI Report."""
+		"""Validate PMI fields when certificate type is PMI Report.
+
+		NOTE: PMI as an *incoming-verification* activity belongs on the quality
+		inspection / receipt record (see guides/01-ecosystem/12). The PMI tab
+		here only documents a PMI-type certificate's reported test points.
+		"""
 		if self.certificate_type != "PMI Report":
 			return
 
@@ -247,6 +173,12 @@ class MaterialCertificate(Document):
 		if self.verified and not self.verified_by:
 			self.db_set("verified_by", frappe.session.user)
 
+	def covered_heat_names(self):
+		"""Material Heat names this certificate documents (via heats_covered)."""
+		return {
+			row.heat for row in (self.heats_covered or []) if getattr(row, "heat", None)
+		}
+
 	@staticmethod
 	def _check_within_spec(value, spec_min, spec_max):
 		"""Check if a value falls within spec limits.
@@ -268,86 +200,143 @@ class MaterialCertificate(Document):
 		return 1
 
 
+# ─────────────────────────────────────────────────────────────────────
+# Batch ↔ Certificate association (via the Material Heat bridge)
+#
+# The certificate does NOT store a batch. Both reference Material Heat:
+#   Batch.heat_number / Batch.heat_numbers[].heat_number → Material Heat
+#   Material Certificate.heats_covered[].heat            → Material Heat
+# The stored link lives on the BATCH (Batch.certificates child table).
+# ─────────────────────────────────────────────────────────────────────
+
+def _batch_heat_names(batch_doc):
+	"""Set of Material Heat names referenced by a Batch (primary + child)."""
+	heats = set()
+	if batch_doc.get("heat_number"):
+		heats.add(batch_doc.heat_number)
+	for row in (batch_doc.get("heat_numbers") or []):
+		if row.get("heat_number"):
+			heats.add(row.heat_number)
+	return heats
+
+
+def _certs_covering_heats(heat_names):
+	"""Material Certificate names whose heats_covered includes any of heat_names."""
+	if not heat_names:
+		return set()
+	rows = frappe.get_all(
+		"Material Heat Coverage",
+		filters={"heat": ["in", list(heat_names)], "parenttype": "Material Certificate"},
+		fields=["parent", "heat"],
+	)
+	return {r.parent for r in rows}
+
+
 @frappe.whitelist()
 def suggest_certificate_matches(batch_no):
-	"""Find Material Certificates that match a batch's heat numbers.
+	"""Find Material Certificates that document a batch's heats (via Material Heat).
 
-	Returns list of potential matches with match quality classification.
+	Returns potential matches classified exact / partial. Already-linked certs
+	(present in the batch's `certificates` child) are excluded.
 	"""
 	batch = frappe.get_doc("Batch", batch_no)
-
-	# Collect batch heat numbers
-	batch_heats = set()
-	if batch.heat_number:
-		batch_heats.add(batch.heat_number.strip())
-	for row in (batch.heat_numbers or []):
-		if row.heat_number:
-			batch_heats.add(row.heat_number.strip())
-
+	batch_heats = _batch_heat_names(batch)
 	if not batch_heats:
 		return []
 
-	# Get already-linked certificates
-	existing = set(frappe.get_all(
-		"Material Certificate",
-		filters={"batch": batch_no},
-		pluck="name",
-	))
-
-	# Search certificates by heat numbers
-	conditions = " OR ".join(["heat_numbers_covered LIKE %s"] * len(batch_heats))
-	params = [f"%{h}%" for h in batch_heats]
-
-	candidates = frappe.db.sql(f"""
-		SELECT name, certificate_number, certificate_type, heat_numbers_covered, status
-		FROM `tabMaterial Certificate`
-		WHERE ({conditions})
-		AND name NOT IN ({','.join(['%s'] * len(existing)) if existing else "''"})
-	""", params + list(existing), as_dict=True)
+	already_linked = {
+		row.certificate for row in (batch.get("certificates") or []) if row.get("certificate")
+	}
 
 	matches = []
-	for cert in candidates:
-		cert_heats = {
-			h.strip() for h in (cert.heat_numbers_covered or "").split("\n") if h.strip()
-		}
+	for cert_name in _certs_covering_heats(batch_heats):
+		if cert_name in already_linked:
+			continue
+		cert = frappe.db.get_value(
+			"Material Certificate", cert_name,
+			["certificate_number", "certificate_type", "status"], as_dict=True,
+		)
+		if not cert:
+			continue
+		cert_heats = set(frappe.get_all(
+			"Material Heat Coverage",
+			filters={"parent": cert_name, "parenttype": "Material Certificate"},
+			pluck="heat",
+		))
 		matched = batch_heats & cert_heats
 		if not matched:
 			continue
-
-		if matched == batch_heats:
-			match_type = "exact"
-		elif len(matched) > 0:
-			match_type = "partial"
-		else:
-			match_type = "weak"
-
 		matches.append({
-			"name": cert.name,
+			"name": cert_name,
 			"certificate_number": cert.certificate_number,
 			"certificate_type": cert.certificate_type,
 			"status": cert.status,
-			"match_type": match_type,
-			"matched_heats": list(matched),
+			"match_type": "exact" if matched == batch_heats else "partial",
+			"matched_heats": sorted(matched),
 		})
 
-	# Sort: exact first, then partial
-	matches.sort(key=lambda m: {"exact": 0, "partial": 1, "weak": 2}.get(m["match_type"], 3))
+	matches.sort(key=lambda m: {"exact": 0, "partial": 1}.get(m["match_type"], 2))
 	return matches
 
 
 @frappe.whitelist()
 def auto_link_certificate(batch_no, certificate_name):
-	"""Link a Material Certificate to a Batch."""
-	cert = frappe.get_doc("Material Certificate", certificate_name)
-	if cert.batch and cert.batch != batch_no:
-		frappe.throw(
-			_("Certificate {0} is already linked to batch {1}.").format(
-				certificate_name, cert.batch
-			)
-		)
-	cert.batch = batch_no
-	cert.save(ignore_permissions=True)
+	"""Link a Material Certificate to a Batch (stored on the BATCH side).
+
+	Appends a row to Batch.certificates ("Mill Test Certificate" junction).
+	The certificate is not modified — the association lives on the batch.
+	"""
+	if not frappe.has_permission("Batch", "write", doc=batch_no):
+		frappe.throw(_("Not permitted to modify Batch {0}.").format(batch_no))
+
+	batch = frappe.get_doc("Batch", batch_no)
+	existing = {row.certificate for row in (batch.certificates or []) if row.certificate}
+	if certificate_name in existing:
+		return {"status": "already_linked", "certificate": certificate_name, "batch": batch_no}
+
+	cert = frappe.db.get_value(
+		"Material Certificate", certificate_name,
+		["certificate_type", "certificate_number"], as_dict=True,
+	)
+	if not cert:
+		frappe.throw(_("Material Certificate {0} not found.").format(certificate_name))
+
+	batch.append("certificates", {
+		"certificate": certificate_name,
+		"certificate_type": cert.certificate_type,
+		"certificate_number": cert.certificate_number,
+		"is_primary": 0 if existing else 1,
+	})
+	batch.save()
 	return {"status": "linked", "certificate": certificate_name, "batch": batch_no}
+
+
+@frappe.whitelist()
+def get_batch_certificates(batch):
+	"""Get all Material Certificates linked to a batch (from Batch.certificates)."""
+	rows = frappe.get_all(
+		"Mill Test Certificate",
+		filters={"parent": batch, "parenttype": "Batch"},
+		pluck="certificate",
+	)
+	cert_names = [c for c in rows if c]
+	if not cert_names:
+		return []
+	return frappe.get_all(
+		"Material Certificate",
+		filters={"name": ["in", cert_names]},
+		fields=[
+			"name",
+			"certificate_type",
+			"certificate_number",
+			"certificate_date",
+			"status",
+			"verified",
+			"issuing_organization",
+			"issuing_body",
+			"applicable_standard",
+		],
+	)
 
 
 @frappe.whitelist()
@@ -435,23 +424,3 @@ def extract_certificate_data(certificate_name):
 			})
 
 	return result
-
-
-@frappe.whitelist()
-def get_batch_certificates(batch):
-	"""Get all certificates for a batch."""
-	return frappe.get_all(
-		"Material Certificate",
-		filters={"batch": batch},
-		fields=[
-			"name",
-			"certificate_type",
-			"certificate_number",
-			"certificate_date",
-			"status",
-			"verified",
-			"issuing_organization",
-			"issuing_body",
-			"applicable_standard",
-		],
-	)

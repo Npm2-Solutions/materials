@@ -4,7 +4,7 @@
 import frappe
 from frappe import _
 from frappe.model.document import Document
-from weldcore.utils.display_name import pretty_spec_code, slugify
+from optisuites.utils.display_name import pretty_spec_code, slugify
 
 
 class MaterialSpecification(Document):

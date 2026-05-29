@@ -3,7 +3,7 @@
 
 frappe.ui.form.on("Material Certificate", {
 	refresh: function(frm) {
-		// Status indicator colors
+		// Status indicator colors (lifecycle only)
 		if (frm.doc.status) {
 			let color = {
 				"Valid": "green",
@@ -16,7 +16,8 @@ frappe.ui.form.on("Material Certificate", {
 			}
 		}
 
-		// Action buttons
+		// Lifecycle action: Revoke (incoming-acceptance reject lives on the
+		// stock Material Inspection Request, NOT on the certificate).
 		if (!frm.is_new() && frm.add_custom_button) {
 			if (frm.doc.status !== "Revoked") {
 				frm.add_custom_button(__("Revoke"), () => {
@@ -24,18 +25,6 @@ frappe.ui.form.on("Material Certificate", {
 						__("Are you sure you want to revoke this certificate? This cannot be undone."),
 						() => {
 							frm.call("revoke").then(() => {
-								frm.reload_doc();
-							});
-						}
-					);
-				}, __("Actions"));
-			}
-			if (frm.doc.validation_status !== "Rejected") {
-				frm.add_custom_button(__("Reject"), () => {
-					frappe.confirm(
-						__("Are you sure you want to reject this certificate?"),
-						() => {
-							frm.call("reject").then(() => {
 								frm.reload_doc();
 							});
 						}
@@ -58,8 +47,8 @@ frappe.ui.form.on("Material Certificate", {
 			});
 		}
 
-		// Find Matching Batches button
-		if (frm.doc.heat_numbers_covered && !frm.is_new()) {
+		// Find Matching Batches button — uses the heats this cert covers
+		if (frm.doc.heats_covered && frm.doc.heats_covered.length && !frm.is_new()) {
 			frm.add_custom_button(__("Find Matching Batches"), function() {
 				find_matching_batches(frm);
 			});
@@ -68,10 +57,6 @@ frappe.ui.form.on("Material Certificate", {
 
 	setup: function(frm) {
 		if (frm.set_query) {
-			frm.set_query("batch", function() {
-				return {};
-			});
-
 			frm.set_query("issuing_organization", function() {
 				return {};
 			});
@@ -79,18 +64,6 @@ frappe.ui.form.on("Material Certificate", {
 			frm.set_query("applicable_standard", function() {
 				return {};
 			});
-		}
-	},
-
-	batch: function(frm) {
-		if (frm.doc.batch) {
-			frappe.db.get_value("Batch", frm.doc.batch, "item").then(r => {
-				if (r.message) {
-					frm.set_value("item_code", r.message.item);
-				}
-			});
-		} else {
-			frm.set_value("item_code", "");
 		}
 	},
 
@@ -105,7 +78,7 @@ frappe.ui.form.on("Material Certificate", {
 
 function extract_certificate_data(frm) {
 	frappe.call({
-		method: "materials.materials.material_certifications.doctype.material_certificate.material_certificate.extract_certificate_data",
+		method: "materials.material_certifications.doctype.material_certificate.material_certificate.extract_certificate_data",
 		args: { certificate_name: frm.doc.name },
 		freeze: true,
 		freeze_message: __("Extracting data from PDF..."),
@@ -115,11 +88,14 @@ function extract_certificate_data(frm) {
 
 			let fields = [];
 			if (data.heat_numbers && data.heat_numbers.length) {
+				// Display-only: heats_covered links to Material Heat records, so
+				// extracted raw heat numbers are shown for reference, not auto-applied.
 				fields.push({
 					fieldname: "heat_numbers",
 					fieldtype: "Small Text",
-					label: __("Heat Numbers Found"),
+					label: __("Heat Numbers Found (add via Heats Covered)"),
 					default: data.heat_numbers.join("\n"),
+					read_only: 1,
 				});
 			}
 			if (data.chemical && data.chemical.length) {
@@ -154,11 +130,6 @@ function extract_certificate_data(frm) {
 				size: "large",
 				primary_action_label: __("Apply"),
 				primary_action() {
-					// Apply heat numbers
-					if (data.heat_numbers && data.heat_numbers.length) {
-						let heat_val = d.get_value("heat_numbers");
-						frm.set_value("heat_numbers_covered", heat_val);
-					}
 					// Apply chemical results
 					if (data.chemical && data.chemical.length) {
 						data.chemical.forEach(c => {
@@ -189,10 +160,12 @@ function extract_certificate_data(frm) {
 
 
 function find_matching_batches(frm) {
-	// Parse heat numbers from this certificate
-	let heats = (frm.doc.heat_numbers_covered || "").split("\n").filter(h => h.trim());
+	// Heats this certificate covers (Material Heat names from heats_covered).
+	let heats = (frm.doc.heats_covered || [])
+		.map(row => row.heat)
+		.filter(h => h);
 	if (!heats.length) {
-		frappe.msgprint(__("No heat numbers to search for."));
+		frappe.msgprint(__("No covered heats to search for."));
 		return;
 	}
 
@@ -200,7 +173,7 @@ function find_matching_batches(frm) {
 		method: "frappe.client.get_list",
 		args: {
 			doctype: "Batch",
-			or_filters: heats.map(h => ({ heat_number: h.trim() })),
+			or_filters: heats.map(h => ({ heat_number: h })),
 			fields: ["name", "batch_id", "item", "heat_number", "lot_status"],
 			limit_page_length: 20,
 		},
@@ -229,7 +202,7 @@ function find_matching_batches(frm) {
 			d.$wrapper.on("click", ".link-batch-btn", function() {
 				let batch_no = $(this).data("batch");
 				frappe.xcall(
-					"materials.materials.material_certifications.doctype.material_certificate.material_certificate.auto_link_certificate",
+					"materials.material_certifications.doctype.material_certificate.material_certificate.auto_link_certificate",
 					{ batch_no: batch_no, certificate_name: frm.doc.name }
 				).then(function() {
 					frappe.show_alert({ message: __("Linked to batch {0}", [batch_no]), indicator: "green" });

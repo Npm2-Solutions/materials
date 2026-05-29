@@ -371,7 +371,7 @@
    "share": 1
   }
  ],
- "search_fields": "batch,certificate_type,certificate_number",
+ "search_fields": "certificate_number,certificate_type,supplier",
  "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",

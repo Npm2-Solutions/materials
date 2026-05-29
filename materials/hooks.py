@@ -7,7 +7,7 @@ app_license = "mit"
 
 # Pattern B: invisible library — no apps-screen entry, no workspace. Consumers
 # (weldcore, stock, ndtnext, inspecta) Link to materials' DocTypes directly.
-required_apps = ["frappe"]
+required_apps = ["frappe", "optisuites"]
 
 # Domain-neutral reference catalog. Each DocType is seeded by the consuming
 # project's demo/init; materials itself only ships schema + display_name

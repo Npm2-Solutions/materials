@@ -3,7 +3,7 @@
 
 import frappe
 from frappe.model.document import Document
-from weldcore.utils.display_name import compose
+from optisuites.utils.display_name import compose
 
 
 class TestingLaboratory(Document):
