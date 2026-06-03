@@ -8,24 +8,6 @@
   "docstatus": 0,
   "name": "asme_sa_516__70",
   "uns_number": "K02700",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_2"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_2"
-   },
-   {
-    "grouping_system": "aws_d1_1_base",
-    "material_group": "aws_d1_1_base_ii"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -44,20 +26,6 @@
   "docstatus": 0,
   "name": "asme_sa_516__60",
   "uns_number": "K02100",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_2"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -76,20 +44,6 @@
   "docstatus": 0,
   "name": "asme_sa_516__55",
   "uns_number": "K01800",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -108,20 +62,6 @@
   "docstatus": 0,
   "name": "asme_sa_106__b",
   "uns_number": "K03006",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_2"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -142,20 +82,6 @@
   "docstatus": 0,
   "name": "asme_sa_240__304",
   "uns_number": "S30400",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_8"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_8_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_8_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -179,20 +105,6 @@
   "docstatus": 0,
   "name": "asme_sa_240__304l",
   "uns_number": "S30403",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_8"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_8_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_8_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -211,20 +123,6 @@
   "docstatus": 0,
   "name": "asme_sa_240__316",
   "uns_number": "S31600",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_8"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_8_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_8_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -243,20 +141,6 @@
   "docstatus": 0,
   "name": "asme_sa_240__316l",
   "uns_number": "S31603",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_8"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_8_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_8_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -275,20 +159,6 @@
   "docstatus": 0,
   "name": "asme_sa_312__tp304",
   "uns_number": "S30400",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_8"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_8_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_8_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -309,20 +179,6 @@
   "docstatus": 0,
   "name": "asme_sa_312__tp316",
   "uns_number": "S31600",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_8"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_8_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_8_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -343,16 +199,6 @@
   "docstatus": 0,
   "name": "asme_sa_335__p11",
   "uns_number": "K11597",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_4"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_5_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -373,16 +219,6 @@
   "docstatus": 0,
   "name": "asme_sa_335__p22",
   "uns_number": "K21590",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_5a"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_5_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -403,16 +239,6 @@
   "docstatus": 0,
   "name": "asme_sa_335__p91",
   "uns_number": "K91560",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_5c"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_6_4"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -433,24 +259,6 @@
   "docstatus": 0,
   "name": "asme_sa_36",
   "uns_number": "K02600",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_1"
-   },
-   {
-    "grouping_system": "aws_d1_1_base",
-    "material_group": "aws_d1_1_base_i"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -468,20 +276,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10025_2__s355j2",
-  "group_assignments": [
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_2"
-   },
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -500,24 +294,6 @@
   "docstatus": 0,
   "name": "astm_a36",
   "uns_number": "K02600",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_1"
-   },
-   {
-    "grouping_system": "aws_d1_1_base",
-    "material_group": "aws_d1_1_base_i"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -547,20 +323,6 @@
   "docstatus": 0,
   "name": "astm_a53__gr_a",
   "uns_number": "K02504",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -582,20 +344,6 @@
   "docstatus": 0,
   "name": "astm_a53__gr_b",
   "uns_number": "K03005",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_2"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -616,20 +364,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "astm_a53__type_e",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_2"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -650,20 +384,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "astm_a53__type_s",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_2"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -684,20 +404,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "astm_a53__type_f",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -719,20 +425,6 @@
   "docstatus": 0,
   "name": "astm_a106__gr_a",
   "uns_number": "K02501",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -754,20 +446,6 @@
   "docstatus": 0,
   "name": "astm_a106__gr_b",
   "uns_number": "K03006",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_2"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -789,20 +467,6 @@
   "docstatus": 0,
   "name": "astm_a106__gr_c",
   "uns_number": "K03501",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_2"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -823,20 +487,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "astm_a283__gr_a",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -855,20 +505,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "astm_a283__gr_b",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -887,20 +523,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "astm_a283__gr_c",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -919,20 +541,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "astm_a283__gr_d",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -951,20 +559,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "astm_a285__gr_a",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -983,20 +577,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "astm_a285__gr_b",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -1015,20 +595,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "astm_a285__gr_c",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -1048,16 +614,6 @@
   "docstatus": 0,
   "name": "astm_a335__p1",
   "uns_number": "K11522",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_3"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_4_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -1079,16 +635,6 @@
   "docstatus": 0,
   "name": "astm_a335__p2",
   "uns_number": "K11547",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_3"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_4_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -1110,16 +656,6 @@
   "docstatus": 0,
   "name": "astm_a335__p5",
   "uns_number": "K41545",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_5b"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_5_3"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -1141,16 +677,6 @@
   "docstatus": 0,
   "name": "astm_a335__p5b",
   "uns_number": "K51545",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_5b"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_5_3"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -1172,16 +698,6 @@
   "docstatus": 0,
   "name": "astm_a335__p5c",
   "uns_number": "K41245",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_5b"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_5_3"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -1203,16 +719,6 @@
   "docstatus": 0,
   "name": "astm_a335__p9",
   "uns_number": "K90941",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_5b"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_5_4"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -1234,16 +740,6 @@
   "docstatus": 0,
   "name": "astm_a335__p11",
   "uns_number": "K11597",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_4"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_5_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -1265,16 +761,6 @@
   "docstatus": 0,
   "name": "astm_a335__p12",
   "uns_number": "K11562",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_4"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_5_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -1296,16 +782,6 @@
   "docstatus": 0,
   "name": "astm_a335__p15",
   "uns_number": "K11578",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_3"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_4_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -1327,16 +803,6 @@
   "docstatus": 0,
   "name": "astm_a335__p21",
   "uns_number": "K31545",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_5a"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_5_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -1358,16 +824,6 @@
   "docstatus": 0,
   "name": "astm_a335__p22",
   "uns_number": "K21590",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_5a"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_5_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -1389,16 +845,6 @@
   "docstatus": 0,
   "name": "astm_a335__p23",
   "uns_number": "K41650",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_5a"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_5_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -1420,16 +866,6 @@
   "docstatus": 0,
   "name": "astm_a335__p24",
   "uns_number": "K30736",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_4"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_5_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -1450,16 +886,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "astm_a335__p36",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_11a"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_3_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -1481,16 +907,6 @@
   "docstatus": 0,
   "name": "astm_a335__p91",
   "uns_number": "K91560",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_5c"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_6_4"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -1512,16 +928,6 @@
   "docstatus": 0,
   "name": "astm_a335__p92",
   "uns_number": "K92460",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_5c"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_6_4"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -1542,16 +948,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "astm_a335__p911",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_5c"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_6_4"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -1573,16 +969,6 @@
   "docstatus": 0,
   "name": "astm_a387__gr_2_cl_1",
   "uns_number": "K11547",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_3"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_4_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -1602,16 +988,6 @@
   "docstatus": 0,
   "name": "astm_a387__gr_2_cl_2",
   "uns_number": "K11547",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_3"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_4_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -1631,16 +1007,6 @@
   "docstatus": 0,
   "name": "astm_a387__gr_11_cl_1",
   "uns_number": "K11789",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_4"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_5_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -1660,16 +1026,6 @@
   "docstatus": 0,
   "name": "astm_a387__gr_11_cl_2",
   "uns_number": "K11789",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_4"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_5_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -1689,16 +1045,6 @@
   "docstatus": 0,
   "name": "astm_a387__gr_12_cl_1",
   "uns_number": "K11757",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_4"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_5_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -1718,16 +1064,6 @@
   "docstatus": 0,
   "name": "astm_a387__gr_12_cl_2",
   "uns_number": "K11757",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_4"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_5_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -1747,16 +1083,6 @@
   "docstatus": 0,
   "name": "astm_a387__gr_21_cl_1",
   "uns_number": "K31545",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_5a"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_5_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -1776,16 +1102,6 @@
   "docstatus": 0,
   "name": "astm_a387__gr_21_cl_2",
   "uns_number": "K31545",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_5a"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_5_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -1805,16 +1121,6 @@
   "docstatus": 0,
   "name": "astm_a387__gr_22_cl_1",
   "uns_number": "K21590",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_5a"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_5_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -1834,16 +1140,6 @@
   "docstatus": 0,
   "name": "astm_a387__gr_22_cl_2",
   "uns_number": "K21590",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_5a"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_5_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -1863,16 +1159,6 @@
   "docstatus": 0,
   "name": "astm_a387__gr_23_cl_1",
   "uns_number": "K41650",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_5a"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_5_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -1892,16 +1178,6 @@
   "docstatus": 0,
   "name": "astm_a387__gr_23_cl_2",
   "uns_number": "K41650",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_5a"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_5_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -1921,16 +1197,6 @@
   "docstatus": 0,
   "name": "astm_a387__gr_91_cl_1",
   "uns_number": "K90901",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_5c"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_6_4"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -1950,16 +1216,6 @@
   "docstatus": 0,
   "name": "astm_a387__gr_91_cl_2",
   "uns_number": "K90901",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_5c"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_6_4"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -1979,20 +1235,6 @@
   "docstatus": 0,
   "name": "astm_a516__gr_55",
   "uns_number": "K01800",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2012,20 +1254,6 @@
   "docstatus": 0,
   "name": "astm_a516__gr_60",
   "uns_number": "K02100",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_2"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2045,20 +1273,6 @@
   "docstatus": 0,
   "name": "astm_a516__gr_65",
   "uns_number": "K02403",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_2"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2078,24 +1292,6 @@
   "docstatus": 0,
   "name": "astm_a516__gr_70",
   "uns_number": "K02700",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_2"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_2"
-   },
-   {
-    "grouping_system": "aws_d1_1_base",
-    "material_group": "aws_d1_1_base_ii"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2115,24 +1311,6 @@
   "docstatus": 0,
   "name": "astm_a572__gr_42",
   "uns_number": "K02600",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_1"
-   },
-   {
-    "grouping_system": "aws_d1_1_base",
-    "material_group": "aws_d1_1_base_i"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2157,24 +1335,6 @@
   "docstatus": 0,
   "name": "astm_a572__gr_50",
   "uns_number": "K02303",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_2"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_2"
-   },
-   {
-    "grouping_system": "aws_d1_1_base",
-    "material_group": "aws_d1_1_base_ii"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2198,24 +1358,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "astm_a572__gr_55",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_3"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_2"
-   },
-   {
-    "grouping_system": "aws_d1_1_base",
-    "material_group": "aws_d1_1_base_iii"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2239,24 +1381,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "astm_a572__gr_60",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_3"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_2"
-   },
-   {
-    "grouping_system": "aws_d1_1_base",
-    "material_group": "aws_d1_1_base_iii"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2280,24 +1404,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "astm_a572__gr_65",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_3"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_2"
-   },
-   {
-    "grouping_system": "aws_d1_1_base",
-    "material_group": "aws_d1_1_base_iii"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2322,12 +1428,6 @@
   "docstatus": 0,
   "name": "astm_a588__gr_a",
   "uns_number": "K11430",
-  "group_assignments": [
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_4"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2347,12 +1447,6 @@
   "docstatus": 0,
   "name": "astm_a588__gr_b",
   "uns_number": "K12043",
-  "group_assignments": [
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_4"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2371,12 +1465,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "astm_a588__gr_c",
-  "group_assignments": [
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_4"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2395,12 +1483,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "astm_a588__gr_k",
-  "group_assignments": [
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_4"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2420,24 +1502,6 @@
   "docstatus": 0,
   "name": "astm_a992",
   "uns_number": "K02400",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_2"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_2"
-   },
-   {
-    "grouping_system": "aws_d1_1_base",
-    "material_group": "aws_d1_1_base_ii"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Structural Shape",
@@ -2457,20 +1521,6 @@
   "docstatus": 0,
   "name": "astm_a240__304",
   "uns_number": "S30400",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_8"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_8_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_8_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2495,20 +1545,6 @@
   "docstatus": 0,
   "name": "astm_a240__304l",
   "uns_number": "S30403",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_8"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_8_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_8_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2533,20 +1569,6 @@
   "docstatus": 0,
   "name": "asme_sa_240__304ln",
   "uns_number": "S30453",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_8"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_8_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_8_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2571,20 +1593,6 @@
   "docstatus": 0,
   "name": "astm_a240__304ln",
   "uns_number": "S30453",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_8"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_8_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_8_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2609,20 +1617,6 @@
   "docstatus": 0,
   "name": "asme_sa_240__321",
   "uns_number": "S32100",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_8"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_8_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_8_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2647,20 +1641,6 @@
   "docstatus": 0,
   "name": "astm_a240__321",
   "uns_number": "S32100",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_8"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_8_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_8_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2685,20 +1665,6 @@
   "docstatus": 0,
   "name": "asme_sa_240__321h",
   "uns_number": "S32109",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_8"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_8_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_8_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2723,20 +1689,6 @@
   "docstatus": 0,
   "name": "astm_a240__321h",
   "uns_number": "S32109",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_8"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_8_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_8_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2761,20 +1713,6 @@
   "docstatus": 0,
   "name": "asme_sa_240__347",
   "uns_number": "S34700",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_8"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_8_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_8_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2799,20 +1737,6 @@
   "docstatus": 0,
   "name": "astm_a240__347",
   "uns_number": "S34700",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_8"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_8_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_8_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2837,20 +1761,6 @@
   "docstatus": 0,
   "name": "asme_sa_240__347h",
   "uns_number": "S34709",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_8"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_8_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_8_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2875,20 +1785,6 @@
   "docstatus": 0,
   "name": "astm_a240__347h",
   "uns_number": "S34709",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_8"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_8_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_8_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2913,20 +1809,6 @@
   "docstatus": 0,
   "name": "astm_a240__316",
   "uns_number": "S31600",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_8"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_8_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_8_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2951,20 +1833,6 @@
   "docstatus": 0,
   "name": "astm_a240__316l",
   "uns_number": "S31603",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_8"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_8_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_8_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2989,20 +1857,6 @@
   "docstatus": 0,
   "name": "astm_a240__316ln",
   "uns_number": "S31653",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_8"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_8_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_8_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -3027,20 +1881,6 @@
   "docstatus": 0,
   "name": "astm_a240__316ti",
   "uns_number": "S31635",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_8"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_8_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_8_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -3065,20 +1905,6 @@
   "docstatus": 0,
   "name": "astm_a240__317l",
   "uns_number": "S31703",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_8"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_8_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_8_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -3103,20 +1929,6 @@
   "docstatus": 0,
   "name": "astm_a240__309",
   "uns_number": "S30900",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_8"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_8_gr_2"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_8_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -3141,20 +1953,6 @@
   "docstatus": 0,
   "name": "astm_a240__309s",
   "uns_number": "S30908",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_8"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_8_gr_2"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_8_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -3179,20 +1977,6 @@
   "docstatus": 0,
   "name": "astm_a240__309h",
   "uns_number": "S30909",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_8"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_8_gr_2"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_8_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -3217,20 +2001,6 @@
   "docstatus": 0,
   "name": "astm_a240__310",
   "uns_number": "S31000",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_8"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_8_gr_2"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_8_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -3255,20 +2025,6 @@
   "docstatus": 0,
   "name": "astm_a240__310s",
   "uns_number": "S31008",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_8"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_8_gr_2"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_8_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -3293,12 +2049,6 @@
   "docstatus": 0,
   "name": "astm_a240__904l",
   "uns_number": "N08904",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_45"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -3323,16 +2073,6 @@
   "docstatus": 0,
   "name": "astm_a240__405",
   "uns_number": "S40500",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_7"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_7_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -3352,16 +2092,6 @@
   "docstatus": 0,
   "name": "astm_a240__430",
   "uns_number": "S43000",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_7"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_7_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -3381,16 +2111,6 @@
   "docstatus": 0,
   "name": "astm_a240__446",
   "uns_number": "S44600",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_7"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_7_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -3410,16 +2130,6 @@
   "docstatus": 0,
   "name": "astm_a240__410",
   "uns_number": "S41000",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_6"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_7_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -3439,16 +2149,6 @@
   "docstatus": 0,
   "name": "astm_a240__410s",
   "uns_number": "S41008",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_6"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_7_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -3468,16 +2168,6 @@
   "docstatus": 0,
   "name": "astm_a240__420",
   "uns_number": "S42000",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_6"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_7_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -3497,16 +2187,6 @@
   "docstatus": 0,
   "name": "astm_a240__2205",
   "uns_number": "S31803",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_10h"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_10_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -3526,16 +2206,6 @@
   "docstatus": 0,
   "name": "astm_a240__s32205",
   "uns_number": "S32205",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_10h"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_10_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -3555,16 +2225,6 @@
   "docstatus": 0,
   "name": "astm_a240__2507",
   "uns_number": "S32750",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_10h"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_10_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -3584,20 +2244,6 @@
   "docstatus": 0,
   "name": "astm_a312__tp304",
   "uns_number": "S30400",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_8"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_8_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_8_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -3619,20 +2265,6 @@
   "docstatus": 0,
   "name": "astm_a312__tp304l",
   "uns_number": "S30403",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_8"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_8_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_8_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -3654,20 +2286,6 @@
   "docstatus": 0,
   "name": "astm_a312__tp316",
   "uns_number": "S31600",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_8"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_8_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_8_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -3689,20 +2307,6 @@
   "docstatus": 0,
   "name": "astm_a312__tp316l",
   "uns_number": "S31603",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_8"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_8_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_8_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -3724,20 +2328,6 @@
   "docstatus": 0,
   "name": "astm_a312__tp321",
   "uns_number": "S32100",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_8"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_8_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_8_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -3759,20 +2349,6 @@
   "docstatus": 0,
   "name": "astm_a312__tp347",
   "uns_number": "S34700",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_8"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_8_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_8_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -3794,16 +2370,6 @@
   "docstatus": 0,
   "name": "astm_a790__s31803",
   "uns_number": "S31803",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_10h"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_10_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -3825,16 +2391,6 @@
   "docstatus": 0,
   "name": "astm_a790__s32205",
   "uns_number": "S32205",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_10h"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_10_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -3856,16 +2412,6 @@
   "docstatus": 0,
   "name": "astm_a790__s32750",
   "uns_number": "S32750",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_10h"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_10_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -3886,20 +2432,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "api_5l__b",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_2"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -3920,20 +2452,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "api_5l__x42",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_2"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -3954,20 +2472,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "api_5l__x46",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_2"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -3988,20 +2492,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "api_5l__x52",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_2"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -4022,20 +2512,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "api_5l__x56",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_3"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -4056,20 +2532,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "api_5l__x60",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_3"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -4090,20 +2552,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "api_5l__x65",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_3"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -4124,20 +2572,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "api_5l__x70",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_3"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -4158,20 +2592,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "api_5l__x80",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_3"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -4192,24 +2612,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10025_2__s235jr",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_1"
-   },
-   {
-    "grouping_system": "aws_d1_1_base",
-    "material_group": "aws_d1_1_base_i"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -4233,24 +2635,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10025_2__s235j0",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_1"
-   },
-   {
-    "grouping_system": "aws_d1_1_base",
-    "material_group": "aws_d1_1_base_i"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -4274,24 +2658,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10025_2__s235j2",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_1"
-   },
-   {
-    "grouping_system": "aws_d1_1_base",
-    "material_group": "aws_d1_1_base_i"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -4315,24 +2681,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10025_2__s275jr",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_1"
-   },
-   {
-    "grouping_system": "aws_d1_1_base",
-    "material_group": "aws_d1_1_base_i"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -4356,24 +2704,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10025_2__s275j0",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_1"
-   },
-   {
-    "grouping_system": "aws_d1_1_base",
-    "material_group": "aws_d1_1_base_i"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -4397,24 +2727,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10025_2__s275j2",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_1"
-   },
-   {
-    "grouping_system": "aws_d1_1_base",
-    "material_group": "aws_d1_1_base_i"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -4438,24 +2750,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10025_2__s355jr",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_2"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_2"
-   },
-   {
-    "grouping_system": "aws_d1_1_base",
-    "material_group": "aws_d1_1_base_ii"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -4479,24 +2773,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10025_2__s355j0",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_2"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_2"
-   },
-   {
-    "grouping_system": "aws_d1_1_base",
-    "material_group": "aws_d1_1_base_ii"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -4520,24 +2796,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10025_2__s355k2",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_2"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_2"
-   },
-   {
-    "grouping_system": "aws_d1_1_base",
-    "material_group": "aws_d1_1_base_ii"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -4561,20 +2819,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10025_3__s275n",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -4593,20 +2837,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10025_3__s275nl",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -4625,20 +2855,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10025_3__s355n",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_2"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -4657,20 +2873,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10025_3__s355nl",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_2"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -4689,12 +2891,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10025_3__s420n",
-  "group_assignments": [
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_3"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -4713,12 +2909,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10025_3__s420nl",
-  "group_assignments": [
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_3"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -4737,12 +2927,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10025_3__s460n",
-  "group_assignments": [
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_3"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -4761,12 +2945,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10025_3__s460nl",
-  "group_assignments": [
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_3"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -4785,12 +2963,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10025_4__s275m",
-  "group_assignments": [
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_2_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -4809,12 +2981,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10025_4__s275ml",
-  "group_assignments": [
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_2_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -4833,12 +2999,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10025_4__s355m",
-  "group_assignments": [
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_2_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -4857,12 +3017,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10025_4__s355ml",
-  "group_assignments": [
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_2_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -4881,12 +3035,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10025_4__s420m",
-  "group_assignments": [
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_2_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -4905,12 +3053,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10025_4__s420ml",
-  "group_assignments": [
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_2_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -4929,12 +3071,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10025_4__s460m",
-  "group_assignments": [
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_2_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -4953,12 +3089,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10025_4__s460ml",
-  "group_assignments": [
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_2_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -4977,12 +3107,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10025_6__s460q",
-  "group_assignments": [
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_3_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -5001,12 +3125,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10025_6__s500q",
-  "group_assignments": [
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_3_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -5025,12 +3143,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10025_6__s690q",
-  "group_assignments": [
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_3_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -5049,12 +3161,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10025_6__s960q",
-  "group_assignments": [
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_3_3"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -5073,20 +3179,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10028_2__p235gh",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -5105,20 +3197,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10028_2__p265gh",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_2"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -5137,20 +3215,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10028_2__p295gh",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_2"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -5169,20 +3233,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10028_2__p355gh",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_2"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -5201,20 +3251,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10028_3__p275n",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -5233,20 +3269,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10028_3__p275nl1",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -5265,20 +3287,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10028_3__p275nl2",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -5297,20 +3305,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10028_3__p355n",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_2"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -5329,20 +3323,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10028_3__p355nl1",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_2"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -5361,20 +3341,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10028_3__p355nl2",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_2"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -5393,12 +3359,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10028_3__p460n",
-  "group_assignments": [
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_3"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -5417,12 +3377,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10028_3__p460nl1",
-  "group_assignments": [
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_3"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -5441,12 +3395,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10028_3__p460nl2",
-  "group_assignments": [
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_3"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -5465,20 +3413,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10216_2__p195gh",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -5499,20 +3433,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10216_2__p235gh",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -5533,20 +3453,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10216_2__p265gh",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_1"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_1_gr_2"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_1_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -5567,16 +3473,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10216_2__16mo3",
-  "group_assignments": [
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_4_1"
-   },
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_3"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -5597,16 +3493,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10216_2__13crmo4_5",
-  "group_assignments": [
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_4_2"
-   },
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_4"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -5627,16 +3513,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10216_2__10crmo9_10",
-  "group_assignments": [
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_5_2"
-   },
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_5a"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -5657,16 +3533,6 @@
   "doctype": "Material Grade",
   "docstatus": 0,
   "name": "en_10216_2__x10crmovnb9_1",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_5c"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_6_4"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -5688,20 +3554,6 @@
   "docstatus": 0,
   "name": "en_10088_2__1_4301",
   "uns_number": "S30400",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_8"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_8_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_8_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -5726,20 +3578,6 @@
   "docstatus": 0,
   "name": "en_10088_2__1_4307",
   "uns_number": "S30403",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_8"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_8_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_8_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -5764,20 +3602,6 @@
   "docstatus": 0,
   "name": "en_10088_2__1_4401",
   "uns_number": "S31600",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_8"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_8_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_8_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -5802,20 +3626,6 @@
   "docstatus": 0,
   "name": "en_10088_2__1_4404",
   "uns_number": "S31603",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_8"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_8_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_8_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -5840,20 +3650,6 @@
   "docstatus": 0,
   "name": "en_10088_2__1_4571",
   "uns_number": "S31635",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_8"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_8_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_8_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -5878,20 +3674,6 @@
   "docstatus": 0,
   "name": "en_10088_2__1_4541",
   "uns_number": "S32100",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_8"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_8_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_8_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -5916,20 +3698,6 @@
   "docstatus": 0,
   "name": "en_10088_2__1_4550",
   "uns_number": "S34700",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_8"
-   },
-   {
-    "grouping_system": "asme_group",
-    "material_group": "asme_p_8_gr_1"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_8_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -5954,16 +3722,6 @@
   "docstatus": 0,
   "name": "en_10088_2__1_4462",
   "uns_number": "S31803",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_10h"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_10_1"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -5988,16 +3746,6 @@
   "docstatus": 0,
   "name": "en_10088_2__1_4410",
   "uns_number": "S32750",
-  "group_assignments": [
-   {
-    "grouping_system": "asme_p",
-    "material_group": "asme_p_10h"
-   },
-   {
-    "grouping_system": "iso_15608",
-    "material_group": "iso_15608_10_2"
-   }
-  ],
   "product_forms": [
    {
     "product_form": "Plate",
@@ -6024,7 +3772,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A148-Cast-Steel",
   "display_name": "ASTM A148 Cast Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6038,7 +3785,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A182-Grade-F1-K12822-Steel",
   "display_name": "ASTM A182 Grade F1 (K12822) Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6052,7 +3798,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A182-Grade-F10-S33100-Steel",
   "display_name": "ASTM A182 Grade F10 (S33100) Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6066,7 +3811,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A182-Grade-F11-Class-1-K11597-Steel\n[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A182-Grade-F11-Class-2-K11572-Steel",
   "display_name": "ASTM A182 Grade F11 Class 1 (K11597) Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6080,7 +3824,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A182-Grade-F12-Class-1-K11562-Steel\n[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A182-Grade-F12-Class-2-K11564-Steel",
   "display_name": "ASTM A182 Grade F12 Class 1 (K11562) Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6094,7 +3837,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A182-Grade-F122-K91271-Steel",
   "display_name": "ASTM A182 Grade F122 (K91271) Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6108,7 +3850,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A182-Grade-F2-K12122-Steel",
   "display_name": "ASTM A182 Grade F2 (K12122) Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6122,7 +3863,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A182-Grade-F22V-K31835-Steel",
   "display_name": "ASTM A182 Grade F22V (K31835) Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6136,7 +3876,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A182-Grade-F23-K41650-Steel",
   "display_name": "ASTM A182 Grade F23 (K41650) Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6150,7 +3889,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A182-Grade-F24-K30736-Steel",
   "display_name": "ASTM A182 Grade F24 (K30736) Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6164,7 +3902,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A182-Grade-F36-K21001-Steel",
   "display_name": "ASTM A182 Grade F36 (K21001) Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6178,7 +3915,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A182-Grade-F3V-K31830-Steel",
   "display_name": "ASTM A182 Grade F3V (K31830) Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6192,7 +3928,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A182-Grade-F3VCb-K31390-Steel",
   "display_name": "ASTM A182 Grade F3VCb (K31390) Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6206,7 +3941,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A182-Grade-F5-K41545-Steel",
   "display_name": "ASTM A182 Grade F5 (K41545) Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6220,7 +3954,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A182-Grade-F5a-K42544-Steel",
   "display_name": "ASTM A182 Grade F5a (K42544) Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6234,7 +3967,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A182-Grade-F6b-S41026-Stainless-Steel",
   "display_name": "ASTM A182 Grade F6b (S41026) Stainless Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6248,7 +3980,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A182-Grade-F911-K91061-Steel",
   "display_name": "ASTM A182 Grade F911 (K91061) Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6262,7 +3993,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A182-Grade-F92-K92460-Steel",
   "display_name": "ASTM A182 Grade F92 (K92460) Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6276,7 +4006,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A182-Grade-FR-K22035-Steel",
   "display_name": "ASTM A182 Grade FR (K22035) Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6290,7 +4019,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A210-Medium-Carbon-Steel",
   "display_name": "ASTM A210 Medium-Carbon Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6304,7 +4032,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A283-Carbon-Steel",
   "display_name": "ASTM A283 Carbon Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6318,7 +4045,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A285-Carbon-Steel",
   "display_name": "ASTM A285 Carbon Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6332,7 +4058,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A302-Alloy-Steel",
   "display_name": "ASTM A302 Alloy Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6346,7 +4071,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A387-Grade-11-K11789-1.25Cr-0.5Mo-Steel",
   "display_name": "ASTM A387 Grade 11 (K11789) 1.25Cr-0.5Mo Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6360,7 +4084,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A387-Grade-12-K11757-1Cr-0.5Mo-Steel",
   "display_name": "ASTM A387 Grade 12 (K11757) 1Cr-0.5Mo Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6374,7 +4097,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A387-Grade-2-S50460-0.5Cr-0.5Mo-Steel",
   "display_name": "ASTM A387 Grade 2 (S50460) 0.5Cr-0.5Mo Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6388,7 +4110,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A387-Grade-21-K31545-3Cr-1Mo-Steel",
   "display_name": "ASTM A387 Grade 21 (K31545) 3Cr-1Mo Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6402,7 +4123,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A387-Grade-21L-Class-1-3Cr-1Mo-Steel",
   "display_name": "ASTM A387 Grade 21L Class 1 3Cr-1Mo Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6416,7 +4136,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A387-Grade-22-K21590-2.25Cr-1Mo-Steel",
   "display_name": "ASTM A387 Grade 22 (K21590) 2.25Cr-1Mo Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6430,7 +4149,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A387-Grade-22L-Class-1-2.25Cr-1Mo-Steel",
   "display_name": "ASTM A387 Grade 22L Class 1 2.25Cr-1Mo Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6444,7 +4162,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A387-Grade-5-S50200-5Cr-0.5Mo-Steel",
   "display_name": "ASTM A387 Grade 5 (S50200) 5Cr-0.5Mo Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6458,7 +4175,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A387-Grade-9-K90941-9Cr-1Mo-Steel",
   "display_name": "ASTM A387 Grade 9 (K90941) 9Cr-1Mo Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6472,7 +4188,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A387-Grade-91-Class-2-K90901-9Cr-1Mo-Steel",
   "display_name": "ASTM A387 Grade 91 Class 2 (K90901) 9Cr-1Mo Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6486,7 +4201,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A572-HSLA-Steel",
   "display_name": "ASTM A572 HSLA Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6500,7 +4214,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A588-HSLA-Steel",
   "display_name": "ASTM A588 HSLA Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6514,7 +4227,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ACI-ASTM-CD3MCuN-ASTM-A890-Grade-1C-J93373-Cast-Stainless-Steel",
   "display_name": "ACI-ASTM CD3MCuN (ASTM A890 Grade 1C, J93373) Cast Stainless Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6528,7 +4240,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ACI-ASTM-CD3MN-ASTM-A890-Grade-4A-J92205-Cast-Stainless-Steel",
   "display_name": "ACI-ASTM CD3MN (ASTM A890 Grade 4A, J92205) Cast Stainless Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6542,7 +4253,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ACI-ASTM-CD3MWCuN-ASTM-A890-Grade-6A-J93380-Cast-Stainless-Steel",
   "display_name": "ACI-ASTM CD3MWCuN (ASTM A890 Grade 6A, J93380) Cast Stainless Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6556,7 +4266,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ACI-ASTM-CD4MCu-ASTM-A890-Grade-1A-J93370-Cast-Stainless-Steel",
   "display_name": "ACI-ASTM CD4MCu (ASTM A890 Grade 1A, J93370) Cast Stainless Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6570,7 +4279,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ACI-ASTM-CD4MCuN-ASTM-A890-Grade-1B-J93372-Cast-Stainless-Steel",
   "display_name": "ACI-ASTM CD4MCuN (ASTM A890 Grade 1B, J93372) Cast Stainless Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6584,7 +4292,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ACI-ASTM-CD6MN-ASTM-A890-Grade-3A-J93371-Cast-Stainless-Steel",
   "display_name": "ACI-ASTM CD6MN (ASTM A890 Grade 3A, J93371) Cast Stainless Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6598,7 +4305,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ACI-ASTM-CE3MN-ASTM-A890-Grade-5A-J93404-Cast-Stainless-Steel",
   "display_name": "ACI-ASTM CE3MN (ASTM A890 Grade 5A, J93404) Cast Stainless Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6612,7 +4318,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ACI-ASTM-CE8MN-ASTM-A890-Grade-2A-J93345-Cast-Stainless-Steel",
   "display_name": "ACI-ASTM CE8MN (ASTM A890 Grade 2A, J93345) Cast Stainless Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6626,7 +4331,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A202-Cr-Mn-Si-Steel",
   "display_name": "ASTM A202 Cr-Mn-Si Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6640,7 +4344,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A203-Nickel-Steel",
   "display_name": "ASTM A203 Nickel Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6654,7 +4357,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A204-Molybdenum-Steel",
   "display_name": "ASTM A204 Molybdenum Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6668,7 +4370,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A209-Carbon-Molybdenum-Steel",
   "display_name": "ASTM A209 Carbon-Molybdenum Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6682,7 +4383,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A216-Cast-Carbon-Steel",
   "display_name": "ASTM A216 Cast Carbon Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6696,7 +4396,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A217-Cast-Alloy-Steel",
   "display_name": "ASTM A217 Cast Alloy Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6710,7 +4409,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A225-Manganese-Vanadium-Nickel-Steel",
   "display_name": "ASTM A225 Manganese-Vanadium-Nickel Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6724,7 +4422,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A227-Spring-Steel",
   "display_name": "ASTM A227 Spring Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6738,7 +4435,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A228-SWP-A-K08500-Music-Wire",
   "display_name": "ASTM A228 (SWP-A,K08500) Music Wire",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6752,7 +4448,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A229-Oil-Tempered-Spring-Steel",
   "display_name": "ASTM A229 Oil-Tempered Spring Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6766,7 +4461,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A231-Chromium-Vanadium-Spring-Steel",
   "display_name": "ASTM A231 Chromium-Vanadium Spring Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6780,7 +4474,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A232-Chromium-Vanadium-Spring-Steel",
   "display_name": "ASTM A232 Chromium-Vanadium Spring Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6794,7 +4487,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A242-HSLA-Steel",
   "display_name": "ASTM A242 HSLA Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6808,7 +4500,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A266-Carbon-Steel",
   "display_name": "ASTM A266 Carbon Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6822,7 +4513,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A27-Cast-Carbon-Steel",
   "display_name": "ASTM A27 Cast Carbon Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6836,7 +4526,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A299-Manganese-Silicon-Steel",
   "display_name": "ASTM A299 Manganese-Silicon Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6850,7 +4539,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A321-Carbon-Steel",
   "display_name": "ASTM A321 Carbon Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6864,7 +4552,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A356-Grade-1-J03502-Cast-Carbon-Steel",
   "display_name": "ASTM A356 Grade 1 (J03502) Cast Carbon Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6878,7 +4565,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A356-Grade-10-J22090-Cast-Steel",
   "display_name": "ASTM A356 Grade 10 (J22090) Cast Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6892,7 +4578,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A356-Grade-2-J12523-Cast-Steel",
   "display_name": "ASTM A356 Grade 2 (J12523) Cast Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6906,7 +4591,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A356-Grade-5-J12540-Cast-Steel",
   "display_name": "ASTM A356 Grade 5 (J12540) Cast Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6920,7 +4604,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A356-Grade-6-J12073-Cast-Steel",
   "display_name": "ASTM A356 Grade 6 (J12073) Cast Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6934,7 +4617,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A356-Grade-8-J11697-Cast-Steel",
   "display_name": "ASTM A356 Grade 8 (J11697) Cast Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6948,7 +4630,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A356-Grade-9-J21610-Cast-Steel",
   "display_name": "ASTM A356 Grade 9 (J21610) Cast Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6962,7 +4643,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A369-Grade-FP1-Molybdenum-Steel",
   "display_name": "ASTM A369 Grade FP1 Molybdenum Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6976,7 +4656,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A369-Grade-FP11-Cr-Mo-Steel",
   "display_name": "ASTM A369 Grade FP11 Cr-Mo Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -6990,7 +4669,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A369-Grade-FP12-Cr-Mo-Steel",
   "display_name": "ASTM A369 Grade FP12 Cr-Mo Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -7004,7 +4682,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A369-Grade-FP2-Cr-Mo-Steel",
   "display_name": "ASTM A369 Grade FP2 Cr-Mo Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -7018,7 +4695,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A369-Grade-FP21-Cr-Mo-Steel",
   "display_name": "ASTM A369 Grade FP21 Cr-Mo Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -7032,7 +4708,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A369-Grade-FP22-Cr-Mo-Steel",
   "display_name": "ASTM A369 Grade FP22 Cr-Mo Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -7046,7 +4721,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A369-Grade-FP5-Cr-Mo-Steel",
   "display_name": "ASTM A369 Grade FP5 Cr-Mo Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -7060,7 +4734,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A369-Grade-FP9-Cr-Mo-Steel",
   "display_name": "ASTM A369 Grade FP9 Cr-Mo Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -7074,7 +4747,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A369-Grade-FP91-High-Chromium-Steel",
   "display_name": "ASTM A369 Grade FP91 High-Chromium Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -7088,7 +4760,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A369-Grade-FP92-High-Chromium-Steel",
   "display_name": "ASTM A369 Grade FP92 High-Chromium Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -7102,7 +4773,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A369-Grade-FPA-Carbon-Steel",
   "display_name": "ASTM A369 Grade FPA Carbon Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -7116,7 +4786,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A369-Grade-FPB-Carbon-Steel",
   "display_name": "ASTM A369 Grade FPB Carbon Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -7130,7 +4799,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A372-Grade-A-Carbon-Steel",
   "display_name": "ASTM A372 Grade A Carbon Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -7144,7 +4812,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A372-Grade-B-Carbon-Steel",
   "display_name": "ASTM A372 Grade B Carbon Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -7158,7 +4825,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A372-Grade-C-Carbon-Steel",
   "display_name": "ASTM A372 Grade C Carbon Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -7172,7 +4838,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A372-Grade-D-Carbon-Steel",
   "display_name": "ASTM A372 Grade D Carbon Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -7186,7 +4851,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A372-Grade-E-Alloy-Steel",
   "display_name": "ASTM A372 Grade E Alloy Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -7200,7 +4864,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A372-Grade-F-Alloy-Steel",
   "display_name": "ASTM A372 Grade F Alloy Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -7214,7 +4877,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A372-Grade-G-Alloy-Steel",
   "display_name": "ASTM A372 Grade G Alloy Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -7228,7 +4890,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A372-Grade-H-Alloy-Steel",
   "display_name": "ASTM A372 Grade H Alloy Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -7242,7 +4903,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A372-Grade-J-Alloy-Steel",
   "display_name": "ASTM A372 Grade J Alloy Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -7256,7 +4916,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A372-Grade-K-Alloy-Steel",
   "display_name": "ASTM A372 Grade K Alloy Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -7270,7 +4929,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A372-Grade-L-Alloy-Steel",
   "display_name": "ASTM A372 Grade L Alloy Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -7284,7 +4942,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A372-Grade-M-Alloy-Steel",
   "display_name": "ASTM A372 Grade M Alloy Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -7298,7 +4955,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A414-Pressure-Vessel-Steel",
   "display_name": "ASTM A414 Pressure Vessel Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -7312,7 +4968,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A514-Alloy-Steel",
   "display_name": "ASTM A514 Alloy Steel",
-  "group_assignments": [],
   "product_forms": []
  },
  {
@@ -7326,7 +4981,6 @@
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A732-Investment-Cast-Steel",
   "display_name": "ASTM A732 Investment Cast Steel",
-  "group_assignments": [],
   "product_forms": []
  }
 ]

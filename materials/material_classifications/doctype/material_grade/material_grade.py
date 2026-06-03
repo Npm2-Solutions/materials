@@ -61,15 +61,17 @@ class MaterialGrade(Document):
     def _validate_group_assignments(self):
         """Ensure no duplicate grouping systems in assignments.
 
-        After Layer 4 split, Grade Group Assignment.material_group links to
-        Base Material Group (not the retired Material Group DocType). The
-        validation logic stays identical — just one row per grouping system.
+        ``group_assignments`` is a weldcore-provided overlay Custom Field
+        (the grade↔welding-group mapping is a welding-domain concern, kept out
+        of materials' own schema to avoid an L1.5→L2 dependency). Use .get() so
+        materials stays standalone-safe when weldcore is not installed — the
+        check simply no-ops without the field.
         """
-        if not self.group_assignments:
+        if not self.get("group_assignments"):
             return
 
         systems = set()
-        for row in self.group_assignments:
+        for row in self.get("group_assignments"):
             if row.grouping_system in systems:
                 frappe.throw(
                     _("Duplicate grouping system: {0}. Each material can only "
@@ -86,7 +88,7 @@ class MaterialGrade(Document):
         Returns:
             Base Material Group name or None
         """
-        for row in self.group_assignments or []:
+        for row in self.get("group_assignments") or []:
             if row.grouping_system == system_code:
                 return row.material_group
         return None
@@ -99,7 +101,7 @@ class MaterialGrade(Document):
         """
         return {
             row.grouping_system: row.material_group
-            for row in self.group_assignments or []
+            for row in self.get("group_assignments") or []
         }
 
     def on_trash(self):

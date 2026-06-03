@@ -10,8 +10,6 @@
   "grade",
   "col_id_1",
   "uns_number",
-  "section_groups",
-  "group_assignments",
   "section_products",
   "product_forms",
   "section_notes",
@@ -51,18 +49,6 @@
    "label": "UNS Number",
    "description": "Unified Numbering System designation for cross-reference",
    "in_list_view": 1
-  },
-  {
-   "fieldname": "section_groups",
-   "fieldtype": "Section Break",
-   "label": "Material Group Assignments"
-  },
-  {
-   "fieldname": "group_assignments",
-   "fieldtype": "Table",
-   "label": "Group Assignments",
-   "options": "Grade Group Assignment",
-   "description": "Multi-standard classification (ASME P-Numbers, ISO 15608, AWS, etc.)"
   },
   {
    "fieldname": "section_products",
