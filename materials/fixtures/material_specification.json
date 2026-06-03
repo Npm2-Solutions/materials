@@ -257,7 +257,7 @@
   "title": "Standard Specification for Low and Intermediate Tensile Strength Carbon Steel Plates",
   "material_category": "Carbon Steel",
   "spec_status": "Active",
-  "description": "Carbon steel plates of structural quality. Grades A, B, C, D \u2014 increasing tensile strength.",
+  "description": "Carbon steel plates of structural quality. Grades A, B, C, D — increasing tensile strength.",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Specification",
@@ -313,7 +313,7 @@
   "title": "Standard Specification for High-Strength Low-Alloy Structural Steel with Atmospheric Corrosion Resistance",
   "material_category": "Carbon Steel",
   "spec_status": "Active",
-  "description": "Weathering steel (Cor-Ten family) with atmospheric corrosion resistance ~4\u00d7 plain carbon steel.",
+  "description": "Weathering steel (Cor-Ten family) with atmospheric corrosion resistance ~4× plain carbon steel.",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Specification",
@@ -411,7 +411,7 @@
   "title": "Standard Specification for Seamless and Welded Ferritic/Austenitic Stainless Steel Pipe",
   "material_category": "Stainless Steel",
   "spec_status": "Active",
-  "description": "Duplex stainless pipe \u2014 UNS S31803 (2205), S32205 (2205+), S32750 (2507) for chloride/sour service.",
+  "description": "Duplex stainless pipe — UNS S31803 (2205), S32205 (2205+), S32750 (2507) for chloride/sour service.",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Specification",
@@ -481,7 +481,7 @@
   "title": "Hot rolled structural steels - Part 5: Steels with improved atmospheric corrosion resistance",
   "material_category": "Carbon Steel",
   "spec_status": "Active",
-  "description": "Weathering steels \u2014 European equivalents of ASTM A588 (S355J0W, S355J2W, S355J2WP). Full title: 'Hot rolled products of structural steels - Part 5: Technical delivery conditions for structural steels with improved atmospheric corrosion resistance'.",
+  "description": "Weathering steels — European equivalents of ASTM A588 (S355J0W, S355J2W, S355J2WP). Full title: 'Hot rolled products of structural steels - Part 5: Technical delivery conditions for structural steels with improved atmospheric corrosion resistance'.",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Specification",
@@ -523,7 +523,7 @@
   "title": "Flat products made of steels for pressure purposes - Part 7: Stainless steels",
   "material_category": "Stainless Steel",
   "spec_status": "Active",
-  "description": "Stainless steel pressure vessel plates \u2014 austenitic, austenitic-ferritic (duplex), ferritic, and martensitic grades.",
+  "description": "Stainless steel pressure vessel plates — austenitic, austenitic-ferritic (duplex), ferritic, and martensitic grades.",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Specification",
@@ -551,7 +551,7 @@
   "title": "Seamless steel tubes for pressure purposes - Technical delivery conditions - Part 5: Stainless steel tubes",
   "material_category": "Stainless Steel",
   "spec_status": "Active",
-  "description": "Seamless stainless pressure tubes \u2014 austenitic and austenitic-ferritic grades for elevated and low-temperature service.",
+  "description": "Seamless stainless pressure tubes — austenitic and austenitic-ferritic grades for elevated and low-temperature service.",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Specification",
@@ -579,7 +579,7 @@
   "title": "Hot finished structural hollow sections of non-alloy and fine grain steels - Part 1: Technical delivery conditions",
   "material_category": "Carbon Steel",
   "spec_status": "Active",
-  "description": "Hot-finished structural hollow sections (RHS, SHS, CHS) for steel construction \u2014 typically S275 and S355 grades.",
+  "description": "Hot-finished structural hollow sections (RHS, SHS, CHS) for steel construction — typically S275 and S355 grades.",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Specification",
@@ -607,7 +607,7 @@
   "title": "Cold rolled low carbon steel flat products for cold forming - Technical delivery conditions",
   "material_category": "Carbon Steel",
   "spec_status": "Active",
-  "description": "Cold-rolled low-carbon flat products for forming/drawing \u2014 DC01, DC03, DC04, DC05, DC06, DC07.",
+  "description": "Cold-rolled low-carbon flat products for forming/drawing — DC01, DC03, DC04, DC05, DC06, DC07.",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Specification",
@@ -621,7 +621,7 @@
   "title": "Rolled steels for general structure",
   "material_category": "Carbon Steel",
   "spec_status": "Active",
-  "description": "General structural carbon steels \u2014 SS330, SS400, SS490, SS540.",
+  "description": "General structural carbon steels — SS330, SS400, SS490, SS540.",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Specification",
@@ -635,7 +635,7 @@
   "title": "Rolled steels for welded structure",
   "material_category": "Carbon Steel",
   "spec_status": "Active",
-  "description": "Carbon steels for welded structures \u2014 SM400A/B/C, SM490A/B/C, SM490YA/YB, SM520B/C, SM570.",
+  "description": "Carbon steels for welded structures — SM400A/B/C, SM490A/B/C, SM490YA/YB, SM520B/C, SM570.",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Specification",
@@ -649,7 +649,7 @@
   "title": "Carbon steel pipes for pressure service",
   "material_category": "Carbon Steel",
   "spec_status": "Active",
-  "description": "Carbon steel pressure pipe \u2014 STPG370, STPG410. Equivalent to ASTM A53 / A106 lower grades.",
+  "description": "Carbon steel pressure pipe — STPG370, STPG410. Equivalent to ASTM A53 / A106 lower grades.",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Specification",
@@ -663,7 +663,7 @@
   "title": "Alloy steel pipes",
   "material_category": "Low Alloy Steel",
   "spec_status": "Active",
-  "description": "Cr-Mo alloy pipe \u2014 STPA12 (~P11), STPA22 (~P22), STPA23, STPA24, STPA25, STPA26.",
+  "description": "Cr-Mo alloy pipe — STPA12 (~P11), STPA22 (~P22), STPA23, STPA24, STPA25, STPA26.",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Specification",
@@ -677,7 +677,7 @@
   "title": "Hot rolled stainless steel plate, sheet and strip",
   "material_category": "Stainless Steel",
   "spec_status": "Active",
-  "description": "Hot rolled stainless steel plate \u2014 SUS304, SUS304L, SUS316, SUS316L, SUS321, SUS347, etc.",
+  "description": "Hot rolled stainless steel plate — SUS304, SUS304L, SUS316, SUS316L, SUS321, SUS347, etc.",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Specification",
@@ -1736,7 +1736,7 @@
   "display_name": "ASTM B575"
  },
  {
-  "standard": "_en_10028_4_2019",
+  "standard": "en_10028_4_2019",
   "designation": "EN 10028-4",
   "title": "Flat products made of steels for pressure purposes - Part 4: Nickel-alloy steels with specified low temperature properties",
   "material_category": "Low Alloy Steel",
@@ -1750,7 +1750,7 @@
   "display_name": "EN 10028-4"
  },
  {
-  "standard": "_en_10028_5_2019",
+  "standard": "en_10028_5_2019",
   "designation": "EN 10028-5",
   "title": "Flat products made of steels for pressure purposes - Part 5: Weldable fine grain steels, thermomechanically rolled",
   "material_category": "Low Alloy Steel",
@@ -1764,7 +1764,7 @@
   "display_name": "EN 10028-5"
  },
  {
-  "standard": "_en_10028_6_2019",
+  "standard": "en_10028_6_2019",
   "designation": "EN 10028-6",
   "title": "Flat products made of steels for pressure purposes - Part 6: Weldable fine grain steels, quenched and tempered",
   "material_category": "Low Alloy Steel",
@@ -1778,7 +1778,7 @@
   "display_name": "EN 10028-6"
  },
  {
-  "standard": "_en_10216_1_2019",
+  "standard": "en_10216_1_2019",
   "designation": "EN 10216-1",
   "title": "Seamless steel tubes for pressure purposes - Part 1: Non-alloy steel tubes with specified room temperature properties",
   "material_category": "Carbon Steel",
@@ -1792,7 +1792,7 @@
   "display_name": "EN 10216-1"
  },
  {
-  "standard": "_en_10216_3_2019",
+  "standard": "en_10216_3_2019",
   "designation": "EN 10216-3",
   "title": "Seamless steel tubes for pressure purposes - Part 3: Alloy fine grain steel tubes",
   "material_category": "Low Alloy Steel",
@@ -1806,7 +1806,7 @@
   "display_name": "EN 10216-3"
  },
  {
-  "standard": "_en_10216_4_2019",
+  "standard": "en_10216_4_2019",
   "designation": "EN 10216-4",
   "title": "Seamless steel tubes for pressure purposes - Part 4: Non-alloy and alloy steel tubes with specified low temperature properties",
   "material_category": "Low Alloy Steel",
@@ -1820,7 +1820,7 @@
   "display_name": "EN 10216-4"
  },
  {
-  "standard": "_en_10217_1_2019",
+  "standard": "en_10217_1_2019",
   "designation": "EN 10217-1",
   "title": "Welded steel tubes for pressure purposes - Part 1: Non-alloy steel tubes with specified room temperature properties",
   "material_category": "Carbon Steel",
@@ -1834,7 +1834,7 @@
   "display_name": "EN 10217-1"
  },
  {
-  "standard": "_en_10217_2_2019",
+  "standard": "en_10217_2_2019",
   "designation": "EN 10217-2",
   "title": "Welded steel tubes for pressure purposes - Part 2: Electric welded non-alloy and alloy steel tubes with specified elevated temperature pr...",
   "material_category": "Low Alloy Steel",
@@ -1848,7 +1848,7 @@
   "display_name": "EN 10217-2"
  },
  {
-  "standard": "_en_10217_3_2019",
+  "standard": "en_10217_3_2019",
   "designation": "EN 10217-3",
   "title": "Welded steel tubes for pressure purposes - Part 3: Alloy fine grain steel tubes",
   "material_category": "Low Alloy Steel",
@@ -1862,7 +1862,7 @@
   "display_name": "EN 10217-3"
  },
  {
-  "standard": "_en_10217_4_2019",
+  "standard": "en_10217_4_2019",
   "designation": "EN 10217-4",
   "title": "Welded steel tubes for pressure purposes - Part 4: Electric welded non-alloy steel tubes with specified low temperature properties",
   "material_category": "Carbon Steel",
@@ -1876,7 +1876,7 @@
   "display_name": "EN 10217-4"
  },
  {
-  "standard": "_en_10217_5_2019",
+  "standard": "en_10217_5_2019",
   "designation": "EN 10217-5",
   "title": "Welded steel tubes for pressure purposes - Part 5: Submerged arc welded non-alloy and alloy steel tubes with specified elevated temperatu...",
   "material_category": "Low Alloy Steel",
@@ -1890,7 +1890,7 @@
   "display_name": "EN 10217-5"
  },
  {
-  "standard": "_en_10222_2_2019",
+  "standard": "en_10222_2_2019",
   "designation": "EN 10222-2",
   "title": "Steel forgings for pressure purposes - Part 2: Ferritic and martensitic steels with specified elevated temperature properties",
   "material_category": "Low Alloy Steel",
@@ -1904,7 +1904,7 @@
   "display_name": "EN 10222-2"
  },
  {
-  "standard": "_en_10222_4_2019",
+  "standard": "en_10222_4_2019",
   "designation": "EN 10222-4",
   "title": "Steel forgings for pressure purposes - Part 4: Weldable fine grain steels with high proof strength",
   "material_category": "Low Alloy Steel",
@@ -1918,7 +1918,7 @@
   "display_name": "EN 10222-4"
  },
  {
-  "standard": "_api_5ct_2018",
+  "standard": "api_5ct_2018",
   "designation": "API 5CT",
   "title": "Casing and Tubing",
   "material_category": "Low Alloy Steel",
@@ -1932,7 +1932,7 @@
   "display_name": "API 5CT"
  },
  {
-  "standard": "_api_5d_2018",
+  "standard": "api_5d_2018",
   "designation": "API 5D",
   "title": "Specification for Drill Pipe",
   "material_category": "Low Alloy Steel",
@@ -1946,7 +1946,7 @@
   "display_name": "API 5D"
  },
  {
-  "standard": "_api_5dp_2018",
+  "standard": "api_5dp_2018",
   "designation": "API 5DP",
   "title": "Specification for Drill Pipe",
   "material_category": "Low Alloy Steel",
@@ -1960,7 +1960,7 @@
   "display_name": "API 5DP"
  },
  {
-  "standard": "_api_5lcp_2018",
+  "standard": "api_5lcp_2018",
   "designation": "API 5LCP",
   "title": "Coiled Line Pipe",
   "material_category": "Carbon Steel",
@@ -1974,7 +1974,7 @@
   "display_name": "API 5LCP"
  },
  {
-  "standard": "_api_5lf_2018",
+  "standard": "api_5lf_2018",
   "designation": "API 5LF",
   "title": "Filler Metal Specification for API 5L Pipe",
   "material_category": "Carbon Steel",
@@ -1988,7 +1988,7 @@
   "display_name": "API 5LF"
  },
  {
-  "standard": "_api_6a_2018",
+  "standard": "api_6a_2018",
   "designation": "API 6A",
   "title": "Wellhead and Christmas Tree Equipment",
   "material_category": "Low Alloy Steel",
@@ -2002,7 +2002,7 @@
   "display_name": "API 6A"
  },
  {
-  "standard": "_jis_g_3101_2020",
+  "standard": "jis_g_3101_2020",
   "designation": "JIS G 3101",
   "title": "Rolled steels for general structure (SS materials: SS330, SS400, SS490, SS540)",
   "material_category": "Carbon Steel",
@@ -2016,7 +2016,7 @@
   "display_name": "JIS G 3101"
  },
  {
-  "standard": "_jis_g_3106_2020",
+  "standard": "jis_g_3106_2020",
   "designation": "JIS G 3106",
   "title": "Rolled steels for welded structure (SM materials: SM400, SM490, SM520, SM570)",
   "material_category": "Carbon Steel",
@@ -2030,7 +2030,7 @@
   "display_name": "JIS G 3106"
  },
  {
-  "standard": "_jis_g_3454_2020",
+  "standard": "jis_g_3454_2020",
   "designation": "JIS G 3454",
   "title": "Carbon steel pipes for pressure service (STPG)",
   "material_category": "Carbon Steel",
@@ -2044,7 +2044,7 @@
   "display_name": "JIS G 3454"
  },
  {
-  "standard": "_jis_g_3456_2020",
+  "standard": "jis_g_3456_2020",
   "designation": "JIS G 3456",
   "title": "Carbon steel pipes for high temperature service (STPT)",
   "material_category": "Carbon Steel",
@@ -2058,7 +2058,7 @@
   "display_name": "JIS G 3456"
  },
  {
-  "standard": "_jis_g_3458_2020",
+  "standard": "jis_g_3458_2020",
   "designation": "JIS G 3458",
   "title": "Alloy steel pipes (STPA)",
   "material_category": "Low Alloy Steel",
@@ -2072,7 +2072,7 @@
   "display_name": "JIS G 3458"
  },
  {
-  "standard": "_jis_g_3460_2020",
+  "standard": "jis_g_3460_2020",
   "designation": "JIS G 3460",
   "title": "Steel pipes for low temperature service (STPL)",
   "material_category": "Carbon Steel",
@@ -2086,7 +2086,7 @@
   "display_name": "JIS G 3460"
  },
  {
-  "standard": "_jis_g_3463_2020",
+  "standard": "jis_g_3463_2020",
   "designation": "JIS G 3463",
   "title": "Stainless steel pipes for boiler and heat exchanger (SUS-TB)",
   "material_category": "Stainless Steel",
@@ -2100,7 +2100,7 @@
   "display_name": "JIS G 3463"
  },
  {
-  "standard": "_jis_g_4051_2020",
+  "standard": "jis_g_4051_2020",
   "designation": "JIS G 4051",
   "title": "Carbon steels for machine structural use (S-C series: S20C, S35C, S45C)",
   "material_category": "Carbon Steel",
@@ -2114,7 +2114,7 @@
   "display_name": "JIS G 4051"
  },
  {
-  "standard": "_jis_g_4053_2020",
+  "standard": "jis_g_4053_2020",
   "designation": "JIS G 4053",
   "title": "Low-alloyed steels for machine structural use (SCM, SNCM series)",
   "material_category": "Low Alloy Steel",
@@ -2128,7 +2128,7 @@
   "display_name": "JIS G 4053"
  },
  {
-  "standard": "_jis_g_4304_2020",
+  "standard": "jis_g_4304_2020",
   "designation": "JIS G 4304",
   "title": "Hot-rolled stainless steel plates, sheets and strip (SUS304, SUS316L, SUS321)",
   "material_category": "Stainless Steel",
@@ -2142,7 +2142,7 @@
   "display_name": "JIS G 4304"
  },
  {
-  "standard": "_jis_g_4305_2020",
+  "standard": "jis_g_4305_2020",
   "designation": "JIS G 4305",
   "title": "Cold-rolled stainless steel plates, sheets and strip",
   "material_category": "Stainless Steel",

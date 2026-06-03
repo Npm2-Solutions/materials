@@ -13,9 +13,12 @@ required_apps = ["frappe", "optisuites"]
 # project's demo/init; materials itself only ships schema + display_name
 # controllers. Fixtures keep the seed data exportable for diff-based audits.
 fixtures = [
+	# Standard first — Material Specification.standard links to these. materials
+	# owns the material-domain editions (API 5xx, EN 100xx/102xx, ASTM Axx, …) so
+	# it is self-sufficient without depending on weldcore (L2).
+	"Standard",
 	"Material Specification",
 	"Material Grade",
-	"Material Form",
 ]
 
 # Each item in the list will be shown as an app in the apps page
