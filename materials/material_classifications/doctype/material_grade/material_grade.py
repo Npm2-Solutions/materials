@@ -80,13 +80,13 @@ class MaterialGrade(Document):
             systems.add(row.grouping_system)
 
     def get_group_for_system(self, system_code):
-        """Get the Base Material Group for a specific grouping system.
+        """Get the Welding Material Group for a specific grouping system.
 
         Args:
             system_code: The Material Grouping System code (e.g., 'ASME-P', 'ISO-15608')
 
         Returns:
-            Base Material Group name or None
+            Welding Material Group name or None
         """
         for row in self.get("group_assignments") or []:
             if row.grouping_system == system_code:

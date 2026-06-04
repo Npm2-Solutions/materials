@@ -16,9 +16,12 @@ source documents. Mirror of the welding-side
 ```bash
 # 1. Scrape (polite — 1.5s between requests; caches HTML locally; resumable)
 python3 apps/materials/materials/fixtures/_importers/import_makeitfrom.py \
-    --group "Carbon Steel,Stainless Steel,Nickel Alloy,Aluminum Alloy,Titanium Alloy,Copper Alloy,Low Alloy Steel,Cast Iron" \
+    --group "Iron Alloy,Aluminum Alloy,Nickel Alloy,Titanium Alloy,Copper Alloy,Cobalt Alloy,Magnesium Alloy,Zinc Alloy,Other Metal Alloy" \
     --max-pages 1000 \
     --delay 1.5
+# NOTE: MakeItFrom groups by alloy base, not product form — "Iron Alloy" covers
+# carbon / stainless / low-alloy steel + cast iron. Using "Carbon Steel" etc.
+# matches no GROUP_INDEX_URLS key and silently scrapes nothing.
 
 # 2. Review /tmp/makeitfrom_unmatched.json — these are MakeItFrom materials
 #    whose designation didn't map to any existing Material Specification slug.
@@ -64,9 +67,10 @@ credit makeitfrom.com.
   important ones, then re-run merge).
 - Chemistry + mechanical properties are extracted but NOT yet emitted
   into the Material Grade fixture rows (the current `Material Grade`
-  DocType doesn't have fields for them — would need a schema migration
-  + `Material Mechanical Property` child rows). Stored in the raw JSON
-  for future use.
+  DocType doesn't have fields for them). The eventual home for measured
+  mechanicals is the certificate's `Certificate Mechanical Result` child
+  on `Material Certificate`, not the grade reference data. Stored in the
+  raw JSON for future use.
 - Some MakeItFrom pages cover multi-grade specs (e.g., "ASTM A516 Grade
   55, 60, 65, 70"). The current parser only extracts the first grade
   found in the name. Consider adding a multi-grade splitter as a

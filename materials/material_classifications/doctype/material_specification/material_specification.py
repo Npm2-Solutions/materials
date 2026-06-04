@@ -9,13 +9,13 @@ from optisuites.utils.display_name import pretty_spec_code, slugify
 
 class MaterialSpecification(Document):
     """
-    Base Material Specification DocType - The document/standard level.
+    Material Specification DocType - The document/standard level.
 
     Examples: SA-516, EN 10025-2, A516 (ASTM)
 
-    This is the first level of the two-level base material hierarchy:
-    1. Base Material Specification - the document (SA-516)
-    2. Base Material Grade - the specific grade (Gr.70)
+    This is the first level of the two-level material hierarchy:
+    1. Material Specification - the document (SA-516)
+    2. Material Grade - the specific grade (Gr.70)
 
     Naming pattern: {standard}-{designation}
     Examples: ASME-SA-516, EN-10025-2, ASTM-A516

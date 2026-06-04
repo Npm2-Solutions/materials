@@ -12,9 +12,11 @@ USAGE
 1. Install deps (one-time):
      pip install requests beautifulsoup4
 
-2. Run the discovery + scrape pipeline:
+2. Run the discovery + scrape pipeline (group names must be GROUP_INDEX_URLS
+   keys — alloy bases like "Iron Alloy"/"Aluminum Alloy", NOT product forms
+   like "Carbon Steel" which match nothing and scrape nothing):
      python3 apps/materials/materials/fixtures/_importers/import_makeitfrom.py \
-         --group "Carbon Steel,Stainless Steel,Nickel Alloy,Aluminum Alloy" \
+         --group "Iron Alloy,Aluminum Alloy,Nickel Alloy,Titanium Alloy" \
          --max-pages 500 \
          --delay 1.5
 
