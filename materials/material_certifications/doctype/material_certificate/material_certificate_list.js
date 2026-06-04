@@ -2,7 +2,7 @@
 // For license information, please see license.txt
 
 frappe.listview_settings["Material Certificate"] = {
-	add_fields: ["status", "verified", "validation_status"],
+	add_fields: ["status", "verified"],
 
 	get_indicator: function(doc) {
 		const indicators = {
@@ -19,17 +19,6 @@ frappe.listview_settings["Material Certificate"] = {
 				"Valid": "green",
 				"Expired": "red",
 				"Revoked": "grey",
-			};
-			let color = colors[value] || "grey";
-			return `<span class="indicator-pill ${color}">${__(value)}</span>`;
-		},
-
-		validation_status: function(value) {
-			const colors = {
-				"Pending Review": "orange",
-				"Validated": "green",
-				"Rejected": "red",
-				"Conditional": "yellow",
 			};
 			let color = colors[value] || "grey";
 			return `<span class="indicator-pill ${color}">${__(value)}</span>`;

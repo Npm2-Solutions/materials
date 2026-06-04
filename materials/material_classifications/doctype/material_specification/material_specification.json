@@ -17,7 +17,6 @@
   "column_break_2",
   "supersedes",
   "description",
-  "section_break_equivalents",
   "section_break_settings",
   "is_standard",
   "enabled"
@@ -98,12 +97,6 @@
    "fieldname": "description",
    "fieldtype": "Small Text",
    "label": "Description"
-  },
-  {
-   "fieldname": "section_break_equivalents",
-   "fieldtype": "Section Break",
-   "label": "Equivalent Specifications",
-   "description": "Equivalent specs in other standards (SA-516 = A516 = P355)"
   },
   {
    "fieldname": "section_break_settings",
