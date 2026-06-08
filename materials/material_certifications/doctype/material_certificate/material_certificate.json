@@ -129,7 +129,7 @@
    "fieldtype": "Link",
    "label": "Testing Laboratory",
    "options": "Third Party Body",
-   "description": "Third-party testing lab that executed the mechanical/chemical/PMI tests cited in this certificate (TWI, EWI, NIST, etc.). Distinct from issuing_organization (who governs the standard) and issuing_body (who issued the document — usually the mill itself for EN 10204 3.1)."
+   "description": "Third-party testing lab that executed the mechanical/chemical/PMI tests cited in this certificate (TWI, EWI, NIST, etc.). Distinct from issuing_organization (who governs the standard) and issuing_body (who issued the document \u2014 usually the mill itself for EN 10204 3.1)."
   },
   {
    "fieldname": "cb_issuer",
@@ -355,7 +355,7 @@
    "print": 1
   },
   {
-   "role": "Projects User",
+   "role": "PR Team Member",
    "read": 1
   },
   {
