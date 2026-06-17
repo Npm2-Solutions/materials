@@ -319,6 +319,13 @@
  "owner": "Administrator",
  "permissions": [
   {
+   "role": "Materials Reader",
+   "read": 1,
+   "report": 1,
+   "export": 1,
+   "print": 1
+  },
+  {
    "role": "STK Material Inspector",
    "read": 1,
    "write": 1,
