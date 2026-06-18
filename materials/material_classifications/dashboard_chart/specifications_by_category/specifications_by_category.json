@@ -1,0 +1,19 @@
+{
+ "doctype": "Dashboard Chart",
+ "name": "Specifications by Category",
+ "chart_name": "Specifications by Category",
+ "chart_type": "Group By",
+ "document_type": "Material Specification",
+ "group_by_based_on": "material_category",
+ "group_by_type": "Count",
+ "number_of_groups": 8,
+ "type": "Donut",
+ "filters_json": "[]",
+ "is_public": 1,
+ "is_standard": 1,
+ "module": "Material Classifications",
+ "color": "#2490ef",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "time_interval": "Yearly"
+}

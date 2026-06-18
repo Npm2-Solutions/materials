@@ -1,8 +1,17 @@
 {
  "app": "materials",
- "charts": [],
- "content": "[{\"id\": \"h_qa\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>Quick Access</b></span>\", \"col\": 12}}, {\"id\": \"sc_0\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Material Grade\", \"col\": 3}}, {\"id\": \"sc_1\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Material Certificate\", \"col\": 3}}, {\"id\": \"sp\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"h_ref\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>Reference Data</b></span>\", \"col\": 12}}, {\"id\": \"cd_0\", \"type\": \"card\", \"data\": {\"card_name\": \"Classifications\", \"col\": 4}}, {\"id\": \"cd_1\", \"type\": \"card\", \"data\": {\"card_name\": \"Certifications\", \"col\": 4}}]",
- "creation": "2026-06-17 00:00:00.000000",
+ "charts": [
+  {
+   "chart_name": "Specifications by Category",
+   "label": "Specifications by Category"
+  },
+  {
+   "chart_name": "Specifications by Status",
+   "label": "Specifications by Status"
+  }
+ ],
+ "content": "[{\"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>Overview</b></span>\", \"col\": 12}}, {\"type\": \"number_card\", \"data\": {\"number_card_name\": \"Material Grades\", \"col\": 3}}, {\"type\": \"number_card\", \"data\": {\"number_card_name\": \"Material Specifications\", \"col\": 3}}, {\"type\": \"number_card\", \"data\": {\"number_card_name\": \"Material Certificates\", \"col\": 3}}, {\"type\": \"number_card\", \"data\": {\"number_card_name\": \"Material Heats\", \"col\": 3}}, {\"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"type\": \"chart\", \"data\": {\"chart_name\": \"Specifications by Category\", \"col\": 6}}, {\"type\": \"chart\", \"data\": {\"chart_name\": \"Specifications by Status\", \"col\": 6}}, {\"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>Quick Actions</b></span>\", \"col\": 12}}, {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Material Grade\", \"col\": 3}}, {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Material Specification\", \"col\": 3}}, {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Material Certificate\", \"col\": 3}}, {\"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>At a Glance</b></span>\", \"col\": 12}}, {\"type\": \"quick_list\", \"data\": {\"quick_list_name\": \"Material Grades\", \"col\": 6}}, {\"type\": \"quick_list\", \"data\": {\"quick_list_name\": \"Material Specifications\", \"col\": 6}}, {\"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>Navigate</b></span>\", \"col\": 12}}, {\"type\": \"card\", \"data\": {\"card_name\": \"Classifications\", \"col\": 6}}, {\"type\": \"card\", \"data\": {\"card_name\": \"Certifications\", \"col\": 6}}]",
+ "creation": "2026-06-18 19:20:36.146508",
  "custom_blocks": [],
  "docstatus": 0,
  "doctype": "Workspace",
@@ -13,7 +22,6 @@
  "indicator_color": "",
  "is_hidden": 0,
  "label": "Materials",
- "link_type": "DocType",
  "links": [
   {
    "hidden": 0,
@@ -78,17 +86,41 @@
    "type": "Link"
   }
  ],
- "modified": "2026-06-17 00:00:00.000000",
+ "modified": "2026-06-18 20:00:00",
  "modified_by": "Administrator",
  "module": "Material Classifications",
  "name": "Materials",
- "number_cards": [],
+ "number_cards": [
+  {
+   "number_card_name": "Material Grades"
+  },
+  {
+   "number_card_name": "Material Specifications"
+  },
+  {
+   "number_card_name": "Material Certificates"
+  },
+  {
+   "number_card_name": "Material Heats"
+  }
+ ],
  "owner": "Administrator",
  "parent_page": "",
  "public": 1,
- "quick_lists": [],
+ "quick_lists": [
+  {
+   "document_type": "Material Grade",
+   "label": "Material Grades",
+   "quick_list_filter": "{}"
+  },
+  {
+   "document_type": "Material Specification",
+   "label": "Material Specifications",
+   "quick_list_filter": "{}"
+  }
+ ],
  "roles": [],
- "sequence_id": 21.0,
+ "sequence_id": 15.0,
  "shortcuts": [
   {
    "color": "Blue",
@@ -96,6 +128,15 @@
    "format": "{} Total",
    "label": "Material Grade",
    "link_to": "Material Grade",
+   "stats_filter": "{}",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "format": "{} Total",
+   "label": "Material Specification",
+   "link_to": "Material Specification",
    "stats_filter": "{}",
    "type": "DocType"
   },
