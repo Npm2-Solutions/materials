@@ -121,33 +121,6 @@
    "print": 1
   },
   {
-   "role": "WTK Welding Engineer",
-   "read": 1,
-   "write": 1,
-   "create": 1,
-   "report": 1,
-   "export": 1,
-   "share": 1,
-   "print": 1,
-   "email": 1
-  },
-  {
-   "role": "WTK QA Manager",
-   "read": 1,
-   "report": 1,
-   "export": 1,
-   "print": 1
-  },
-  {
-   "role": "WTK QC Inspector",
-   "read": 1,
-   "print": 1
-  },
-  {
-   "role": "WTK Welder",
-   "read": 1
-  },
-  {
    "role": "WC Material Specialist",
    "read": 1,
    "write": 1,
