@@ -362,10 +362,6 @@
    "print": 1
   },
   {
-   "role": "PR Team Member",
-   "read": 1
-  },
-  {
    "role": "System Manager",
    "read": 1,
    "write": 1,
