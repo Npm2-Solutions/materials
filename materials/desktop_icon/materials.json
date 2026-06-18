@@ -1,0 +1,14 @@
+{
+ "app": "materials",
+ "doctype": "Desktop Icon",
+ "icon": "package",
+ "icon_type": "Link",
+ "label": "Materials",
+ "link_to": "Materials",
+ "link_type": "Workspace Sidebar",
+ "name": "Materials",
+ "parent_icon": "Reference Data",
+ "standard": 1,
+ "idx": 15,
+ "logo_url": "/assets/optisuites/icons/materials.svg"
+}

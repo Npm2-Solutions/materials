@@ -5,8 +5,11 @@ app_description = "Universal materials library — material grades, specificatio
 app_email = "info@npm2solutions.it"
 app_license = "mit"
 
-# Pattern B: invisible library — no apps-screen entry, no workspace. Consumers
-# (weldcore, stock, ndtnext, inspecta) Link to materials' DocTypes directly.
+# Was "Pattern B: invisible library — no workspace". Reversed 2026-06: the
+# regulated grade/spec/MTR data needs a curation surface for the WC Material
+# Specialist / STK roles, so materials now ships a "Materials" workspace
+# (material_classifications/workspace/materials). Consumers still Link to
+# materials' DocTypes directly. See audit-2026-06 (entry-point gaps).
 required_apps = ["frappe", "optisuites"]
 
 # Domain-neutral reference catalog. Each DocType is seeded by the consuming
@@ -20,6 +23,13 @@ fixtures = [
 	"Material Specification",
 	"Material Grade",
 ]
+
+# Demo Data — context-based setup (see optisuites/setup/DEMO_DATA_GUIDE.md).
+# Seeds Material Heats + EN 10204 3.1 certificates for the pressure-vessel BOM,
+# referencing the SA-516 Gr.70 fixture grade and adding demo consumable grades.
+# NB: only runs end-to-end if `materials` is in optisuites APP_INSTALL_ORDER.
+demo_setup = "materials.setup.demo.setup"
+demo_cleanup = "materials.setup.demo.cleanup"
 
 # Each item in the list will be shown as an app in the apps page
 # add_to_apps_screen = [

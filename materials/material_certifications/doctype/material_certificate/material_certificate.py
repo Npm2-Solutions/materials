@@ -167,11 +167,19 @@ class MaterialCertificate(Document):
 			self.pmi_overall_result = "Pass"
 
 	def on_update(self):
-		"""Auto-set verification metadata when verified checkbox is toggled."""
-		if self.verified and not self.verification_date:
-			self.db_set("verification_date", nowdate())
-		if self.verified and not self.verified_by:
-			self.db_set("verified_by", frappe.session.user)
+		"""Sync verification metadata with the verified checkbox — both directions."""
+		if self.verified:
+			if not self.verification_date:
+				self.db_set("verification_date", nowdate())
+			if not self.verified_by:
+				self.db_set("verified_by", frappe.session.user)
+		else:
+			# Verified unchecked → clear stale verifier metadata so a phantom
+			# verification can never leak onto prints/reports (audit P1).
+			if self.verified_by:
+				self.db_set("verified_by", None)
+			if self.verification_date:
+				self.db_set("verification_date", None)
 
 	def covered_heat_names(self):
 		"""Material Heat names this certificate documents (via heats_covered)."""

@@ -45,7 +45,20 @@ class MaterialSpecification(Document):
     def validate(self):
         if not self.designation:
             frappe.throw("Specification designation is required")
+        self._guard_supersedes_cycle()
         self.update_spec_status()
+
+    def _guard_supersedes_cycle(self):
+        # A spec can't supersede itself or form a supersession loop.
+        start = self.supersedes
+        if not start:
+            return
+        seen = {self.name}
+        while start:
+            if start in seen:
+                frappe.throw("A Material Specification cannot supersede itself (supersession cycle).")
+            seen.add(start)
+            start = frappe.db.get_value("Material Specification", start, "supersedes")
 
     def update_spec_status(self):
         """Auto-compute spec_status based on supersedes link."""

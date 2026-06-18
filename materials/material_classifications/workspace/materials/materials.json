@@ -1,0 +1,114 @@
+{
+ "app": "materials",
+ "charts": [],
+ "content": "[{\"id\": \"h_qa\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>Quick Access</b></span>\", \"col\": 12}}, {\"id\": \"sc_0\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Material Grade\", \"col\": 3}}, {\"id\": \"sc_1\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Material Certificate\", \"col\": 3}}, {\"id\": \"sp\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"h_ref\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>Reference Data</b></span>\", \"col\": 12}}, {\"id\": \"cd_0\", \"type\": \"card\", \"data\": {\"card_name\": \"Classifications\", \"col\": 4}}, {\"id\": \"cd_1\", \"type\": \"card\", \"data\": {\"card_name\": \"Certifications\", \"col\": 4}}]",
+ "creation": "2026-06-17 00:00:00.000000",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "package",
+ "idx": 0,
+ "indicator_color": "",
+ "is_hidden": 0,
+ "label": "Materials",
+ "link_type": "DocType",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Classifications",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Material Grade",
+   "link_count": 0,
+   "link_to": "Material Grade",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Material Specification",
+   "link_count": 0,
+   "link_to": "Material Specification",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Certifications",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Material Certificate",
+   "link_count": 0,
+   "link_to": "Material Certificate",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Material Heat",
+   "link_count": 0,
+   "link_to": "Material Heat",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-06-17 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Material Classifications",
+ "name": "Materials",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 21.0,
+ "shortcuts": [
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "format": "{} Total",
+   "label": "Material Grade",
+   "link_to": "Material Grade",
+   "stats_filter": "{}",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "format": "{} Total",
+   "label": "Material Certificate",
+   "link_to": "Material Certificate",
+   "stats_filter": "{}",
+   "type": "DocType"
+  }
+ ],
+ "title": "Materials",
+ "type": "Workspace"
+}
