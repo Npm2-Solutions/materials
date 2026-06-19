@@ -31,6 +31,36 @@ fixtures = [
 demo_setup = "materials.setup.demo.setup"
 demo_cleanup = "materials.setup.demo.cleanup"
 
+# RecordBook (MRB) contributor — materials supplies the dossier's material
+# evidence: the heat-traceability matrix and the full EN 10204 certificates.
+# Pull-based projection (guide 09 Pattern 6): builders READ ONLY, never import
+# recordbook at module scope, and degrade silently when recordbook is absent.
+record_book_contributors = {
+	"materials": {
+		"label": "Materials",
+		"icon": "package",
+		"app_version_contract": "1.0",
+		"sections": {
+			"heat_traceability": {
+				"title": "Material & Heat Traceability",
+				"description": "Matrix of every heat used in scope mapped to its mill certificate(s); flags missing/recalled heats.",
+				"builder": "materials.book.heat_traceability.build",
+				"supported_scopes": ["Project", "Assembly", "JointList", "Organization"],
+				"render_orientation": "Landscape",
+				"pf_context_keys": ["doc", "scope", "knobs"],
+			},
+			"certificates": {
+				"title": "Material Certificates (3.1)",
+				"description": "Full EN 10204 material certificates with chemical + mechanical results for all heats in scope.",
+				"builder": "materials.book.certificates.build",
+				"supported_scopes": ["Project", "Assembly", "JointList", "Document", "Organization"],
+				"render_orientation": "Portrait",
+				"pf_context_keys": ["doc", "scope"],
+			},
+		},
+	},
+}
+
 # Each item in the list will be shown as an app in the apps page
 # add_to_apps_screen = [
 # 	{
