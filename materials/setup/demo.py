@@ -28,12 +28,6 @@ from frappe.utils import today, add_days
 
 from optisuites.setup import persona  # shared multi-persona demo driver
 
-# The Material Inspector issues the mill test certificates (via its Role Profile);
-# specs/grades/heats are pure reference data seeded by the system.
-_MTL_PERSONA_SPEC = {
-    "inspector": persona.Persona("materials.inspector@demo.optisuites.test", "Materials", "Inspector",
-                                 "Material Inspector", "STK Material Inspector"),
-}
 
 # SA-516 Gr.70 plate grade — shipped as a materials fixture. Referenced, not created.
 PLATE_GRADE_FIXTURE = "asme_sa_516__70"
@@ -251,7 +245,7 @@ def setup(context):
     # --- Material Certificates (EN 10204 3.1 MTRs) --------------------------
     print("    Creating Material Certificates (Mill Test Reports)...")
     ledger = persona.Ledger("Materials")
-    personas = persona.ensure_personas(_MTL_PERSONA_SPEC, ledger)
+    personas = persona.ensure({"inspector": ("material_inspector", "STK Material Inspector")}, ledger)
     for c in DEMO_CERTS:
         if c["heat"] not in heat_ok:
             continue  # the heat this MTR documents wasn't created → skip
