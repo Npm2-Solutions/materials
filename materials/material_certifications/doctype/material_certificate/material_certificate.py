@@ -25,6 +25,7 @@ import frappe
 from frappe import _
 from frappe.model.document import Document
 from frappe.utils import flt, getdate, nowdate
+from optisuites.personnel.api import get_personnel_for_user
 
 
 class MaterialCertificate(Document):
@@ -172,7 +173,7 @@ class MaterialCertificate(Document):
 			if not self.verification_date:
 				self.db_set("verification_date", nowdate())
 			if not self.verified_by:
-				self.db_set("verified_by", frappe.session.user)
+				self.db_set("verified_by", get_personnel_for_user())
 		else:
 			# Verified unchecked → clear stale verifier metadata so a phantom
 			# verification can never leak onto prints/reports (audit P1).

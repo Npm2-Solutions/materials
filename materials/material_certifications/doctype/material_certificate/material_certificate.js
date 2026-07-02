@@ -69,7 +69,8 @@ frappe.ui.form.on("Material Certificate", {
 
 	verified: function(frm) {
 		if (frm.doc.verified) {
-			frm.set_value("verified_by", frappe.session.user);
+			// verified_by is a Link -> Personnel, stamped server-side (on_update)
+			// from the current login's Personnel; the browser cannot resolve it.
 			frm.set_value("verification_date", frappe.datetime.nowdate());
 		}
 	}

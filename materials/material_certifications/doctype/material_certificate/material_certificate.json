@@ -278,7 +278,7 @@
    "fieldname": "verified_by",
    "fieldtype": "Link",
    "label": "Verified By",
-   "options": "User",
+   "options": "Personnel",
    "read_only": 1
   },
   {
