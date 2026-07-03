@@ -326,37 +326,6 @@
    "print": 1
   },
   {
-   "role": "STK Material Inspector",
-   "read": 1,
-   "write": 1,
-   "create": 1,
-   "report": 1,
-   "export": 1,
-   "share": 1,
-   "print": 1,
-   "email": 1
-  },
-  {
-   "role": "STK Quality Manager",
-   "read": 1,
-   "write": 1,
-   "report": 1,
-   "export": 1,
-   "share": 1,
-   "print": 1,
-   "email": 1
-  },
-  {
-   "role": "STK Manager",
-   "read": 1,
-   "write": 1,
-   "report": 1,
-   "export": 1,
-   "share": 1,
-   "print": 1,
-   "email": 1
-  },
-  {
    "role": "System Manager",
    "read": 1,
    "write": 1,
@@ -367,6 +336,14 @@
    "export": 1,
    "report": 1,
    "share": 1
+  },
+  {
+   "role": "Material Record Author",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "report": 1,
+   "print": 1
   }
  ],
  "search_fields": "certificate_number,certificate_type,supplier",
