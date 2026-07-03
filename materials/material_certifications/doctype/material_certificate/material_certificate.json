@@ -357,11 +357,6 @@
    "email": 1
   },
   {
-   "role": "STK Purchase Manager",
-   "read": 1,
-   "print": 1
-  },
-  {
    "role": "System Manager",
    "read": 1,
    "write": 1,
