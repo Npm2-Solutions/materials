@@ -1,9 +1,11 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "autoname": "",
  "creation": "2025-01-29 00:00:00.000000",
  "doctype": "DocType",
+ "document_type": "Master",
  "engine": "InnoDB",
  "field_order": [
   "standard",
@@ -23,37 +25,37 @@
  ],
  "fields": [
   {
+   "description": "Optisuites Standard row representing this base-material spec doc edition (e.g., astm_a516_2017, en_10028_2_2017).",
    "fieldname": "standard",
    "fieldtype": "Link",
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Standard (Edition)",
    "options": "Standard",
-   "reqd": 1,
-   "description": "Optisuites Standard row representing this base-material spec doc edition (e.g., astm_a516_2017, en_10028_2_2017)."
+   "reqd": 1
   },
   {
+   "description": "The specification number (e.g., SA-516, A516, 10025-2)",
    "fieldname": "designation",
    "fieldtype": "Data",
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Designation",
-   "reqd": 1,
-   "description": "The specification number (e.g., SA-516, A516, 10025-2)"
+   "reqd": 1
   },
   {
+   "description": "Computed in before_save: '{designation} — {standard label}'. Drives form title + link dropdowns.",
    "fieldname": "display_name",
    "fieldtype": "Data",
-   "label": "Display Name",
-   "read_only": 1,
    "hidden": 1,
-   "description": "Computed in before_save: '{designation} \u2014 {standard label}'. Drives form title + link dropdowns."
+   "label": "Display Name",
+   "read_only": 1
   },
   {
+   "description": "Full specification title (e.g., 'Pressure Vessel Plates, Carbon Steel, for Moderate- and Lower-Temperature Service')",
    "fieldname": "title",
    "fieldtype": "Data",
-   "label": "Long Title",
-   "description": "Full specification title (e.g., 'Pressure Vessel Plates, Carbon Steel, for Moderate- and Lower-Temperature Service')"
+   "label": "Long Title"
   },
   {
    "fieldname": "column_break_1",
@@ -68,14 +70,14 @@
    "options": "\nCarbon Steel\nLow Alloy Steel\nStainless Steel\nNickel Alloy\nAluminum Alloy\nCopper Alloy\nTitanium Alloy\nCast Iron\nOther"
   },
   {
+   "default": "Active",
    "fieldname": "spec_status",
    "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Status",
    "options": "Active\nSuperseded\nWithdrawn",
-   "default": "Active",
-   "read_only": 1,
-   "in_list_view": 1,
-   "in_standard_filter": 1
+   "read_only": 1
   },
   {
    "fieldname": "section_break_details",
@@ -87,11 +89,11 @@
    "fieldtype": "Column Break"
   },
   {
+   "description": "Previous specification this replaces",
    "fieldname": "supersedes",
    "fieldtype": "Link",
    "label": "Supersedes",
-   "options": "Material Specification",
-   "description": "Previous specification this replaces"
+   "options": "Material Specification"
   },
   {
    "fieldname": "description",
@@ -99,10 +101,10 @@
    "label": "Description"
   },
   {
+   "collapsible": 1,
    "fieldname": "section_break_settings",
    "fieldtype": "Section Break",
-   "label": "Settings",
-   "collapsible": 1
+   "label": "Settings"
   },
   {
    "default": "0",
@@ -129,27 +131,27 @@
  "owner": "Administrator",
  "permissions": [
   {
-   "role": "Materials Reader",
+   "export": 1,
+   "print": 1,
    "read": 1,
    "report": 1,
-   "export": 1,
-   "print": 1
+   "role": "Materials Reader"
   },
   {
-   "role": "Material Catalog Curator",
-   "read": 1,
-   "write": 1,
    "create": 1,
+   "print": 1,
+   "read": 1,
    "report": 1,
-   "print": 1
+   "role": "Material Catalog Curator",
+   "write": 1
   }
  ],
  "quick_entry": 1,
  "search_fields": "display_name,designation,title,material_category",
+ "show_title_field_in_link": 1,
  "sort_field": "display_name",
  "sort_order": "ASC",
  "states": [],
  "title_field": "display_name",
- "track_changes": 1,
- "show_title_field_in_link": 1
+ "track_changes": 1
 }

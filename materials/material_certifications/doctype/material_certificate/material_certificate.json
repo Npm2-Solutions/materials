@@ -1,8 +1,11 @@
 {
  "actions": [],
+ "allow_copy": 1,
+ "allow_rename": 0,
  "autoname": "format:MCERT-{YYYY}-{#####}",
  "creation": "2025-01-22 00:00:00",
  "doctype": "DocType",
+ "document_type": "Document",
  "engine": "InnoDB",
  "field_order": [
   "details_tab",
@@ -111,11 +114,11 @@
    "label": "Issuer"
   },
   {
+   "description": "Standards body that issued/govern this certification (e.g. AWS, ASME, ISO). Required for regulatory traceability — auditors need to know which authority backs the certification. NOT enforced as reqd=1 yet because demo data is 100% NULL; backfill required first.",
    "fieldname": "issuing_organization",
    "fieldtype": "Link",
    "label": "Issuing Organization",
-   "options": "Standard Organization",
-   "description": "Standards body that issued/govern this certification (e.g. AWS, ASME, ISO). Required for regulatory traceability \u2014 auditors need to know which authority backs the certification. NOT enforced as reqd=1 yet because demo data is 100% NULL; backfill required first."
+   "options": "Standard Organization"
   },
   {
    "description": "Free-text name when organization is not in the system",
@@ -125,22 +128,22 @@
    "label": "Issuing Body / Laboratory"
   },
   {
+   "description": "Third-party testing lab that executed the mechanical/chemical/PMI tests cited in this certificate (TWI, EWI, NIST, etc.). Distinct from issuing_organization (who governs the standard) and issuing_body (who issued the document — usually the mill itself for EN 10204 3.1).",
    "fieldname": "testing_laboratory",
    "fieldtype": "Link",
    "label": "Testing Laboratory",
-   "options": "Third Party Body",
-   "description": "Third-party testing lab that executed the mechanical/chemical/PMI tests cited in this certificate (TWI, EWI, NIST, etc.). Distinct from issuing_organization (who governs the standard) and issuing_body (who issued the document \u2014 usually the mill itself for EN 10204 3.1)."
+   "options": "Third Party Body"
   },
   {
    "fieldname": "cb_issuer",
    "fieldtype": "Column Break"
   },
   {
+   "description": "Specific Standard edition this certificate validates against (e.g. ASTM A516:2020). The \"under WHICH RULES\" snapshot per platform-guides ch.10 Flow 2 RULES. NOT enforced as reqd=1 yet because demo data is 100% NULL; backfill required first.",
    "fieldname": "applicable_standard",
    "fieldtype": "Link",
    "label": "Applicable Standard",
-   "options": "Standard",
-   "description": "Specific Standard edition this certificate validates against (e.g. ASTM A516:2020). The \"under WHICH RULES\" snapshot per platform-guides ch.10 Flow 2 RULES. NOT enforced as reqd=1 yet because demo data is 100% NULL; backfill required first."
+   "options": "Standard"
   },
   {
    "default": "0",
@@ -159,7 +162,7 @@
    "label": "Heat Numbers Covered"
   },
   {
-   "description": "Heats this certificate documents. Each row links to a Material Heat record \u2014 single source of truth for heat-level chemistry, mechanicals, and recall status.",
+   "description": "Heats this certificate documents. Each row links to a Material Heat record — single source of truth for heat-level chemistry, mechanicals, and recall status.",
    "fieldname": "heats_covered",
    "fieldtype": "Table",
    "label": "Heats Covered",
@@ -319,31 +322,31 @@
  "owner": "Administrator",
  "permissions": [
   {
-   "role": "Materials Reader",
+   "export": 1,
+   "print": 1,
    "read": 1,
    "report": 1,
-   "export": 1,
-   "print": 1
+   "role": "Materials Reader"
   },
   {
-   "role": "System Manager",
-   "read": 1,
-   "write": 1,
    "create": 1,
    "delete": 1,
    "email": 1,
-   "print": 1,
    "export": 1,
+   "print": 1,
+   "read": 1,
    "report": 1,
-   "share": 1
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
   },
   {
-   "role": "Material Record Author",
-   "read": 1,
-   "write": 1,
    "create": 1,
+   "print": 1,
+   "read": 1,
    "report": 1,
-   "print": 1
+   "role": "Material Record Author",
+   "write": 1
   }
  ],
  "search_fields": "certificate_number,certificate_type,supplier",

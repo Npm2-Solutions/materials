@@ -1,9 +1,11 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "autoname": "",
  "creation": "2025-01-29 00:00:00.000000",
  "doctype": "DocType",
+ "document_type": "Master",
  "engine": "InnoDB",
  "field_order": [
   "specification",
@@ -21,53 +23,53 @@
  ],
  "fields": [
   {
+   "description": "The parent material specification (e.g., ASME-SA-516)",
    "fieldname": "specification",
    "fieldtype": "Link",
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Specification",
    "options": "Material Specification",
-   "reqd": 1,
-   "description": "The parent material specification (e.g., ASME-SA-516)"
+   "reqd": 1
   },
   {
+   "description": "Grade designation (e.g., 70, S355J2, 304)",
    "fieldname": "grade",
    "fieldtype": "Data",
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Grade",
-   "reqd": 1,
-   "description": "Grade designation (e.g., 70, S355J2, 304)"
+   "reqd": 1
   },
   {
    "fieldname": "col_id_1",
    "fieldtype": "Column Break"
   },
   {
+   "description": "Unified Numbering System designation for cross-reference",
    "fieldname": "uns_number",
    "fieldtype": "Data",
-   "label": "UNS Number",
-   "description": "Unified Numbering System designation for cross-reference",
-   "in_list_view": 1
+   "in_list_view": 1,
+   "label": "UNS Number"
   },
   {
+   "collapsible": 1,
    "fieldname": "section_products",
    "fieldtype": "Section Break",
-   "label": "Available Product Forms",
-   "collapsible": 1
+   "label": "Available Product Forms"
   },
   {
+   "description": "Available forms with thickness/diameter ranges",
    "fieldname": "product_forms",
    "fieldtype": "Table",
    "label": "Product Forms",
-   "options": "Material Grade Form",
-   "description": "Available forms with thickness/diameter ranges"
+   "options": "Material Grade Form"
   },
   {
+   "collapsible": 1,
    "fieldname": "section_notes",
    "fieldtype": "Section Break",
-   "label": "Notes",
-   "collapsible": 1
+   "label": "Notes"
   },
   {
    "fieldname": "notes",
@@ -75,10 +77,10 @@
    "label": "Notes"
   },
   {
+   "collapsible": 1,
    "fieldname": "section_settings",
    "fieldtype": "Section Break",
-   "label": "Settings",
-   "collapsible": 1
+   "label": "Settings"
   },
   {
    "default": "0",
@@ -91,17 +93,17 @@
    "default": "1",
    "fieldname": "enabled",
    "fieldtype": "Check",
-   "label": "Enabled",
    "in_list_view": 1,
-   "in_standard_filter": 1
+   "in_standard_filter": 1,
+   "label": "Enabled"
   },
   {
+   "description": "Computed in before_save: '{grade} — {specification designation}'. Drives form title + link dropdowns.",
    "fieldname": "display_name",
    "fieldtype": "Data",
-   "label": "Display Name",
-   "read_only": 1,
    "hidden": 1,
-   "description": "Computed in before_save: '{grade} \u2014 {specification designation}'. Drives form title + link dropdowns."
+   "label": "Display Name",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
@@ -114,27 +116,27 @@
  "owner": "Administrator",
  "permissions": [
   {
-   "role": "Materials Reader",
+   "export": 1,
+   "print": 1,
    "read": 1,
    "report": 1,
-   "export": 1,
-   "print": 1
+   "role": "Materials Reader"
   },
   {
-   "role": "Material Catalog Curator",
-   "read": 1,
-   "write": 1,
    "create": 1,
+   "print": 1,
+   "read": 1,
    "report": 1,
-   "print": 1
+   "role": "Material Catalog Curator",
+   "write": 1
   }
  ],
  "quick_entry": 1,
  "search_fields": "display_name,specification,grade,uns_number",
+ "show_title_field_in_link": 1,
  "sort_field": "display_name",
  "sort_order": "ASC",
  "states": [],
  "title_field": "display_name",
- "track_changes": 1,
- "show_title_field_in_link": 1
+ "track_changes": 1
 }
