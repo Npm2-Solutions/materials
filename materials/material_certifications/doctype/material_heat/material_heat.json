@@ -140,8 +140,26 @@
    "write": 1
   }
  ],
+ "search_fields": "heat_number,mill",
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": [],
+ "states": [
+  {
+   "color": "Green",
+   "title": "Active"
+  },
+  {
+   "color": "Green",
+   "title": "Released"
+  },
+  {
+   "color": "Red",
+   "title": "Quarantined"
+  },
+  {
+   "color": "Red",
+   "title": "Recalled"
+  }
+ ],
  "track_changes": 1
 }

@@ -146,7 +146,7 @@
    "write": 1
   }
  ],
- "quick_entry": 1,
+ "quick_entry": 0,
  "search_fields": "display_name,designation,title,material_category",
  "show_title_field_in_link": 1,
  "sort_field": "display_name",
