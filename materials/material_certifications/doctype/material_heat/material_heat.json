@@ -87,6 +87,7 @@
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Status",
+   "no_copy": 1,
    "options": "Active\nReleased\nQuarantined\nRecalled",
    "reqd": 1
   },
