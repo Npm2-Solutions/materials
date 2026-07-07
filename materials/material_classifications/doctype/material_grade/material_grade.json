@@ -26,6 +26,7 @@
    "description": "The parent material specification (e.g., ASME-SA-516)",
    "fieldname": "specification",
    "fieldtype": "Link",
+   "in_global_search": 1,
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Specification",
@@ -36,6 +37,7 @@
    "description": "Grade designation (e.g., 70, S355J2, 304)",
    "fieldname": "grade",
    "fieldtype": "Data",
+   "in_global_search": 1,
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Grade",
@@ -49,6 +51,7 @@
    "description": "Unified Numbering System designation for cross-reference",
    "fieldname": "uns_number",
    "fieldtype": "Data",
+   "in_global_search": 1,
    "in_list_view": 1,
    "label": "UNS Number"
   },
@@ -102,6 +105,7 @@
    "fieldname": "display_name",
    "fieldtype": "Data",
    "hidden": 1,
+   "in_global_search": 1,
    "label": "Display Name",
    "read_only": 1
   }

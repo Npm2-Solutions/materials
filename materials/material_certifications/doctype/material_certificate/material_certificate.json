@@ -67,6 +67,7 @@
   {
    "fieldname": "certificate_number",
    "fieldtype": "Data",
+   "in_global_search": 1,
    "in_list_view": 1,
    "label": "Certificate Number",
    "reqd": 1
@@ -74,6 +75,7 @@
   {
    "fieldname": "certificate_type",
    "fieldtype": "Select",
+   "in_global_search": 1,
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Certificate Type",
@@ -103,6 +105,7 @@
   {
    "fieldname": "supplier",
    "fieldtype": "Link",
+   "in_global_search": 1,
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Supplier",
@@ -350,6 +353,7 @@
   }
  ],
  "search_fields": "certificate_number,certificate_type,supplier",
+ "show_name_in_global_search": 1,
  "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
