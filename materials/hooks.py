@@ -12,6 +12,19 @@ app_license = "mit"
 # materials' DocTypes directly. See audit-2026-06 (entry-point gaps).
 required_apps = ["frappe", "optisuites"]
 
+# Ring 3 (guide 33 CS12): Global Search Settings rebuilds its allowlist from THIS
+# hook — without it, in_global_search fields index but the search bar returns
+# NOTHING for these doctypes (global_search.py:496 gates results by allowlist).
+global_search_doctypes = {
+	"Default": [
+		{"doctype": "Material Certificate"},
+		{"doctype": "Material Grade"},
+		{"doctype": "Material Heat"},
+		{"doctype": "Material Specification"},
+	],
+}
+
+
 # Domain-neutral reference catalog. Each DocType is seeded by the consuming
 # project's demo/init; materials itself only ships schema + display_name
 # controllers. Fixtures keep the seed data exportable for diff-based audits.
