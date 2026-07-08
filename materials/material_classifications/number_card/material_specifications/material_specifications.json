@@ -9,7 +9,8 @@
  "is_standard": 1,
  "module": "Material Classifications",
  "type": "Document Type",
- "color": "#2490ef",
+ "color": "#CE0555",
  "show_percentage_stats": 0,
- "stats_time_interval": "Daily"
+ "stats_time_interval": "Daily",
+ "modified": "2026-07-08 17:00:00.000000"
 }

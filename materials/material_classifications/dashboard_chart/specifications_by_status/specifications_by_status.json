@@ -12,8 +12,9 @@
  "is_public": 1,
  "is_standard": 1,
  "module": "Material Classifications",
- "color": "#449cf0",
+ "color": "#CE0555",
  "timeseries": 0,
  "timespan": "Last Year",
- "time_interval": "Yearly"
+ "time_interval": "Yearly",
+ "modified": "2026-07-08 17:00:00.000000"
 }
