@@ -45,7 +45,7 @@
    "reqd": 1
   },
   {
-   "description": "Computed in before_save: '{designation} — {standard label}'. Drives form title + link dropdowns.",
+   "description": "Computed in before_save: '{designation} \u2014 {standard label}'. Drives form title + link dropdowns.",
    "fieldname": "display_name",
    "fieldtype": "Data",
    "hidden": 1,
@@ -150,7 +150,7 @@
    "write": 1
   }
  ],
- "quick_entry": 0,
+ "quick_entry": 1,
  "search_fields": "display_name,designation,title,material_category",
  "show_title_field_in_link": 1,
  "sort_field": "display_name",

@@ -50,7 +50,7 @@
    "fieldtype": "Column Break"
   },
   {
-   "description": "Mill of origin (Supplier acting as material producer). Required for chain-of-custody traceability per EN 10204 §4 — every heat must be traceable to its producing mill. NOT enforced as reqd=1 yet because demo data has 100% NULL on this field; backfill required first. Validator-level warning fires on save if NULL.",
+   "description": "Mill of origin (Supplier acting as material producer). Required for chain-of-custody traceability per EN 10204 \u00a74 \u2014 every heat must be traceable to its producing mill. NOT enforced as reqd=1 yet because demo data has 100% NULL on this field; backfill required first. Validator-level warning fires on save if NULL.",
    "fieldname": "mill",
    "fieldtype": "Link",
    "in_global_search": 1,
@@ -60,7 +60,7 @@
    "options": "Supplier"
   },
   {
-   "description": "Grade specification the heat was poured to. Required — a heat without a grade is untraceable.",
+   "description": "Grade specification the heat was poured to. Required \u2014 a heat without a grade is untraceable.",
    "fieldname": "grade",
    "fieldtype": "Link",
    "in_list_view": 1,
@@ -81,7 +81,7 @@
   },
   {
    "default": "Active",
-   "description": "Recalled propagates downstream — every consumer linking to this heat surfaces it as recalled.",
+   "description": "Recalled propagates downstream \u2014 every consumer linking to this heat surfaces it as recalled.",
    "fieldname": "status",
    "fieldtype": "Select",
    "in_list_view": 1,
@@ -164,5 +164,6 @@
    "title": "Recalled"
   }
  ],
- "track_changes": 1
+ "track_changes": 1,
+ "quick_entry": 1
 }
