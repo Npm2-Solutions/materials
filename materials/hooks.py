@@ -32,7 +32,10 @@ fixtures = [
 	# Standard first — Material Specification.standard links to these. materials
 	# owns the material-domain editions (API 5xx, EN 100xx/102xx, ASTM Axx, …) so
 	# it is self-sufficient without depending on weldcore (L2).
-	"Standard",
+	# The domain filter is load-bearing: unfiltered, an export pulls every app's
+	# editions (welding, NDT, structural) into this fixture. That is how 157
+	# material specs once ended up inside weldcore/fixtures/standard.json.
+	{"dt": "Standard", "filters": [["domain", "=", "Mechanical"]]},
 	"Material Specification",
 	"Material Grade",
 ]
