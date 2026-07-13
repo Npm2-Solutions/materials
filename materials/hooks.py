@@ -155,7 +155,7 @@ record_book_contributors = {
 # Uninstallation
 # ------------
 
-# before_uninstall = "materials.uninstall.before_uninstall"
+before_uninstall = "materials.setup.install.before_uninstall"
 # after_uninstall = "materials.uninstall.after_uninstall"
 
 # Integration Setup
