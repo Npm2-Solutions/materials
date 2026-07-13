@@ -153,7 +153,8 @@ record_book_contributors = {
 # ------------
 
 # before_install = "materials.install.before_install"
-# after_install = "materials.install.after_install"
+after_install = "materials.setup.install.after_install"
+after_migrate = "materials.setup.install.after_migrate"
 
 # Uninstallation
 # ------------
