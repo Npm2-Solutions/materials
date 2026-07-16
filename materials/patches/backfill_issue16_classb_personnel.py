@@ -1,6 +1,6 @@
 """Issue 16 Class B — repoint person-actor fields from User to Personnel."""
 import frappe
-from optisuites.personnel.api import find_personnel
+from worgify.personnel.api import find_personnel
 
 TARGETS = [
     ("Material Certificate", "pmi_operator"),

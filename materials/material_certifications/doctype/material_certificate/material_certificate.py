@@ -25,7 +25,7 @@ import frappe
 from frappe import _
 from frappe.model.document import Document
 from frappe.utils import flt, getdate, nowdate
-from optisuites.personnel.api import get_personnel_for_user
+from worgify.personnel.api import get_personnel_for_user
 
 
 class MaterialCertificate(Document):

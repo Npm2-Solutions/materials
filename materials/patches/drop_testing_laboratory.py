@@ -1,6 +1,6 @@
 """Drop the deprecated 'Testing Laboratory' DocType (Design 05 Phase 5).
 
-External bodies are consolidated into the optisuites Third Party Body registry.
+External bodies are consolidated into the worgify Third Party Body registry.
 All Link consumers were repointed; 'Testing Laboratory' is now orphaned. Remove the DocType
 + its table. Idempotent.
 """

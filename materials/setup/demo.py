@@ -1,7 +1,7 @@
 # Copyright (c) 2026, NPM2 Solutions Srl
 # Demo data for the Materials app (L1.5 — invisible materials library).
 #
-# Story (see optisuites/setup/DEMO_DATA_GUIDE.md): Petrolia Energy's pressure
+# Story (see worgify/setup/DEMO_DATA_GUIDE.md): Petrolia Energy's pressure
 # vessel is fabricated from SA-516 Gr.70 plate, welded with ER70S-6 wire and
 # E7018 electrodes. This module seeds the *as-received material evidence* for
 # that bill of materials:
@@ -19,14 +19,14 @@
 # Material Heat ↔ Material Certificate.heats_covered) tells one continuous story.
 #
 # NOTE — wiring: this app's `demo_setup`/`demo_cleanup` hooks only run if
-# `materials` is present in optisuites.setup.demo.APP_INSTALL_ORDER. As of this
+# `materials` is present in worgify.setup.demo.APP_INSTALL_ORDER. As of this
 # writing materials is not yet listed there; add it (after `training`) for the
 # end-to-end build to include this data. This file owns no cross-app edits.
 
 import frappe
 from frappe.utils import today, add_days
 
-from optisuites.setup import persona  # shared multi-persona demo driver
+from worgify.setup import persona  # shared multi-persona demo driver
 
 
 # SA-516 Gr.70 plate grade — shipped as a materials fixture. Referenced, not created.
@@ -156,7 +156,7 @@ def setup(context):
     Adds material_specifications / material_grades / material_heats /
     material_certificates to context for any downstream consumer.
     """
-    # Foundation must have run. company is always set by optisuites.
+    # Foundation must have run. company is always set by worgify.
     if not context.get("company"):
         return
 

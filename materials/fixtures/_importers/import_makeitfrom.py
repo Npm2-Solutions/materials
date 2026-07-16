@@ -35,7 +35,7 @@ USAGE
 DESIGN
 ------
 - Polite scraping: 1.5s delay between requests; identifies as
-  "OptiSuites-fixtures-bot/1.0 (research; contact: mm@mmwebagency.it)";
+  "Worgify-fixtures-bot/1.0 (research; contact: mm@mmwebagency.it)";
   respects HTTP 429 with exponential backoff.
 - Resumable: HTML pages are cached on disk; re-runs skip already-cached
   URLs. To force a refresh, delete the cache file.
@@ -45,7 +45,7 @@ DESIGN
 - Provenance: every emitted row carries
   notes = "[MakeItFrom.com] <full URL of source page>"
   per the platform's reference-data provenance rule
-  (optisuites-platform-guides/01-ecosystem/11-reference-data-provenance.md).
+  (worgify-platform-guides/01-ecosystem/11-reference-data-provenance.md).
 
 PROVENANCE NOTE
 ---------------
@@ -83,7 +83,7 @@ from _paths import fixture, source, apps_path
 
 BASE_URL = "https://www.makeitfrom.com"
 USER_AGENT = (
-    "OptiSuites-fixtures-bot/1.0 "
+    "Worgify-fixtures-bot/1.0 "
     "(material-reference-data extraction; contact: mm@mmwebagency.it)"
 )
 CACHE_DIR = apps_path("materials/source/cache/makeitfrom")

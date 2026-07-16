@@ -10,7 +10,7 @@ app_license = "mit"
 # Specialist / STK roles, so materials now ships a "Materials" workspace
 # (material_classifications/workspace/materials). Consumers still Link to
 # materials' DocTypes directly. See audit-2026-06 (entry-point gaps).
-required_apps = ["frappe", "optisuites"]
+required_apps = ["frappe", "worgify"]
 
 # Ring 3 (guide 33 CS12): Global Search Settings rebuilds its allowlist from THIS
 # hook — without it, in_global_search fields index but the search bar returns
@@ -40,10 +40,10 @@ fixtures = [
 	"Material Grade",
 ]
 
-# Demo Data — context-based setup (see optisuites/setup/DEMO_DATA_GUIDE.md).
+# Demo Data — context-based setup (see worgify/setup/DEMO_DATA_GUIDE.md).
 # Seeds Material Heats + EN 10204 3.1 certificates for the pressure-vessel BOM,
 # referencing the SA-516 Gr.70 fixture grade and adding demo consumable grades.
-# NB: only runs end-to-end if `materials` is in optisuites APP_INSTALL_ORDER.
+# NB: only runs end-to-end if `materials` is in worgify APP_INSTALL_ORDER.
 demo_setup = "materials.setup.demo.setup"
 demo_cleanup = "materials.setup.demo.cleanup"
 

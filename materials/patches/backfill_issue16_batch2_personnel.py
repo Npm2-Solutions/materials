@@ -7,7 +7,7 @@ User -> Personnel. This patch remaps existing rows. Unmatched values become NULL
 per the Issue 16 convention.
 """
 import frappe
-from optisuites.personnel.api import find_personnel
+from worgify.personnel.api import find_personnel
 
 TARGETS = [
     ("Material Certificate", "verified_by"),

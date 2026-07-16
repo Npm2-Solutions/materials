@@ -56,7 +56,7 @@ credit makeitfrom.com.
   pages/hour worst case. Adjust with `--delay`.
 - Respects HTTP 429 with `Retry-After` header.
 - Exponential backoff on 5xx errors.
-- Identifies as `OptiSuites-fixtures-bot/1.0 (research; contact: <email>)`
+- Identifies as `Worgify-fixtures-bot/1.0 (research; contact: <email>)`
   per RFC 9309 polite-bot conventions.
 
 ## Known limitations
