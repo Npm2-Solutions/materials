@@ -1,0 +1,1411 @@
+# Italian translations for Materials.
+# Copyright (C) 2026 NPM2 Solutions Srl
+# This file is distributed under the same license as the Materials project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Materials VERSION\n"
+"Report-Msgid-Bugs-To: info@npm2solutions.it\n"
+"POT-Creation-Date: 2026-07-20 17:45+0000\n"
+"PO-Revision-Date: 2026-07-20 17:45+0000\n"
+"Last-Translator: info@npm2solutions.it\n"
+"Language: it\n"
+"Language-Team: info@npm2solutions.it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#. Header text in the Materials Workspace
+#: materials/material_classifications/workspace/materials/materials.json
+msgid "<span class=\"h4\"><b>Explore</b></span>"
+msgstr "<span class=\"h4\"><b>Esplora</b></span>"
+
+#. Header text in the Materials Workspace
+#: materials/material_classifications/workspace/materials/materials.json
+msgid "<span class=\"h4\"><b>Key Metrics</b></span>"
+msgstr "<span class=\"h4\"><b>Metriche chiave</b></span>"
+
+#. Header text in the Materials Workspace
+#: materials/material_classifications/workspace/materials/materials.json
+msgid "<span class=\"h4\"><b>Quick Actions</b></span>"
+msgstr "<span class=\"h4\"><b>Azioni rapide</b></span>"
+
+#. Header text in the Materials Workspace
+#: materials/material_classifications/workspace/materials/materials.json
+msgid "<span class=\"h4\"><b>Recent Activity</b></span>"
+msgstr "<span class=\"h4\"><b>Attività recente</b></span>"
+
+#. Header text in the Materials Workspace
+#: materials/material_classifications/workspace/materials/materials.json
+msgid "<span class=\"h4\"><b>Trends & Distribution</b></span>"
+msgstr "<span class=\"h4\"><b>Tendenze e distribuzione</b></span>"
+
+#: materials/material_certifications/doctype/material_certificate/material_certificate.js:32
+#: materials/material_classifications/doctype/material_specification/material_specification.js:22
+msgid "Actions"
+msgstr "Azioni"
+
+#. Option for the 'Status' (Select) field in DocType 'Material Heat'
+#. Option for the 'Status' (Select) field in DocType 'Material Specification'
+#: materials/material_certifications/doctype/material_heat/material_heat.json
+#: materials/material_classifications/doctype/material_specification/material_specification.json
+msgid "Active"
+msgstr "Attivo"
+
+#. Option for the 'Element' (Select) field in DocType 'Certificate Chemical
+#. Result'
+#: materials/material_certifications/doctype/certificate_chemical_result/certificate_chemical_result.json
+msgid "Al"
+msgstr "Al"
+
+#. Option for the 'Material Category' (Select) field in DocType 'Material
+#. Specification'
+#: materials/material_classifications/doctype/material_specification/material_specification.json
+msgid "Aluminum Alloy"
+msgstr "Lega di alluminio"
+
+#. Label of the applicable_standard (Link) field in DocType 'Material
+#. Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Applicable Standard"
+msgstr "Norma applicabile"
+
+#: materials/material_certifications/doctype/material_certificate/material_certificate.js:132
+msgid "Apply"
+msgstr "Applica"
+
+#: materials/material_certifications/doctype/material_certificate/material_certificate.js:25
+msgid "Are you sure you want to revoke this certificate? This cannot be undone."
+msgstr "Revocare davvero questo certificato? L'operazione non è annullabile."
+
+#: materials/material_classifications/doctype/material_specification/material_specification.js:15
+msgid "Are you sure you want to withdraw specification {0}?"
+msgstr "Ritirare davvero la specifica {0}?"
+
+#. Label of the section_products (Section Break) field in DocType 'Material
+#. Grade'
+#: materials/material_classifications/doctype/material_grade/material_grade.json
+msgid "Available Product Forms"
+msgstr "Forme di prodotto disponibili"
+
+#. Description of the 'Product Forms' (Table) field in DocType 'Material Grade'
+#: materials/material_classifications/doctype/material_grade/material_grade.json
+msgid "Available forms with thickness/diameter ranges"
+msgstr "Forme disponibili con intervalli di spessore/diametro"
+
+#. Option for the 'Element' (Select) field in DocType 'Certificate Chemical
+#. Result'
+#: materials/material_certifications/doctype/certificate_chemical_result/certificate_chemical_result.json
+msgid "B"
+msgstr "B"
+
+#. Option for the 'Product Form' (Select) field in DocType 'Material Grade
+#. Form'
+#: materials/material_classifications/doctype/material_grade_form/material_grade_form.json
+msgid "Bar"
+msgstr "Bar"
+
+#. Option for the 'Test Type' (Select) field in DocType 'Certificate Mechanical
+#. Result'
+#: materials/material_certifications/doctype/certificate_mechanical_result/certificate_mechanical_result.json
+msgid "Bend Test"
+msgstr "Prova di piegamento"
+
+#. Option for the 'Element' (Select) field in DocType 'Certificate Chemical
+#. Result'
+#: materials/material_certifications/doctype/certificate_chemical_result/certificate_chemical_result.json
+msgid "C"
+msgstr "C"
+
+#: materials/material_certifications/doctype/material_heat/material_heat.py:41
+msgid "Cannot change Material Heat status from {0} to {1}."
+msgstr "Impossibile cambiare lo stato della colata da {0} a {1}."
+
+#: materials/material_classifications/doctype/material_grade/material_grade.py:111
+msgid "Cannot delete system standard '{0}'. This base material grade is required by the system."
+msgstr "Impossibile eliminare lo standard di sistema '{0}'. Questo grado di materiale base è richiesto dal sistema."
+
+#: materials/material_classifications/doctype/material_specification/material_specification.py:86
+msgid "Cannot delete system standard '{0}'. This base material specification is required by the system."
+msgstr "Impossibile eliminare lo standard di sistema '{0}'. Questa specifica del materiale base è richiesta dal sistema."
+
+#. Option for the 'Material Category' (Select) field in DocType 'Material
+#. Specification'
+#: materials/material_classifications/doctype/material_specification/material_specification.json
+msgid "Carbon Steel"
+msgstr "Acciaio al carbonio"
+
+#. Option for the 'Material Category' (Select) field in DocType 'Material
+#. Specification'
+#: materials/material_classifications/doctype/material_specification/material_specification.json
+msgid "Cast Iron"
+msgstr "Ghisa"
+
+#. Label of the cast_number (Data) field in DocType 'Material Heat'
+#: materials/material_certifications/doctype/material_heat/material_heat.json
+msgid "Cast Number"
+msgstr "Numero di colata"
+
+#. Option for the 'Product Form' (Select) field in DocType 'Material Grade
+#. Form'
+#: materials/material_classifications/doctype/material_grade_form/material_grade_form.json
+msgid "Casting"
+msgstr "Getto"
+
+#. Name of a DocType
+#: materials/material_certifications/doctype/certificate_chemical_result/certificate_chemical_result.json
+msgid "Certificate Chemical Result"
+msgstr "Risultato chimico del certificato"
+
+#. Label of the certificate_date (Date) field in DocType 'Material Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Certificate Date"
+msgstr "Data certificato"
+
+#. Label of the attachment_section (Section Break) field in DocType 'Material
+#. Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Certificate File"
+msgstr "File del certificato"
+
+#. Label of the attachment (Attach) field in DocType 'Material Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Certificate File (PDF)"
+msgstr "File del certificato (PDF)"
+
+#. Label of the identity_section (Section Break) field in DocType 'Material
+#. Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Certificate Identity"
+msgstr "Identità del certificato"
+
+#. Name of a DocType
+#: materials/material_certifications/doctype/certificate_mechanical_result/certificate_mechanical_result.json
+msgid "Certificate Mechanical Result"
+msgstr "Risultato meccanico del certificato"
+
+#. Label of the certificate_number (Data) field in DocType 'Material
+#. Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Certificate Number"
+msgstr "Numero certificato"
+
+#. Label of the certificate_type (Select) field in DocType 'Material
+#. Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Certificate Type"
+msgstr "Tipo di certificato"
+
+#: materials/material_certifications/doctype/material_certificate/material_certificate.py:363
+msgid "Certificate extraction is not enabled in Stock Settings."
+msgstr "L'estrazione dei certificati non è abilitata in Impostazioni Magazzino."
+
+#: materials/material_certifications/doctype/material_certificate/material_certificate.py:135
+msgid "Certificate number {0} already exists: {1}. If the data differs, one may be fraudulent."
+msgstr "Il numero di certificato {0} esiste già: {1}. Se i dati differiscono, uno potrebbe essere fraudolento."
+
+#. Label of a Card Break in the Materials Workspace
+#. Label of a Workspace Sidebar Item
+#: materials/material_classifications/workspace/materials/materials.json
+#: materials/workspace_sidebar/materials.json
+msgid "Certifications"
+msgstr "Certificazioni"
+
+#. Label of the chemical_section (Section Break) field in DocType 'Material
+#. Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Chemical Analysis Results"
+msgstr "Risultati dell'analisi chimica"
+
+#. Label of the chemical_tab (Tab Break) field in DocType 'Material
+#. Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.js:106
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Chemical Composition"
+msgstr "Composizione chimica"
+
+#. Label of the chemical_results (Table) field in DocType 'Material
+#. Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Chemical Results"
+msgstr "Risultati chimici"
+
+#: materials/material_certifications/doctype/material_certificate/material_certificate.py:87
+msgid "Chemical: {0} = {1}% (spec: {2} - {3})"
+msgstr "Chimico: {0} = {1}% (spec: {2} - {3})"
+
+#. Label of a Card Break in the Materials Workspace
+#: materials/material_classifications/workspace/materials/materials.json
+msgid "Classifications"
+msgstr "Classificazioni"
+
+#. Option for the 'Element' (Select) field in DocType 'Certificate Chemical
+#. Result'
+#: materials/material_certifications/doctype/certificate_chemical_result/certificate_chemical_result.json
+msgid "Co"
+msgstr "Co"
+
+#. Option for the 'Certificate Type' (Select) field in DocType 'Material
+#. Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Coating Certificate"
+msgstr "Certificato di rivestimento"
+
+#. Description of the 'Display Name' (Data) field in DocType 'Material
+#. Specification'
+#: materials/material_classifications/doctype/material_specification/material_specification.json
+msgid "Computed in before_save: '{designation} — {standard label}'. Drives form title + link dropdowns."
+msgstr "Calcolato in before_save: '{designation} — {standard label}'. Determina il titolo del modulo e i menu a tendina dei collegamenti."
+
+#. Description of the 'Display Name' (Data) field in DocType 'Material Grade'
+#: materials/material_classifications/doctype/material_grade/material_grade.json
+msgid "Computed in before_save: '{grade} — {specification designation}'. Drives form title + link dropdowns."
+msgstr "Calcolato in before_save: '{grade} — {specification designation}'. Determina il titolo del modulo e i menu a tendina dei collegamenti."
+
+#. Option for the 'Overall PMI Result' (Select) field in DocType 'Material
+#. Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Conditional"
+msgstr "Con riserva"
+
+#. Option for the 'Material Category' (Select) field in DocType 'Material
+#. Specification'
+#: materials/material_classifications/doctype/material_specification/material_specification.json
+msgid "Copper Alloy"
+msgstr "Lega di rame"
+
+#: materials/material_certifications/doctype/material_certificate/material_certificate.py:391
+msgid "Could not extract text from PDF. The file may be image-based."
+msgstr "Impossibile estrarre il testo dal PDF. Il file potrebbe essere basato su immagini."
+
+#. Option for the 'Element' (Select) field in DocType 'Certificate Chemical
+#. Result'
+#: materials/material_certifications/doctype/certificate_chemical_result/certificate_chemical_result.json
+msgid "Cr"
+msgstr "Cr"
+
+#. Option for the 'Element' (Select) field in DocType 'Certificate Chemical
+#. Result'
+#: materials/material_certifications/doctype/certificate_chemical_result/certificate_chemical_result.json
+msgid "Cu"
+msgstr "Cu"
+
+#: materials/material_certifications/doctype/material_certificate/material_certificate.js:154
+msgid "Data applied. Review and save."
+msgstr "Dati applicati. Rivedere e salvare."
+
+#: materials/material_classifications/doctype/material_grade/material_grade.py:112
+#: materials/material_classifications/doctype/material_specification/material_specification.py:87
+msgid "Deletion Not Allowed"
+msgstr "Eliminazione non consentita"
+
+#. Label of the description (Small Text) field in DocType 'Material
+#. Specification'
+#: materials/material_classifications/doctype/material_specification/material_specification.json
+msgid "Description"
+msgstr "Descrizione"
+
+#. Label of the designation (Data) field in DocType 'Material Specification'
+#: materials/material_classifications/doctype/material_specification/material_specification.json
+msgid "Designation"
+msgstr "Designazione"
+
+#. Label of the details_tab (Tab Break) field in DocType 'Material Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Details"
+msgstr "Dettagli"
+
+#. Label of the diameter_max (Float) field in DocType 'Material Grade Form'
+#: materials/material_classifications/doctype/material_grade_form/material_grade_form.json
+msgid "Diameter Max (mm)"
+msgstr "Diametro max (mm)"
+
+#. Label of the diameter_min (Float) field in DocType 'Material Grade Form'
+#: materials/material_classifications/doctype/material_grade_form/material_grade_form.json
+msgid "Diameter Min (mm)"
+msgstr "Diametro min (mm)"
+
+#. Label of the display_name (Data) field in DocType 'Material Grade'
+#. Label of the display_name (Data) field in DocType 'Material Specification'
+#: materials/material_classifications/doctype/material_grade/material_grade.json
+#: materials/material_classifications/doctype/material_specification/material_specification.json
+msgid "Display Name"
+msgstr "Nome visualizzato"
+
+#. Label of the document_tab (Tab Break) field in DocType 'Material
+#. Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Document & Verification"
+msgstr "Documento e verifica"
+
+#: materials/material_certifications/doctype/material_certificate/material_certificate.py:140
+msgid "Duplicate Certificate Number"
+msgstr "Numero di certificato duplicato"
+
+#: materials/material_classifications/doctype/material_grade/material_grade.py:77
+msgid "Duplicate grouping system: {0}. Each material can only have one group per grouping system."
+msgstr "Sistema di raggruppamento duplicato: {0}. Ogni materiale può avere un solo gruppo per sistema di raggruppamento."
+
+#. Option for the 'Certificate Type' (Select) field in DocType 'Material
+#. Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "EN 10204 2.2"
+msgstr "EN 10204 2.2"
+
+#. Option for the 'Certificate Type' (Select) field in DocType 'Material
+#. Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "EN 10204 3.1"
+msgstr "EN 10204 3.1"
+
+#. Option for the 'Certificate Type' (Select) field in DocType 'Material
+#. Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "EN 10204 3.2"
+msgstr "EN 10204 3.2"
+
+#. Label of the section_break_details (Section Break) field in DocType
+#. 'Material Specification'
+#: materials/material_classifications/doctype/material_specification/material_specification.json
+msgid "Edition Information"
+msgstr "Informazioni sull'edizione"
+
+#. Label of the element (Select) field in DocType 'Certificate Chemical Result'
+#: materials/material_certifications/doctype/certificate_chemical_result/certificate_chemical_result.json
+msgid "Element"
+msgstr "Elemento"
+
+#. Option for the 'Test Type' (Select) field in DocType 'Certificate Mechanical
+#. Result'
+#: materials/material_certifications/doctype/certificate_mechanical_result/certificate_mechanical_result.json
+msgid "Elongation"
+msgstr "Allungamento"
+
+#. Label of the enabled (Check) field in DocType 'Material Grade'
+#. Label of the enabled (Check) field in DocType 'Material Specification'
+#: materials/material_classifications/doctype/material_grade/material_grade.json
+#: materials/material_classifications/doctype/material_specification/material_specification.json
+msgid "Enabled"
+msgstr "Abilitato"
+
+#. Label of the equipment_calibration_date (Date) field in DocType 'PMI Test
+#. Point'
+#: materials/material_certifications/doctype/pmi_test_point/pmi_test_point.json
+msgid "Equipment Calibration Date"
+msgstr "Data di taratura dell'apparecchiatura"
+
+#. Label of the equipment_id (Data) field in DocType 'PMI Test Point'
+#: materials/material_certifications/doctype/pmi_test_point/pmi_test_point.json
+msgid "Equipment ID"
+msgstr "ID apparecchiatura"
+
+#. Option for the 'Status' (Select) field in DocType 'Material Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Expired"
+msgstr "Scaduto"
+
+#. Label of the expiry_section (Section Break) field in DocType 'Material
+#. Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Expiry"
+msgstr "Scadenza"
+
+#. Label of the expiry_date (Date) field in DocType 'Material Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Expiry Date"
+msgstr "Data di scadenza"
+
+#: materials/material_certifications/doctype/material_certificate/material_certificate.js:43
+msgid "Extract from PDF"
+msgstr "Estrai da PDF"
+
+#: materials/material_certifications/doctype/material_certificate/material_certificate.js:85
+msgid "Extracting data from PDF..."
+msgstr "Estrazione dei dati dal PDF in corso..."
+
+#. Option for the 'Overall PMI Result' (Select) field in DocType 'Material
+#. Certificate'
+#. Option for the 'Result' (Select) field in DocType 'PMI Test Point'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+#: materials/material_certifications/doctype/pmi_test_point/pmi_test_point.json
+msgid "Fail"
+msgstr "Errore"
+
+#: materials/material_certifications/doctype/material_certificate/material_certificate.js:52
+msgid "Find Matching Batches"
+msgstr "Trova lotti corrispondenti"
+
+#. Option for the 'Product Form' (Select) field in DocType 'Material Grade
+#. Form'
+#: materials/material_classifications/doctype/material_grade_form/material_grade_form.json
+msgid "Fitting"
+msgstr "Raccordo"
+
+#. Option for the 'Test Type' (Select) field in DocType 'Certificate Mechanical
+#. Result'
+#: materials/material_certifications/doctype/certificate_mechanical_result/certificate_mechanical_result.json
+msgid "Flattening Test"
+msgstr "Prova di schiacciamento"
+
+#. Description of the 'Test Temp' (Data) field in DocType 'Certificate
+#. Mechanical Result'
+#: materials/material_certifications/doctype/certificate_mechanical_result/certificate_mechanical_result.json
+msgid "For impact tests: -20C, -40C, etc."
+msgstr "Per prove d'impatto: -20C, -40C, ecc."
+
+#. Option for the 'Product Form' (Select) field in DocType 'Material Grade
+#. Form'
+#: materials/material_classifications/doctype/material_grade_form/material_grade_form.json
+msgid "Forging"
+msgstr "Fucinato"
+
+#. Description of the 'Issuing Body / Laboratory' (Data) field in DocType
+#. 'Material Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Free-text name when organization is not in the system"
+msgstr "Nome in testo libero quando l'organizzazione non è nel sistema"
+
+#. Description of the 'Long Title' (Data) field in DocType 'Material
+#. Specification'
+#: materials/material_classifications/doctype/material_specification/material_specification.json
+msgid "Full specification title (e.g., 'Pressure Vessel Plates, Carbon Steel, for Moderate- and Lower-Temperature Service')"
+msgstr "Titolo completo della specifica (es. 'Pressure Vessel Plates, Carbon Steel, for Moderate- and Lower-Temperature Service')"
+
+#. Label of the grade (Data) field in DocType 'Material Grade'
+#: materials/material_classifications/doctype/material_grade/material_grade.json
+msgid "Grade"
+msgstr "Grado"
+
+#. Description of the 'Grade' (Data) field in DocType 'Material Grade'
+#: materials/material_classifications/doctype/material_grade/material_grade.json
+msgid "Grade designation (e.g., 70, S355J2, 304)"
+msgstr "Designazione del grado (es. 70, S355J2, 304)"
+
+#. Description of the 'Material Grade' (Link) field in DocType 'Material Heat'
+#: materials/material_certifications/doctype/material_heat/material_heat.json
+msgid "Grade specification the heat was poured to. Required — a heat without a grade is untraceable."
+msgstr "Specifica del grado a cui è stata colata la colata. Obbligatoria — una colata senza grado non è tracciabile."
+
+#. Option for the 'Test Type' (Select) field in DocType 'Certificate Mechanical
+#. Result'
+#: materials/material_certifications/doctype/certificate_mechanical_result/certificate_mechanical_result.json
+msgid "Hardness (HB)"
+msgstr "Durezza (HB)"
+
+#. Option for the 'Test Type' (Select) field in DocType 'Certificate Mechanical
+#. Result'
+#: materials/material_certifications/doctype/certificate_mechanical_result/certificate_mechanical_result.json
+msgid "Hardness (HRC)"
+msgstr "Durezza (HRC)"
+
+#. Option for the 'Test Type' (Select) field in DocType 'Certificate Mechanical
+#. Result'
+#: materials/material_certifications/doctype/certificate_mechanical_result/certificate_mechanical_result.json
+msgid "Hardness (HV)"
+msgstr "Durezza (HV)"
+
+#. Label of the heat (Link) field in DocType 'Material Heat Coverage'
+#: materials/material_certifications/doctype/material_heat_coverage/material_heat_coverage.json
+msgid "Heat"
+msgstr "Colata"
+
+#. Label of the heat_number (Data) field in DocType 'Material Heat'
+#: materials/material_certifications/doctype/material_heat/material_heat.json
+msgid "Heat Number"
+msgstr "Numero di colata"
+
+#. Label of the heat_tab (Tab Break) field in DocType 'Material Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Heat Numbers"
+msgstr "Numeri di colata"
+
+#. Label of the heat_section (Section Break) field in DocType 'Material
+#. Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Heat Numbers Covered"
+msgstr "Numeri di colata coperti"
+
+#: materials/material_certifications/doctype/material_certificate/material_certificate.js:97
+msgid "Heat Numbers Found (add via Heats Covered)"
+msgstr "Numeri di colata trovati (aggiungere tramite Colate coperte)"
+
+#. Label of the heats_covered (Table) field in DocType 'Material Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Heats Covered"
+msgstr "Colate coperte"
+
+#. Description of the 'Heats Covered' (Table) field in DocType 'Material
+#. Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Heats this certificate documents. Each row links to a Material Heat record — single source of truth for heat-level chemistry, mechanicals, and recall status."
+msgstr "Colate documentate da questo certificato. Ogni riga è collegata a un record Material Heat — fonte unica di verità per composizione chimica, proprietà meccaniche e stato di richiamo a livello di colata."
+
+#. Label of a Workspace Sidebar Item
+#: materials/workspace_sidebar/materials.json
+msgid "Home"
+msgstr "Home"
+
+#. Option for the 'Certificate Type' (Select) field in DocType 'Material
+#. Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Hydrostatic Test"
+msgstr "Prova idrostatica"
+
+#. Label of the identity_section (Section Break) field in DocType 'Material
+#. Heat'
+#: materials/material_certifications/doctype/material_heat/material_heat.json
+msgid "Identity"
+msgstr "Identità"
+
+#. Option for the 'Test Type' (Select) field in DocType 'Certificate Mechanical
+#. Result'
+#: materials/material_certifications/doctype/certificate_mechanical_result/certificate_mechanical_result.json
+msgid "Impact (Charpy)"
+msgstr "Impatto (Charpy)"
+
+#. Option for the 'Result' (Select) field in DocType 'PMI Test Point'
+#: materials/material_certifications/doctype/pmi_test_point/pmi_test_point.json
+msgid "Inconclusive"
+msgstr "Non conclusivo"
+
+#: materials/material_certifications/doctype/material_heat/material_heat.py:44
+msgid "Invalid Status Transition"
+msgstr "Transizione di stato non valida"
+
+#. Label of the is_standard (Check) field in DocType 'Material Grade'
+#. Label of the is_standard (Check) field in DocType 'Material Specification'
+#: materials/material_classifications/doctype/material_grade/material_grade.json
+#: materials/material_classifications/doctype/material_specification/material_specification.json
+msgid "Is Standard Data"
+msgstr "È dato standard"
+
+#. Label of the issuer_section (Section Break) field in DocType 'Material
+#. Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Issuer"
+msgstr "Emittente"
+
+#. Label of the issuing_body (Data) field in DocType 'Material Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Issuing Body / Laboratory"
+msgstr "Organismo emittente / Laboratorio"
+
+#. Label of the issuing_organization (Link) field in DocType 'Material
+#. Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Issuing Organization"
+msgstr "Organizzazione emittente"
+
+#: materials/material_certifications/doctype/material_certificate/material_certificate.js:197
+msgid "Link"
+msgstr "Collegamento"
+
+#: materials/material_certifications/doctype/material_certificate/material_certificate.js:209
+msgid "Linked to batch {0}"
+msgstr "Collegato al lotto {0}"
+
+#. Label of the title (Data) field in DocType 'Material Specification'
+#: materials/material_classifications/doctype/material_specification/material_specification.json
+msgid "Long Title"
+msgstr "Titolo esteso"
+
+#. Option for the 'Material Category' (Select) field in DocType 'Material
+#. Specification'
+#: materials/material_classifications/doctype/material_specification/material_specification.json
+msgid "Low Alloy Steel"
+msgstr "Acciaio bassolegato"
+
+#. Description of the 'Unit' (Data) field in DocType 'Certificate Mechanical
+#. Result'
+#: materials/material_certifications/doctype/certificate_mechanical_result/certificate_mechanical_result.json
+msgid "MPa, %, J, HB, etc."
+msgstr "MPa, %, J, HB, ecc."
+
+#: materials/material_certifications/doctype/material_certificate/material_certificate.js:188
+msgid "Matching Batches"
+msgstr "Lotti corrispondenti"
+
+#. Name of a role
+#: materials/material_classifications/doctype/material_grade/material_grade.json
+#: materials/material_classifications/doctype/material_specification/material_specification.json
+msgid "Material Catalog Curator"
+msgstr "Curatore del catalogo materiali"
+
+#. Label of the material_category (Select) field in DocType 'Material
+#. Specification'
+#: materials/material_classifications/doctype/material_specification/material_specification.json
+msgid "Material Category"
+msgstr "Categoria materiale"
+
+#. Name of a DocType
+#. Label of a Link in the Materials Workspace
+#. Label of a shortcut in the Materials Workspace
+#. Label of a Workspace Sidebar Item
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+#: materials/material_classifications/workspace/materials/materials.json
+#: materials/workspace_sidebar/materials.json
+msgid "Material Certificate"
+msgstr "Certificato del materiale"
+
+#: materials/material_certifications/doctype/material_certificate/material_certificate.py:311
+msgid "Material Certificate {0} not found."
+msgstr "Certificato materiale {0} non trovato."
+
+#. Label of the material_expected (Data) field in DocType 'PMI Test Point'
+#: materials/material_certifications/doctype/pmi_test_point/pmi_test_point.json
+msgid "Material Expected"
+msgstr "Materiale previsto"
+
+#. Label of the material_found (Data) field in DocType 'PMI Test Point'
+#: materials/material_certifications/doctype/pmi_test_point/pmi_test_point.json
+msgid "Material Found"
+msgstr "Materiale trovato"
+
+#. Label of the grade (Link) field in DocType 'Material Heat'
+#. Name of a DocType
+#. Label of a Link in the Materials Workspace
+#. Label of a shortcut in the Materials Workspace
+#. Label of a Workspace Sidebar Item
+#: materials/material_certifications/doctype/material_heat/material_heat.json
+#: materials/material_classifications/doctype/material_grade/material_grade.json
+#: materials/material_classifications/workspace/materials/materials.json
+#: materials/workspace_sidebar/materials.json
+msgid "Material Grade"
+msgstr "Grado del materiale"
+
+#. Name of a DocType
+#: materials/material_classifications/doctype/material_grade_form/material_grade_form.json
+msgid "Material Grade Form"
+msgstr "Modulo grado materiale"
+
+#. Label of a quick_list in the Materials Workspace
+#: materials/material_classifications/workspace/materials/materials.json
+msgid "Material Grades"
+msgstr "Gradi di materiale"
+
+#. Name of a DocType
+#. Label of a Link in the Materials Workspace
+#. Label of a Workspace Sidebar Item
+#: materials/material_certifications/doctype/material_heat/material_heat.json
+#: materials/material_classifications/workspace/materials/materials.json
+#: materials/workspace_sidebar/materials.json
+msgid "Material Heat"
+msgstr "Material Heat"
+
+#. Name of a DocType
+#: materials/material_certifications/doctype/material_heat_coverage/material_heat_coverage.json
+msgid "Material Heat Coverage"
+msgstr "Copertura colate"
+
+#. Name of a role
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+#: materials/material_certifications/doctype/material_heat/material_heat.json
+msgid "Material Record Author"
+msgstr "Autore del record materiale"
+
+#. Name of a DocType
+#. Label of a Link in the Materials Workspace
+#. Label of a shortcut in the Materials Workspace
+#. Label of a Workspace Sidebar Item
+#: materials/material_classifications/doctype/material_specification/material_specification.json
+#: materials/material_classifications/workspace/materials/materials.json
+#: materials/workspace_sidebar/materials.json
+msgid "Material Specification"
+msgstr "Specifica del materiale"
+
+#. Label of a quick_list in the Materials Workspace
+#: materials/material_classifications/workspace/materials/materials.json
+msgid "Material Specifications"
+msgstr "Specifiche materiale"
+
+#. Label of a Desktop Icon
+#. Name of a Workspace
+#. Title of a Workspace Sidebar
+#: materials/desktop_icon/materials.json
+#: materials/material_classifications/workspace/materials/materials.json
+#: materials/workspace_sidebar/materials.json
+msgid "Materials"
+msgstr "Materiali"
+
+#. Name of a role
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+#: materials/material_certifications/doctype/material_heat/material_heat.json
+#: materials/material_classifications/doctype/material_grade/material_grade.json
+#: materials/material_classifications/doctype/material_specification/material_specification.json
+msgid "Materials Reader"
+msgstr "Lettore materiali"
+
+#. Description of the 'Thickness Max (mm)' (Float) field in DocType 'Material
+#. Grade Form'
+#: materials/material_classifications/doctype/material_grade_form/material_grade_form.json
+msgid "Maximum available thickness"
+msgstr "Spessore massimo disponibile"
+
+#. Description of the 'Diameter Max (mm)' (Float) field in DocType 'Material
+#. Grade Form'
+#: materials/material_classifications/doctype/material_grade_form/material_grade_form.json
+msgid "Maximum diameter (for pipe/tube)"
+msgstr "Diametro massimo (per tubo)"
+
+#: materials/material_certifications/doctype/material_certificate/material_certificate.js:116
+msgid "Mechanical Properties"
+msgstr "Proprietà meccaniche"
+
+#. Label of the mechanical_results (Table) field in DocType 'Material
+#. Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Mechanical Results"
+msgstr "Risultati meccanici"
+
+#. Label of the mechanical_section (Section Break) field in DocType 'Material
+#. Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Mechanical Test Results"
+msgstr "Risultati delle prove meccaniche"
+
+#. Label of the mechanical_tab (Tab Break) field in DocType 'Material
+#. Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Mechanical Tests"
+msgstr "Prove meccaniche"
+
+#: materials/material_certifications/doctype/material_certificate/material_certificate.py:101
+msgid "Mechanical: {0} = {1} {2} (spec: {3} - {4})"
+msgstr "Meccanico: {0} = {1} {2} (spec: {3} - {4})"
+
+#. Label of the mill (Link) field in DocType 'Material Heat'
+#: materials/material_certifications/doctype/material_heat/material_heat.json
+msgid "Mill (Supplier)"
+msgstr "Acciaieria (Fornitore)"
+
+#. Option for the 'Certificate Type' (Select) field in DocType 'Material
+#. Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Mill Test Report"
+msgstr "Certificato di collaudo (Mill Test Report)"
+
+#. Description of the 'Mill (Supplier)' (Link) field in DocType 'Material Heat'
+#: materials/material_certifications/doctype/material_heat/material_heat.json
+msgid "Mill of origin (Supplier acting as material producer). Required for chain-of-custody traceability per EN 10204 §4 — every heat must be traceable to its producing mill. NOT enforced as reqd=1 yet because demo data has 100% NULL on this field; backfill required first. Validator-level warning fires on save if NULL."
+msgstr "Acciaieria di origine (Fornitore che agisce come produttore del materiale). Richiesta per la tracciabilità della catena di custodia secondo EN 10204 §4 — ogni colata deve essere tracciabile all'acciaieria che l'ha prodotta. NON ancora imposta come reqd=1 perché i dati demo hanno il 100% NULL su questo campo; è necessario prima un backfill. Al salvataggio scatta un avviso a livello di validatore se NULL."
+
+#. Description of the 'Heat Number' (Data) field in DocType 'Material Heat'
+#: materials/material_certifications/doctype/material_heat/material_heat.json
+msgid "Mill-assigned identifier for this molten-metal pour. Becomes the row's primary key."
+msgstr "Identificativo assegnato dall'acciaieria per questa colata di metallo fuso. Diventa la chiave primaria della riga."
+
+#. Description of the 'Thickness Min (mm)' (Float) field in DocType 'Material
+#. Grade Form'
+#: materials/material_classifications/doctype/material_grade_form/material_grade_form.json
+msgid "Minimum available thickness"
+msgstr "Spessore minimo disponibile"
+
+#. Description of the 'Diameter Min (mm)' (Float) field in DocType 'Material
+#. Grade Form'
+#: materials/material_classifications/doctype/material_grade_form/material_grade_form.json
+msgid "Minimum diameter (for pipe/tube)"
+msgstr "Diametro minimo (per tubo)"
+
+#: materials/material_certifications/doctype/material_certificate/material_certificate.py:157
+msgid "Missing PMI Test Points"
+msgstr "Punti di prova PMI mancanti"
+
+#. Option for the 'Element' (Select) field in DocType 'Certificate Chemical
+#. Result'
+#: materials/material_certifications/doctype/certificate_chemical_result/certificate_chemical_result.json
+msgid "Mn"
+msgstr "Mn"
+
+#. Option for the 'Element' (Select) field in DocType 'Certificate Chemical
+#. Result'
+#: materials/material_certifications/doctype/certificate_chemical_result/certificate_chemical_result.json
+msgid "Mo"
+msgstr "Mo"
+
+#. Option for the 'Element' (Select) field in DocType 'Certificate Chemical
+#. Result'
+#: materials/material_certifications/doctype/certificate_chemical_result/certificate_chemical_result.json
+msgid "N"
+msgstr "N"
+
+#. Option for the 'Element' (Select) field in DocType 'Certificate Chemical
+#. Result'
+#: materials/material_certifications/doctype/certificate_chemical_result/certificate_chemical_result.json
+msgid "Nb"
+msgstr "Nb"
+
+#. Option for the 'Element' (Select) field in DocType 'Certificate Chemical
+#. Result'
+#: materials/material_certifications/doctype/certificate_chemical_result/certificate_chemical_result.json
+msgid "Ni"
+msgstr "Ni"
+
+#. Option for the 'Material Category' (Select) field in DocType 'Material
+#. Specification'
+#: materials/material_classifications/doctype/material_specification/material_specification.json
+msgid "Nickel Alloy"
+msgstr "Lega di nichel"
+
+#: materials/material_certifications/doctype/material_certificate/material_certificate.py:367
+msgid "No PDF attachment found on this certificate."
+msgstr "Nessun allegato PDF trovato su questo certificato."
+
+#: materials/material_certifications/doctype/material_certificate/material_certificate.js:169
+msgid "No covered heats to search for."
+msgstr "Nessuna colata coperta da cercare."
+
+#: materials/material_certifications/doctype/material_certificate/material_certificate.js:124
+msgid "No data could be extracted from the PDF."
+msgstr "Impossibile estrarre dati dal PDF."
+
+#: materials/material_certifications/doctype/material_certificate/material_certificate.js:183
+msgid "No matching batches found."
+msgstr "Nessun lotto corrispondente trovato."
+
+#: materials/material_certifications/doctype/material_heat/material_heat.py:31
+msgid "No mill (manufacturer) recorded for this heat — EN 10204 traceability is incomplete."
+msgstr "Nessuna acciaieria (produttore) registrata per questa colata — la tracciabilità EN 10204 è incompleta."
+
+#: materials/material_certifications/doctype/material_certificate/material_certificate.py:299
+msgid "Not permitted to modify Batch {0}."
+msgstr "Non è consentito modificare il lotto {0}."
+
+#. Label of the notes_section (Section Break) field in DocType 'Material Heat'
+#. Label of the notes (Long Text) field in DocType 'Material Heat'
+#. Label of the notes (Small Text) field in DocType 'PMI Test Point'
+#. Label of the section_notes (Section Break) field in DocType 'Material Grade'
+#. Label of the notes (Text) field in DocType 'Material Grade'
+#. Label of the notes (Small Text) field in DocType 'Material Grade Form'
+#: materials/material_certifications/doctype/material_heat/material_heat.json
+#: materials/material_certifications/doctype/pmi_test_point/pmi_test_point.json
+#: materials/material_classifications/doctype/material_grade/material_grade.json
+#: materials/material_classifications/doctype/material_grade_form/material_grade_form.json
+msgid "Notes"
+msgstr "Note"
+
+#. Label of the operator (Link) field in DocType 'PMI Test Point'
+#: materials/material_certifications/doctype/pmi_test_point/pmi_test_point.json
+msgid "Operator"
+msgstr "Operatore"
+
+#. Description of the 'Cast Number' (Data) field in DocType 'Material Heat'
+#: materials/material_certifications/doctype/material_heat/material_heat.json
+msgid "Optional secondary identifier for continuously-cast products."
+msgstr "Identificativo secondario opzionale per prodotti a colata continua."
+
+#. Description of the 'Qty Covered' (Float) field in DocType 'Material Heat
+#. Coverage'
+#: materials/material_certifications/doctype/material_heat_coverage/material_heat_coverage.json
+msgid "Optional: portion of the heat that this certificate covers (e.g. kg, m, pieces)."
+msgstr "Opzionale: porzione della colata coperta da questo certificato (es. kg, m, pezzi)."
+
+#. Description of the 'Standard (Edition)' (Link) field in DocType 'Material
+#. Specification'
+#: materials/material_classifications/doctype/material_specification/material_specification.json
+msgid "Optisuites Standard row representing this base-material spec doc edition (e.g., astm_a516_2017, en_10028_2_2017)."
+msgstr "Riga Optisuites Standard che rappresenta questa edizione del documento di specifica del materiale base (es. astm_a516_2017, en_10028_2_2017)."
+
+#. Option for the 'Element' (Select) field in DocType 'Certificate Chemical
+#. Result'
+#. Option for the 'Test Type' (Select) field in DocType 'Certificate Mechanical
+#. Option for the 'Certificate Type' (Select) field in DocType 'Material
+#. Certificate'
+#. Option for the 'Material Category' (Select) field in DocType 'Material
+#. Specification'
+#: materials/material_certifications/doctype/certificate_chemical_result/certificate_chemical_result.json
+#: materials/material_certifications/doctype/certificate_mechanical_result/certificate_mechanical_result.json
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+#: materials/material_classifications/doctype/material_specification/material_specification.json
+msgid "Other"
+msgstr "Altro"
+
+#. Label of the element_other (Data) field in DocType 'Certificate Chemical
+#. Result'
+#: materials/material_certifications/doctype/certificate_chemical_result/certificate_chemical_result.json
+msgid "Other Element"
+msgstr "Altro elemento"
+
+#. Label of the test_type_other (Data) field in DocType 'Certificate Mechanical
+#. Result'
+#: materials/material_certifications/doctype/certificate_mechanical_result/certificate_mechanical_result.json
+msgid "Other Test Type"
+msgstr "Altro tipo di prova"
+
+#: materials/material_certifications/doctype/material_certificate/material_certificate.py:116
+msgid "Out of Spec Warning"
+msgstr "Avviso fuori specifica"
+
+#. Label of the pmi_overall_result (Select) field in DocType 'Material
+#. Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Overall PMI Result"
+msgstr "Risultato PMI complessivo"
+
+#. Option for the 'Element' (Select) field in DocType 'Certificate Chemical
+#. Result'
+#: materials/material_certifications/doctype/certificate_chemical_result/certificate_chemical_result.json
+msgid "P"
+msgstr "P"
+
+#: materials/material_certifications/doctype/material_certificate/material_certificate.py:388
+msgid "PDF extraction requires pdfplumber or PyPDF2. Please install one."
+msgstr "L'estrazione del PDF richiede pdfplumber o PyPDF2. Installarne uno."
+
+#. Label of the pmi_details_section (Section Break) field in DocType 'Material
+#. Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "PMI Details"
+msgstr "Dettagli PMI"
+
+#. Label of the pmi_equipment (Data) field in DocType 'Material Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "PMI Equipment"
+msgstr "Attrezzatura PMI"
+
+#. Label of the pmi_operator (Link) field in DocType 'Material Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "PMI Operator"
+msgstr "Operatore PMI"
+
+#. Label of the pmi_procedure (Data) field in DocType 'Material Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "PMI Procedure"
+msgstr "Procedura PMI"
+
+#. Option for the 'Certificate Type' (Select) field in DocType 'Material
+#. Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "PMI Report"
+msgstr "Rapporto PMI"
+
+#: materials/material_certifications/doctype/material_certificate/material_certificate.py:155
+msgid "PMI Report should have at least one test point."
+msgstr "Il rapporto PMI deve avere almeno un punto di prova."
+
+#. Label of the pmi_tab (Tab Break) field in DocType 'Material Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "PMI Results"
+msgstr "Risultati PMI"
+
+#. Name of a DocType
+#: materials/material_certifications/doctype/pmi_test_point/pmi_test_point.json
+msgid "PMI Test Point"
+msgstr "Punto di prova PMI"
+
+#. Label of the pmi_section (Section Break) field in DocType 'Material
+#. Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "PMI Test Points"
+msgstr "Punti di prova PMI"
+
+#. Option for the 'Overall PMI Result' (Select) field in DocType 'Material
+#. Certificate'
+#. Option for the 'Result' (Select) field in DocType 'PMI Test Point'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+#: materials/material_certifications/doctype/pmi_test_point/pmi_test_point.json
+msgid "Pass"
+msgstr "Riuscito"
+
+#. Option for the 'Product Form' (Select) field in DocType 'Material Grade
+#. Form'
+#: materials/material_classifications/doctype/material_grade_form/material_grade_form.json
+msgid "Pipe"
+msgstr "Tubazione"
+
+#. Option for the 'Product Form' (Select) field in DocType 'Material Grade
+#. Form'
+#: materials/material_classifications/doctype/material_grade_form/material_grade_form.json
+msgid "Plate"
+msgstr "Lamiera"
+
+#. Description of the 'Supersedes' (Link) field in DocType 'Material
+#. Specification'
+#: materials/material_classifications/doctype/material_specification/material_specification.json
+msgid "Previous specification this replaces"
+msgstr "Specifica precedente sostituita da questa"
+
+#. Label of the procedure_reference (Data) field in DocType 'PMI Test Point'
+#: materials/material_certifications/doctype/pmi_test_point/pmi_test_point.json
+msgid "Procedure Reference"
+msgstr "Riferimento procedura"
+
+#. Label of the product_form (Select) field in DocType 'Material Grade Form'
+#: materials/material_classifications/doctype/material_grade_form/material_grade_form.json
+msgid "Product Form"
+msgstr "Forma del prodotto"
+
+#. Label of the product_forms (Table) field in DocType 'Material Grade'
+#: materials/material_classifications/doctype/material_grade/material_grade.json
+msgid "Product Forms"
+msgstr "Forme del prodotto"
+
+#. Label of the production_date (Date) field in DocType 'Material Heat'
+#: materials/material_certifications/doctype/material_heat/material_heat.json
+msgid "Production Date"
+msgstr "Data di produzione"
+
+#. Label of the qty_covered (Float) field in DocType 'Material Heat Coverage'
+#: materials/material_certifications/doctype/material_heat_coverage/material_heat_coverage.json
+msgid "Qty Covered"
+msgstr "Qtà coperta"
+
+#. Option for the 'Status' (Select) field in DocType 'Material Heat'
+#: materials/material_certifications/doctype/material_heat/material_heat.json
+msgid "Quarantined"
+msgstr "In quarantena"
+
+#. Option for the 'Status' (Select) field in DocType 'Material Heat'
+#: materials/material_certifications/doctype/material_heat/material_heat.json
+msgid "Recalled"
+msgstr "Richiamato"
+
+#. Description of the 'Status' (Select) field in DocType 'Material Heat'
+#: materials/material_certifications/doctype/material_heat/material_heat.json
+msgid "Recalled propagates downstream — every consumer linking to this heat surfaces it as recalled."
+msgstr "Il richiamo si propaga a valle: ogni utilizzatore collegato a questa colata la segnala come richiamata."
+
+#. Option for the 'Test Type' (Select) field in DocType 'Certificate Mechanical
+#. Result'
+#: materials/material_certifications/doctype/certificate_mechanical_result/certificate_mechanical_result.json
+msgid "Reduction of Area"
+msgstr "Riduzione di area"
+
+#. Option for the 'Status' (Select) field in DocType 'Material Heat'
+#: materials/material_certifications/doctype/material_heat/material_heat.json
+msgid "Released"
+msgstr "Rilasciato"
+
+#. Label of the value (Float) field in DocType 'Certificate Mechanical Result'
+#. Label of the result (Select) field in DocType 'PMI Test Point'
+#: materials/material_certifications/doctype/certificate_mechanical_result/certificate_mechanical_result.json
+#: materials/material_certifications/doctype/pmi_test_point/pmi_test_point.json
+msgid "Result"
+msgstr "Risultato"
+
+#: materials/material_certifications/doctype/material_certificate/material_certificate.js:129
+msgid "Review Extracted Data"
+msgstr "Rivedi i dati estratti"
+
+#: materials/material_certifications/doctype/material_certificate/material_certificate.js:23
+msgid "Revoke"
+msgstr "Revoca"
+
+#. Option for the 'Status' (Select) field in DocType 'Material Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Revoked"
+msgstr "Revocata"
+
+#: materials/material_certifications/doctype/material_certificate/material_certificate.py:66
+msgid "Row {0} ({1}): Spec min ({2}) is greater than spec max ({3}). Please correct the spec range."
+msgstr "Riga {0} ({1}): il minimo di specifica ({2}) è maggiore del massimo di specifica ({3}). Correggere l'intervallo di specifica."
+
+#. Option for the 'Element' (Select) field in DocType 'Certificate Chemical
+#. Result'
+#: materials/material_certifications/doctype/certificate_chemical_result/certificate_chemical_result.json
+msgid "S"
+msgstr "S"
+
+#. Label of the section_settings (Section Break) field in DocType 'Material
+#. Grade'
+#. Label of the section_break_settings (Section Break) field in DocType
+#. 'Material Specification'
+#: materials/material_classifications/doctype/material_grade/material_grade.json
+#: materials/material_classifications/doctype/material_specification/material_specification.json
+msgid "Settings"
+msgstr "Impostazioni"
+
+#. Option for the 'Product Form' (Select) field in DocType 'Material Grade
+#. Form'
+#: materials/material_classifications/doctype/material_grade_form/material_grade_form.json
+msgid "Sheet"
+msgstr "Lamiera"
+
+#. Option for the 'Element' (Select) field in DocType 'Certificate Chemical
+#. Result'
+#: materials/material_certifications/doctype/certificate_chemical_result/certificate_chemical_result.json
+msgid "Si"
+msgstr "Si"
+
+#. Label of the spec_max (Float) field in DocType 'Certificate Mechanical
+#. Result'
+#: materials/material_certifications/doctype/certificate_mechanical_result/certificate_mechanical_result.json
+msgid "Spec Max"
+msgstr "Massimo specifica"
+
+#. Label of the spec_max (Float) field in DocType 'Certificate Chemical Result'
+#: materials/material_certifications/doctype/certificate_chemical_result/certificate_chemical_result.json
+msgid "Spec Max (%)"
+msgstr "Max specifica (%)"
+
+#. Label of the spec_min (Float) field in DocType 'Certificate Mechanical
+#. Result'
+#: materials/material_certifications/doctype/certificate_mechanical_result/certificate_mechanical_result.json
+msgid "Spec Min"
+msgstr "Minimo specifica"
+
+#. Label of the spec_min (Float) field in DocType 'Certificate Chemical Result'
+#: materials/material_certifications/doctype/certificate_chemical_result/certificate_chemical_result.json
+msgid "Spec Min (%)"
+msgstr "Min specifica (%)"
+
+#. Description of the 'Applicable Standard' (Link) field in DocType 'Material
+#. Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Specific Standard edition this certificate validates against (e.g. ASTM A516:2020). The \"under WHICH RULES\" snapshot per platform-guides ch.10 Flow 2 RULES. NOT enforced as reqd=1 yet because demo data is 100% NULL; backfill required first."
+msgstr "Edizione specifica della norma rispetto a cui questo certificato è validato (es. ASTM A516:2020). Lo snapshot \"secondo QUALI REGOLE\" come da platform-guides cap.10 Flow 2 RULES. Non ancora imposto come reqd=1 perché i dati demo sono al 100% NULL; è necessario prima un backfill."
+
+#. Label of the specification (Link) field in DocType 'Material Grade'
+#: materials/material_classifications/doctype/material_grade/material_grade.json
+msgid "Specification"
+msgstr "Specifica"
+
+#: materials/material_classifications/doctype/material_specification/material_specification.py:78
+msgid "Specification {0} has been withdrawn."
+msgstr "La specifica {0} è stata ritirata."
+
+#. Label of a chart in the Materials Workspace
+#: materials/material_classifications/workspace/materials/materials.json
+msgid "Specifications by Category"
+msgstr "Specifiche per categoria"
+
+#. Label of a chart in the Materials Workspace
+#: materials/material_classifications/workspace/materials/materials.json
+msgid "Specifications by Status"
+msgstr "Specifiche per stato"
+
+#. Option for the 'Material Category' (Select) field in DocType 'Material
+#. Specification'
+#: materials/material_classifications/doctype/material_specification/material_specification.json
+msgid "Stainless Steel"
+msgstr "Acciaio inossidabile"
+
+#. Label of the standard (Link) field in DocType 'Material Specification'
+#: materials/material_classifications/doctype/material_specification/material_specification.json
+msgid "Standard (Edition)"
+msgstr "Norma (edizione)"
+
+#. Description of the 'Issuing Organization' (Link) field in DocType 'Material
+#. Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Standards body that issued/govern this certification (e.g. AWS, ASME, ISO). Required for regulatory traceability — auditors need to know which authority backs the certification. NOT enforced as reqd=1 yet because demo data is 100% NULL; backfill required first."
+msgstr "Ente normatore che ha emesso/governa questa certificazione (es. AWS, ASME, ISO). Richiesto per la tracciabilità normativa: gli auditor devono sapere quale autorità garantisce la certificazione. Non ancora imposto come reqd=1 perché i dati demo sono al 100% NULL; è necessario prima un backfill."
+
+#. Label of the status (Select) field in DocType 'Material Certificate'
+#. Label of the status_section (Section Break) field in DocType 'Material Heat'
+#. Label of the status (Select) field in DocType 'Material Heat'
+#. Label of the spec_status (Select) field in DocType 'Material Specification'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+#: materials/material_certifications/doctype/material_heat/material_heat.json
+#: materials/material_classifications/doctype/material_specification/material_specification.json
+msgid "Status"
+msgstr "Stati"
+
+#. Option for the 'Status' (Select) field in DocType 'Material Specification'
+#: materials/material_classifications/doctype/material_specification/material_specification.json
+msgid "Superseded"
+msgstr "Sostituito"
+
+#. Label of the supersedes (Link) field in DocType 'Material Specification'
+#: materials/material_classifications/doctype/material_specification/material_specification.json
+msgid "Supersedes"
+msgstr "Sostituisce"
+
+#. Label of the supplier (Link) field in DocType 'Material Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Supplier"
+msgstr "Fornitore"
+
+#. Name of a role
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+#: materials/material_certifications/doctype/material_heat/material_heat.json
+msgid "System Manager"
+msgstr "Amministratore Sistema"
+
+#. Option for the 'Test Type' (Select) field in DocType 'Certificate Mechanical
+#. Result'
+#: materials/material_certifications/doctype/certificate_mechanical_result/certificate_mechanical_result.json
+msgid "Tensile Strength"
+msgstr "Resistenza a trazione"
+
+#. Label of the test_point_location (Data) field in DocType 'PMI Test Point'
+#: materials/material_certifications/doctype/pmi_test_point/pmi_test_point.json
+msgid "Test Point Location"
+msgstr "Posizione del punto di prova"
+
+#. Label of the pmi_test_points (Table) field in DocType 'Material Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Test Points"
+msgstr "Punti di prova"
+
+#. Label of the temperature (Data) field in DocType 'Certificate Mechanical
+#. Result'
+#: materials/material_certifications/doctype/certificate_mechanical_result/certificate_mechanical_result.json
+msgid "Test Temp"
+msgstr "Temp. di prova"
+
+#. Label of the test_type (Select) field in DocType 'Certificate Mechanical
+#. Result'
+#: materials/material_certifications/doctype/certificate_mechanical_result/certificate_mechanical_result.json
+msgid "Test Type"
+msgstr "Tipo di prova"
+
+#. Label of the testing_laboratory (Link) field in DocType 'Material
+#. Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Testing Laboratory"
+msgstr "Laboratorio di prova"
+
+#: materials/material_certifications/doctype/material_certificate/material_certificate.py:112
+msgid "The following results are outside specification limits:<br>{0}"
+msgstr "I seguenti risultati sono fuori dai limiti di specifica:<br>{0}"
+
+#. Description of the 'Specification' (Link) field in DocType 'Material Grade'
+#: materials/material_classifications/doctype/material_grade/material_grade.json
+msgid "The parent material specification (e.g., ASME-SA-516)"
+msgstr "La specifica del materiale principale (es. ASME-SA-516)"
+
+#. Description of the 'Designation' (Data) field in DocType 'Material
+#. Specification'
+#: materials/material_classifications/doctype/material_specification/material_specification.json
+msgid "The specification number (e.g., SA-516, A516, 10025-2)"
+msgstr "Il numero di specifica (es. SA-516, A516, 10025-2)"
+
+#. Label of the thickness_max (Float) field in DocType 'Material Grade Form'
+#: materials/material_classifications/doctype/material_grade_form/material_grade_form.json
+msgid "Thickness Max (mm)"
+msgstr "Spessore max (mm)"
+
+#. Label of the thickness_min (Float) field in DocType 'Material Grade Form'
+#: materials/material_classifications/doctype/material_grade_form/material_grade_form.json
+msgid "Thickness Min (mm)"
+msgstr "Spessore min (mm)"
+
+#. Label of the third_party_verified (Check) field in DocType 'Material
+#. Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Third Party Verified"
+msgstr "Verificato da terza parte"
+
+#. Description of the 'Testing Laboratory' (Link) field in DocType 'Material
+#. Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Third-party testing lab that executed the mechanical/chemical/PMI tests cited in this certificate (TWI, EWI, NIST, etc.). Distinct from issuing_organization (who governs the standard) and issuing_body (who issued the document — usually the mill itself for EN 10204 3.1)."
+msgstr "Laboratorio di prova di terza parte che ha eseguito le prove meccaniche/chimiche/PMI citate in questo certificato (TWI, EWI, NIST, ecc.). Distinto da issuing_organization (chi governa la norma) e da issuing_body (chi ha emesso il documento, di solito l'acciaieria stessa per EN 10204 3.1)."
+
+#. Option for the 'Element' (Select) field in DocType 'Certificate Chemical
+#. Result'
+#: materials/material_certifications/doctype/certificate_chemical_result/certificate_chemical_result.json
+msgid "Ti"
+msgstr "Ti"
+
+#. Option for the 'Material Category' (Select) field in DocType 'Material
+#. Specification'
+#: materials/material_classifications/doctype/material_specification/material_specification.json
+msgid "Titanium Alloy"
+msgstr "Lega di titanio"
+
+#. Option for the 'Product Form' (Select) field in DocType 'Material Grade
+#. Form'
+#: materials/material_classifications/doctype/material_grade_form/material_grade_form.json
+msgid "Tube"
+msgstr "Tubo"
+
+#. Label of the uns_number (Data) field in DocType 'Material Grade'
+#: materials/material_classifications/doctype/material_grade/material_grade.json
+msgid "UNS Number"
+msgstr "Numero UNS"
+
+#. Description of the 'UNS Number' (Data) field in DocType 'Material Grade'
+#: materials/material_classifications/doctype/material_grade/material_grade.json
+msgid "Unified Numbering System designation for cross-reference"
+msgstr "Designazione Unified Numbering System per riferimento incrociato"
+
+#. Label of the unit (Data) field in DocType 'Certificate Mechanical Result'
+#. Label of the qty_unit (Data) field in DocType 'Material Heat Coverage'
+#: materials/material_certifications/doctype/certificate_mechanical_result/certificate_mechanical_result.json
+#: materials/material_certifications/doctype/material_heat_coverage/material_heat_coverage.json
+msgid "Unit"
+msgstr "Unità"
+
+#. Option for the 'Element' (Select) field in DocType 'Certificate Chemical
+#. Result'
+#: materials/material_certifications/doctype/certificate_chemical_result/certificate_chemical_result.json
+msgid "V"
+msgstr "V"
+
+#. Option for the 'Status' (Select) field in DocType 'Material Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Valid"
+msgstr "Valido"
+
+#. Label of the value_percent (Float) field in DocType 'Certificate Chemical
+#. Result'
+#: materials/material_certifications/doctype/certificate_chemical_result/certificate_chemical_result.json
+msgid "Value (%)"
+msgstr "Valore (%)"
+
+#. Label of the verification_section (Section Break) field in DocType 'Material
+#. Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Verification"
+msgstr "Verifica"
+
+#. Label of the verification_date (Date) field in DocType 'Material
+#. Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Verification Date"
+msgstr "Data di verifica"
+
+#. Label of the verification_remarks (Small Text) field in DocType 'Material
+#. Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Verification Remarks"
+msgstr "Note di verifica"
+
+#. Label of the verified (Check) field in DocType 'Material Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Verified"
+msgstr "Verificato"
+
+#. Label of the verified_by (Link) field in DocType 'Material Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Verified By"
+msgstr "Verificato da"
+
+#. Option for the 'Element' (Select) field in DocType 'Certificate Chemical
+#. Result'
+#: materials/material_certifications/doctype/certificate_chemical_result/certificate_chemical_result.json
+msgid "W"
+msgstr "W"
+
+#: materials/material_classifications/doctype/material_specification/material_specification.js:13
+msgid "Withdraw"
+msgstr "Ritira"
+
+#. Option for the 'Status' (Select) field in DocType 'Material Specification'
+#: materials/material_classifications/doctype/material_specification/material_specification.json
+msgid "Withdrawn"
+msgstr "Ritirata"
+
+#. Label of the within_spec (Check) field in DocType 'Certificate Chemical
+#. Result'
+#. Label of the within_spec (Check) field in DocType 'Certificate Mechanical
+#: materials/material_certifications/doctype/certificate_chemical_result/certificate_chemical_result.json
+#: materials/material_certifications/doctype/certificate_mechanical_result/certificate_mechanical_result.json
+msgid "Within Spec"
+msgstr "Entro specifica"
+
+#. Option for the 'Test Type' (Select) field in DocType 'Certificate Mechanical
+#. Result'
+#: materials/material_certifications/doctype/certificate_mechanical_result/certificate_mechanical_result.json
+msgid "Yield Strength"
+msgstr "Carico di snervamento"
+
+#. Count format of shortcut in the Materials Workspace
+#: materials/material_classifications/workspace/materials/materials.json
+msgid "{} Total"
+msgstr "{} totali"
+
