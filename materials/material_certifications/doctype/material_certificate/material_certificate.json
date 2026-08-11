@@ -74,13 +74,14 @@
    "reqd": 1
   },
   {
+   "description": "From the shared Certificate Type list.",
    "fieldname": "certificate_type",
-   "fieldtype": "Select",
+   "fieldtype": "Link",
    "in_global_search": 1,
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Certificate Type",
-   "options": "EN 10204 2.2\nEN 10204 3.1\nEN 10204 3.2\nMill Test Report\nPMI Report\nHydrostatic Test\nCoating Certificate\nOther",
+   "options": "Certificate Type",
    "reqd": 1
   },
   {
