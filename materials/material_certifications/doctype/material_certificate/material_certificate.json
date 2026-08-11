@@ -81,7 +81,7 @@
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Certificate Type",
-   "options": "Certificate Type",
+   "options": "Conformity Certificate Type",
    "reqd": 1
   },
   {
