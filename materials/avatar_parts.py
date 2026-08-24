@@ -5,33 +5,32 @@ piece appears in everyone's avatar builder; uninstall it and the piece quietly
 stops being offered. Nothing here is imported by worgify directly — see
 `worgify/utils/avatar/contrib.py` for the contract.
 
-Drawn on the 32x32 authoring grid — the fine grid, because a tool is a small
-thing and needs the detail, while the body itself stays on the coarse 16 grid.
-Low and to one side so it does not cover the face, and inside the circle the
+Drawn on the 32x32 fine grid — the body itself uses the coarse 16 grid, but a
+tool is a small thing and needs the resolution to be recognisable. It sits in
+the free corner beside the body, clear of the face and inside the circle the
 Desk crops avatars to.
 """
 
-COPPER = (0xC8, 0x7B, 0x3A)
-STEEL_D = (0x6B, 0x74, 0x7E)
+STEEL = (0x9A, 0xA3, 0xAD)
 
 
 def get_parts():
-	"""a coupon cut from the heat"""
+	"""a coupon cut from the heat, dog-bone and all"""
 	return [
 		{
 			"slug": "billet",
-			"label": "Material sample",
+			"label": "Material coupon",
 			"slot": "gear",
 			"sprite": {
-				"y": 24,
+				"y": 20,
 				"rows": [
-					"...AAAAAAAAAA...................",
-					"...AACCCACCCA...................",
-					"...AACCCACCCA...................",
-					"...AACCCACCCA...................",
-					"...AAAAAAAAAA...................",
+					"....AAA...AAA...................",
+					"....AAAAAAAAA...................",
+					".....AAAAAAA....................",
+					"....AAAAAAAAA...................",
+					"....AAA...AAA...................",
 				],
-				"palette": {"A": STEEL_D, "C": COPPER},
+				"palette": {"A": STEEL},
 			},
 		}
 	]
