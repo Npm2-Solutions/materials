@@ -318,3 +318,8 @@ before_uninstall = "materials.setup.install.before_uninstall"
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
 
+
+# Avatar parts — this app's trade gear, offered to the avatar builder that
+# worgify runs. Collected via frappe.get_hooks; if worgify is absent nothing
+# reads this and nothing breaks.
+avatar_parts = {"materials": "materials.avatar_parts.get_parts"}
