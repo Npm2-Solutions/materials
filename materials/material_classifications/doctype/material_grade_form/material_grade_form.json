@@ -19,8 +19,9 @@
    "fieldtype": "Select",
    "in_list_view": 1,
    "label": "Product Form",
-   "options": "Plate\nSheet\nPipe\nTube\nBar\nFitting\nForging\nCasting",
-   "reqd": 1
+   "options": "Plate\nSheet\nPipe\nTube\nBar\nStructural Shape\nFitting\nForging\nCasting",
+   "reqd": 1,
+   "description": "ASTM A6 covers structural shapes — beams, angles, channels — and A36, A572, A992 and EN 10025-2 are supplied as them. The value was in the data on 16 rows and missing from this list, so those grades could not be saved at all: a Select is validated on the server."
   },
   {
    "fieldname": "thickness_min",
