@@ -32,32 +32,15 @@ from worgify.setup import persona  # shared multi-persona demo driver
 # SA-516 Gr.70 plate grade — shipped as a materials fixture. Referenced, not created.
 PLATE_GRADE_FIXTURE = "ASME-SA-516--70"
 
-# Demo-owned reference rows for welding consumables (no fixture exists for these).
-# is_standard stays 0 (the default) so cleanup is allowed to delete them.
-# Keyed by designation → spec metadata; standard link left NULL on purpose
-# (accepted pattern — links are 100% NULL in demo and not yet reqd-enforced).
-DEMO_SPECS = [
-    {
-        "designation": "A5.18",
-        "title": "AWS A5.18 — Carbon Steel Solid Wire (GMAW/GTAW)",
-        "material_category": "Carbon Steel",
-        "description": "Filler-metal specification for ER70S-x carbon-steel solid wires.",
-    },
-    {
-        "designation": "A5.1",
-        "title": "AWS A5.1 — Carbon Steel Covered Electrodes (SMAW)",
-        "material_category": "Carbon Steel",
-        "description": "Filler-metal specification for E70xx carbon-steel covered electrodes.",
-    },
-]
-
-# Grade → its parent spec designation. grade strings drive cleanup filters.
-DEMO_GRADES = [
-    {"designation": "A5.18", "grade": "ER70S-6", "uns_number": "",
-     "notes": "Copper-coated solid wire, Mn-Si deoxidised, for GMAW/GTAW of carbon steel."},
-    {"designation": "A5.1", "grade": "E7018", "uns_number": "",
-     "notes": "Low-hydrogen iron-powder covered electrode for SMAW of carbon steel."},
-]
+# **No consumable Specifications or Grades.** They used to be created here —
+# `A5.1`/`A5.18` as `Material Specification`, `E7018`/`ER70S-6` as `Material
+# Grade` — because a certificate needed something to hang off and the base-metal
+# chain was the only one wired. An electrode is not a base material: it has an
+# F-Number, not a P-Number, and it already exists in weldcore as
+# `AWS-A5.1--E7018` carrying `ASME-F-4`.
+#
+# A consumable lot's certificate belongs to the **stock batch that holds the
+# goods**, and `Batch.certificates` has been there all along, empty.
 
 # Material Heats (mill pours / casts). heat_number IS the record name.
 #   grade_ref:  "fixture" → resolved to PLATE_GRADE_FIXTURE; otherwise a demo grade designation
@@ -65,12 +48,6 @@ DEMO_HEATS = [
     {"heat_number": "H-2026-0142", "grade_ref": "fixture", "cast_number": "C-0142/3",
      "mill_is_supplier": False, "lot_ref": "H-2026-0142",
      "notes": "SA-516 Gr.70 20mm plate heat — stock batch H-2026-0142 (2000 kg received)."},
-    {"heat_number": "ER-2026-1187", "grade": "ER70S-6", "cast_number": "LOT-ER70S-001",
-     "mill_is_supplier": True, "lot_ref": "LOT-ER70S-001",
-     "notes": "ER70S-6 1.2mm wire cast — stock batch LOT-ER70S-001 (100 kg received)."},
-    {"heat_number": "EB-2026-0453", "grade": "E7018", "cast_number": "LOT-E7018-001",
-     "mill_is_supplier": True, "lot_ref": "LOT-E7018-001",
-     "notes": "E7018 3.2mm electrode batch — stock batch LOT-E7018-001."},
 ]
 
 # Material Certificates (EN 10204 3.1 Mill Test Reports). Sequential autoname
@@ -105,7 +82,7 @@ DEMO_CERTS = [
         "certificate_type": "EN 10204 3.1",
         "issuing_body": "Böhler Welding Group",
         "supplier_from_context": True,
-        "heat": "ER-2026-1187",
+        "batch": "LOT-ER70S-001",
         "qty_covered": 100.0,
         "qty_unit": "Kg",
         "chemical": [
@@ -126,7 +103,7 @@ DEMO_CERTS = [
         "certificate_type": "EN 10204 3.1",
         "issuing_body": "Böhler Welding Group",
         "supplier_from_context": True,
-        "heat": "EB-2026-0453",
+        "batch": "LOT-E7018-001",
         "qty_covered": 50.0,
         "qty_unit": "Kg",
         "chemical": [
@@ -148,6 +125,31 @@ DEMO_CERTS = [
 # Setup
 # ---------------------------------------------------------------------------
 
+def _attach_to_batch(batch, certificate, spec):
+    """A consumable lot's certificate belongs to the batch that holds the goods.
+
+    `Batch.certificates` is stock's own child table and it was empty on both
+    consumable lots, while the certificates hung off a `Material Heat` invented
+    for the purpose. The batch of electrodes did not know its own MTR — which is
+    the one link an auditor follows.
+    """
+    if not batch or not frappe.db.exists("Batch", batch):
+        return
+    if frappe.db.exists("Mill Test Certificate",
+                        {"parenttype": "Batch", "parent": batch, "certificate": certificate}):
+        return
+    doc = frappe.get_doc("Batch", batch)
+    doc.append("certificates", {
+        "certificate": certificate,
+        "certificate_type": spec.get("certificate_type"),
+        "certificate_number": spec.get("certificate_number"),
+        "is_primary": 1,
+    })
+    doc.flags.ignore_permissions = True
+    doc.flags.ignore_mandatory = True
+    doc.save()
+
+
 def setup(context):
     """Seed materials demo data: consumable grades + heats + mill certificates.
 
@@ -163,45 +165,9 @@ def setup(context):
     start_date = context.get("start_date") or add_days(today(), -30)
     supplier = context.get("supplier")
 
-    # --- Material Specifications + Grades (welding consumables only) ---------
-    print("    Creating Material Specifications / Grades (welding consumables)...")
-    spec_by_designation = {}
-    for spec in DEMO_SPECS:
-        doc = frappe.get_doc({
-            "doctype": "Material Specification",
-            "designation": spec["designation"],
-            "title": spec["title"],
-            "material_category": spec["material_category"],
-            "description": spec["description"],
-            # standard left NULL on purpose; is_standard stays 0 (demo-owned).
-        })
-        doc.flags.ignore_permissions = True
-        doc.flags.ignore_mandatory = True
-        doc.insert(ignore_if_duplicate=True)
-        spec_by_designation[spec["designation"]] = doc.name
-        context.setdefault("material_specifications", [])
-        if doc.name not in context["material_specifications"]:
-            context["material_specifications"].append(doc.name)
-
+    # No consumable Specifications or Grades are created — see the note above
+    # DEMO_HEATS. Only the plate grade is referenced, and it is a fixture.
     grade_by_grade = {}
-    for g in DEMO_GRADES:
-        spec_name = spec_by_designation.get(g["designation"])
-        if not spec_name:
-            continue
-        doc = frappe.get_doc({
-            "doctype": "Material Grade",
-            "specification": spec_name,
-            "grade": g["grade"],
-            "uns_number": g.get("uns_number") or "",
-            "notes": g.get("notes") or "",
-        })
-        doc.flags.ignore_permissions = True
-        doc.flags.ignore_mandatory = True
-        doc.insert(ignore_if_duplicate=True)
-        grade_by_grade[g["grade"]] = doc.name
-        context.setdefault("material_grades", [])
-        if doc.name not in context["material_grades"]:
-            context["material_grades"].append(doc.name)
 
     # Reference (don't create) the SA-516 Gr.70 plate grade shipped as a fixture.
     plate_grade = PLATE_GRADE_FIXTURE if frappe.db.exists(
@@ -267,8 +233,9 @@ def setup(context):
                 "supplier": supplier if cc.get("supplier_from_context") else None,
                 "issuing_body": cc.get("issuing_body") or "",
                 "heats_covered": [
-                    {"heat": cc["heat"], "qty_covered": cc["qty_covered"], "qty_unit": cc["qty_unit"]},
-                ],
+                    {"heat": cc["heat"], "qty_covered": cc["qty_covered"],
+                     "qty_unit": cc["qty_unit"]},
+                ] if cc.get("heat") else [],
                 "chemical_results": [
                     {"element": el, "value_percent": val, "spec_min": smin, "spec_max": smax}
                     for (el, val, smin, smax) in cc["chemical"]
@@ -289,6 +256,7 @@ def setup(context):
         if name:
             context.setdefault("material_certificates", [])
             context["material_certificates"].append(name)
+            _attach_to_batch(c.get("batch"), name, c)
 
     persona.print_ledger(ledger, len(context.get("material_certificates", [])))
     frappe.db.commit()

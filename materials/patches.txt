@@ -27,3 +27,4 @@ materials.patches.specs_name_their_own_standard
 materials.patches.jis_duplicates_and_the_missing_space
 materials.patches.every_spec_names_its_own_standard
 materials.patches.a_designation_does_not_repeat_its_publisher
+materials.patches.an_electrode_is_not_a_base_material
