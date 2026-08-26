@@ -1,6 +1,150 @@
 [
  {
   "doctype": "Material Grade",
+  "name": "API-5CT--C110",
+  "specification": "API-5CT",
+  "grade": "C110",
+  "notes": "API Spec 5CT-2023 grade tables",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "API-5CT--C90",
+  "specification": "API-5CT",
+  "grade": "C90",
+  "notes": "API Spec 5CT-2023 grade tables",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "API-5CT--H40",
+  "specification": "API-5CT",
+  "grade": "H40",
+  "notes": "API Spec 5CT-2023 grade tables",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "API-5CT--J55",
+  "specification": "API-5CT",
+  "grade": "J55",
+  "notes": "API Spec 5CT-2023 grade tables",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "API-5CT--K55",
+  "specification": "API-5CT",
+  "grade": "K55",
+  "notes": "API Spec 5CT-2023 grade tables",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "API-5CT--L80",
+  "specification": "API-5CT",
+  "grade": "L80",
+  "notes": "API Spec 5CT-2023 grade tables",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "API-5CT--N80",
+  "specification": "API-5CT",
+  "grade": "N80",
+  "notes": "API Spec 5CT-2023 grade tables",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "API-5CT--P110",
+  "specification": "API-5CT",
+  "grade": "P110",
+  "notes": "API Spec 5CT-2023 grade tables",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "API-5CT--Q125",
+  "specification": "API-5CT",
+  "grade": "Q125",
+  "notes": "API Spec 5CT-2023 grade tables",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "API-5CT--T95",
+  "specification": "API-5CT",
+  "grade": "T95",
+  "notes": "API Spec 5CT-2023 grade tables",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "API-5DP--E",
+  "specification": "API-5DP",
+  "grade": "E",
+  "notes": "API Spec 5DP-2020 §1 scope",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "API-5DP--G",
+  "specification": "API-5DP",
+  "grade": "G",
+  "notes": "API Spec 5DP-2020 §1 scope",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "API-5DP--S",
+  "specification": "API-5DP",
+  "grade": "S",
+  "notes": "API Spec 5DP-2020 §1 scope",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "API-5DP--SS",
+  "specification": "API-5DP",
+  "grade": "SS",
+  "notes": "API Spec 5DP-2020 §1 scope",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "API-5DP--V",
+  "specification": "API-5DP",
+  "grade": "V",
+  "notes": "API Spec 5DP-2020 §1 scope",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "API-5DP--X",
+  "specification": "API-5DP",
+  "grade": "X",
+  "notes": "API Spec 5DP-2020 §1 scope",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
   "name": "API-5L--B",
   "specification": "API-5L",
   "grade": "B",
@@ -77,6 +221,249 @@
   "specification": "API-5L",
   "grade": "X80",
   "notes": "Yield 552 MPa, tensile 621 MPa min. Modern long-distance pipeline grade (TMCP).",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "API-5LC--LC30-1512",
+  "specification": "API-5LC",
+  "grade": "LC30-1512",
+  "notes": "API Spec 5LC-2020 Table 4",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "API-5LC--LC30-1812",
+  "specification": "API-5LC",
+  "grade": "LC30-1812",
+  "notes": "API Spec 5LC-2020 Table 4",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "API-5LC--LC30-2242",
+  "specification": "API-5LC",
+  "grade": "LC30-2242",
+  "notes": "API Spec 5LC-2020 Table 4",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "API-5LC--LC52-1200",
+  "specification": "API-5LC",
+  "grade": "LC52-1200",
+  "notes": "API Spec 5LC-2020 Table 4",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "API-5LC--LC65-2205",
+  "specification": "API-5LC",
+  "grade": "LC65-2205",
+  "notes": "API Spec 5LC-2020 Table 4",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "API-5LC--LC65-2206",
+  "specification": "API-5LC",
+  "grade": "LC65-2206",
+  "notes": "API Spec 5LC-2020 Table 4",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "API-5LC--LC65-2506",
+  "specification": "API-5LC",
+  "grade": "LC65-2506",
+  "notes": "API Spec 5LC-2020 Table 4",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "API-5LC--LC80-2507",
+  "specification": "API-5LC",
+  "grade": "LC80-2507",
+  "notes": "API Spec 5LC-2020 Table 4",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "API-5LCP--X52C",
+  "specification": "API-5LCP",
+  "grade": "X52C",
+  "notes": "API Spec 5LCP §1.2",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "API-5LCP--X56C",
+  "specification": "API-5LCP",
+  "grade": "X56C",
+  "notes": "API Spec 5LCP §1.2",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "API-5LCP--X60C",
+  "specification": "API-5LCP",
+  "grade": "X60C",
+  "notes": "API Spec 5LCP §1.2",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "API-5LCP--X65C",
+  "specification": "API-5LCP",
+  "grade": "X65C",
+  "notes": "API Spec 5LCP §1.2",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "API-5LCP--X70C",
+  "specification": "API-5LCP",
+  "grade": "X70C",
+  "notes": "API Spec 5LCP §1.2",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "API-5LCP--X80C",
+  "specification": "API-5LCP",
+  "grade": "X80C",
+  "notes": "API Spec 5LCP §1.2",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "API-5LCP--X90C",
+  "specification": "API-5LCP",
+  "grade": "X90C",
+  "notes": "API Spec 5LCP §1.2",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "API-5LD--X42",
+  "specification": "API-5LD",
+  "grade": "X42",
+  "notes": "API Spec 5LD-2020 §1 scope — base material grades",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "API-5LD--X46",
+  "specification": "API-5LD",
+  "grade": "X46",
+  "notes": "API Spec 5LD-2020 §1 scope — base material grades",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "API-5LD--X52",
+  "specification": "API-5LD",
+  "grade": "X52",
+  "notes": "API Spec 5LD-2020 §1 scope — base material grades",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "API-5LD--X56",
+  "specification": "API-5LD",
+  "grade": "X56",
+  "notes": "API Spec 5LD-2020 §1 scope — base material grades",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "API-5LD--X60",
+  "specification": "API-5LD",
+  "grade": "X60",
+  "notes": "API Spec 5LD-2020 §1 scope — base material grades",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "API-5LD--X65",
+  "specification": "API-5LD",
+  "grade": "X65",
+  "notes": "API Spec 5LD-2020 §1 scope — base material grades",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "API-5LD--X70",
+  "specification": "API-5LD",
+  "grade": "X70",
+  "notes": "API Spec 5LD-2020 §1 scope — base material grades",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "API-5LD--X80",
+  "specification": "API-5LD",
+  "grade": "X80",
+  "notes": "API Spec 5LD-2020 §1 scope — base material grades",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "API-6A--36K",
+  "specification": "API-6A",
+  "grade": "36K",
+  "notes": "API Spec 6A-2018 material designations",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "API-6A--45K",
+  "specification": "API-6A",
+  "grade": "45K",
+  "notes": "API Spec 6A-2018 material designations",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "API-6A--60K",
+  "specification": "API-6A",
+  "grade": "60K",
+  "notes": "API Spec 6A-2018 material designations",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "API-6A--75K",
+  "specification": "API-6A",
+  "grade": "75K",
+  "notes": "API Spec 6A-2018 material designations",
   "is_standard": 1,
   "enabled": 1
  },
@@ -2202,6 +2589,15 @@
  },
  {
   "doctype": "Material Grade",
+  "name": "ASTM-A105--A105",
+  "specification": "ASTM-A105",
+  "grade": "A105",
+  "notes": "ASTM A105/A105M-24 is a single-grade specification: it defines no grade designations, so the specification itself is the grade.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
   "name": "ASTM-A106--Gr-A",
   "specification": "ASTM-A106",
   "grade": "Gr A",
@@ -2959,6 +3355,429 @@
   "name": "ASTM-A192--K01201",
   "specification": "ASTM-A192",
   "grade": "K01201",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A193--B16",
+  "specification": "ASTM-A193",
+  "grade": "B16",
+  "notes": "ASTM A193/A193M-24 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A193--B18",
+  "specification": "ASTM-A193",
+  "grade": "B18",
+  "notes": "ASTM A193/A193M-24 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A193--B5",
+  "specification": "ASTM-A193",
+  "grade": "B5",
+  "notes": "ASTM A193/A193M-24 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A193--B6",
+  "specification": "ASTM-A193",
+  "grade": "B6",
+  "notes": "ASTM A193/A193M-24 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A193--B6X",
+  "specification": "ASTM-A193",
+  "grade": "B6X",
+  "notes": "ASTM A193/A193M-24 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A193--B7",
+  "specification": "ASTM-A193",
+  "grade": "B7",
+  "notes": "ASTM A193/A193M-24 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A193--B7M",
+  "specification": "ASTM-A193",
+  "grade": "B7M",
+  "notes": "ASTM A193/A193M-24 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A193--B8",
+  "specification": "ASTM-A193",
+  "grade": "B8",
+  "notes": "ASTM A193/A193M-24 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A193--B8A",
+  "specification": "ASTM-A193",
+  "grade": "B8A",
+  "notes": "ASTM A193/A193M-24 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A193--B8C",
+  "specification": "ASTM-A193",
+  "grade": "B8C",
+  "notes": "ASTM A193/A193M-24 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A193--B8CA",
+  "specification": "ASTM-A193",
+  "grade": "B8CA",
+  "notes": "ASTM A193/A193M-24 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A193--B8LN",
+  "specification": "ASTM-A193",
+  "grade": "B8LN",
+  "notes": "ASTM A193/A193M-24 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A193--B8M",
+  "specification": "ASTM-A193",
+  "grade": "B8M",
+  "notes": "ASTM A193/A193M-24 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A193--B8MA",
+  "specification": "ASTM-A193",
+  "grade": "B8MA",
+  "notes": "ASTM A193/A193M-24 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A193--B8MN",
+  "specification": "ASTM-A193",
+  "grade": "B8MN",
+  "notes": "ASTM A193/A193M-24 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A193--B8N",
+  "specification": "ASTM-A193",
+  "grade": "B8N",
+  "notes": "ASTM A193/A193M-24 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A193--B8NA",
+  "specification": "ASTM-A193",
+  "grade": "B8NA",
+  "notes": "ASTM A193/A193M-24 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A193--B8P",
+  "specification": "ASTM-A193",
+  "grade": "B8P",
+  "notes": "ASTM A193/A193M-24 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A193--B8PA",
+  "specification": "ASTM-A193",
+  "grade": "B8PA",
+  "notes": "ASTM A193/A193M-24 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A193--B8R",
+  "specification": "ASTM-A193",
+  "grade": "B8R",
+  "notes": "ASTM A193/A193M-24 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A193--B8RA",
+  "specification": "ASTM-A193",
+  "grade": "B8RA",
+  "notes": "ASTM A193/A193M-24 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A193--B8S",
+  "specification": "ASTM-A193",
+  "grade": "B8S",
+  "notes": "ASTM A193/A193M-24 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A193--B8SA",
+  "specification": "ASTM-A193",
+  "grade": "B8SA",
+  "notes": "ASTM A193/A193M-24 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A193--B8T",
+  "specification": "ASTM-A193",
+  "grade": "B8T",
+  "notes": "ASTM A193/A193M-24 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A193--B8TA",
+  "specification": "ASTM-A193",
+  "grade": "B8TA",
+  "notes": "ASTM A193/A193M-24 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A194--1",
+  "specification": "ASTM-A194",
+  "grade": "1",
+  "notes": "ASTM A194/A194M-2024 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A194--16",
+  "specification": "ASTM-A194",
+  "grade": "16",
+  "notes": "ASTM A194/A194M-2024 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A194--2",
+  "specification": "ASTM-A194",
+  "grade": "2",
+  "notes": "ASTM A194/A194M-2024 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A194--2H",
+  "specification": "ASTM-A194",
+  "grade": "2H",
+  "notes": "ASTM A194/A194M-2024 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A194--2HM",
+  "specification": "ASTM-A194",
+  "grade": "2HM",
+  "notes": "ASTM A194/A194M-2024 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A194--3",
+  "specification": "ASTM-A194",
+  "grade": "3",
+  "notes": "ASTM A194/A194M-2024 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A194--4",
+  "specification": "ASTM-A194",
+  "grade": "4",
+  "notes": "ASTM A194/A194M-2024 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A194--43",
+  "specification": "ASTM-A194",
+  "grade": "43",
+  "notes": "ASTM A194/A194M-2024 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A194--6",
+  "specification": "ASTM-A194",
+  "grade": "6",
+  "notes": "ASTM A194/A194M-2024 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A194--6F",
+  "specification": "ASTM-A194",
+  "grade": "6F",
+  "notes": "ASTM A194/A194M-2024 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A194--7",
+  "specification": "ASTM-A194",
+  "grade": "7",
+  "notes": "ASTM A194/A194M-2024 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A194--7M",
+  "specification": "ASTM-A194",
+  "grade": "7M",
+  "notes": "ASTM A194/A194M-2024 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A194--8",
+  "specification": "ASTM-A194",
+  "grade": "8",
+  "notes": "ASTM A194/A194M-2024 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A194--8A",
+  "specification": "ASTM-A194",
+  "grade": "8A",
+  "notes": "ASTM A194/A194M-2024 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A194--8C",
+  "specification": "ASTM-A194",
+  "grade": "8C",
+  "notes": "ASTM A194/A194M-2024 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A194--8CA",
+  "specification": "ASTM-A194",
+  "grade": "8CA",
+  "notes": "ASTM A194/A194M-2024 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A194--8F",
+  "specification": "ASTM-A194",
+  "grade": "8F",
+  "notes": "ASTM A194/A194M-2024 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A194--8FA",
+  "specification": "ASTM-A194",
+  "grade": "8FA",
+  "notes": "ASTM A194/A194M-2024 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A194--8M",
+  "specification": "ASTM-A194",
+  "grade": "8M",
+  "notes": "ASTM A194/A194M-2024 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A194--8MA",
+  "specification": "ASTM-A194",
+  "grade": "8MA",
+  "notes": "ASTM A194/A194M-2024 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A194--8T",
+  "specification": "ASTM-A194",
+  "grade": "8T",
+  "notes": "ASTM A194/A194M-2024 Table 1, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A194--8TA",
+  "specification": "ASTM-A194",
+  "grade": "8TA",
+  "notes": "ASTM A194/A194M-2024 Table 1, grade column",
   "is_standard": 1,
   "enabled": 1
  },
@@ -5744,6 +6563,222 @@
  },
  {
   "doctype": "Material Grade",
+  "name": "ASTM-A320--B8",
+  "specification": "ASTM-A320",
+  "grade": "B8",
+  "notes": "ASTM A320/A320M-24 Tables 1-2, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A320--B8A",
+  "specification": "ASTM-A320",
+  "grade": "B8A",
+  "notes": "ASTM A320/A320M-24 Tables 1-2, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A320--B8C",
+  "specification": "ASTM-A320",
+  "grade": "B8C",
+  "notes": "ASTM A320/A320M-24 Tables 1-2, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A320--B8CA",
+  "specification": "ASTM-A320",
+  "grade": "B8CA",
+  "notes": "ASTM A320/A320M-24 Tables 1-2, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A320--B8F",
+  "specification": "ASTM-A320",
+  "grade": "B8F",
+  "notes": "ASTM A320/A320M-24 Tables 1-2, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A320--B8FA",
+  "specification": "ASTM-A320",
+  "grade": "B8FA",
+  "notes": "ASTM A320/A320M-24 Tables 1-2, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A320--B8LN",
+  "specification": "ASTM-A320",
+  "grade": "B8LN",
+  "notes": "ASTM A320/A320M-24 Tables 1-2, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A320--B8M",
+  "specification": "ASTM-A320",
+  "grade": "B8M",
+  "notes": "ASTM A320/A320M-24 Tables 1-2, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A320--B8MA",
+  "specification": "ASTM-A320",
+  "grade": "B8MA",
+  "notes": "ASTM A320/A320M-24 Tables 1-2, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A320--B8P",
+  "specification": "ASTM-A320",
+  "grade": "B8P",
+  "notes": "ASTM A320/A320M-24 Tables 1-2, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A320--B8PA",
+  "specification": "ASTM-A320",
+  "grade": "B8PA",
+  "notes": "ASTM A320/A320M-24 Tables 1-2, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A320--B8T",
+  "specification": "ASTM-A320",
+  "grade": "B8T",
+  "notes": "ASTM A320/A320M-24 Tables 1-2, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A320--B8TA",
+  "specification": "ASTM-A320",
+  "grade": "B8TA",
+  "notes": "ASTM A320/A320M-24 Tables 1-2, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A320--L1",
+  "specification": "ASTM-A320",
+  "grade": "L1",
+  "notes": "ASTM A320/A320M-24 Tables 1-2, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A320--L43",
+  "specification": "ASTM-A320",
+  "grade": "L43",
+  "notes": "ASTM A320/A320M-24 Tables 1-2, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A320--L7",
+  "specification": "ASTM-A320",
+  "grade": "L7",
+  "notes": "ASTM A320/A320M-24 Tables 1-2, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A320--L70",
+  "specification": "ASTM-A320",
+  "grade": "L70",
+  "notes": "ASTM A320/A320M-24 Tables 1-2, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A320--L71",
+  "specification": "ASTM-A320",
+  "grade": "L71",
+  "notes": "ASTM A320/A320M-24 Tables 1-2, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A320--L72",
+  "specification": "ASTM-A320",
+  "grade": "L72",
+  "notes": "ASTM A320/A320M-24 Tables 1-2, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A320--L73",
+  "specification": "ASTM-A320",
+  "grade": "L73",
+  "notes": "ASTM A320/A320M-24 Tables 1-2, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A320--L7A",
+  "specification": "ASTM-A320",
+  "grade": "L7A",
+  "notes": "ASTM A320/A320M-24 Tables 1-2, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A320--L7B",
+  "specification": "ASTM-A320",
+  "grade": "L7B",
+  "notes": "ASTM A320/A320M-24 Tables 1-2, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A320--L7C",
+  "specification": "ASTM-A320",
+  "grade": "L7C",
+  "notes": "ASTM A320/A320M-24 Tables 1-2, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A320--L7M",
+  "specification": "ASTM-A320",
+  "grade": "L7M",
+  "notes": "ASTM A320/A320M-24 Tables 1-2, grade column",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
   "name": "ASTM-A321--A321",
   "specification": "ASTM-A321",
   "grade": "A321",
@@ -8393,6 +9428,51 @@
  },
  {
   "doctype": "Material Grade",
+  "name": "ASTM-A615--100",
+  "specification": "ASTM-A615",
+  "grade": "100",
+  "notes": "ASTM A615-2020 §1.2",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A615--40",
+  "specification": "ASTM-A615",
+  "grade": "40",
+  "notes": "ASTM A615-2020 §1.2",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A615--60",
+  "specification": "ASTM-A615",
+  "grade": "60",
+  "notes": "ASTM A615-2020 §1.2",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A615--75",
+  "specification": "ASTM-A615",
+  "grade": "75",
+  "notes": "ASTM A615-2020 §1.2",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A615--80",
+  "specification": "ASTM-A615",
+  "grade": "80",
+  "notes": "ASTM A615-2020 §1.2",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
   "name": "ASTM-A671--CA55",
   "specification": "ASTM-A671",
   "grade": "CA55",
@@ -9333,6 +10413,24 @@
   "name": "ASTM-A860--WPHY-70",
   "specification": "ASTM-A860",
   "grade": "WPHY 70",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A871--60",
+  "specification": "ASTM-A871",
+  "grade": "60",
+  "notes": "ASTM A871/A871M-14 §1.1 — 'Two grades, 60 and 65'",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "ASTM-A871--65",
+  "specification": "ASTM-A871",
+  "grade": "65",
+  "notes": "ASTM A871/A871M-14 §1.1 — 'Two grades, 60 and 65'",
   "is_standard": 1,
   "enabled": 1
  },
@@ -11611,6 +12709,177 @@
  },
  {
   "doctype": "Material Grade",
+  "name": "EN-10025-5--S235J0W",
+  "specification": "EN-10025-5",
+  "grade": "S235J0W",
+  "notes": "EN 10025-5:2019 — text layer (one glyph per line, recomposed)",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10025-5--S235J2W",
+  "specification": "EN-10025-5",
+  "grade": "S235J2W",
+  "notes": "EN 10025-5:2019 — text layer (one glyph per line, recomposed)",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10025-5--S355J0W",
+  "specification": "EN-10025-5",
+  "grade": "S355J0W",
+  "notes": "EN 10025-5:2019 — text layer (one glyph per line, recomposed)",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10025-5--S355J0WP",
+  "specification": "EN-10025-5",
+  "grade": "S355J0WP",
+  "notes": "EN 10025-5:2019 — text layer (one glyph per line, recomposed)",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10025-5--S355J2W",
+  "specification": "EN-10025-5",
+  "grade": "S355J2W",
+  "notes": "EN 10025-5:2019 — text layer (one glyph per line, recomposed)",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10025-5--S355J2WP",
+  "specification": "EN-10025-5",
+  "grade": "S355J2WP",
+  "notes": "EN 10025-5:2019 — text layer (one glyph per line, recomposed)",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10025-5--S355J4W",
+  "specification": "EN-10025-5",
+  "grade": "S355J4W",
+  "notes": "EN 10025-5:2019 — text layer (one glyph per line, recomposed)",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10025-5--S355J5W",
+  "specification": "EN-10025-5",
+  "grade": "S355J5W",
+  "notes": "EN 10025-5:2019 — text layer (one glyph per line, recomposed)",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10025-5--S355K2W",
+  "specification": "EN-10025-5",
+  "grade": "S355K2W",
+  "notes": "EN 10025-5:2019 — text layer (one glyph per line, recomposed)",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10025-5--S420J0W",
+  "specification": "EN-10025-5",
+  "grade": "S420J0W",
+  "notes": "EN 10025-5:2019 — text layer (one glyph per line, recomposed)",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10025-5--S420J2W",
+  "specification": "EN-10025-5",
+  "grade": "S420J2W",
+  "notes": "EN 10025-5:2019 — text layer (one glyph per line, recomposed)",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10025-5--S420J4W",
+  "specification": "EN-10025-5",
+  "grade": "S420J4W",
+  "notes": "EN 10025-5:2019 — text layer (one glyph per line, recomposed)",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10025-5--S420J5W",
+  "specification": "EN-10025-5",
+  "grade": "S420J5W",
+  "notes": "EN 10025-5:2019 — text layer (one glyph per line, recomposed)",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10025-5--S420K2W",
+  "specification": "EN-10025-5",
+  "grade": "S420K2W",
+  "notes": "EN 10025-5:2019 — text layer (one glyph per line, recomposed)",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10025-5--S460J0W",
+  "specification": "EN-10025-5",
+  "grade": "S460J0W",
+  "notes": "EN 10025-5:2019 — text layer (one glyph per line, recomposed)",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10025-5--S460J2W",
+  "specification": "EN-10025-5",
+  "grade": "S460J2W",
+  "notes": "EN 10025-5:2019 — text layer (one glyph per line, recomposed)",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10025-5--S460J4W",
+  "specification": "EN-10025-5",
+  "grade": "S460J4W",
+  "notes": "EN 10025-5:2019 — text layer (one glyph per line, recomposed)",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10025-5--S460J5W",
+  "specification": "EN-10025-5",
+  "grade": "S460J5W",
+  "notes": "EN 10025-5:2019 — text layer (one glyph per line, recomposed)",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10025-5--S460K2W",
+  "specification": "EN-10025-5",
+  "grade": "S460K2W",
+  "notes": "EN 10025-5:2019 — text layer (one glyph per line, recomposed)",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
   "name": "EN-10025-6--S460Q",
   "specification": "EN-10025-6",
   "grade": "S460Q",
@@ -11764,6 +13033,348 @@
  },
  {
   "doctype": "Material Grade",
+  "name": "EN-10028-4--12Ni14",
+  "specification": "EN-10028-4",
+  "grade": "12Ni14",
+  "notes": "BS EN 10028-4:2017 — idem",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10028-4--X12Ni5",
+  "specification": "EN-10028-4",
+  "grade": "X12Ni5",
+  "notes": "BS EN 10028-4:2017 — idem",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10028-4--X7Ni9",
+  "specification": "EN-10028-4",
+  "grade": "X7Ni9",
+  "notes": "BS EN 10028-4:2017 — idem",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10028-4--X8Ni9",
+  "specification": "EN-10028-4",
+  "grade": "X8Ni9",
+  "notes": "BS EN 10028-4:2017 — idem",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10028-5--P355M",
+  "specification": "EN-10028-5",
+  "grade": "P355M",
+  "notes": "BS EN 10028-5:2017 — idem",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10028-5--P355ML1",
+  "specification": "EN-10028-5",
+  "grade": "P355ML1",
+  "notes": "BS EN 10028-5:2017 — idem",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10028-5--P355ML2",
+  "specification": "EN-10028-5",
+  "grade": "P355ML2",
+  "notes": "BS EN 10028-5:2017 — idem",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10028-5--P420M",
+  "specification": "EN-10028-5",
+  "grade": "P420M",
+  "notes": "BS EN 10028-5:2017 — idem",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10028-5--P420ML1",
+  "specification": "EN-10028-5",
+  "grade": "P420ML1",
+  "notes": "BS EN 10028-5:2017 — idem",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10028-5--P420ML2",
+  "specification": "EN-10028-5",
+  "grade": "P420ML2",
+  "notes": "BS EN 10028-5:2017 — idem",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10028-5--P460M",
+  "specification": "EN-10028-5",
+  "grade": "P460M",
+  "notes": "BS EN 10028-5:2017 — idem",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10028-5--P460ML1",
+  "specification": "EN-10028-5",
+  "grade": "P460ML1",
+  "notes": "BS EN 10028-5:2017 — idem",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10028-5--P460ML2",
+  "specification": "EN-10028-5",
+  "grade": "P460ML2",
+  "notes": "BS EN 10028-5:2017 — idem",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10028-6--P355Q",
+  "specification": "EN-10028-6",
+  "grade": "P355Q",
+  "notes": "BS EN 10028-6:2017 — idem",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10028-6--P355QH",
+  "specification": "EN-10028-6",
+  "grade": "P355QH",
+  "notes": "BS EN 10028-6:2017 — idem",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10028-6--P355QL1",
+  "specification": "EN-10028-6",
+  "grade": "P355QL1",
+  "notes": "BS EN 10028-6:2017 — idem",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10028-6--P355QL2",
+  "specification": "EN-10028-6",
+  "grade": "P355QL2",
+  "notes": "BS EN 10028-6:2017 — idem",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10028-6--P460Q",
+  "specification": "EN-10028-6",
+  "grade": "P460Q",
+  "notes": "BS EN 10028-6:2017 — idem",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10028-6--P460QH",
+  "specification": "EN-10028-6",
+  "grade": "P460QH",
+  "notes": "BS EN 10028-6:2017 — idem",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10028-6--P460QL1",
+  "specification": "EN-10028-6",
+  "grade": "P460QL1",
+  "notes": "BS EN 10028-6:2017 — idem",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10028-6--P460QL2",
+  "specification": "EN-10028-6",
+  "grade": "P460QL2",
+  "notes": "BS EN 10028-6:2017 — idem",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10028-6--P500Q",
+  "specification": "EN-10028-6",
+  "grade": "P500Q",
+  "notes": "BS EN 10028-6:2017 — idem",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10028-6--P500QH",
+  "specification": "EN-10028-6",
+  "grade": "P500QH",
+  "notes": "BS EN 10028-6:2017 — idem",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10028-6--P500QL1",
+  "specification": "EN-10028-6",
+  "grade": "P500QL1",
+  "notes": "BS EN 10028-6:2017 — idem",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10028-6--P500QL2",
+  "specification": "EN-10028-6",
+  "grade": "P500QL2",
+  "notes": "BS EN 10028-6:2017 — idem",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10028-6--P690Q",
+  "specification": "EN-10028-6",
+  "grade": "P690Q",
+  "notes": "BS EN 10028-6:2017 — idem",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10028-6--P690QH",
+  "specification": "EN-10028-6",
+  "grade": "P690QH",
+  "notes": "BS EN 10028-6:2017 — idem",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10028-6--P690QL1",
+  "specification": "EN-10028-6",
+  "grade": "P690QL1",
+  "notes": "BS EN 10028-6:2017 — idem",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10028-6--P690QL2",
+  "specification": "EN-10028-6",
+  "grade": "P690QL2",
+  "notes": "BS EN 10028-6:2017 — idem",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10028-7--13b",
+  "specification": "EN-10028-7",
+  "grade": "13b",
+  "notes": "EN material number 1.4961.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10028-7--21e",
+  "specification": "EN-10028-7",
+  "grade": "21e",
+  "notes": "EN material number 1.4959.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10028-7--X2CrNi12",
+  "specification": "EN-10028-7",
+  "grade": "X2CrNi12",
+  "notes": "EN material number 1.4003.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10028-7--X2CrTi17",
+  "specification": "EN-10028-7",
+  "grade": "X2CrTi17",
+  "notes": "EN material number 1.4520.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10028-7--X2CrTi21",
+  "specification": "EN-10028-7",
+  "grade": "X2CrTi21",
+  "notes": "EN material number 1.4611.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10028-7--X2CrTi24",
+  "specification": "EN-10028-7",
+  "grade": "X2CrTi24",
+  "notes": "EN material number 1.4613.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10028-7--X2CrTiNb18",
+  "specification": "EN-10028-7",
+  "grade": "X2CrTiNb18",
+  "notes": "EN material number 1.4509.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10028-7--X3CrTi17",
+  "specification": "EN-10028-7",
+  "grade": "X3CrTi17",
+  "notes": "EN material number 1.4510.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10028-7--X6CrNiTi12",
+  "specification": "EN-10028-7",
+  "grade": "X6CrNiTi12",
+  "notes": "EN material number 1.4516.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
   "name": "EN-10088-2--1.4301",
   "specification": "EN-10088-2",
   "grade": "1.4301",
@@ -11854,6 +13465,222 @@
  },
  {
   "doctype": "Material Grade",
+  "name": "EN-10130--DC01e",
+  "specification": "EN-10130",
+  "grade": "DC01e",
+  "notes": "EN material number 1.0330.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10130--DC03",
+  "specification": "EN-10130",
+  "grade": "DC03",
+  "notes": "EN material number 1.0347.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10130--DC04",
+  "specification": "EN-10130",
+  "grade": "DC04",
+  "notes": "EN material number 1.0338.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10130--DC05",
+  "specification": "EN-10130",
+  "grade": "DC05",
+  "notes": "EN material number 1.0312.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10130--DC06",
+  "specification": "EN-10130",
+  "grade": "DC06",
+  "notes": "EN material number 1.0873.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10130--DC07",
+  "specification": "EN-10130",
+  "grade": "DC07",
+  "notes": "EN material number 1.0898.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10210-1--S235JRH",
+  "specification": "EN-10210-1",
+  "grade": "S235JRH",
+  "notes": "EN material number 1.0039.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10210-1--S275J0H",
+  "specification": "EN-10210-1",
+  "grade": "S275J0H",
+  "notes": "EN material number 1.0149.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10210-1--S275J2H",
+  "specification": "EN-10210-1",
+  "grade": "S275J2H",
+  "notes": "EN material number 1.0138.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10210-1--S275NH",
+  "specification": "EN-10210-1",
+  "grade": "S275NH",
+  "notes": "EN material number 1.0493.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10210-1--S275NLH",
+  "specification": "EN-10210-1",
+  "grade": "S275NLH",
+  "notes": "EN material number 1.0497.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10210-1--S335NLH",
+  "specification": "EN-10210-1",
+  "grade": "S335NLH",
+  "notes": "EN material number 1.0549.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10210-1--S355J0H",
+  "specification": "EN-10210-1",
+  "grade": "S355J0H",
+  "notes": "EN material number 1.0547.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10210-1--S355J2H",
+  "specification": "EN-10210-1",
+  "grade": "S355J2H",
+  "notes": "EN material number 1.0576.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10210-1--S355K2H",
+  "specification": "EN-10210-1",
+  "grade": "S355K2H",
+  "notes": "EN material number 1.0512.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10210-1--S355NH",
+  "specification": "EN-10210-1",
+  "grade": "S355NH",
+  "notes": "EN material number 1.0539.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10210-1--S355NLH",
+  "specification": "EN-10210-1",
+  "grade": "S355NLH",
+  "notes": "EN material number 1.0549.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10210-1--S420NH",
+  "specification": "EN-10210-1",
+  "grade": "S420NH",
+  "notes": "EN material number 1.8750.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10210-1--S420NLH",
+  "specification": "EN-10210-1",
+  "grade": "S420NLH",
+  "notes": "EN material number 1.8751.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10210-1--S460NH",
+  "specification": "EN-10210-1",
+  "grade": "S460NH",
+  "notes": "EN material number 1.8953.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10210-1--S460NLH",
+  "specification": "EN-10210-1",
+  "grade": "S460NLH",
+  "notes": "EN material number 1.8956.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-1--P195TR2",
+  "specification": "EN-10216-1",
+  "grade": "P195TR2",
+  "notes": "EN material number 1.0108.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-1--P235TR2",
+  "specification": "EN-10216-1",
+  "grade": "P235TR2",
+  "notes": "EN material number 1.0255.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-1--P265TR2",
+  "specification": "EN-10216-1",
+  "grade": "P265TR2",
+  "notes": "EN material number 1.0259.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
   "name": "EN-10216-2--10CrMo9-10",
   "specification": "EN-10216-2",
   "grade": "10CrMo9-10",
@@ -11912,6 +13739,2472 @@
   "specification": "EN-10216-2",
   "grade": "X10CrMoVNb9-1",
   "notes": "9Cr-1Mo-V-Nb (P91 equivalent) seamless tube for supercritical service.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-3--P275NL1",
+  "specification": "EN-10216-3",
+  "grade": "P275NL1",
+  "notes": "EN material number 1.0488.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-3--P275NL2",
+  "specification": "EN-10216-3",
+  "grade": "P275NL2",
+  "notes": "EN material number 1.1104.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-3--P355N",
+  "specification": "EN-10216-3",
+  "grade": "P355N",
+  "notes": "EN material number 1.0562.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-3--P355NH",
+  "specification": "EN-10216-3",
+  "grade": "P355NH",
+  "notes": "EN material number 1.0565.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-3--P355NL1",
+  "specification": "EN-10216-3",
+  "grade": "P355NL1",
+  "notes": "EN material number 1.0566.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-3--P355NL2",
+  "specification": "EN-10216-3",
+  "grade": "P355NL2",
+  "notes": "EN material number 1.1104.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-3--P460N",
+  "specification": "EN-10216-3",
+  "grade": "P460N",
+  "notes": "EN material number 1.8905.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-3--P460NH",
+  "specification": "EN-10216-3",
+  "grade": "P460NH",
+  "notes": "EN material number 1.0562.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-3--P460NL1",
+  "specification": "EN-10216-3",
+  "grade": "P460NL1",
+  "notes": "EN material number 1.0488.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-3--P460NL2",
+  "specification": "EN-10216-3",
+  "grade": "P460NL2",
+  "notes": "EN material number 1.8918.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-3--P620QH",
+  "specification": "EN-10216-3",
+  "grade": "P620QH",
+  "notes": "EN material number 1.8877.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-3--P620QL",
+  "specification": "EN-10216-3",
+  "grade": "P620QL",
+  "notes": "EN material number 1.8890.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-3--P690QH",
+  "specification": "EN-10216-3",
+  "grade": "P690QH",
+  "notes": "EN material number 1.8876.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-3--P690QL1",
+  "specification": "EN-10216-3",
+  "grade": "P690QL1",
+  "notes": "EN material number 1.8890.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-3--P690QL2",
+  "specification": "EN-10216-3",
+  "grade": "P690QL2",
+  "notes": "EN material number 1.8918.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-4--11MnNi5-3",
+  "specification": "EN-10216-4",
+  "grade": "11MnNi5-3",
+  "notes": "EN material number 1.6212.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-4--12Ni14",
+  "specification": "EN-10216-4",
+  "grade": "12Ni14",
+  "notes": "EN material number 1.5637.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-4--13MnNi6-3",
+  "specification": "EN-10216-4",
+  "grade": "13MnNi6-3",
+  "notes": "EN material number 1.6217.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-4--26CrMo4-2",
+  "specification": "EN-10216-4",
+  "grade": "26CrMo4-2",
+  "notes": "EN material number 1.7219.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-4--P215NL",
+  "specification": "EN-10216-4",
+  "grade": "P215NL",
+  "notes": "EN material number 1.0451.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-4--P255QL",
+  "specification": "EN-10216-4",
+  "grade": "P255QL",
+  "notes": "EN material number 1.0452.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-4--P265NL",
+  "specification": "EN-10216-4",
+  "grade": "P265NL",
+  "notes": "EN material number 1.0453.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-4--X10Ni9",
+  "specification": "EN-10216-4",
+  "grade": "X10Ni9",
+  "notes": "EN material number 1.5682.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-4--X12Ni5",
+  "specification": "EN-10216-4",
+  "grade": "X12Ni5",
+  "notes": "EN material number 1.5680.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-5--X1CrNi25-21",
+  "specification": "EN-10216-5",
+  "grade": "X1CrNi25-21",
+  "notes": "EN material number 1.4335.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-5--X1CrNiMoCuN20-18-7",
+  "specification": "EN-10216-5",
+  "grade": "X1CrNiMoCuN20-18-7",
+  "notes": "EN material number 1.4547.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-5--X1CrNiMoN25-22-2",
+  "specification": "EN-10216-5",
+  "grade": "X1CrNiMoN25-22-2",
+  "notes": "EN material number 1.4466.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-5--X1NiCrMoCu25-20-5",
+  "specification": "EN-10216-5",
+  "grade": "X1NiCrMoCu25-20-5",
+  "notes": "EN material number 1.4539.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-5--X1NiCrMoCu31-27-4",
+  "specification": "EN-10216-5",
+  "grade": "X1NiCrMoCu31-27-4",
+  "notes": "EN material number 1.4563.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-5--X1NiCrMoCuN25-20-7",
+  "specification": "EN-10216-5",
+  "grade": "X1NiCrMoCuN25-20-7",
+  "notes": "EN material number 1.4529.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-5--X2CrNi18-9",
+  "specification": "EN-10216-5",
+  "grade": "X2CrNi18-9",
+  "notes": "EN material number 1.4307.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-5--X2CrNi19-11",
+  "specification": "EN-10216-5",
+  "grade": "X2CrNi19-11",
+  "notes": "EN material number 1.4306.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-5--X2CrNiMo17-12-2",
+  "specification": "EN-10216-5",
+  "grade": "X2CrNiMo17-12-2",
+  "notes": "EN material number 1.4404.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-5--X2CrNiMo18-14-3",
+  "specification": "EN-10216-5",
+  "grade": "X2CrNiMo18-14-3",
+  "notes": "EN material number 1.4435.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-5--X2CrNiMoCuN25-6-3",
+  "specification": "EN-10216-5",
+  "grade": "X2CrNiMoCuN25-6-3",
+  "notes": "EN material number 1.4507.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-5--X2CrNiMoCuWN25-7-4",
+  "specification": "EN-10216-5",
+  "grade": "X2CrNiMoCuWN25-7-4",
+  "notes": "EN material number 1.4501.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-5--X2CrNiMoN17-13-3",
+  "specification": "EN-10216-5",
+  "grade": "X2CrNiMoN17-13-3",
+  "notes": "EN material number 1.4429.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-5--X2CrNiMoN17-13-5",
+  "specification": "EN-10216-5",
+  "grade": "X2CrNiMoN17-13-5",
+  "notes": "EN material number 1.4439.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-5--X2CrNiMoN22-5-3",
+  "specification": "EN-10216-5",
+  "grade": "X2CrNiMoN22-5-3",
+  "notes": "EN material number 1.4462.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-5--X2CrNiMoN25-7-4",
+  "specification": "EN-10216-5",
+  "grade": "X2CrNiMoN25-7-4",
+  "notes": "EN material number 1.4410.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-5--X2CrNiMoSi18-5-3",
+  "specification": "EN-10216-5",
+  "grade": "X2CrNiMoSi18-5-3",
+  "notes": "EN material number 1.4424.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-5--X2CrNiN18-10",
+  "specification": "EN-10216-5",
+  "grade": "X2CrNiN18-10",
+  "notes": "EN material number 1.4311.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-5--X2CrNiN23-4",
+  "specification": "EN-10216-5",
+  "grade": "X2CrNiN23-4",
+  "notes": "EN material number 1.4362.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-5--X2NiCrAlTi32-20",
+  "specification": "EN-10216-5",
+  "grade": "X2NiCrAlTi32-20",
+  "notes": "EN material number 1.4558.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-5--X3CrNiMo17-13-3",
+  "specification": "EN-10216-5",
+  "grade": "X3CrNiMo17-13-3",
+  "notes": "EN material number 1.4436.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-5--X3CrNiMoBN17-13-3",
+  "specification": "EN-10216-5",
+  "grade": "X3CrNiMoBN17-13-3",
+  "notes": "EN material number 1.4910.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-5--X5CrNi18-10",
+  "specification": "EN-10216-5",
+  "grade": "X5CrNi18-10",
+  "notes": "EN material number 1.4301.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-5--X5CrNiMo17-12-2",
+  "specification": "EN-10216-5",
+  "grade": "X5CrNiMo17-12-2",
+  "notes": "EN material number 1.4401.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-5--X5NiCrAlTi31-20",
+  "specification": "EN-10216-5",
+  "grade": "X5NiCrAlTi31-20",
+  "notes": "EN material number 1.4958.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-5--X6CrNi18-10",
+  "specification": "EN-10216-5",
+  "grade": "X6CrNi18-10",
+  "notes": "EN material number 1.4948.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-5--X6CrNiMo17-13-2",
+  "specification": "EN-10216-5",
+  "grade": "X6CrNiMo17-13-2",
+  "notes": "EN material number 1.4918.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-5--X6CrNiMoNb17-12-2",
+  "specification": "EN-10216-5",
+  "grade": "X6CrNiMoNb17-12-2",
+  "notes": "EN material number 1.4580.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-5--X6CrNiMoTi17-12-2",
+  "specification": "EN-10216-5",
+  "grade": "X6CrNiMoTi17-12-2",
+  "notes": "EN material number 1.4571.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-5--X6CrNiNb18-10",
+  "specification": "EN-10216-5",
+  "grade": "X6CrNiNb18-10",
+  "notes": "EN material number 1.4550.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-5--X6CrNiTi18-10",
+  "specification": "EN-10216-5",
+  "grade": "X6CrNiTi18-10",
+  "notes": "EN material number 1.4541.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-5--X6CrNiTiB18-10",
+  "specification": "EN-10216-5",
+  "grade": "X6CrNiTiB18-10",
+  "notes": "EN material number 1.4941.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-5--X7CrNiNb18-10",
+  "specification": "EN-10216-5",
+  "grade": "X7CrNiNb18-10",
+  "notes": "EN material number 1.4912.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-5--X7CrNiTi18-10",
+  "specification": "EN-10216-5",
+  "grade": "X7CrNiTi18-10",
+  "notes": "EN material number 1.4940.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-5--X8CrNiMoNb16-16",
+  "specification": "EN-10216-5",
+  "grade": "X8CrNiMoNb16-16",
+  "notes": "EN material number 1.4981.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-5--X8CrNiMoVNb16-13",
+  "specification": "EN-10216-5",
+  "grade": "X8CrNiMoVNb16-13",
+  "notes": "EN material number 1.4988.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-5--X8CrNiNb16-13",
+  "specification": "EN-10216-5",
+  "grade": "X8CrNiNb16-13",
+  "notes": "EN material number 1.4961.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10216-5--X8NiCrAlTi32-21",
+  "specification": "EN-10216-5",
+  "grade": "X8NiCrAlTi32-21",
+  "notes": "EN material number 1.4959.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-1--P195TR1",
+  "specification": "EN-10217-1",
+  "grade": "P195TR1",
+  "notes": "EN material number 1.0107.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-1--P195TR2",
+  "specification": "EN-10217-1",
+  "grade": "P195TR2",
+  "notes": "EN material number 1.0108.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-1--P235TR1",
+  "specification": "EN-10217-1",
+  "grade": "P235TR1",
+  "notes": "EN material number 1.0254.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-1--P235TR2",
+  "specification": "EN-10217-1",
+  "grade": "P235TR2",
+  "notes": "EN material number 1.0255.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-1--P265TR1",
+  "specification": "EN-10217-1",
+  "grade": "P265TR1",
+  "notes": "EN material number 1.0258.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-1--P265TR2",
+  "specification": "EN-10217-1",
+  "grade": "P265TR2",
+  "notes": "EN material number 1.0259.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-2--16Mo3",
+  "specification": "EN-10217-2",
+  "grade": "16Mo3",
+  "notes": "EN material number 1.5415.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-2--P195GH",
+  "specification": "EN-10217-2",
+  "grade": "P195GH",
+  "notes": "EN material number 1.0348.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-2--P235GH",
+  "specification": "EN-10217-2",
+  "grade": "P235GH",
+  "notes": "EN material number 1.0345.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-2--P265GH",
+  "specification": "EN-10217-2",
+  "grade": "P265GH",
+  "notes": "EN material number 1.0425.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-3--P275NL1",
+  "specification": "EN-10217-3",
+  "grade": "P275NL1",
+  "notes": "EN material number 1.0488.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-3--P275NL2",
+  "specification": "EN-10217-3",
+  "grade": "P275NL2",
+  "notes": "EN material number 1.1104.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-3--P355N",
+  "specification": "EN-10217-3",
+  "grade": "P355N",
+  "notes": "EN material number 1.0562.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-3--P355NH",
+  "specification": "EN-10217-3",
+  "grade": "P355NH",
+  "notes": "EN material number 1.0565.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-3--P355NL1",
+  "specification": "EN-10217-3",
+  "grade": "P355NL1",
+  "notes": "EN material number 1.0566.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-3--P355NL2",
+  "specification": "EN-10217-3",
+  "grade": "P355NL2",
+  "notes": "EN material number 1.1106.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-3--P460N",
+  "specification": "EN-10217-3",
+  "grade": "P460N",
+  "notes": "EN material number 1.8905.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-3--P460NH",
+  "specification": "EN-10217-3",
+  "grade": "P460NH",
+  "notes": "EN material number 1.8935.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-3--P460NL1",
+  "specification": "EN-10217-3",
+  "grade": "P460NL1",
+  "notes": "EN material number 1.8915.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-3--P460NL2",
+  "specification": "EN-10217-3",
+  "grade": "P460NL2",
+  "notes": "EN material number 1.8918.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-4--P215NL",
+  "specification": "EN-10217-4",
+  "grade": "P215NL",
+  "notes": "EN material number 1.0451.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-4--P265NL",
+  "specification": "EN-10217-4",
+  "grade": "P265NL",
+  "notes": "EN material number 1.0453.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-5--16Mo3",
+  "specification": "EN-10217-5",
+  "grade": "16Mo3",
+  "notes": "EN material number 1.5415.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-5--P235GH",
+  "specification": "EN-10217-5",
+  "grade": "P235GH",
+  "notes": "EN material number 1.0345.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-5--P265GH",
+  "specification": "EN-10217-5",
+  "grade": "P265GH",
+  "notes": "EN material number 1.0425.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-7--X1CrNiMoCuN20-18-7",
+  "specification": "EN-10217-7",
+  "grade": "X1CrNiMoCuN20-18-7",
+  "notes": "BS EN 10217-7:2021 Table 3 (austenitic) and Table 4 (austenitic-ferritic) — read from the rendered page: the tables are printed landscape and the text layer returns them broken.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-7--X1NiCrMoCu25-20-5",
+  "specification": "EN-10217-7",
+  "grade": "X1NiCrMoCu25-20-5",
+  "notes": "BS EN 10217-7:2021 Table 3 (austenitic) and Table 4 (austenitic-ferritic) — read from the rendered page: the tables are printed landscape and the text layer returns them broken.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-7--X1NiCrMoCu31-27-4",
+  "specification": "EN-10217-7",
+  "grade": "X1NiCrMoCu31-27-4",
+  "notes": "BS EN 10217-7:2021 Table 3 (austenitic) and Table 4 (austenitic-ferritic) — read from the rendered page: the tables are printed landscape and the text layer returns them broken.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-7--X1NiCrMoCuN25-20-7",
+  "specification": "EN-10217-7",
+  "grade": "X1NiCrMoCuN25-20-7",
+  "notes": "BS EN 10217-7:2021 Table 3 (austenitic) and Table 4 (austenitic-ferritic) — read from the rendered page: the tables are printed landscape and the text layer returns them broken.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-7--X2CrNi18-9",
+  "specification": "EN-10217-7",
+  "grade": "X2CrNi18-9",
+  "notes": "BS EN 10217-7:2021 Table 3 (austenitic) and Table 4 (austenitic-ferritic) — read from the rendered page: the tables are printed landscape and the text layer returns them broken.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-7--X2CrNi19-11",
+  "specification": "EN-10217-7",
+  "grade": "X2CrNi19-11",
+  "notes": "BS EN 10217-7:2021 — text layer, hyphenated line breaks rejoined",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-7--X2CrNiMo17-12-2",
+  "specification": "EN-10217-7",
+  "grade": "X2CrNiMo17-12-2",
+  "notes": "BS EN 10217-7:2021 Table 3 (austenitic) and Table 4 (austenitic-ferritic) — read from the rendered page: the tables are printed landscape and the text layer returns them broken.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-7--X2CrNiMo17-12-3",
+  "specification": "EN-10217-7",
+  "grade": "X2CrNiMo17-12-3",
+  "notes": "BS EN 10217-7:2021 Table 3 (austenitic) and Table 4 (austenitic-ferritic) — read from the rendered page: the tables are printed landscape and the text layer returns them broken.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-7--X2CrNiMo18-14-3",
+  "specification": "EN-10217-7",
+  "grade": "X2CrNiMo18-14-3",
+  "notes": "BS EN 10217-7:2021 Table 3 (austenitic) and Table 4 (austenitic-ferritic) — read from the rendered page: the tables are printed landscape and the text layer returns them broken.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-7--X2CrNiMo18-15-4",
+  "specification": "EN-10217-7",
+  "grade": "X2CrNiMo18-15-4",
+  "notes": "BS EN 10217-7:2021 Table 3 (austenitic) and Table 4 (austenitic-ferritic) — read from the rendered page: the tables are printed landscape and the text layer returns them broken.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-7--X2CrNiMoCuWN25-7-4",
+  "specification": "EN-10217-7",
+  "grade": "X2CrNiMoCuWN25-7-4",
+  "notes": "BS EN 10217-7:2021 Table 3 (austenitic) and Table 4 (austenitic-ferritic) — read from the rendered page: the tables are printed landscape and the text layer returns them broken.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-7--X2CrNiMoN17-13-3",
+  "specification": "EN-10217-7",
+  "grade": "X2CrNiMoN17-13-3",
+  "notes": "BS EN 10217-7:2021 Table 3 (austenitic) and Table 4 (austenitic-ferritic) — read from the rendered page: the tables are printed landscape and the text layer returns them broken.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-7--X2CrNiMoN17-13-5",
+  "specification": "EN-10217-7",
+  "grade": "X2CrNiMoN17-13-5",
+  "notes": "BS EN 10217-7:2021 Table 3 (austenitic) and Table 4 (austenitic-ferritic) — read from the rendered page: the tables are printed landscape and the text layer returns them broken.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-7--X2CrNiMoN22-5-3",
+  "specification": "EN-10217-7",
+  "grade": "X2CrNiMoN22-5-3",
+  "notes": "BS EN 10217-7:2021 Table 3 (austenitic) and Table 4 (austenitic-ferritic) — read from the rendered page: the tables are printed landscape and the text layer returns them broken.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-7--X2CrNiMoN25-7-4",
+  "specification": "EN-10217-7",
+  "grade": "X2CrNiMoN25-7-4",
+  "notes": "BS EN 10217-7:2021 Table 3 (austenitic) and Table 4 (austenitic-ferritic) — read from the rendered page: the tables are printed landscape and the text layer returns them broken.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-7--X2CrNiN18-10",
+  "specification": "EN-10217-7",
+  "grade": "X2CrNiN18-10",
+  "notes": "BS EN 10217-7:2021 Table 3 (austenitic) and Table 4 (austenitic-ferritic) — read from the rendered page: the tables are printed landscape and the text layer returns them broken.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-7--X2CrNiN23-4",
+  "specification": "EN-10217-7",
+  "grade": "X2CrNiN23-4",
+  "notes": "BS EN 10217-7:2021 Table 3 (austenitic) and Table 4 (austenitic-ferritic) — read from the rendered page: the tables are printed landscape and the text layer returns them broken.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-7--X3CrNiMo17-13-3",
+  "specification": "EN-10217-7",
+  "grade": "X3CrNiMo17-13-3",
+  "notes": "BS EN 10217-7:2021 Table 3 (austenitic) and Table 4 (austenitic-ferritic) — read from the rendered page: the tables are printed landscape and the text layer returns them broken.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-7--X5CrNi18-10",
+  "specification": "EN-10217-7",
+  "grade": "X5CrNi18-10",
+  "notes": "BS EN 10217-7:2021 Table 3 (austenitic) and Table 4 (austenitic-ferritic) — read from the rendered page: the tables are printed landscape and the text layer returns them broken.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-7--X5CrNiMo17-12-2",
+  "specification": "EN-10217-7",
+  "grade": "X5CrNiMo17-12-2",
+  "notes": "BS EN 10217-7:2021 Table 3 (austenitic) and Table 4 (austenitic-ferritic) — read from the rendered page: the tables are printed landscape and the text layer returns them broken.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-7--X6CrNiMoTi17-12-2",
+  "specification": "EN-10217-7",
+  "grade": "X6CrNiMoTi17-12-2",
+  "notes": "BS EN 10217-7:2021 Table 3 (austenitic) and Table 4 (austenitic-ferritic) — read from the rendered page: the tables are printed landscape and the text layer returns them broken.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-7--X6CrNiNb18-10",
+  "specification": "EN-10217-7",
+  "grade": "X6CrNiNb18-10",
+  "notes": "BS EN 10217-7:2021 Table 3 (austenitic) and Table 4 (austenitic-ferritic) — read from the rendered page: the tables are printed landscape and the text layer returns them broken.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10217-7--X6CrNiTi18-10",
+  "specification": "EN-10217-7",
+  "grade": "X6CrNiTi18-10",
+  "notes": "BS EN 10217-7:2021 Table 3 (austenitic) and Table 4 (austenitic-ferritic) — read from the rendered page: the tables are printed landscape and the text layer returns them broken.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10222-2--16Mo3",
+  "specification": "EN-10222-2",
+  "grade": "16Mo3",
+  "notes": "EN material number 1.5415.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10222-2--P235GH",
+  "specification": "EN-10222-2",
+  "grade": "P235GH",
+  "notes": "EN material number 1.0345.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10222-2--P245GH",
+  "specification": "EN-10222-2",
+  "grade": "P245GH",
+  "notes": "EN material number 1.0352.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10222-2--P250GH",
+  "specification": "EN-10222-2",
+  "grade": "P250GH",
+  "notes": "EN material number 1.0460.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10222-2--P265GH",
+  "specification": "EN-10222-2",
+  "grade": "P265GH",
+  "notes": "EN material number 1.0425.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10222-2--P280GH",
+  "specification": "EN-10222-2",
+  "grade": "P280GH",
+  "notes": "EN material number 1.0426.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10222-2--P295GH",
+  "specification": "EN-10222-2",
+  "grade": "P295GH",
+  "notes": "EN material number 1.0481.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10222-2--P305GH",
+  "specification": "EN-10222-2",
+  "grade": "P305GH",
+  "notes": "EN material number 1.0345.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10222-4--P285NH",
+  "specification": "EN-10222-4",
+  "grade": "P285NH",
+  "notes": "EN material number 1.0477.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10222-4--P285QH",
+  "specification": "EN-10222-4",
+  "grade": "P285QH",
+  "notes": "EN material number 1.0478.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10222-4--P285QHe",
+  "specification": "EN-10222-4",
+  "grade": "P285QHe",
+  "notes": "EN material number 1.0478.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10222-4--P355NH",
+  "specification": "EN-10222-4",
+  "grade": "P355NH",
+  "notes": "EN material number 1.0565.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10222-4--P355NL1",
+  "specification": "EN-10222-4",
+  "grade": "P355NL1",
+  "notes": "EN material number 1.0566.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10222-4--P355NL1c",
+  "specification": "EN-10222-4",
+  "grade": "P355NL1c",
+  "notes": "EN material number 1.0566.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10222-4--P355NL2",
+  "specification": "EN-10222-4",
+  "grade": "P355NL2",
+  "notes": "EN material number 1.0565.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10222-4--P355NL2c",
+  "specification": "EN-10222-4",
+  "grade": "P355NL2c",
+  "notes": "EN material number 1.1106.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10222-4--P355QH1",
+  "specification": "EN-10222-4",
+  "grade": "P355QH1",
+  "notes": "EN material number 1.0571.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10222-4--P355QL1",
+  "specification": "EN-10222-4",
+  "grade": "P355QL1",
+  "notes": "EN material number 1.8868.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10222-4--P355QL2",
+  "specification": "EN-10222-4",
+  "grade": "P355QL2",
+  "notes": "EN material number 1.8869.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10222-4--P355QL2e",
+  "specification": "EN-10222-4",
+  "grade": "P355QL2e",
+  "notes": "EN material number 1.0571.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10222-4--P420NH",
+  "specification": "EN-10222-4",
+  "grade": "P420NH",
+  "notes": "EN material number 1.8932.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10222-4--P420NHc",
+  "specification": "EN-10222-4",
+  "grade": "P420NHc",
+  "notes": "EN material number 1.8932.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10222-4--P420QH",
+  "specification": "EN-10222-4",
+  "grade": "P420QH",
+  "notes": "EN material number 1.8936.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10222-4--P420QHe",
+  "specification": "EN-10222-4",
+  "grade": "P420QHe",
+  "notes": "EN material number 1.8936.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10222-4--P460QH",
+  "specification": "EN-10222-4",
+  "grade": "P460QH",
+  "notes": "EN material number 1.8871.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10222-4--P460QHa",
+  "specification": "EN-10222-4",
+  "grade": "P460QHa",
+  "notes": "EN material number 1.8871.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10222-4--P460QL1",
+  "specification": "EN-10222-4",
+  "grade": "P460QL1",
+  "notes": "EN material number 1.8872.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10222-4--P460QL2",
+  "specification": "EN-10222-4",
+  "grade": "P460QL2",
+  "notes": "EN material number 1.8834.",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3101--SS330",
+  "specification": "JIS-G-3101",
+  "grade": "SS330",
+  "notes": "JIS G 3101:2024 Table 2 — read from the page image (the PDF is a scan)",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3101--SS400",
+  "specification": "JIS-G-3101",
+  "grade": "SS400",
+  "notes": "JIS G 3101:2024 Table 2 — read from the page image (the PDF is a scan)",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3101--SS490",
+  "specification": "JIS-G-3101",
+  "grade": "SS490",
+  "notes": "JIS G 3101:2024 Table 2 — read from the page image (the PDF is a scan)",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3101--SS540",
+  "specification": "JIS-G-3101",
+  "grade": "SS540",
+  "notes": "JIS G 3101:2024 Table 2 — read from the page image (the PDF is a scan)",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3106--SM400A",
+  "specification": "JIS-G-3106",
+  "grade": "SM400A",
+  "notes": "JIS G 3106:2015 — OCR (tesseract) of the grade table",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3106--SM400B",
+  "specification": "JIS-G-3106",
+  "grade": "SM400B",
+  "notes": "JIS G 3106:2015 — OCR (tesseract) of the grade table",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3106--SM400C",
+  "specification": "JIS-G-3106",
+  "grade": "SM400C",
+  "notes": "JIS G 3106:2015 — OCR (tesseract) of the grade table",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3106--SM490A",
+  "specification": "JIS-G-3106",
+  "grade": "SM490A",
+  "notes": "JIS G 3106:2015 — OCR (tesseract) of the grade table",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3106--SM490B",
+  "specification": "JIS-G-3106",
+  "grade": "SM490B",
+  "notes": "JIS G 3106:2015 — OCR (tesseract) of the grade table",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3106--SM490C",
+  "specification": "JIS-G-3106",
+  "grade": "SM490C",
+  "notes": "JIS G 3106:2015 — OCR (tesseract) of the grade table",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3106--SM520B",
+  "specification": "JIS-G-3106",
+  "grade": "SM520B",
+  "notes": "JIS G 3106:2015 — OCR (tesseract) of the grade table",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3106--SM520C",
+  "specification": "JIS-G-3106",
+  "grade": "SM520C",
+  "notes": "JIS G 3106:2015 — OCR (tesseract) of the grade table",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3106--SM570",
+  "specification": "JIS-G-3106",
+  "grade": "SM570",
+  "notes": "JIS G 3106:2015 — OCR (tesseract) of the grade table",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3458--STPA12",
+  "specification": "JIS-G-3458",
+  "grade": "STPA12",
+  "notes": "JIS G 3458:2020 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3458--STPA20",
+  "specification": "JIS-G-3458",
+  "grade": "STPA20",
+  "notes": "JIS G 3458:2020 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3458--STPA22",
+  "specification": "JIS-G-3458",
+  "grade": "STPA22",
+  "notes": "JIS G 3458:2020 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3458--STPA23",
+  "specification": "JIS-G-3458",
+  "grade": "STPA23",
+  "notes": "JIS G 3458:2020 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3458--STPA24",
+  "specification": "JIS-G-3458",
+  "grade": "STPA24",
+  "notes": "JIS G 3458:2020 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3458--STPA25",
+  "specification": "JIS-G-3458",
+  "grade": "STPA25",
+  "notes": "JIS G 3458:2020 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3458--STPA26",
+  "specification": "JIS-G-3458",
+  "grade": "STPA26",
+  "notes": "JIS G 3458:2020 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3463--SUS304HTB",
+  "specification": "JIS-G-3463",
+  "grade": "SUS304HTB",
+  "notes": "JIS G 3463:2019 — OCR of the grade table",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3463--SUS304LTB",
+  "specification": "JIS-G-3463",
+  "grade": "SUS304LTB",
+  "notes": "JIS G 3463:2019 — OCR of the grade table",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3463--SUS304TB",
+  "specification": "JIS-G-3463",
+  "grade": "SUS304TB",
+  "notes": "JIS G 3463:2019 — OCR of the grade table",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3463--SUS309STB",
+  "specification": "JIS-G-3463",
+  "grade": "SUS309STB",
+  "notes": "JIS G 3463:2019 — OCR of the grade table",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3463--SUS309TB",
+  "specification": "JIS-G-3463",
+  "grade": "SUS309TB",
+  "notes": "JIS G 3463:2019 — OCR of the grade table",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3463--SUS310STB",
+  "specification": "JIS-G-3463",
+  "grade": "SUS310STB",
+  "notes": "JIS G 3463:2019 — OCR of the grade table",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3463--SUS310TB",
+  "specification": "JIS-G-3463",
+  "grade": "SUS310TB",
+  "notes": "JIS G 3463:2019 — OCR of the grade table",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3463--SUS312LTB",
+  "specification": "JIS-G-3463",
+  "grade": "SUS312LTB",
+  "notes": "JIS G 3463:2019 — OCR of the grade table",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3463--SUS316HTB",
+  "specification": "JIS-G-3463",
+  "grade": "SUS316HTB",
+  "notes": "JIS G 3463:2019 — OCR of the grade table",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3463--SUS316LTB",
+  "specification": "JIS-G-3463",
+  "grade": "SUS316LTB",
+  "notes": "JIS G 3463:2019 — OCR of the grade table",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3463--SUS316TB",
+  "specification": "JIS-G-3463",
+  "grade": "SUS316TB",
+  "notes": "JIS G 3463:2019 — OCR of the grade table",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3463--SUS317LTB",
+  "specification": "JIS-G-3463",
+  "grade": "SUS317LTB",
+  "notes": "JIS G 3463:2019 — OCR of the grade table",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3463--SUS321HTB",
+  "specification": "JIS-G-3463",
+  "grade": "SUS321HTB",
+  "notes": "JIS G 3463:2019 — OCR of the grade table",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3463--SUS321TB",
+  "specification": "JIS-G-3463",
+  "grade": "SUS321TB",
+  "notes": "JIS G 3463:2019 — OCR of the grade table",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3463--SUS347HTB",
+  "specification": "JIS-G-3463",
+  "grade": "SUS347HTB",
+  "notes": "JIS G 3463:2019 — OCR of the grade table",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3463--SUS347TB",
+  "specification": "JIS-G-3463",
+  "grade": "SUS347TB",
+  "notes": "JIS G 3463:2019 — OCR of the grade table",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3463--SUS405TB",
+  "specification": "JIS-G-3463",
+  "grade": "SUS405TB",
+  "notes": "JIS G 3463:2019 — OCR of the grade table",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3463--SUS409TB",
+  "specification": "JIS-G-3463",
+  "grade": "SUS409TB",
+  "notes": "JIS G 3463:2019 — OCR of the grade table",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3463--SUS410TB",
+  "specification": "JIS-G-3463",
+  "grade": "SUS410TB",
+  "notes": "JIS G 3463:2019 — OCR of the grade table",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3463--SUS410TiTB",
+  "specification": "JIS-G-3463",
+  "grade": "SUS410TiTB",
+  "notes": "JIS G 3463:2019 — OCR of the grade table",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3463--SUS430TB",
+  "specification": "JIS-G-3463",
+  "grade": "SUS430TB",
+  "notes": "JIS G 3463:2019 — OCR of the grade table",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3463--SUS444TB",
+  "specification": "JIS-G-3463",
+  "grade": "SUS444TB",
+  "notes": "JIS G 3463:2019 — OCR of the grade table",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-3463--SUSXM15J1TB",
+  "specification": "JIS-G-3463",
+  "grade": "SUSXM15J1TB",
+  "notes": "JIS G 3463:2019 — OCR of the grade table",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4051--S09CK",
+  "specification": "JIS-G-4051",
+  "grade": "S09CK",
+  "notes": "JIS G 4051:2023 Table 1 — read from the page image; the clause states 27 grades and 27 are listed",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4051--S10C",
+  "specification": "JIS-G-4051",
+  "grade": "S10C",
+  "notes": "JIS G 4051:2023 Table 1 — read from the page image; the clause states 27 grades and 27 are listed",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4051--S12C",
+  "specification": "JIS-G-4051",
+  "grade": "S12C",
+  "notes": "JIS G 4051:2023 Table 1 — read from the page image; the clause states 27 grades and 27 are listed",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4051--S15C",
+  "specification": "JIS-G-4051",
+  "grade": "S15C",
+  "notes": "JIS G 4051:2023 Table 1 — read from the page image; the clause states 27 grades and 27 are listed",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4051--S15CK",
+  "specification": "JIS-G-4051",
+  "grade": "S15CK",
+  "notes": "JIS G 4051:2023 Table 1 — read from the page image; the clause states 27 grades and 27 are listed",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4051--S17C",
+  "specification": "JIS-G-4051",
+  "grade": "S17C",
+  "notes": "JIS G 4051:2023 Table 1 — read from the page image; the clause states 27 grades and 27 are listed",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4051--S20C",
+  "specification": "JIS-G-4051",
+  "grade": "S20C",
+  "notes": "JIS G 4051:2023 Table 1 — read from the page image; the clause states 27 grades and 27 are listed",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4051--S20CK",
+  "specification": "JIS-G-4051",
+  "grade": "S20CK",
+  "notes": "JIS G 4051:2023 Table 1 — read from the page image; the clause states 27 grades and 27 are listed",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4051--S22C",
+  "specification": "JIS-G-4051",
+  "grade": "S22C",
+  "notes": "JIS G 4051:2023 Table 1 — read from the page image; the clause states 27 grades and 27 are listed",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4051--S25C",
+  "specification": "JIS-G-4051",
+  "grade": "S25C",
+  "notes": "JIS G 4051:2023 Table 1 — read from the page image; the clause states 27 grades and 27 are listed",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4051--S28C",
+  "specification": "JIS-G-4051",
+  "grade": "S28C",
+  "notes": "JIS G 4051:2023 Table 1 — read from the page image; the clause states 27 grades and 27 are listed",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4051--S30C",
+  "specification": "JIS-G-4051",
+  "grade": "S30C",
+  "notes": "JIS G 4051:2023 Table 1 — read from the page image; the clause states 27 grades and 27 are listed",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4051--S33C",
+  "specification": "JIS-G-4051",
+  "grade": "S33C",
+  "notes": "JIS G 4051:2023 Table 1 — read from the page image; the clause states 27 grades and 27 are listed",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4051--S35C",
+  "specification": "JIS-G-4051",
+  "grade": "S35C",
+  "notes": "JIS G 4051:2023 Table 1 — read from the page image; the clause states 27 grades and 27 are listed",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4051--S38C",
+  "specification": "JIS-G-4051",
+  "grade": "S38C",
+  "notes": "JIS G 4051:2023 Table 1 — read from the page image; the clause states 27 grades and 27 are listed",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4051--S40C",
+  "specification": "JIS-G-4051",
+  "grade": "S40C",
+  "notes": "JIS G 4051:2023 Table 1 — read from the page image; the clause states 27 grades and 27 are listed",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4051--S43C",
+  "specification": "JIS-G-4051",
+  "grade": "S43C",
+  "notes": "JIS G 4051:2023 Table 1 — read from the page image; the clause states 27 grades and 27 are listed",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4051--S45C",
+  "specification": "JIS-G-4051",
+  "grade": "S45C",
+  "notes": "JIS G 4051:2023 Table 1 — read from the page image; the clause states 27 grades and 27 are listed",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4051--S48C",
+  "specification": "JIS-G-4051",
+  "grade": "S48C",
+  "notes": "JIS G 4051:2023 Table 1 — read from the page image; the clause states 27 grades and 27 are listed",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4051--S50C",
+  "specification": "JIS-G-4051",
+  "grade": "S50C",
+  "notes": "JIS G 4051:2023 Table 1 — read from the page image; the clause states 27 grades and 27 are listed",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4051--S53C",
+  "specification": "JIS-G-4051",
+  "grade": "S53C",
+  "notes": "JIS G 4051:2023 Table 1 — read from the page image; the clause states 27 grades and 27 are listed",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4051--S55C",
+  "specification": "JIS-G-4051",
+  "grade": "S55C",
+  "notes": "JIS G 4051:2023 Table 1 — read from the page image; the clause states 27 grades and 27 are listed",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4051--S58C",
+  "specification": "JIS-G-4051",
+  "grade": "S58C",
+  "notes": "JIS G 4051:2023 Table 1 — read from the page image; the clause states 27 grades and 27 are listed",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4051--S60C",
+  "specification": "JIS-G-4051",
+  "grade": "S60C",
+  "notes": "JIS G 4051:2023 Table 1 — read from the page image; the clause states 27 grades and 27 are listed",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4051--S65C",
+  "specification": "JIS-G-4051",
+  "grade": "S65C",
+  "notes": "JIS G 4051:2023 Table 1 — read from the page image; the clause states 27 grades and 27 are listed",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4051--S70C",
+  "specification": "JIS-G-4051",
+  "grade": "S70C",
+  "notes": "JIS G 4051:2023 Table 1 — read from the page image; the clause states 27 grades and 27 are listed",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4051--S75C",
+  "specification": "JIS-G-4051",
+  "grade": "S75C",
+  "notes": "JIS G 4051:2023 Table 1 — read from the page image; the clause states 27 grades and 27 are listed",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4304--SUS301",
+  "specification": "JIS-G-4304",
+  "grade": "SUS301",
+  "notes": "JIS G 4304:2021 Tables 3-7 — OCR of the symbol column, each grade cross-checked against G 4305's clean text extraction",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4304--SUS301L",
+  "specification": "JIS-G-4304",
+  "grade": "SUS301L",
+  "notes": "JIS G 4304:2021 Tables 3-7 — OCR of the symbol column, each grade cross-checked against G 4305's clean text extraction",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4304--SUS302B",
+  "specification": "JIS-G-4304",
+  "grade": "SUS302B",
+  "notes": "JIS G 4304:2021 Tables 3-7 — OCR of the symbol column, each grade cross-checked against G 4305's clean text extraction",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4304--SUS304",
+  "specification": "JIS-G-4304",
+  "grade": "SUS304",
+  "notes": "JIS G 4304:2021 Tables 3-7 — OCR of the symbol column, each grade cross-checked against G 4305's clean text extraction",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4304--SUS304L",
+  "specification": "JIS-G-4304",
+  "grade": "SUS304L",
+  "notes": "JIS G 4304:2021 Tables 3-7 — OCR of the symbol column, each grade cross-checked against G 4305's clean text extraction",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4304--SUS305",
+  "specification": "JIS-G-4304",
+  "grade": "SUS305",
+  "notes": "JIS G 4304:2021 Tables 3-7 — OCR of the symbol column, each grade cross-checked against G 4305's clean text extraction",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4304--SUS309S",
+  "specification": "JIS-G-4304",
+  "grade": "SUS309S",
+  "notes": "JIS G 4304:2021 Tables 3-7 — OCR of the symbol column, each grade cross-checked against G 4305's clean text extraction",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4304--SUS310S",
+  "specification": "JIS-G-4304",
+  "grade": "SUS310S",
+  "notes": "JIS G 4304:2021 Tables 3-7 — OCR of the symbol column, each grade cross-checked against G 4305's clean text extraction",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4304--SUS312L",
+  "specification": "JIS-G-4304",
+  "grade": "SUS312L",
+  "notes": "JIS G 4304:2021 Tables 3-7 — OCR of the symbol column, each grade cross-checked against G 4305's clean text extraction",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4304--SUS316",
+  "specification": "JIS-G-4304",
+  "grade": "SUS316",
+  "notes": "JIS G 4304:2021 Tables 3-7 — OCR of the symbol column, each grade cross-checked against G 4305's clean text extraction",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4304--SUS316L",
+  "specification": "JIS-G-4304",
+  "grade": "SUS316L",
+  "notes": "JIS G 4304:2021 Tables 3-7 — OCR of the symbol column, each grade cross-checked against G 4305's clean text extraction",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4304--SUS316N",
+  "specification": "JIS-G-4304",
+  "grade": "SUS316N",
+  "notes": "JIS G 4304:2021 Tables 3-7 — OCR of the symbol column, each grade cross-checked against G 4305's clean text extraction",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4304--SUS420J2",
+  "specification": "JIS-G-4304",
+  "grade": "SUS420J2",
+  "notes": "JIS G 4304:2021 Tables 3-7 — OCR of the symbol column, each grade cross-checked against G 4305's clean text extraction",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4304--SUS434",
+  "specification": "JIS-G-4304",
+  "grade": "SUS434",
+  "notes": "JIS G 4304:2021 Tables 3-7 — OCR of the symbol column, each grade cross-checked against G 4305's clean text extraction",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4304--SUS436L",
+  "specification": "JIS-G-4304",
+  "grade": "SUS436L",
+  "notes": "JIS G 4304:2021 Tables 3-7 — OCR of the symbol column, each grade cross-checked against G 4305's clean text extraction",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4304--SUS440A",
+  "specification": "JIS-G-4304",
+  "grade": "SUS440A",
+  "notes": "JIS G 4304:2021 Tables 3-7 — OCR of the symbol column, each grade cross-checked against G 4305's clean text extraction",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4304--SUS445J2",
+  "specification": "JIS-G-4304",
+  "grade": "SUS445J2",
+  "notes": "JIS G 4304:2021 Tables 3-7 — OCR of the symbol column, each grade cross-checked against G 4305's clean text extraction",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4304--SUS630",
+  "specification": "JIS-G-4304",
+  "grade": "SUS630",
+  "notes": "JIS G 4304:2021 Tables 3-7 — OCR of the symbol column, each grade cross-checked against G 4305's clean text extraction",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4304--SUS631",
+  "specification": "JIS-G-4304",
+  "grade": "SUS631",
+  "notes": "JIS G 4304:2021 Tables 3-7 — OCR of the symbol column, each grade cross-checked against G 4305's clean text extraction",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS301",
+  "specification": "JIS-G-4305",
+  "grade": "SUS301",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS301L",
+  "specification": "JIS-G-4305",
+  "grade": "SUS301L",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS302B",
+  "specification": "JIS-G-4305",
+  "grade": "SUS302B",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS304",
+  "specification": "JIS-G-4305",
+  "grade": "SUS304",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS304J2",
+  "specification": "JIS-G-4305",
+  "grade": "SUS304J2",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS304L",
+  "specification": "JIS-G-4305",
+  "grade": "SUS304L",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS304LN",
+  "specification": "JIS-G-4305",
+  "grade": "SUS304LN",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS304N2",
+  "specification": "JIS-G-4305",
+  "grade": "SUS304N2",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS305",
+  "specification": "JIS-G-4305",
+  "grade": "SUS305",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS309S",
+  "specification": "JIS-G-4305",
+  "grade": "SUS309S",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS310S",
+  "specification": "JIS-G-4305",
+  "grade": "SUS310S",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS312L",
+  "specification": "JIS-G-4305",
+  "grade": "SUS312L",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS315J2",
+  "specification": "JIS-G-4305",
+  "grade": "SUS315J2",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS316",
+  "specification": "JIS-G-4305",
+  "grade": "SUS316",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS316J1L",
+  "specification": "JIS-G-4305",
+  "grade": "SUS316J1L",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS316L",
+  "specification": "JIS-G-4305",
+  "grade": "SUS316L",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS316LN",
+  "specification": "JIS-G-4305",
+  "grade": "SUS316LN",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS316N",
+  "specification": "JIS-G-4305",
+  "grade": "SUS316N",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS317",
+  "specification": "JIS-G-4305",
+  "grade": "SUS317",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS317J2",
+  "specification": "JIS-G-4305",
+  "grade": "SUS317J2",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS317L",
+  "specification": "JIS-G-4305",
+  "grade": "SUS317L",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS317LN",
+  "specification": "JIS-G-4305",
+  "grade": "SUS317LN",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS321",
+  "specification": "JIS-G-4305",
+  "grade": "SUS321",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS323L",
+  "specification": "JIS-G-4305",
+  "grade": "SUS323L",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS329J3L",
+  "specification": "JIS-G-4305",
+  "grade": "SUS329J3L",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS329J4L",
+  "specification": "JIS-G-4305",
+  "grade": "SUS329J4L",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS347",
+  "specification": "JIS-G-4305",
+  "grade": "SUS347",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS403",
+  "specification": "JIS-G-4305",
+  "grade": "SUS403",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS405",
+  "specification": "JIS-G-4305",
+  "grade": "SUS405",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS410",
+  "specification": "JIS-G-4305",
+  "grade": "SUS410",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS410L",
+  "specification": "JIS-G-4305",
+  "grade": "SUS410L",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS410S",
+  "specification": "JIS-G-4305",
+  "grade": "SUS410S",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS420J2",
+  "specification": "JIS-G-4305",
+  "grade": "SUS420J2",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS429",
+  "specification": "JIS-G-4305",
+  "grade": "SUS429",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS430",
+  "specification": "JIS-G-4305",
+  "grade": "SUS430",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS430J1L",
+  "specification": "JIS-G-4305",
+  "grade": "SUS430J1L",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS430LX",
+  "specification": "JIS-G-4305",
+  "grade": "SUS430LX",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS434",
+  "specification": "JIS-G-4305",
+  "grade": "SUS434",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS436J1L",
+  "specification": "JIS-G-4305",
+  "grade": "SUS436J1L",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS436L",
+  "specification": "JIS-G-4305",
+  "grade": "SUS436L",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS440A",
+  "specification": "JIS-G-4305",
+  "grade": "SUS440A",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS444",
+  "specification": "JIS-G-4305",
+  "grade": "SUS444",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS445J2",
+  "specification": "JIS-G-4305",
+  "grade": "SUS445J2",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS630",
+  "specification": "JIS-G-4305",
+  "grade": "SUS630",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS631",
+  "specification": "JIS-G-4305",
+  "grade": "SUS631",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS836L",
+  "specification": "JIS-G-4305",
+  "grade": "SUS836L",
+  "notes": "JIS G 4305:2021 — text layer",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "JIS-G-4305--SUS890L",
+  "specification": "JIS-G-4305",
+  "grade": "SUS890L",
+  "notes": "JIS G 4305:2021 — text layer",
   "is_standard": 1,
   "enabled": 1
  }
