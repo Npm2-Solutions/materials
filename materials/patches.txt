@@ -23,3 +23,7 @@ materials.patches.rename_material_form_to_grade_form
 # Design 05 Phase 5 — drop deprecated Testing Laboratory (consolidated into Third Party Body).
 materials.patches.drop_testing_laboratory
 materials.patches.backfill_issue16_batch2_personnel
+materials.patches.specs_name_their_own_standard
+materials.patches.jis_duplicates_and_the_missing_space
+materials.patches.every_spec_names_its_own_standard
+materials.patches.a_designation_does_not_repeat_its_publisher

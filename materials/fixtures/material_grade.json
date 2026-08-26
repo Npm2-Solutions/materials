@@ -1,12 +1,12 @@
 [
  {
-  "specification": "asme_sa_516",
+  "specification": "ASME-SA-516",
   "grade": "70",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "asme_sa_516__70",
+  "name": "ASME-SA-516--70",
   "uns_number": "K02700",
   "product_forms": [
    {
@@ -14,17 +14,16 @@
     "thickness_min": 6,
     "thickness_max": 200
    }
-  ],
-  "display_name": "ASME SA-516 Gr.70"
+  ]
  },
  {
-  "specification": "asme_sa_516",
+  "specification": "ASME-SA-516",
   "grade": "60",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "asme_sa_516__60",
+  "name": "ASME-SA-516--60",
   "uns_number": "K02100",
   "product_forms": [
    {
@@ -32,17 +31,16 @@
     "thickness_min": 6,
     "thickness_max": 200
    }
-  ],
-  "display_name": "ASME SA-516 Gr.60"
+  ]
  },
  {
-  "specification": "asme_sa_516",
+  "specification": "ASME-SA-516",
   "grade": "55",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "asme_sa_516__55",
+  "name": "ASME-SA-516--55",
   "uns_number": "K01800",
   "product_forms": [
    {
@@ -50,17 +48,16 @@
     "thickness_min": 6,
     "thickness_max": 200
    }
-  ],
-  "display_name": "ASME SA-516 Gr.55"
+  ]
  },
  {
-  "specification": "asme_sa_106",
+  "specification": "ASME-SA-106",
   "grade": "B",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "asme_sa_106__b",
+  "name": "ASME-SA-106--B",
   "uns_number": "K03006",
   "product_forms": [
    {
@@ -70,17 +67,16 @@
     "diameter_min": 10.3,
     "diameter_max": 660
    }
-  ],
-  "display_name": "ASME SA-106 B"
+  ]
  },
  {
-  "specification": "asme_sa_240",
+  "specification": "ASME-SA-240",
   "grade": "304",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "asme_sa_240__304",
+  "name": "ASME-SA-240--304",
   "uns_number": "S30400",
   "product_forms": [
    {
@@ -93,17 +89,16 @@
     "thickness_min": 0.4,
     "thickness_max": 3
    }
-  ],
-  "display_name": "ASME SA-240 Gr.304"
+  ]
  },
  {
-  "specification": "asme_sa_240",
+  "specification": "ASME-SA-240",
   "grade": "304L",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "asme_sa_240__304l",
+  "name": "ASME-SA-240--304L",
   "uns_number": "S30403",
   "product_forms": [
    {
@@ -111,17 +106,16 @@
     "thickness_min": 1.5,
     "thickness_max": 100
    }
-  ],
-  "display_name": "ASME SA-240 304L"
+  ]
  },
  {
-  "specification": "asme_sa_240",
+  "specification": "ASME-SA-240",
   "grade": "316",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "asme_sa_240__316",
+  "name": "ASME-SA-240--316",
   "uns_number": "S31600",
   "product_forms": [
    {
@@ -129,17 +123,16 @@
     "thickness_min": 1.5,
     "thickness_max": 100
    }
-  ],
-  "display_name": "ASME SA-240 Gr.316"
+  ]
  },
  {
-  "specification": "asme_sa_240",
+  "specification": "ASME-SA-240",
   "grade": "316L",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "asme_sa_240__316l",
+  "name": "ASME-SA-240--316L",
   "uns_number": "S31603",
   "product_forms": [
    {
@@ -147,17 +140,16 @@
     "thickness_min": 1.5,
     "thickness_max": 100
    }
-  ],
-  "display_name": "ASME SA-240 316L"
+  ]
  },
  {
-  "specification": "asme_sa_312",
+  "specification": "ASME-SA-312",
   "grade": "TP304",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "asme_sa_312__tp304",
+  "name": "ASME-SA-312--TP304",
   "uns_number": "S30400",
   "product_forms": [
    {
@@ -167,17 +159,16 @@
     "diameter_min": 10.3,
     "diameter_max": 914
    }
-  ],
-  "display_name": "ASME SA-312 TP304"
+  ]
  },
  {
-  "specification": "asme_sa_312",
+  "specification": "ASME-SA-312",
   "grade": "TP316",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "asme_sa_312__tp316",
+  "name": "ASME-SA-312--TP316",
   "uns_number": "S31600",
   "product_forms": [
    {
@@ -187,17 +178,16 @@
     "diameter_min": 10.3,
     "diameter_max": 914
    }
-  ],
-  "display_name": "ASME SA-312 TP316"
+  ]
  },
  {
-  "specification": "asme_sa_335",
+  "specification": "ASME-SA-335",
   "grade": "P11",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "asme_sa_335__p11",
+  "name": "ASME-SA-335--P11",
   "uns_number": "K11597",
   "product_forms": [
    {
@@ -207,17 +197,16 @@
     "diameter_min": 10.3,
     "diameter_max": 660
    }
-  ],
-  "display_name": "ASME SA-335 P11"
+  ]
  },
  {
-  "specification": "asme_sa_335",
+  "specification": "ASME-SA-335",
   "grade": "P22",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "asme_sa_335__p22",
+  "name": "ASME-SA-335--P22",
   "uns_number": "K21590",
   "product_forms": [
    {
@@ -227,17 +216,16 @@
     "diameter_min": 10.3,
     "diameter_max": 660
    }
-  ],
-  "display_name": "ASME SA-335 P22"
+  ]
  },
  {
-  "specification": "asme_sa_335",
+  "specification": "ASME-SA-335",
   "grade": "P91",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "asme_sa_335__p91",
+  "name": "ASME-SA-335--P91",
   "uns_number": "K91560",
   "product_forms": [
    {
@@ -247,17 +235,16 @@
     "diameter_min": 21.3,
     "diameter_max": 660
    }
-  ],
-  "display_name": "ASME SA-335 P91"
+  ]
  },
  {
-  "specification": "asme_sa_36",
+  "specification": "ASME-SA-36",
   "grade": "Standard",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "asme_sa_36",
+  "name": "ASME-SA-36--Standard",
   "uns_number": "K02600",
   "product_forms": [
    {
@@ -265,34 +252,32 @@
     "thickness_min": 3,
     "thickness_max": 200
    }
-  ],
-  "display_name": "ASME SA-36 asme_sa_36"
+  ]
  },
  {
-  "specification": "en_10025_2",
+  "specification": "EN-10025-2",
   "grade": "S355J2",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10025_2__s355j2",
+  "name": "EN-10025-2--S355J2",
   "product_forms": [
    {
     "product_form": "Plate",
     "thickness_min": 3,
     "thickness_max": 150
    }
-  ],
-  "display_name": "EN 10025-2 S355J2"
+  ]
  },
  {
-  "specification": "astm_a36",
+  "specification": "ASTM-A36",
   "grade": "A36",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a36",
+  "name": "ASTM-A36--A36",
   "uns_number": "K02600",
   "product_forms": [
    {
@@ -311,17 +296,16 @@
     "thickness_max": 200
    }
   ],
-  "notes": "Yield 250 MPa min, tensile 400-550 MPa. Most common general-purpose carbon structural steel.\n[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A36-SS400-S275-Structural-Carbon-Steel",
-  "display_name": "ASTM A36 astm_a36"
+  "notes": "Yield 250 MPa min, tensile 400-550 MPa. Most common general-purpose carbon structural steel.\n[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A36-SS400-S275-Structural-Carbon-Steel"
  },
  {
-  "specification": "astm_a53",
+  "specification": "ASTM-A53",
   "grade": "Gr A",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a53__gr_a",
+  "name": "ASTM-A53--Gr-A",
   "uns_number": "K02504",
   "product_forms": [
    {
@@ -332,17 +316,16 @@
     "diameter_max": 660
    }
   ],
-  "notes": "Yield 207 MPa min, tensile 331 MPa min. Black/galvanized carbon steel pipe.",
-  "display_name": "ASTM A53 GR_A"
+  "notes": "Yield 207 MPa min, tensile 331 MPa min. Black/galvanized carbon steel pipe."
  },
  {
-  "specification": "astm_a53",
+  "specification": "ASTM-A53",
   "grade": "Gr B",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a53__gr_b",
+  "name": "ASTM-A53--Gr-B",
   "uns_number": "K03005",
   "product_forms": [
    {
@@ -353,17 +336,16 @@
     "diameter_max": 660
    }
   ],
-  "notes": "Yield 241 MPa min, tensile 414 MPa min. Most common A53 pipe grade.",
-  "display_name": "ASTM A53 GR_B"
+  "notes": "Yield 241 MPa min, tensile 414 MPa min. Most common A53 pipe grade."
  },
  {
-  "specification": "astm_a53",
+  "specification": "ASTM-A53",
   "grade": "Type E",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a53__type_e",
+  "name": "ASTM-A53--Type-E",
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -373,17 +355,16 @@
     "diameter_max": 660
    }
   ],
-  "notes": "ERW pipe \u2014 manufacturing process variant of A53 Gr A or B.",
-  "display_name": "ASTM A53 TYPE_E"
+  "notes": "ERW pipe — manufacturing process variant of A53 Gr A or B."
  },
  {
-  "specification": "astm_a53",
+  "specification": "ASTM-A53",
   "grade": "Type S",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a53__type_s",
+  "name": "ASTM-A53--Type-S",
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -393,17 +374,16 @@
     "diameter_max": 660
    }
   ],
-  "notes": "Seamless pipe \u2014 manufacturing process variant of A53 Gr A or B.",
-  "display_name": "ASTM A53 TYPE_S"
+  "notes": "Seamless pipe — manufacturing process variant of A53 Gr A or B."
  },
  {
-  "specification": "astm_a53",
+  "specification": "ASTM-A53",
   "grade": "Type F",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a53__type_f",
+  "name": "ASTM-A53--Type-F",
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -413,17 +393,16 @@
     "diameter_max": 168.3
    }
   ],
-  "notes": "Furnace butt-welded pipe; only Grade A. Limited to NPS 4 and smaller.",
-  "display_name": "ASTM A53 TYPE_F"
+  "notes": "Furnace butt-welded pipe; only Grade A. Limited to NPS 4 and smaller."
  },
  {
-  "specification": "astm_a106",
+  "specification": "ASTM-A106",
   "grade": "Gr A",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a106__gr_a",
+  "name": "ASTM-A106--Gr-A",
   "uns_number": "K02501",
   "product_forms": [
    {
@@ -434,17 +413,16 @@
     "diameter_max": 660
    }
   ],
-  "notes": "Yield 207 MPa min, tensile 331 MPa min. Seamless carbon steel pipe for high-temperature service.",
-  "display_name": "ASTM A106 GR_A"
+  "notes": "Yield 207 MPa min, tensile 331 MPa min. Seamless carbon steel pipe for high-temperature service."
  },
  {
-  "specification": "astm_a106",
+  "specification": "ASTM-A106",
   "grade": "Gr B",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a106__gr_b",
+  "name": "ASTM-A106--Gr-B",
   "uns_number": "K03006",
   "product_forms": [
    {
@@ -455,17 +433,16 @@
     "diameter_max": 660
    }
   ],
-  "notes": "Yield 241 MPa min, tensile 414 MPa min. Most common process piping grade.",
-  "display_name": "ASTM A106 GR_B"
+  "notes": "Yield 241 MPa min, tensile 414 MPa min. Most common process piping grade."
  },
  {
-  "specification": "astm_a106",
+  "specification": "ASTM-A106",
   "grade": "Gr C",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a106__gr_c",
+  "name": "ASTM-A106--Gr-C",
   "uns_number": "K03501",
   "product_forms": [
    {
@@ -476,17 +453,16 @@
     "diameter_max": 660
    }
   ],
-  "notes": "Yield 276 MPa min, tensile 483 MPa min. Higher-strength A106 variant.",
-  "display_name": "ASTM A106 GR_C"
+  "notes": "Yield 276 MPa min, tensile 483 MPa min. Higher-strength A106 variant."
  },
  {
-  "specification": "astm_a283",
+  "specification": "ASTM-A283",
   "grade": "Gr A",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a283__gr_a",
+  "name": "ASTM-A283--Gr-A",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -494,17 +470,16 @@
     "thickness_max": 50
    }
   ],
-  "notes": "Yield 165 MPa, tensile 310-415 MPa. Low-tensile carbon steel plate.",
-  "display_name": "ASTM A283 GR_A"
+  "notes": "Yield 165 MPa, tensile 310-415 MPa. Low-tensile carbon steel plate."
  },
  {
-  "specification": "astm_a283",
+  "specification": "ASTM-A283",
   "grade": "Gr B",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a283__gr_b",
+  "name": "ASTM-A283--Gr-B",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -512,17 +487,16 @@
     "thickness_max": 50
    }
   ],
-  "notes": "Yield 186 MPa, tensile 345-450 MPa.",
-  "display_name": "ASTM A283 GR_B"
+  "notes": "Yield 186 MPa, tensile 345-450 MPa."
  },
  {
-  "specification": "astm_a283",
+  "specification": "ASTM-A283",
   "grade": "Gr C",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a283__gr_c",
+  "name": "ASTM-A283--Gr-C",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -530,17 +504,16 @@
     "thickness_max": 50
    }
   ],
-  "notes": "Yield 207 MPa, tensile 380-485 MPa. Most common A283 grade.",
-  "display_name": "ASTM A283 GR_C"
+  "notes": "Yield 207 MPa, tensile 380-485 MPa. Most common A283 grade."
  },
  {
-  "specification": "astm_a283",
+  "specification": "ASTM-A283",
   "grade": "Gr D",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a283__gr_d",
+  "name": "ASTM-A283--Gr-D",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -548,17 +521,16 @@
     "thickness_max": 50
    }
   ],
-  "notes": "Yield 230 MPa, tensile 415-515 MPa.",
-  "display_name": "ASTM A283 GR_D"
+  "notes": "Yield 230 MPa, tensile 415-515 MPa."
  },
  {
-  "specification": "astm_a285",
+  "specification": "ASTM-A285",
   "grade": "Gr A",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a285__gr_a",
+  "name": "ASTM-A285--Gr-A",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -566,17 +538,16 @@
     "thickness_max": 50
    }
   ],
-  "notes": "Yield 165 MPa, tensile 310-415 MPa. PV plate, low tensile.",
-  "display_name": "ASTM A285 GR_A"
+  "notes": "Yield 165 MPa, tensile 310-415 MPa. PV plate, low tensile."
  },
  {
-  "specification": "astm_a285",
+  "specification": "ASTM-A285",
   "grade": "Gr B",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a285__gr_b",
+  "name": "ASTM-A285--Gr-B",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -584,17 +555,16 @@
     "thickness_max": 50
    }
   ],
-  "notes": "Yield 186 MPa, tensile 345-450 MPa.",
-  "display_name": "ASTM A285 GR_B"
+  "notes": "Yield 186 MPa, tensile 345-450 MPa."
  },
  {
-  "specification": "astm_a285",
+  "specification": "ASTM-A285",
   "grade": "Gr C",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a285__gr_c",
+  "name": "ASTM-A285--Gr-C",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -602,17 +572,16 @@
     "thickness_max": 50
    }
   ],
-  "notes": "Yield 207 MPa, tensile 380-515 MPa. Most common A285 grade.",
-  "display_name": "ASTM A285 GR_C"
+  "notes": "Yield 207 MPa, tensile 380-515 MPa. Most common A285 grade."
  },
  {
-  "specification": "astm_a335",
+  "specification": "ASTM-A335",
   "grade": "P1",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a335__p1",
+  "name": "ASTM-A335--P1",
   "uns_number": "K11522",
   "product_forms": [
    {
@@ -623,17 +592,16 @@
     "diameter_max": 660
    }
   ],
-  "notes": "0.5Mo (no Cr). Discontinued by some users; superseded by P11/P22 in new design.",
-  "display_name": "ASTM A335 P1"
+  "notes": "0.5Mo (no Cr). Discontinued by some users; superseded by P11/P22 in new design."
  },
  {
-  "specification": "astm_a335",
+  "specification": "ASTM-A335",
   "grade": "P2",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a335__p2",
+  "name": "ASTM-A335--P2",
   "uns_number": "K11547",
   "product_forms": [
    {
@@ -644,17 +612,16 @@
     "diameter_max": 660
    }
   ],
-  "notes": "0.5Cr-0.5Mo creep alloy.",
-  "display_name": "ASTM A335 P2"
+  "notes": "0.5Cr-0.5Mo creep alloy."
  },
  {
-  "specification": "astm_a335",
+  "specification": "ASTM-A335",
   "grade": "P5",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a335__p5",
+  "name": "ASTM-A335--P5",
   "uns_number": "K41545",
   "product_forms": [
    {
@@ -665,17 +632,16 @@
     "diameter_max": 660
    }
   ],
-  "notes": "5Cr-0.5Mo. Refining service to ~600\u00b0C.",
-  "display_name": "ASTM A335 P5"
+  "notes": "5Cr-0.5Mo. Refining service to ~600°C."
  },
  {
-  "specification": "astm_a335",
+  "specification": "ASTM-A335",
   "grade": "P5b",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a335__p5b",
+  "name": "ASTM-A335--P5b",
   "uns_number": "K51545",
   "product_forms": [
    {
@@ -686,17 +652,16 @@
     "diameter_max": 660
    }
   ],
-  "notes": "5Cr-0.5Mo-0.5Si modification of P5.",
-  "display_name": "ASTM A335 P5B"
+  "notes": "5Cr-0.5Mo-0.5Si modification of P5."
  },
  {
-  "specification": "astm_a335",
+  "specification": "ASTM-A335",
   "grade": "P5c",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a335__p5c",
+  "name": "ASTM-A335--P5c",
   "uns_number": "K41245",
   "product_forms": [
    {
@@ -707,17 +672,16 @@
     "diameter_max": 660
    }
   ],
-  "notes": "5Cr-0.5Mo-Ti or Cb modification of P5.",
-  "display_name": "ASTM A335 P5C"
+  "notes": "5Cr-0.5Mo-Ti or Cb modification of P5."
  },
  {
-  "specification": "astm_a335",
+  "specification": "ASTM-A335",
   "grade": "P9",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a335__p9",
+  "name": "ASTM-A335--P9",
   "uns_number": "K90941",
   "product_forms": [
    {
@@ -728,17 +692,16 @@
     "diameter_max": 660
    }
   ],
-  "notes": "9Cr-1Mo. Refining/heater tubes; superseded by P91 in many designs.",
-  "display_name": "ASTM A335 P9"
+  "notes": "9Cr-1Mo. Refining/heater tubes; superseded by P91 in many designs."
  },
  {
-  "specification": "astm_a335",
+  "specification": "ASTM-A335",
   "grade": "P11",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a335__p11",
+  "name": "ASTM-A335--P11",
   "uns_number": "K11597",
   "product_forms": [
    {
@@ -749,17 +712,16 @@
     "diameter_max": 660
    }
   ],
-  "notes": "1.25Cr-0.5Mo. Most common Cr-Mo pipe grade for 480-565\u00b0C service.",
-  "display_name": "ASTM A335 P11"
+  "notes": "1.25Cr-0.5Mo. Most common Cr-Mo pipe grade for 480-565°C service."
  },
  {
-  "specification": "astm_a335",
+  "specification": "ASTM-A335",
   "grade": "P12",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a335__p12",
+  "name": "ASTM-A335--P12",
   "uns_number": "K11562",
   "product_forms": [
    {
@@ -770,17 +732,16 @@
     "diameter_max": 660
    }
   ],
-  "notes": "1Cr-0.5Mo. Lower Cr variant of P11.",
-  "display_name": "ASTM A335 P12"
+  "notes": "1Cr-0.5Mo. Lower Cr variant of P11."
  },
  {
-  "specification": "astm_a335",
+  "specification": "ASTM-A335",
   "grade": "P15",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a335__p15",
+  "name": "ASTM-A335--P15",
   "uns_number": "K11578",
   "product_forms": [
    {
@@ -791,17 +752,16 @@
     "diameter_max": 660
    }
   ],
-  "notes": "0.5Mo-1.5Si. Less common Cr-free Mo pipe.",
-  "display_name": "ASTM A335 P15"
+  "notes": "0.5Mo-1.5Si. Less common Cr-free Mo pipe."
  },
  {
-  "specification": "astm_a335",
+  "specification": "ASTM-A335",
   "grade": "P21",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a335__p21",
+  "name": "ASTM-A335--P21",
   "uns_number": "K31545",
   "product_forms": [
    {
@@ -812,17 +772,16 @@
     "diameter_max": 660
    }
   ],
-  "notes": "3Cr-1Mo creep alloy.",
-  "display_name": "ASTM A335 P21"
+  "notes": "3Cr-1Mo creep alloy."
  },
  {
-  "specification": "astm_a335",
+  "specification": "ASTM-A335",
   "grade": "P22",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a335__p22",
+  "name": "ASTM-A335--P22",
   "uns_number": "K21590",
   "product_forms": [
    {
@@ -833,17 +792,16 @@
     "diameter_max": 660
    }
   ],
-  "notes": "2.25Cr-1Mo. Standard heater-tube grade in refining/petrochemical.",
-  "display_name": "ASTM A335 P22"
+  "notes": "2.25Cr-1Mo. Standard heater-tube grade in refining/petrochemical."
  },
  {
-  "specification": "astm_a335",
+  "specification": "ASTM-A335",
   "grade": "P23",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a335__p23",
+  "name": "ASTM-A335--P23",
   "uns_number": "K41650",
   "product_forms": [
    {
@@ -854,17 +812,16 @@
     "diameter_max": 660
    }
   ],
-  "notes": "2.25Cr-1.6W-V-Nb advanced low-alloy creep grade.",
-  "display_name": "ASTM A335 P23"
+  "notes": "2.25Cr-1.6W-V-Nb advanced low-alloy creep grade."
  },
  {
-  "specification": "astm_a335",
+  "specification": "ASTM-A335",
   "grade": "P24",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a335__p24",
+  "name": "ASTM-A335--P24",
   "uns_number": "K30736",
   "product_forms": [
    {
@@ -875,17 +832,16 @@
     "diameter_max": 660
    }
   ],
-  "notes": "2.25Cr-1Mo-V-Ti-B advanced low-alloy creep grade. Used in supercritical boilers.",
-  "display_name": "ASTM A335 P24"
+  "notes": "2.25Cr-1Mo-V-Ti-B advanced low-alloy creep grade. Used in supercritical boilers."
  },
  {
-  "specification": "astm_a335",
+  "specification": "ASTM-A335",
   "grade": "P36",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a335__p36",
+  "name": "ASTM-A335--P36",
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -895,17 +851,16 @@
     "diameter_max": 660
    }
   ],
-  "notes": "Mn-Ni-Cu-Mo-V high-strength pipe.",
-  "display_name": "ASTM A335 P36"
+  "notes": "Mn-Ni-Cu-Mo-V high-strength pipe."
  },
  {
-  "specification": "astm_a335",
+  "specification": "ASTM-A335",
   "grade": "P91",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a335__p91",
+  "name": "ASTM-A335--P91",
   "uns_number": "K91560",
   "product_forms": [
    {
@@ -916,17 +871,16 @@
     "diameter_max": 660
    }
   ],
-  "notes": "9Cr-1Mo-V-Nb (modified 9Cr-1Mo). Standard supercritical boiler grade. Strict heat-treatment & weld procedure controls.",
-  "display_name": "ASTM A335 P91"
+  "notes": "9Cr-1Mo-V-Nb (modified 9Cr-1Mo). Standard supercritical boiler grade. Strict heat-treatment & weld procedure controls."
  },
  {
-  "specification": "astm_a335",
+  "specification": "ASTM-A335",
   "grade": "P92",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a335__p92",
+  "name": "ASTM-A335--P92",
   "uns_number": "K92460",
   "product_forms": [
    {
@@ -937,17 +891,16 @@
     "diameter_max": 660
    }
   ],
-  "notes": "9Cr-1.8W-0.5Mo-V-Nb. Higher creep strength than P91 for ultra-supercritical service.",
-  "display_name": "ASTM A335 P92"
+  "notes": "9Cr-1.8W-0.5Mo-V-Nb. Higher creep strength than P91 for ultra-supercritical service."
  },
  {
-  "specification": "astm_a335",
+  "specification": "ASTM-A335",
   "grade": "P911",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a335__p911",
+  "name": "ASTM-A335--P911",
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -957,17 +910,16 @@
     "diameter_max": 660
    }
   ],
-  "notes": "9Cr-1Mo-1W-V-Nb-N enhanced creep alloy.",
-  "display_name": "ASTM A335 P911"
+  "notes": "9Cr-1Mo-1W-V-Nb-N enhanced creep alloy."
  },
  {
-  "specification": "astm_a387",
+  "specification": "ASTM-A387",
   "grade": "Gr 2 Cl 1",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a387__gr_2_cl_1",
+  "name": "ASTM-A387--Gr-2-Cl-1",
   "uns_number": "K11547",
   "product_forms": [
    {
@@ -976,17 +928,16 @@
     "thickness_max": 200
    }
   ],
-  "notes": "0.5Cr-0.5Mo plate. Class 1: annealed. Lower yield/tensile than Cl 2.",
-  "display_name": "ASTM A387 gr_2_cl_1"
+  "notes": "0.5Cr-0.5Mo plate. Class 1: annealed. Lower yield/tensile than Cl 2."
  },
  {
-  "specification": "astm_a387",
+  "specification": "ASTM-A387",
   "grade": "Gr 2 Cl 2",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a387__gr_2_cl_2",
+  "name": "ASTM-A387--Gr-2-Cl-2",
   "uns_number": "K11547",
   "product_forms": [
    {
@@ -995,17 +946,16 @@
     "thickness_max": 200
    }
   ],
-  "notes": "0.5Cr-0.5Mo plate. Class 2: normalized + tempered. Higher strength.",
-  "display_name": "ASTM A387 gr_2_cl_2"
+  "notes": "0.5Cr-0.5Mo plate. Class 2: normalized + tempered. Higher strength."
  },
  {
-  "specification": "astm_a387",
+  "specification": "ASTM-A387",
   "grade": "Gr 11 Cl 1",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a387__gr_11_cl_1",
+  "name": "ASTM-A387--Gr-11-Cl-1",
   "uns_number": "K11789",
   "product_forms": [
    {
@@ -1014,17 +964,16 @@
     "thickness_max": 200
    }
   ],
-  "notes": "1.25Cr-0.5Mo plate. PV equivalent of A335 P11 pipe. Class 1: annealed. Lower yield/tensile than Cl 2.",
-  "display_name": "ASTM A387 gr_11_cl_1"
+  "notes": "1.25Cr-0.5Mo plate. PV equivalent of A335 P11 pipe. Class 1: annealed. Lower yield/tensile than Cl 2."
  },
  {
-  "specification": "astm_a387",
+  "specification": "ASTM-A387",
   "grade": "Gr 11 Cl 2",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a387__gr_11_cl_2",
+  "name": "ASTM-A387--Gr-11-Cl-2",
   "uns_number": "K11789",
   "product_forms": [
    {
@@ -1033,17 +982,16 @@
     "thickness_max": 200
    }
   ],
-  "notes": "1.25Cr-0.5Mo plate. PV equivalent of A335 P11 pipe. Class 2: normalized + tempered. Higher strength.",
-  "display_name": "ASTM A387 gr_11_cl_2"
+  "notes": "1.25Cr-0.5Mo plate. PV equivalent of A335 P11 pipe. Class 2: normalized + tempered. Higher strength."
  },
  {
-  "specification": "astm_a387",
+  "specification": "ASTM-A387",
   "grade": "Gr 12 Cl 1",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a387__gr_12_cl_1",
+  "name": "ASTM-A387--Gr-12-Cl-1",
   "uns_number": "K11757",
   "product_forms": [
    {
@@ -1052,17 +1000,16 @@
     "thickness_max": 200
    }
   ],
-  "notes": "1Cr-0.5Mo plate. PV equivalent of A335 P12 pipe. Class 1: annealed. Lower yield/tensile than Cl 2.",
-  "display_name": "ASTM A387 gr_12_cl_1"
+  "notes": "1Cr-0.5Mo plate. PV equivalent of A335 P12 pipe. Class 1: annealed. Lower yield/tensile than Cl 2."
  },
  {
-  "specification": "astm_a387",
+  "specification": "ASTM-A387",
   "grade": "Gr 12 Cl 2",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a387__gr_12_cl_2",
+  "name": "ASTM-A387--Gr-12-Cl-2",
   "uns_number": "K11757",
   "product_forms": [
    {
@@ -1071,17 +1018,16 @@
     "thickness_max": 200
    }
   ],
-  "notes": "1Cr-0.5Mo plate. PV equivalent of A335 P12 pipe. Class 2: normalized + tempered. Higher strength.",
-  "display_name": "ASTM A387 gr_12_cl_2"
+  "notes": "1Cr-0.5Mo plate. PV equivalent of A335 P12 pipe. Class 2: normalized + tempered. Higher strength."
  },
  {
-  "specification": "astm_a387",
+  "specification": "ASTM-A387",
   "grade": "Gr 21 Cl 1",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a387__gr_21_cl_1",
+  "name": "ASTM-A387--Gr-21-Cl-1",
   "uns_number": "K31545",
   "product_forms": [
    {
@@ -1090,17 +1036,16 @@
     "thickness_max": 200
    }
   ],
-  "notes": "3Cr-1Mo plate. Class 1: annealed. Lower yield/tensile than Cl 2.",
-  "display_name": "ASTM A387 gr_21_cl_1"
+  "notes": "3Cr-1Mo plate. Class 1: annealed. Lower yield/tensile than Cl 2."
  },
  {
-  "specification": "astm_a387",
+  "specification": "ASTM-A387",
   "grade": "Gr 21 Cl 2",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a387__gr_21_cl_2",
+  "name": "ASTM-A387--Gr-21-Cl-2",
   "uns_number": "K31545",
   "product_forms": [
    {
@@ -1109,17 +1054,16 @@
     "thickness_max": 200
    }
   ],
-  "notes": "3Cr-1Mo plate. Class 2: normalized + tempered. Higher strength.",
-  "display_name": "ASTM A387 gr_21_cl_2"
+  "notes": "3Cr-1Mo plate. Class 2: normalized + tempered. Higher strength."
  },
  {
-  "specification": "astm_a387",
+  "specification": "ASTM-A387",
   "grade": "Gr 22 Cl 1",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a387__gr_22_cl_1",
+  "name": "ASTM-A387--Gr-22-Cl-1",
   "uns_number": "K21590",
   "product_forms": [
    {
@@ -1128,17 +1072,16 @@
     "thickness_max": 200
    }
   ],
-  "notes": "2.25Cr-1Mo plate. PV equivalent of A335 P22 pipe. Class 1: annealed. Lower yield/tensile than Cl 2.",
-  "display_name": "ASTM A387 gr_22_cl_1"
+  "notes": "2.25Cr-1Mo plate. PV equivalent of A335 P22 pipe. Class 1: annealed. Lower yield/tensile than Cl 2."
  },
  {
-  "specification": "astm_a387",
+  "specification": "ASTM-A387",
   "grade": "Gr 22 Cl 2",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a387__gr_22_cl_2",
+  "name": "ASTM-A387--Gr-22-Cl-2",
   "uns_number": "K21590",
   "product_forms": [
    {
@@ -1147,17 +1090,16 @@
     "thickness_max": 200
    }
   ],
-  "notes": "2.25Cr-1Mo plate. PV equivalent of A335 P22 pipe. Class 2: normalized + tempered. Higher strength.",
-  "display_name": "ASTM A387 gr_22_cl_2"
+  "notes": "2.25Cr-1Mo plate. PV equivalent of A335 P22 pipe. Class 2: normalized + tempered. Higher strength."
  },
  {
-  "specification": "astm_a387",
+  "specification": "ASTM-A387",
   "grade": "Gr 23 Cl 1",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a387__gr_23_cl_1",
+  "name": "ASTM-A387--Gr-23-Cl-1",
   "uns_number": "K41650",
   "product_forms": [
    {
@@ -1166,17 +1108,16 @@
     "thickness_max": 200
    }
   ],
-  "notes": "2.25Cr-1.6W-V-Nb advanced creep plate. Class 1: annealed. Lower yield/tensile than Cl 2.",
-  "display_name": "ASTM A387 gr_23_cl_1"
+  "notes": "2.25Cr-1.6W-V-Nb advanced creep plate. Class 1: annealed. Lower yield/tensile than Cl 2."
  },
  {
-  "specification": "astm_a387",
+  "specification": "ASTM-A387",
   "grade": "Gr 23 Cl 2",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a387__gr_23_cl_2",
+  "name": "ASTM-A387--Gr-23-Cl-2",
   "uns_number": "K41650",
   "product_forms": [
    {
@@ -1185,17 +1126,16 @@
     "thickness_max": 200
    }
   ],
-  "notes": "2.25Cr-1.6W-V-Nb advanced creep plate. Class 2: normalized + tempered. Higher strength.",
-  "display_name": "ASTM A387 gr_23_cl_2"
+  "notes": "2.25Cr-1.6W-V-Nb advanced creep plate. Class 2: normalized + tempered. Higher strength."
  },
  {
-  "specification": "astm_a387",
+  "specification": "ASTM-A387",
   "grade": "Gr 91 Cl 1",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a387__gr_91_cl_1",
+  "name": "ASTM-A387--Gr-91-Cl-1",
   "uns_number": "K90901",
   "product_forms": [
    {
@@ -1204,17 +1144,16 @@
     "thickness_max": 200
    }
   ],
-  "notes": "9Cr-1Mo-V-Nb (modified). PV equivalent of A335 P91. Class 2 only typical. Class 1: annealed. Lower yield/tensile than Cl 2.",
-  "display_name": "ASTM A387 gr_91_cl_1"
+  "notes": "9Cr-1Mo-V-Nb (modified). PV equivalent of A335 P91. Class 2 only typical. Class 1: annealed. Lower yield/tensile than Cl 2."
  },
  {
-  "specification": "astm_a387",
+  "specification": "ASTM-A387",
   "grade": "Gr 91 Cl 2",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a387__gr_91_cl_2",
+  "name": "ASTM-A387--Gr-91-Cl-2",
   "uns_number": "K90901",
   "product_forms": [
    {
@@ -1223,17 +1162,16 @@
     "thickness_max": 200
    }
   ],
-  "notes": "9Cr-1Mo-V-Nb (modified). PV equivalent of A335 P91. Class 2 only typical. Class 2: normalized + tempered. Higher strength.",
-  "display_name": "ASTM A387 gr_91_cl_2"
+  "notes": "9Cr-1Mo-V-Nb (modified). PV equivalent of A335 P91. Class 2 only typical. Class 2: normalized + tempered. Higher strength."
  },
  {
-  "specification": "astm_a516",
+  "specification": "ASTM-A516",
   "grade": "Gr 55",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a516__gr_55",
+  "name": "ASTM-A516--Gr-55",
   "uns_number": "K01800",
   "product_forms": [
    {
@@ -1242,17 +1180,16 @@
     "thickness_max": 200
    }
   ],
-  "notes": "Yield 205 MPa min, tensile 380-515 MPa. Lowest A516 grade.",
-  "display_name": "ASTM A516 GR_55"
+  "notes": "Yield 205 MPa min, tensile 380-515 MPa. Lowest A516 grade."
  },
  {
-  "specification": "astm_a516",
+  "specification": "ASTM-A516",
   "grade": "Gr 60",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a516__gr_60",
+  "name": "ASTM-A516--Gr-60",
   "uns_number": "K02100",
   "product_forms": [
    {
@@ -1261,17 +1198,16 @@
     "thickness_max": 200
    }
   ],
-  "notes": "Yield 220 MPa min, tensile 415-550 MPa.",
-  "display_name": "ASTM A516 GR_60"
+  "notes": "Yield 220 MPa min, tensile 415-550 MPa."
  },
  {
-  "specification": "astm_a516",
+  "specification": "ASTM-A516",
   "grade": "Gr 65",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a516__gr_65",
+  "name": "ASTM-A516--Gr-65",
   "uns_number": "K02403",
   "product_forms": [
    {
@@ -1280,17 +1216,16 @@
     "thickness_max": 200
    }
   ],
-  "notes": "Yield 240 MPa min, tensile 450-585 MPa.",
-  "display_name": "ASTM A516 GR_65"
+  "notes": "Yield 240 MPa min, tensile 450-585 MPa."
  },
  {
-  "specification": "astm_a516",
+  "specification": "ASTM-A516",
   "grade": "Gr 70",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a516__gr_70",
+  "name": "ASTM-A516--Gr-70",
   "uns_number": "K02700",
   "product_forms": [
    {
@@ -1299,17 +1234,16 @@
     "thickness_max": 200
    }
   ],
-  "notes": "Yield 260 MPa min, tensile 485-620 MPa. Most common pressure vessel plate.",
-  "display_name": "ASTM A516 GR_70"
+  "notes": "Yield 260 MPa min, tensile 485-620 MPa. Most common pressure vessel plate."
  },
  {
-  "specification": "astm_a572",
+  "specification": "ASTM-A572",
   "grade": "Gr 42",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a572__gr_42",
+  "name": "ASTM-A572--Gr-42",
   "uns_number": "K02600",
   "product_forms": [
    {
@@ -1323,17 +1257,16 @@
     "thickness_max": 100
    }
   ],
-  "notes": "Yield 290 MPa, tensile 415 MPa min. HSLA Cb-V.",
-  "display_name": "ASTM A572 GR_42"
+  "notes": "Yield 290 MPa, tensile 415 MPa min. HSLA Cb-V."
  },
  {
-  "specification": "astm_a572",
+  "specification": "ASTM-A572",
   "grade": "Gr 50",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a572__gr_50",
+  "name": "ASTM-A572--Gr-50",
   "uns_number": "K02303",
   "product_forms": [
    {
@@ -1347,17 +1280,16 @@
     "thickness_max": 100
    }
   ],
-  "notes": "Yield 345 MPa, tensile 450 MPa min. Most common HSLA structural grade \u2014 replaces A36 in many bridge/building applications.",
-  "display_name": "ASTM A572 GR_50"
+  "notes": "Yield 345 MPa, tensile 450 MPa min. Most common HSLA structural grade — replaces A36 in many bridge/building applications."
  },
  {
-  "specification": "astm_a572",
+  "specification": "ASTM-A572",
   "grade": "Gr 55",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a572__gr_55",
+  "name": "ASTM-A572--Gr-55",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -1370,17 +1302,16 @@
     "thickness_max": 100
    }
   ],
-  "notes": "Yield 380 MPa, tensile 485 MPa min.",
-  "display_name": "ASTM A572 GR_55"
+  "notes": "Yield 380 MPa, tensile 485 MPa min."
  },
  {
-  "specification": "astm_a572",
+  "specification": "ASTM-A572",
   "grade": "Gr 60",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a572__gr_60",
+  "name": "ASTM-A572--Gr-60",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -1393,17 +1324,16 @@
     "thickness_max": 100
    }
   ],
-  "notes": "Yield 415 MPa, tensile 520 MPa min.",
-  "display_name": "ASTM A572 GR_60"
+  "notes": "Yield 415 MPa, tensile 520 MPa min."
  },
  {
-  "specification": "astm_a572",
+  "specification": "ASTM-A572",
   "grade": "Gr 65",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a572__gr_65",
+  "name": "ASTM-A572--Gr-65",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -1416,17 +1346,16 @@
     "thickness_max": 50
    }
   ],
-  "notes": "Yield 450 MPa, tensile 550 MPa min.",
-  "display_name": "ASTM A572 GR_65"
+  "notes": "Yield 450 MPa, tensile 550 MPa min."
  },
  {
-  "specification": "astm_a588",
+  "specification": "ASTM-A588",
   "grade": "Gr A",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a588__gr_a",
+  "name": "ASTM-A588--Gr-A",
   "uns_number": "K11430",
   "product_forms": [
    {
@@ -1435,17 +1364,16 @@
     "thickness_max": 200
    }
   ],
-  "notes": "Yield 345 MPa, tensile 485 MPa min. Weathering steel (Cor-Ten A type).",
-  "display_name": "ASTM A588 GR_A"
+  "notes": "Yield 345 MPa, tensile 485 MPa min. Weathering steel (Cor-Ten A type)."
  },
  {
-  "specification": "astm_a588",
+  "specification": "ASTM-A588",
   "grade": "Gr B",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a588__gr_b",
+  "name": "ASTM-A588--Gr-B",
   "uns_number": "K12043",
   "product_forms": [
    {
@@ -1454,17 +1382,16 @@
     "thickness_max": 200
    }
   ],
-  "notes": "Yield 345 MPa, tensile 485 MPa min. Weathering steel.",
-  "display_name": "ASTM A588 GR_B"
+  "notes": "Yield 345 MPa, tensile 485 MPa min. Weathering steel."
  },
  {
-  "specification": "astm_a588",
+  "specification": "ASTM-A588",
   "grade": "Gr C",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a588__gr_c",
+  "name": "ASTM-A588--Gr-C",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -1472,17 +1399,16 @@
     "thickness_max": 200
    }
   ],
-  "notes": "Yield 345 MPa, tensile 485 MPa min. Weathering steel.",
-  "display_name": "ASTM A588 GR_C"
+  "notes": "Yield 345 MPa, tensile 485 MPa min. Weathering steel."
  },
  {
-  "specification": "astm_a588",
+  "specification": "ASTM-A588",
   "grade": "Gr K",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a588__gr_k",
+  "name": "ASTM-A588--Gr-K",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -1490,17 +1416,16 @@
     "thickness_max": 100
    }
   ],
-  "notes": "Yield 345 MPa, tensile 485 MPa min. Weathering steel \u2014 niobium variant.",
-  "display_name": "ASTM A588 GR_K"
+  "notes": "Yield 345 MPa, tensile 485 MPa min. Weathering steel — niobium variant."
  },
  {
-  "specification": "astm_a992",
+  "specification": "ASTM-A992",
   "grade": "A992",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a992",
+  "name": "ASTM-A992--A992",
   "uns_number": "K02400",
   "product_forms": [
    {
@@ -1509,17 +1434,16 @@
     "thickness_max": 100
    }
   ],
-  "notes": "Yield 345-450 MPa, tensile 450 MPa min. Default US wide-flange (W) shape grade. Replaces A36 / A572-50 for shapes since 1998.",
-  "display_name": "ASTM A992 astm_a992"
+  "notes": "Yield 345-450 MPa, tensile 450 MPa min. Default US wide-flange (W) shape grade. Replaces A36 / A572-50 for shapes since 1998."
  },
  {
-  "specification": "astm_a240",
+  "specification": "ASTM-A240",
   "grade": "304",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a240__304",
+  "name": "ASTM-A240--304",
   "uns_number": "S30400",
   "product_forms": [
    {
@@ -1533,17 +1457,16 @@
     "thickness_max": 3
    }
   ],
-  "notes": "Standard 18-8 austenitic stainless. Yield 205 MPa, tensile 515 MPa min.",
-  "display_name": "ASTM A240 Gr.304"
+  "notes": "Standard 18-8 austenitic stainless. Yield 205 MPa, tensile 515 MPa min."
  },
  {
-  "specification": "astm_a240",
+  "specification": "ASTM-A240",
   "grade": "304L",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a240__304l",
+  "name": "ASTM-A240--304L",
   "uns_number": "S30403",
   "product_forms": [
    {
@@ -1557,17 +1480,16 @@
     "thickness_max": 3
    }
   ],
-  "notes": "Low carbon variant of 304. Improves intergranular corrosion resistance after welding. Yield 170 MPa, tensile 485 MPa min.",
-  "display_name": "ASTM A240 304L"
+  "notes": "Low carbon variant of 304. Improves intergranular corrosion resistance after welding. Yield 170 MPa, tensile 485 MPa min."
  },
  {
-  "specification": "asme_sa_240",
+  "specification": "ASME-SA-240",
   "grade": "304LN",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "asme_sa_240__304ln",
+  "name": "ASME-SA-240--304LN",
   "uns_number": "S30453",
   "product_forms": [
    {
@@ -1581,17 +1503,16 @@
     "thickness_max": 3
    }
   ],
-  "notes": "Low-carbon nitrogen-strengthened 304L. Yield 240 MPa min.",
-  "display_name": "ASME SA-240 304LN"
+  "notes": "Low-carbon nitrogen-strengthened 304L. Yield 240 MPa min."
  },
  {
-  "specification": "astm_a240",
+  "specification": "ASTM-A240",
   "grade": "304LN",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a240__304ln",
+  "name": "ASTM-A240--304LN",
   "uns_number": "S30453",
   "product_forms": [
    {
@@ -1605,17 +1526,16 @@
     "thickness_max": 3
    }
   ],
-  "notes": "Low-carbon nitrogen-strengthened 304L. Yield 240 MPa min.",
-  "display_name": "ASTM A240 304LN"
+  "notes": "Low-carbon nitrogen-strengthened 304L. Yield 240 MPa min."
  },
  {
-  "specification": "asme_sa_240",
+  "specification": "ASME-SA-240",
   "grade": "321",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "asme_sa_240__321",
+  "name": "ASME-SA-240--321",
   "uns_number": "S32100",
   "product_forms": [
    {
@@ -1629,17 +1549,16 @@
     "thickness_max": 3
    }
   ],
-  "notes": "Ti-stabilized austenitic, prevents sensitization in 425-815\u00b0C range. Yield 205 MPa min.",
-  "display_name": "ASME SA-240 Gr.321"
+  "notes": "Ti-stabilized austenitic, prevents sensitization in 425-815°C range. Yield 205 MPa min."
  },
  {
-  "specification": "astm_a240",
+  "specification": "ASTM-A240",
   "grade": "321",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a240__321",
+  "name": "ASTM-A240--321",
   "uns_number": "S32100",
   "product_forms": [
    {
@@ -1653,17 +1572,16 @@
     "thickness_max": 3
    }
   ],
-  "notes": "Ti-stabilized austenitic, prevents sensitization in 425-815\u00b0C range. Yield 205 MPa min.",
-  "display_name": "ASTM A240 Gr.321"
+  "notes": "Ti-stabilized austenitic, prevents sensitization in 425-815°C range. Yield 205 MPa min."
  },
  {
-  "specification": "asme_sa_240",
+  "specification": "ASME-SA-240",
   "grade": "321H",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "asme_sa_240__321h",
+  "name": "ASME-SA-240--321H",
   "uns_number": "S32109",
   "product_forms": [
    {
@@ -1677,17 +1595,16 @@
     "thickness_max": 3
    }
   ],
-  "notes": "Higher carbon 321 for elevated-temperature service per ASME.",
-  "display_name": "ASME SA-240 321H"
+  "notes": "Higher carbon 321 for elevated-temperature service per ASME."
  },
  {
-  "specification": "astm_a240",
+  "specification": "ASTM-A240",
   "grade": "321H",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a240__321h",
+  "name": "ASTM-A240--321H",
   "uns_number": "S32109",
   "product_forms": [
    {
@@ -1701,17 +1618,16 @@
     "thickness_max": 3
    }
   ],
-  "notes": "Higher carbon 321 for elevated-temperature service per ASME.",
-  "display_name": "ASTM A240 321H"
+  "notes": "Higher carbon 321 for elevated-temperature service per ASME."
  },
  {
-  "specification": "asme_sa_240",
+  "specification": "ASME-SA-240",
   "grade": "347",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "asme_sa_240__347",
+  "name": "ASME-SA-240--347",
   "uns_number": "S34700",
   "product_forms": [
    {
@@ -1725,17 +1641,16 @@
     "thickness_max": 3
    }
   ],
-  "notes": "Nb-stabilized austenitic \u2014 equivalent of 321 with Nb instead of Ti.",
-  "display_name": "ASME SA-240 Gr.347"
+  "notes": "Nb-stabilized austenitic — equivalent of 321 with Nb instead of Ti."
  },
  {
-  "specification": "astm_a240",
+  "specification": "ASTM-A240",
   "grade": "347",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a240__347",
+  "name": "ASTM-A240--347",
   "uns_number": "S34700",
   "product_forms": [
    {
@@ -1749,17 +1664,16 @@
     "thickness_max": 3
    }
   ],
-  "notes": "Nb-stabilized austenitic \u2014 equivalent of 321 with Nb instead of Ti.",
-  "display_name": "ASTM A240 Gr.347"
+  "notes": "Nb-stabilized austenitic — equivalent of 321 with Nb instead of Ti."
  },
  {
-  "specification": "asme_sa_240",
+  "specification": "ASME-SA-240",
   "grade": "347H",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "asme_sa_240__347h",
+  "name": "ASME-SA-240--347H",
   "uns_number": "S34709",
   "product_forms": [
    {
@@ -1773,17 +1687,16 @@
     "thickness_max": 3
    }
   ],
-  "notes": "Higher carbon 347 for elevated-temperature service per ASME.",
-  "display_name": "ASME SA-240 347H"
+  "notes": "Higher carbon 347 for elevated-temperature service per ASME."
  },
  {
-  "specification": "astm_a240",
+  "specification": "ASTM-A240",
   "grade": "347H",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a240__347h",
+  "name": "ASTM-A240--347H",
   "uns_number": "S34709",
   "product_forms": [
    {
@@ -1797,17 +1710,16 @@
     "thickness_max": 3
    }
   ],
-  "notes": "Higher carbon 347 for elevated-temperature service per ASME.",
-  "display_name": "ASTM A240 347H"
+  "notes": "Higher carbon 347 for elevated-temperature service per ASME."
  },
  {
-  "specification": "astm_a240",
+  "specification": "ASTM-A240",
   "grade": "316",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a240__316",
+  "name": "ASTM-A240--316",
   "uns_number": "S31600",
   "product_forms": [
    {
@@ -1821,17 +1733,16 @@
     "thickness_max": 3
    }
   ],
-  "notes": "Mo-bearing austenitic, improved chloride pitting resistance. Yield 205 MPa, tensile 515 MPa min.",
-  "display_name": "ASTM A240 Gr.316"
+  "notes": "Mo-bearing austenitic, improved chloride pitting resistance. Yield 205 MPa, tensile 515 MPa min."
  },
  {
-  "specification": "astm_a240",
+  "specification": "ASTM-A240",
   "grade": "316L",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a240__316l",
+  "name": "ASTM-A240--316L",
   "uns_number": "S31603",
   "product_forms": [
    {
@@ -1845,17 +1756,16 @@
     "thickness_max": 3
    }
   ],
-  "notes": "Low-carbon 316. Yield 170 MPa, tensile 485 MPa min. Most common stainless for piping/vessels in chemical service.",
-  "display_name": "ASTM A240 316L"
+  "notes": "Low-carbon 316. Yield 170 MPa, tensile 485 MPa min. Most common stainless for piping/vessels in chemical service."
  },
  {
-  "specification": "astm_a240",
+  "specification": "ASTM-A240",
   "grade": "316LN",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a240__316ln",
+  "name": "ASTM-A240--316LN",
   "uns_number": "S31653",
   "product_forms": [
    {
@@ -1869,17 +1779,16 @@
     "thickness_max": 3
    }
   ],
-  "notes": "Low-C nitrogen-strengthened 316L. Yield 240 MPa min.",
-  "display_name": "ASTM A240 316LN"
+  "notes": "Low-C nitrogen-strengthened 316L. Yield 240 MPa min."
  },
  {
-  "specification": "astm_a240",
+  "specification": "ASTM-A240",
   "grade": "316Ti",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a240__316ti",
+  "name": "ASTM-A240--316Ti",
   "uns_number": "S31635",
   "product_forms": [
    {
@@ -1893,17 +1802,16 @@
     "thickness_max": 3
    }
   ],
-  "notes": "Ti-stabilized 316 \u2014 combines 316 corrosion resistance with sensitization resistance.",
-  "display_name": "ASTM A240 316TI"
+  "notes": "Ti-stabilized 316 — combines 316 corrosion resistance with sensitization resistance."
  },
  {
-  "specification": "astm_a240",
+  "specification": "ASTM-A240",
   "grade": "317L",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a240__317l",
+  "name": "ASTM-A240--317L",
   "uns_number": "S31703",
   "product_forms": [
    {
@@ -1917,17 +1825,16 @@
     "thickness_max": 3
    }
   ],
-  "notes": "Higher Mo (3-4%) than 316 \u2014 better chloride pitting resistance.",
-  "display_name": "ASTM A240 317L"
+  "notes": "Higher Mo (3-4%) than 316 — better chloride pitting resistance."
  },
  {
-  "specification": "astm_a240",
+  "specification": "ASTM-A240",
   "grade": "309",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a240__309",
+  "name": "ASTM-A240--309",
   "uns_number": "S30900",
   "product_forms": [
    {
@@ -1941,17 +1848,16 @@
     "thickness_max": 3
    }
   ],
-  "notes": "Heat-resistant austenitic 22Cr-12Ni for service to 980\u00b0C. Common as filler for joining dissimilar metals.",
-  "display_name": "ASTM A240 Gr.309"
+  "notes": "Heat-resistant austenitic 22Cr-12Ni for service to 980°C. Common as filler for joining dissimilar metals."
  },
  {
-  "specification": "astm_a240",
+  "specification": "ASTM-A240",
   "grade": "309S",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a240__309s",
+  "name": "ASTM-A240--309S",
   "uns_number": "S30908",
   "product_forms": [
    {
@@ -1965,17 +1871,16 @@
     "thickness_max": 3
    }
   ],
-  "notes": "Low-carbon 309.",
-  "display_name": "ASTM A240 309S"
+  "notes": "Low-carbon 309."
  },
  {
-  "specification": "astm_a240",
+  "specification": "ASTM-A240",
   "grade": "309H",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a240__309h",
+  "name": "ASTM-A240--309H",
   "uns_number": "S30909",
   "product_forms": [
    {
@@ -1989,17 +1894,16 @@
     "thickness_max": 3
    }
   ],
-  "notes": "Higher-C 309 for creep service.",
-  "display_name": "ASTM A240 309H"
+  "notes": "Higher-C 309 for creep service."
  },
  {
-  "specification": "astm_a240",
+  "specification": "ASTM-A240",
   "grade": "310",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a240__310",
+  "name": "ASTM-A240--310",
   "uns_number": "S31000",
   "product_forms": [
    {
@@ -2013,17 +1917,16 @@
     "thickness_max": 3
    }
   ],
-  "notes": "Heat-resistant austenitic 25Cr-20Ni for service to 1100\u00b0C.",
-  "display_name": "ASTM A240 Gr.310"
+  "notes": "Heat-resistant austenitic 25Cr-20Ni for service to 1100°C."
  },
  {
-  "specification": "astm_a240",
+  "specification": "ASTM-A240",
   "grade": "310S",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a240__310s",
+  "name": "ASTM-A240--310S",
   "uns_number": "S31008",
   "product_forms": [
    {
@@ -2037,17 +1940,16 @@
     "thickness_max": 3
    }
   ],
-  "notes": "Low-carbon 310.",
-  "display_name": "ASTM A240 310S"
+  "notes": "Low-carbon 310."
  },
  {
-  "specification": "astm_a240",
+  "specification": "ASTM-A240",
   "grade": "904L",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a240__904l",
+  "name": "ASTM-A240--904L",
   "uns_number": "N08904",
   "product_forms": [
    {
@@ -2061,17 +1963,16 @@
     "thickness_max": 3
    }
   ],
-  "notes": "Super-austenitic 25Ni-20Cr-4.5Mo-Cu. P-No 45 (high-Ni). Yield 220 MPa, tensile 490 MPa min. Sulfuric acid / chloride service.",
-  "display_name": "ASTM A240 904L"
+  "notes": "Super-austenitic 25Ni-20Cr-4.5Mo-Cu. P-No 45 (high-Ni). Yield 220 MPa, tensile 490 MPa min. Sulfuric acid / chloride service."
  },
  {
-  "specification": "astm_a240",
+  "specification": "ASTM-A240",
   "grade": "405",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a240__405",
+  "name": "ASTM-A240--405",
   "uns_number": "S40500",
   "product_forms": [
    {
@@ -2080,17 +1981,16 @@
     "thickness_max": 50
    }
   ],
-  "notes": "Low-Cr ferritic 12Cr-Al. Yield 170 MPa, tensile 415 MPa min. Heat-resistant cladding.",
-  "display_name": "ASTM A240 Gr.405"
+  "notes": "Low-Cr ferritic 12Cr-Al. Yield 170 MPa, tensile 415 MPa min. Heat-resistant cladding."
  },
  {
-  "specification": "astm_a240",
+  "specification": "ASTM-A240",
   "grade": "430",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a240__430",
+  "name": "ASTM-A240--430",
   "uns_number": "S43000",
   "product_forms": [
    {
@@ -2099,17 +1999,16 @@
     "thickness_max": 50
    }
   ],
-  "notes": "17Cr ferritic stainless. Yield 205 MPa, tensile 450 MPa min. Decorative + appliance grade.",
-  "display_name": "ASTM A240 Gr.430"
+  "notes": "17Cr ferritic stainless. Yield 205 MPa, tensile 450 MPa min. Decorative + appliance grade."
  },
  {
-  "specification": "astm_a240",
+  "specification": "ASTM-A240",
   "grade": "446",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a240__446",
+  "name": "ASTM-A240--446",
   "uns_number": "S44600",
   "product_forms": [
    {
@@ -2118,17 +2017,16 @@
     "thickness_max": 50
    }
   ],
-  "notes": "27Cr ferritic stainless. Heat-resistant to 1100\u00b0C in oxidizing atmospheres.",
-  "display_name": "ASTM A240 Gr.446"
+  "notes": "27Cr ferritic stainless. Heat-resistant to 1100°C in oxidizing atmospheres."
  },
  {
-  "specification": "astm_a240",
+  "specification": "ASTM-A240",
   "grade": "410",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a240__410",
+  "name": "ASTM-A240--410",
   "uns_number": "S41000",
   "product_forms": [
    {
@@ -2137,17 +2035,16 @@
     "thickness_max": 50
    }
   ],
-  "notes": "12Cr martensitic stainless. Yield 205 MPa, tensile 450 MPa min in annealed. Strengthened by Q&T.",
-  "display_name": "ASTM A240 Gr.410"
+  "notes": "12Cr martensitic stainless. Yield 205 MPa, tensile 450 MPa min in annealed. Strengthened by Q&T."
  },
  {
-  "specification": "astm_a240",
+  "specification": "ASTM-A240",
   "grade": "410S",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a240__410s",
+  "name": "ASTM-A240--410S",
   "uns_number": "S41008",
   "product_forms": [
    {
@@ -2156,17 +2053,16 @@
     "thickness_max": 50
    }
   ],
-  "notes": "Low-C 410 \u2014 does not harden on cooling, weldable without preheat.",
-  "display_name": "ASTM A240 410S"
+  "notes": "Low-C 410 — does not harden on cooling, weldable without preheat."
  },
  {
-  "specification": "astm_a240",
+  "specification": "ASTM-A240",
   "grade": "420",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a240__420",
+  "name": "ASTM-A240--420",
   "uns_number": "S42000",
   "product_forms": [
    {
@@ -2175,17 +2071,16 @@
     "thickness_max": 50
    }
   ],
-  "notes": "13Cr martensitic \u2014 higher C than 410 for hardness/cutlery.",
-  "display_name": "ASTM A240 Gr.420"
+  "notes": "13Cr martensitic — higher C than 410 for hardness/cutlery."
  },
  {
-  "specification": "astm_a240",
+  "specification": "ASTM-A240",
   "grade": "2205",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a240__2205",
+  "name": "ASTM-A240--2205",
   "uns_number": "S31803",
   "product_forms": [
    {
@@ -2194,17 +2089,16 @@
     "thickness_max": 75
    }
   ],
-  "notes": "22Cr-5Ni-3Mo-N duplex. Yield 450 MPa, tensile 620 MPa min. Standard duplex for chloride service.",
-  "display_name": "ASTM A240 Gr.2205"
+  "notes": "22Cr-5Ni-3Mo-N duplex. Yield 450 MPa, tensile 620 MPa min. Standard duplex for chloride service."
  },
  {
-  "specification": "astm_a240",
+  "specification": "ASTM-A240",
   "grade": "S32205",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a240__s32205",
+  "name": "ASTM-A240--S32205",
   "uns_number": "S32205",
   "product_forms": [
    {
@@ -2213,17 +2107,16 @@
     "thickness_max": 75
    }
   ],
-  "notes": "Variant of 2205 with tighter chemistry \u2014 same group.",
-  "display_name": "ASTM A240 S32205"
+  "notes": "Variant of 2205 with tighter chemistry — same group."
  },
  {
-  "specification": "astm_a240",
+  "specification": "ASTM-A240",
   "grade": "2507",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a240__2507",
+  "name": "ASTM-A240--2507",
   "uns_number": "S32750",
   "product_forms": [
    {
@@ -2232,17 +2125,16 @@
     "thickness_max": 75
    }
   ],
-  "notes": "Super-duplex 25Cr-7Ni-4Mo-N. Yield 550 MPa, tensile 795 MPa min. Highest chloride/sour resistance among duplex grades.",
-  "display_name": "ASTM A240 Gr.2507"
+  "notes": "Super-duplex 25Cr-7Ni-4Mo-N. Yield 550 MPa, tensile 795 MPa min. Highest chloride/sour resistance among duplex grades."
  },
  {
-  "specification": "astm_a312",
+  "specification": "ASTM-A312",
   "grade": "TP304",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a312__tp304",
+  "name": "ASTM-A312--TP304",
   "uns_number": "S30400",
   "product_forms": [
    {
@@ -2253,17 +2145,16 @@
     "diameter_max": 914
    }
   ],
-  "notes": "Standard 18-8 stainless pipe.",
-  "display_name": "ASTM A312 TP304"
+  "notes": "Standard 18-8 stainless pipe."
  },
  {
-  "specification": "astm_a312",
+  "specification": "ASTM-A312",
   "grade": "TP304L",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a312__tp304l",
+  "name": "ASTM-A312--TP304L",
   "uns_number": "S30403",
   "product_forms": [
    {
@@ -2274,17 +2165,16 @@
     "diameter_max": 914
    }
   ],
-  "notes": "Low-carbon 304 pipe.",
-  "display_name": "ASTM A312 TP304L"
+  "notes": "Low-carbon 304 pipe."
  },
  {
-  "specification": "astm_a312",
+  "specification": "ASTM-A312",
   "grade": "TP316",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a312__tp316",
+  "name": "ASTM-A312--TP316",
   "uns_number": "S31600",
   "product_forms": [
    {
@@ -2295,17 +2185,16 @@
     "diameter_max": 914
    }
   ],
-  "notes": "Mo-bearing 316 pipe.",
-  "display_name": "ASTM A312 TP316"
+  "notes": "Mo-bearing 316 pipe."
  },
  {
-  "specification": "astm_a312",
+  "specification": "ASTM-A312",
   "grade": "TP316L",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a312__tp316l",
+  "name": "ASTM-A312--TP316L",
   "uns_number": "S31603",
   "product_forms": [
    {
@@ -2316,17 +2205,16 @@
     "diameter_max": 914
    }
   ],
-  "notes": "Low-carbon 316 pipe.",
-  "display_name": "ASTM A312 TP316L"
+  "notes": "Low-carbon 316 pipe."
  },
  {
-  "specification": "astm_a312",
+  "specification": "ASTM-A312",
   "grade": "TP321",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a312__tp321",
+  "name": "ASTM-A312--TP321",
   "uns_number": "S32100",
   "product_forms": [
    {
@@ -2337,17 +2225,16 @@
     "diameter_max": 914
    }
   ],
-  "notes": "Ti-stabilized austenitic pipe.",
-  "display_name": "ASTM A312 TP321"
+  "notes": "Ti-stabilized austenitic pipe."
  },
  {
-  "specification": "astm_a312",
+  "specification": "ASTM-A312",
   "grade": "TP347",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a312__tp347",
+  "name": "ASTM-A312--TP347",
   "uns_number": "S34700",
   "product_forms": [
    {
@@ -2358,17 +2245,16 @@
     "diameter_max": 914
    }
   ],
-  "notes": "Nb-stabilized austenitic pipe.",
-  "display_name": "ASTM A312 TP347"
+  "notes": "Nb-stabilized austenitic pipe."
  },
  {
-  "specification": "astm_a790",
+  "specification": "ASTM-A790",
   "grade": "S31803",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a790__s31803",
+  "name": "ASTM-A790--S31803",
   "uns_number": "S31803",
   "product_forms": [
    {
@@ -2379,17 +2265,16 @@
     "diameter_max": 914
    }
   ],
-  "notes": "Standard 22Cr duplex pipe. Chloride service.",
-  "display_name": "ASTM A790 S31803"
+  "notes": "Standard 22Cr duplex pipe. Chloride service."
  },
  {
-  "specification": "astm_a790",
+  "specification": "ASTM-A790",
   "grade": "S32205",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a790__s32205",
+  "name": "ASTM-A790--S32205",
   "uns_number": "S32205",
   "product_forms": [
    {
@@ -2400,17 +2285,16 @@
     "diameter_max": 914
    }
   ],
-  "notes": "Variant of 2205 with tighter chemistry.",
-  "display_name": "ASTM A790 S32205"
+  "notes": "Variant of 2205 with tighter chemistry."
  },
  {
-  "specification": "astm_a790",
+  "specification": "ASTM-A790",
   "grade": "S32750",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "astm_a790__s32750",
+  "name": "ASTM-A790--S32750",
   "uns_number": "S32750",
   "product_forms": [
    {
@@ -2421,17 +2305,16 @@
     "diameter_max": 914
    }
   ],
-  "notes": "Super-duplex 25Cr-7Ni-4Mo-N pipe. Highest chloride/sour resistance.",
-  "display_name": "ASTM A790 S32750"
+  "notes": "Super-duplex 25Cr-7Ni-4Mo-N pipe. Highest chloride/sour resistance."
  },
  {
-  "specification": "api_5l",
+  "specification": "API-5L",
   "grade": "B",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "api_5l__b",
+  "name": "API-5L--B",
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -2441,17 +2324,16 @@
     "diameter_max": 1422
    }
   ],
-  "notes": "Equivalent of A53 Gr B / A106 Gr B. Yield 241 MPa, tensile 414 MPa min.",
-  "display_name": "API 5L B"
+  "notes": "Equivalent of A53 Gr B / A106 Gr B. Yield 241 MPa, tensile 414 MPa min."
  },
  {
-  "specification": "api_5l",
+  "specification": "API-5L",
   "grade": "X42",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "api_5l__x42",
+  "name": "API-5L--X42",
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -2461,17 +2343,16 @@
     "diameter_max": 1422
    }
   ],
-  "notes": "Yield 290 MPa, tensile 414 MPa min.",
-  "display_name": "API 5L X42"
+  "notes": "Yield 290 MPa, tensile 414 MPa min."
  },
  {
-  "specification": "api_5l",
+  "specification": "API-5L",
   "grade": "X46",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "api_5l__x46",
+  "name": "API-5L--X46",
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -2481,17 +2362,16 @@
     "diameter_max": 1422
    }
   ],
-  "notes": "Yield 317 MPa, tensile 434 MPa min.",
-  "display_name": "API 5L X46"
+  "notes": "Yield 317 MPa, tensile 434 MPa min."
  },
  {
-  "specification": "api_5l",
+  "specification": "API-5L",
   "grade": "X52",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "api_5l__x52",
+  "name": "API-5L--X52",
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -2501,17 +2381,16 @@
     "diameter_max": 1422
    }
   ],
-  "notes": "Yield 359 MPa, tensile 455 MPa min. Most common pipeline grade.",
-  "display_name": "API 5L X52"
+  "notes": "Yield 359 MPa, tensile 455 MPa min. Most common pipeline grade."
  },
  {
-  "specification": "api_5l",
+  "specification": "API-5L",
   "grade": "X56",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "api_5l__x56",
+  "name": "API-5L--X56",
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -2521,17 +2400,16 @@
     "diameter_max": 1422
    }
   ],
-  "notes": "Yield 386 MPa, tensile 490 MPa min.",
-  "display_name": "API 5L X56"
+  "notes": "Yield 386 MPa, tensile 490 MPa min."
  },
  {
-  "specification": "api_5l",
+  "specification": "API-5L",
   "grade": "X60",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "api_5l__x60",
+  "name": "API-5L--X60",
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -2541,17 +2419,16 @@
     "diameter_max": 1422
    }
   ],
-  "notes": "Yield 414 MPa, tensile 517 MPa min.",
-  "display_name": "API 5L X60"
+  "notes": "Yield 414 MPa, tensile 517 MPa min."
  },
  {
-  "specification": "api_5l",
+  "specification": "API-5L",
   "grade": "X65",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "api_5l__x65",
+  "name": "API-5L--X65",
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -2561,17 +2438,16 @@
     "diameter_max": 1422
    }
   ],
-  "notes": "Yield 448 MPa, tensile 530 MPa min.",
-  "display_name": "API 5L X65"
+  "notes": "Yield 448 MPa, tensile 530 MPa min."
  },
  {
-  "specification": "api_5l",
+  "specification": "API-5L",
   "grade": "X70",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "api_5l__x70",
+  "name": "API-5L--X70",
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -2581,17 +2457,16 @@
     "diameter_max": 1422
    }
   ],
-  "notes": "Yield 483 MPa, tensile 565 MPa min. Common high-pressure long-distance pipeline grade.",
-  "display_name": "API 5L X70"
+  "notes": "Yield 483 MPa, tensile 565 MPa min. Common high-pressure long-distance pipeline grade."
  },
  {
-  "specification": "api_5l",
+  "specification": "API-5L",
   "grade": "X80",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "api_5l__x80",
+  "name": "API-5L--X80",
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -2601,17 +2476,16 @@
     "diameter_max": 1422
    }
   ],
-  "notes": "Yield 552 MPa, tensile 621 MPa min. Modern long-distance pipeline grade (TMCP).",
-  "display_name": "API 5L X80"
+  "notes": "Yield 552 MPa, tensile 621 MPa min. Modern long-distance pipeline grade (TMCP)."
  },
  {
-  "specification": "en_10025_2",
+  "specification": "EN-10025-2",
   "grade": "S235JR",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10025_2__s235jr",
+  "name": "EN-10025-2--S235JR",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2624,17 +2498,16 @@
     "thickness_max": 100
    }
   ],
-  "notes": "Yield 235 MPa min, tensile 360-510 MPa. Most basic European structural steel \u2014 no impact requirement.",
-  "display_name": "EN 10025-2 S235JR"
+  "notes": "Yield 235 MPa min, tensile 360-510 MPa. Most basic European structural steel — no impact requirement."
  },
  {
-  "specification": "en_10025_2",
+  "specification": "EN-10025-2",
   "grade": "S235J0",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10025_2__s235j0",
+  "name": "EN-10025-2--S235J0",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2647,17 +2520,16 @@
     "thickness_max": 100
    }
   ],
-  "notes": "S235 with Charpy 27J at 0\u00b0C.",
-  "display_name": "EN 10025-2 S235J0"
+  "notes": "S235 with Charpy 27J at 0°C."
  },
  {
-  "specification": "en_10025_2",
+  "specification": "EN-10025-2",
   "grade": "S235J2",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10025_2__s235j2",
+  "name": "EN-10025-2--S235J2",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2670,17 +2542,16 @@
     "thickness_max": 100
    }
   ],
-  "notes": "S235 with Charpy 27J at -20\u00b0C.",
-  "display_name": "EN 10025-2 S235J2"
+  "notes": "S235 with Charpy 27J at -20°C."
  },
  {
-  "specification": "en_10025_2",
+  "specification": "EN-10025-2",
   "grade": "S275JR",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10025_2__s275jr",
+  "name": "EN-10025-2--S275JR",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2693,17 +2564,16 @@
     "thickness_max": 100
    }
   ],
-  "notes": "Yield 275 MPa min, tensile 410-560 MPa.",
-  "display_name": "EN 10025-2 S275JR"
+  "notes": "Yield 275 MPa min, tensile 410-560 MPa."
  },
  {
-  "specification": "en_10025_2",
+  "specification": "EN-10025-2",
   "grade": "S275J0",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10025_2__s275j0",
+  "name": "EN-10025-2--S275J0",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2716,17 +2586,16 @@
     "thickness_max": 100
    }
   ],
-  "notes": "S275 with Charpy 27J at 0\u00b0C.",
-  "display_name": "EN 10025-2 S275J0"
+  "notes": "S275 with Charpy 27J at 0°C."
  },
  {
-  "specification": "en_10025_2",
+  "specification": "EN-10025-2",
   "grade": "S275J2",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10025_2__s275j2",
+  "name": "EN-10025-2--S275J2",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2739,17 +2608,16 @@
     "thickness_max": 100
    }
   ],
-  "notes": "S275 with Charpy 27J at -20\u00b0C.",
-  "display_name": "EN 10025-2 S275J2"
+  "notes": "S275 with Charpy 27J at -20°C."
  },
  {
-  "specification": "en_10025_2",
+  "specification": "EN-10025-2",
   "grade": "S355JR",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10025_2__s355jr",
+  "name": "EN-10025-2--S355JR",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2762,17 +2630,16 @@
     "thickness_max": 100
    }
   ],
-  "notes": "Yield 355 MPa min, tensile 470-630 MPa. Most common European mid-strength structural grade.",
-  "display_name": "EN 10025-2 S355JR"
+  "notes": "Yield 355 MPa min, tensile 470-630 MPa. Most common European mid-strength structural grade."
  },
  {
-  "specification": "en_10025_2",
+  "specification": "EN-10025-2",
   "grade": "S355J0",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10025_2__s355j0",
+  "name": "EN-10025-2--S355J0",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2785,17 +2652,16 @@
     "thickness_max": 100
    }
   ],
-  "notes": "S355 with Charpy 27J at 0\u00b0C.",
-  "display_name": "EN 10025-2 S355J0"
+  "notes": "S355 with Charpy 27J at 0°C."
  },
  {
-  "specification": "en_10025_2",
+  "specification": "EN-10025-2",
   "grade": "S355K2",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10025_2__s355k2",
+  "name": "EN-10025-2--S355K2",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2808,17 +2674,16 @@
     "thickness_max": 100
    }
   ],
-  "notes": "S355 with Charpy 40J at -20\u00b0C (higher impact than J2).",
-  "display_name": "EN 10025-2 S355K2"
+  "notes": "S355 with Charpy 40J at -20°C (higher impact than J2)."
  },
  {
-  "specification": "en_10025_3",
+  "specification": "EN-10025-3",
   "grade": "S275N",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10025_3__s275n",
+  "name": "EN-10025-3--S275N",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2826,17 +2691,16 @@
     "thickness_max": 150
    }
   ],
-  "notes": "Normalized 275 MPa yield steel.",
-  "display_name": "EN 10025-3 S275N"
+  "notes": "Normalized 275 MPa yield steel."
  },
  {
-  "specification": "en_10025_3",
+  "specification": "EN-10025-3",
   "grade": "S275NL",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10025_3__s275nl",
+  "name": "EN-10025-3--S275NL",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2844,17 +2708,16 @@
     "thickness_max": 150
    }
   ],
-  "notes": "S275N with Charpy at -50\u00b0C.",
-  "display_name": "EN 10025-3 S275NL"
+  "notes": "S275N with Charpy at -50°C."
  },
  {
-  "specification": "en_10025_3",
+  "specification": "EN-10025-3",
   "grade": "S355N",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10025_3__s355n",
+  "name": "EN-10025-3--S355N",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2862,17 +2725,16 @@
     "thickness_max": 150
    }
   ],
-  "notes": "Normalized 355 MPa yield steel.",
-  "display_name": "EN 10025-3 S355N"
+  "notes": "Normalized 355 MPa yield steel."
  },
  {
-  "specification": "en_10025_3",
+  "specification": "EN-10025-3",
   "grade": "S355NL",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10025_3__s355nl",
+  "name": "EN-10025-3--S355NL",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2880,17 +2742,16 @@
     "thickness_max": 150
    }
   ],
-  "notes": "S355N with Charpy at -50\u00b0C.",
-  "display_name": "EN 10025-3 S355NL"
+  "notes": "S355N with Charpy at -50°C."
  },
  {
-  "specification": "en_10025_3",
+  "specification": "EN-10025-3",
   "grade": "S420N",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10025_3__s420n",
+  "name": "EN-10025-3--S420N",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2898,17 +2759,16 @@
     "thickness_max": 150
    }
   ],
-  "notes": "Normalized 420 MPa yield steel.",
-  "display_name": "EN 10025-3 S420N"
+  "notes": "Normalized 420 MPa yield steel."
  },
  {
-  "specification": "en_10025_3",
+  "specification": "EN-10025-3",
   "grade": "S420NL",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10025_3__s420nl",
+  "name": "EN-10025-3--S420NL",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2916,17 +2776,16 @@
     "thickness_max": 150
    }
   ],
-  "notes": "S420N with Charpy at -50\u00b0C.",
-  "display_name": "EN 10025-3 S420NL"
+  "notes": "S420N with Charpy at -50°C."
  },
  {
-  "specification": "en_10025_3",
+  "specification": "EN-10025-3",
   "grade": "S460N",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10025_3__s460n",
+  "name": "EN-10025-3--S460N",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2934,17 +2793,16 @@
     "thickness_max": 150
    }
   ],
-  "notes": "Normalized 460 MPa yield steel.",
-  "display_name": "EN 10025-3 S460N"
+  "notes": "Normalized 460 MPa yield steel."
  },
  {
-  "specification": "en_10025_3",
+  "specification": "EN-10025-3",
   "grade": "S460NL",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10025_3__s460nl",
+  "name": "EN-10025-3--S460NL",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2952,17 +2810,16 @@
     "thickness_max": 150
    }
   ],
-  "notes": "S460N with Charpy at -50\u00b0C.",
-  "display_name": "EN 10025-3 S460NL"
+  "notes": "S460N with Charpy at -50°C."
  },
  {
-  "specification": "en_10025_4",
+  "specification": "EN-10025-4",
   "grade": "S275M",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10025_4__s275m",
+  "name": "EN-10025-4--S275M",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2970,17 +2827,16 @@
     "thickness_max": 120
    }
   ],
-  "notes": "TMCP 275 MPa yield steel.",
-  "display_name": "EN 10025-4 S275M"
+  "notes": "TMCP 275 MPa yield steel."
  },
  {
-  "specification": "en_10025_4",
+  "specification": "EN-10025-4",
   "grade": "S275ML",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10025_4__s275ml",
+  "name": "EN-10025-4--S275ML",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -2988,17 +2844,16 @@
     "thickness_max": 120
    }
   ],
-  "notes": "S275M with Charpy at -50\u00b0C.",
-  "display_name": "EN 10025-4 S275ML"
+  "notes": "S275M with Charpy at -50°C."
  },
  {
-  "specification": "en_10025_4",
+  "specification": "EN-10025-4",
   "grade": "S355M",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10025_4__s355m",
+  "name": "EN-10025-4--S355M",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -3006,17 +2861,16 @@
     "thickness_max": 120
    }
   ],
-  "notes": "TMCP 355 MPa yield steel.",
-  "display_name": "EN 10025-4 S355M"
+  "notes": "TMCP 355 MPa yield steel."
  },
  {
-  "specification": "en_10025_4",
+  "specification": "EN-10025-4",
   "grade": "S355ML",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10025_4__s355ml",
+  "name": "EN-10025-4--S355ML",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -3024,17 +2878,16 @@
     "thickness_max": 120
    }
   ],
-  "notes": "S355M with Charpy at -50\u00b0C.",
-  "display_name": "EN 10025-4 S355ML"
+  "notes": "S355M with Charpy at -50°C."
  },
  {
-  "specification": "en_10025_4",
+  "specification": "EN-10025-4",
   "grade": "S420M",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10025_4__s420m",
+  "name": "EN-10025-4--S420M",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -3042,17 +2895,16 @@
     "thickness_max": 120
    }
   ],
-  "notes": "TMCP 420 MPa yield steel.",
-  "display_name": "EN 10025-4 S420M"
+  "notes": "TMCP 420 MPa yield steel."
  },
  {
-  "specification": "en_10025_4",
+  "specification": "EN-10025-4",
   "grade": "S420ML",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10025_4__s420ml",
+  "name": "EN-10025-4--S420ML",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -3060,17 +2912,16 @@
     "thickness_max": 120
    }
   ],
-  "notes": "S420M with Charpy at -50\u00b0C.",
-  "display_name": "EN 10025-4 S420ML"
+  "notes": "S420M with Charpy at -50°C."
  },
  {
-  "specification": "en_10025_4",
+  "specification": "EN-10025-4",
   "grade": "S460M",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10025_4__s460m",
+  "name": "EN-10025-4--S460M",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -3078,17 +2929,16 @@
     "thickness_max": 120
    }
   ],
-  "notes": "TMCP 460 MPa yield steel.",
-  "display_name": "EN 10025-4 S460M"
+  "notes": "TMCP 460 MPa yield steel."
  },
  {
-  "specification": "en_10025_4",
+  "specification": "EN-10025-4",
   "grade": "S460ML",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10025_4__s460ml",
+  "name": "EN-10025-4--S460ML",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -3096,17 +2946,16 @@
     "thickness_max": 120
    }
   ],
-  "notes": "S460M with Charpy at -50\u00b0C.",
-  "display_name": "EN 10025-4 S460ML"
+  "notes": "S460M with Charpy at -50°C."
  },
  {
-  "specification": "en_10025_6",
+  "specification": "EN-10025-6",
   "grade": "S460Q",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10025_6__s460q",
+  "name": "EN-10025-6--S460Q",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -3114,17 +2963,16 @@
     "thickness_max": 150
    }
   ],
-  "notes": "Q&T 460 MPa min yield.",
-  "display_name": "EN 10025-6 S460Q"
+  "notes": "Q&T 460 MPa min yield."
  },
  {
-  "specification": "en_10025_6",
+  "specification": "EN-10025-6",
   "grade": "S500Q",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10025_6__s500q",
+  "name": "EN-10025-6--S500Q",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -3132,17 +2980,16 @@
     "thickness_max": 150
    }
   ],
-  "notes": "Q&T 500 MPa min yield.",
-  "display_name": "EN 10025-6 S500Q"
+  "notes": "Q&T 500 MPa min yield."
  },
  {
-  "specification": "en_10025_6",
+  "specification": "EN-10025-6",
   "grade": "S690Q",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10025_6__s690q",
+  "name": "EN-10025-6--S690Q",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -3150,17 +2997,16 @@
     "thickness_max": 150
    }
   ],
-  "notes": "Q&T 690 MPa min yield. Common heavy machinery & crane plate.",
-  "display_name": "EN 10025-6 S690Q"
+  "notes": "Q&T 690 MPa min yield. Common heavy machinery & crane plate."
  },
  {
-  "specification": "en_10025_6",
+  "specification": "EN-10025-6",
   "grade": "S960Q",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10025_6__s960q",
+  "name": "EN-10025-6--S960Q",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -3168,17 +3014,16 @@
     "thickness_max": 150
    }
   ],
-  "notes": "Q&T 960 MPa min yield. Highest-strength structural plate; strict weld procedure controls.",
-  "display_name": "EN 10025-6 S960Q"
+  "notes": "Q&T 960 MPa min yield. Highest-strength structural plate; strict weld procedure controls."
  },
  {
-  "specification": "en_10028_2",
+  "specification": "EN-10028-2",
   "grade": "P235GH",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10028_2__p235gh",
+  "name": "EN-10028-2--P235GH",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -3186,17 +3031,16 @@
     "thickness_max": 150
    }
   ],
-  "notes": "Yield 235 MPa min. Pressure vessel C-Mn plate for elevated temperature.",
-  "display_name": "EN 10028-2 P235GH"
+  "notes": "Yield 235 MPa min. Pressure vessel C-Mn plate for elevated temperature."
  },
  {
-  "specification": "en_10028_2",
+  "specification": "EN-10028-2",
   "grade": "P265GH",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10028_2__p265gh",
+  "name": "EN-10028-2--P265GH",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -3204,17 +3048,16 @@
     "thickness_max": 150
    }
   ],
-  "notes": "Yield 265 MPa min. Most common European PV plate.",
-  "display_name": "EN 10028-2 P265GH"
+  "notes": "Yield 265 MPa min. Most common European PV plate."
  },
  {
-  "specification": "en_10028_2",
+  "specification": "EN-10028-2",
   "grade": "P295GH",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10028_2__p295gh",
+  "name": "EN-10028-2--P295GH",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -3222,17 +3065,16 @@
     "thickness_max": 150
    }
   ],
-  "notes": "Yield 295 MPa min.",
-  "display_name": "EN 10028-2 P295GH"
+  "notes": "Yield 295 MPa min."
  },
  {
-  "specification": "en_10028_2",
+  "specification": "EN-10028-2",
   "grade": "P355GH",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10028_2__p355gh",
+  "name": "EN-10028-2--P355GH",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -3240,17 +3082,16 @@
     "thickness_max": 150
    }
   ],
-  "notes": "Yield 355 MPa min. European equivalent of A516 Gr 70.",
-  "display_name": "EN 10028-2 P355GH"
+  "notes": "Yield 355 MPa min. European equivalent of A516 Gr 70."
  },
  {
-  "specification": "en_10028_3",
+  "specification": "EN-10028-3",
   "grade": "P275N",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10028_3__p275n",
+  "name": "EN-10028-3--P275N",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -3258,17 +3099,16 @@
     "thickness_max": 150
    }
   ],
-  "notes": "Normalized 275 MPa yield PV plate.",
-  "display_name": "EN 10028-3 P275N"
+  "notes": "Normalized 275 MPa yield PV plate."
  },
  {
-  "specification": "en_10028_3",
+  "specification": "EN-10028-3",
   "grade": "P275NL1",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10028_3__p275nl1",
+  "name": "EN-10028-3--P275NL1",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -3276,17 +3116,16 @@
     "thickness_max": 150
    }
   ],
-  "notes": "P275N with Charpy at -40\u00b0C.",
-  "display_name": "EN 10028-3 p275nl1"
+  "notes": "P275N with Charpy at -40°C."
  },
  {
-  "specification": "en_10028_3",
+  "specification": "EN-10028-3",
   "grade": "P275NL2",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10028_3__p275nl2",
+  "name": "EN-10028-3--P275NL2",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -3294,17 +3133,16 @@
     "thickness_max": 150
    }
   ],
-  "notes": "P275N with Charpy at -50\u00b0C.",
-  "display_name": "EN 10028-3 p275nl2"
+  "notes": "P275N with Charpy at -50°C."
  },
  {
-  "specification": "en_10028_3",
+  "specification": "EN-10028-3",
   "grade": "P355N",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10028_3__p355n",
+  "name": "EN-10028-3--P355N",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -3312,17 +3150,16 @@
     "thickness_max": 150
    }
   ],
-  "notes": "Normalized 355 MPa yield PV plate.",
-  "display_name": "EN 10028-3 P355N"
+  "notes": "Normalized 355 MPa yield PV plate."
  },
  {
-  "specification": "en_10028_3",
+  "specification": "EN-10028-3",
   "grade": "P355NL1",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10028_3__p355nl1",
+  "name": "EN-10028-3--P355NL1",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -3330,17 +3167,16 @@
     "thickness_max": 150
    }
   ],
-  "notes": "P355N with Charpy at -40\u00b0C.",
-  "display_name": "EN 10028-3 p355nl1"
+  "notes": "P355N with Charpy at -40°C."
  },
  {
-  "specification": "en_10028_3",
+  "specification": "EN-10028-3",
   "grade": "P355NL2",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10028_3__p355nl2",
+  "name": "EN-10028-3--P355NL2",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -3348,17 +3184,16 @@
     "thickness_max": 150
    }
   ],
-  "notes": "P355N with Charpy at -50\u00b0C.",
-  "display_name": "EN 10028-3 p355nl2"
+  "notes": "P355N with Charpy at -50°C."
  },
  {
-  "specification": "en_10028_3",
+  "specification": "EN-10028-3",
   "grade": "P460N",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10028_3__p460n",
+  "name": "EN-10028-3--P460N",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -3366,17 +3201,16 @@
     "thickness_max": 150
    }
   ],
-  "notes": "Normalized 460 MPa yield PV plate.",
-  "display_name": "EN 10028-3 P460N"
+  "notes": "Normalized 460 MPa yield PV plate."
  },
  {
-  "specification": "en_10028_3",
+  "specification": "EN-10028-3",
   "grade": "P460NL1",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10028_3__p460nl1",
+  "name": "EN-10028-3--P460NL1",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -3384,17 +3218,16 @@
     "thickness_max": 150
    }
   ],
-  "notes": "P460N with Charpy at -40\u00b0C.",
-  "display_name": "EN 10028-3 p460nl1"
+  "notes": "P460N with Charpy at -40°C."
  },
  {
-  "specification": "en_10028_3",
+  "specification": "EN-10028-3",
   "grade": "P460NL2",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10028_3__p460nl2",
+  "name": "EN-10028-3--P460NL2",
   "product_forms": [
    {
     "product_form": "Plate",
@@ -3402,17 +3235,16 @@
     "thickness_max": 150
    }
   ],
-  "notes": "P460N with Charpy at -50\u00b0C.",
-  "display_name": "EN 10028-3 p460nl2"
+  "notes": "P460N with Charpy at -50°C."
  },
  {
-  "specification": "en_10216_2",
+  "specification": "EN-10216-2",
   "grade": "P195GH",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10216_2__p195gh",
+  "name": "EN-10216-2--P195GH",
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -3422,17 +3254,16 @@
     "diameter_max": 660
    }
   ],
-  "notes": "Carbon steel seamless pressure tube, low strength.",
-  "display_name": "EN 10216-2 P195GH"
+  "notes": "Carbon steel seamless pressure tube, low strength."
  },
  {
-  "specification": "en_10216_2",
+  "specification": "EN-10216-2",
   "grade": "P235GH",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10216_2__p235gh",
+  "name": "EN-10216-2--P235GH",
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -3442,17 +3273,16 @@
     "diameter_max": 660
    }
   ],
-  "notes": "Carbon steel seamless pressure tube, 235 MPa yield.",
-  "display_name": "EN 10216-2 P235GH"
+  "notes": "Carbon steel seamless pressure tube, 235 MPa yield."
  },
  {
-  "specification": "en_10216_2",
+  "specification": "EN-10216-2",
   "grade": "P265GH",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10216_2__p265gh",
+  "name": "EN-10216-2--P265GH",
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -3462,17 +3292,16 @@
     "diameter_max": 660
    }
   ],
-  "notes": "Carbon steel seamless pressure tube, 265 MPa yield. Common power-piping grade.",
-  "display_name": "EN 10216-2 P265GH"
+  "notes": "Carbon steel seamless pressure tube, 265 MPa yield. Common power-piping grade."
  },
  {
-  "specification": "en_10216_2",
+  "specification": "EN-10216-2",
   "grade": "16Mo3",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10216_2__16mo3",
+  "name": "EN-10216-2--16Mo3",
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -3482,17 +3311,16 @@
     "diameter_max": 660
    }
   ],
-  "notes": "0.5Mo creep alloy seamless tube. Equivalent of ASTM A335 P1 / A209 T1.",
-  "display_name": "EN 10216-2 16MO3"
+  "notes": "0.5Mo creep alloy seamless tube. Equivalent of ASTM A335 P1 / A209 T1."
  },
  {
-  "specification": "en_10216_2",
+  "specification": "EN-10216-2",
   "grade": "13CrMo4-5",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10216_2__13crmo4_5",
+  "name": "EN-10216-2--13CrMo4-5",
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -3502,17 +3330,16 @@
     "diameter_max": 660
    }
   ],
-  "notes": "1Cr-0.5Mo creep alloy seamless tube. Equivalent of ASTM A335 P12.",
-  "display_name": "EN 10216-2 13crmo4_5"
+  "notes": "1Cr-0.5Mo creep alloy seamless tube. Equivalent of ASTM A335 P12."
  },
  {
-  "specification": "en_10216_2",
+  "specification": "EN-10216-2",
   "grade": "10CrMo9-10",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10216_2__10crmo9_10",
+  "name": "EN-10216-2--10CrMo9-10",
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -3522,17 +3349,16 @@
     "diameter_max": 660
    }
   ],
-  "notes": "2.25Cr-1Mo creep alloy seamless tube. Equivalent of ASTM A335 P22.",
-  "display_name": "EN 10216-2 10crmo9_10"
+  "notes": "2.25Cr-1Mo creep alloy seamless tube. Equivalent of ASTM A335 P22."
  },
  {
-  "specification": "en_10216_2",
+  "specification": "EN-10216-2",
   "grade": "X10CrMoVNb9-1",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10216_2__x10crmovnb9_1",
+  "name": "EN-10216-2--X10CrMoVNb9-1",
   "product_forms": [
    {
     "product_form": "Pipe",
@@ -3542,17 +3368,16 @@
     "diameter_max": 660
    }
   ],
-  "notes": "9Cr-1Mo-V-Nb (P91 equivalent) seamless tube for supercritical service.",
-  "display_name": "EN 10216-2 x10crmovnb9_1"
+  "notes": "9Cr-1Mo-V-Nb (P91 equivalent) seamless tube for supercritical service."
  },
  {
-  "specification": "en_10088_2",
+  "specification": "EN-10088-2",
   "grade": "1.4301",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10088_2__1_4301",
+  "name": "EN-10088-2--1.4301",
   "uns_number": "S30400",
   "product_forms": [
    {
@@ -3566,17 +3391,16 @@
     "thickness_max": 3
    }
   ],
-  "notes": "European 304 austenitic stainless.",
-  "display_name": "EN 10088-2 1.4301"
+  "notes": "European 304 austenitic stainless."
  },
  {
-  "specification": "en_10088_2",
+  "specification": "EN-10088-2",
   "grade": "1.4307",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10088_2__1_4307",
+  "name": "EN-10088-2--1.4307",
   "uns_number": "S30403",
   "product_forms": [
    {
@@ -3590,17 +3414,16 @@
     "thickness_max": 3
    }
   ],
-  "notes": "European 304L low-C austenitic stainless.",
-  "display_name": "EN 10088-2 1.4307"
+  "notes": "European 304L low-C austenitic stainless."
  },
  {
-  "specification": "en_10088_2",
+  "specification": "EN-10088-2",
   "grade": "1.4401",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10088_2__1_4401",
+  "name": "EN-10088-2--1.4401",
   "uns_number": "S31600",
   "product_forms": [
    {
@@ -3614,17 +3437,16 @@
     "thickness_max": 3
    }
   ],
-  "notes": "European 316 Mo-bearing austenitic.",
-  "display_name": "EN 10088-2 1.4401"
+  "notes": "European 316 Mo-bearing austenitic."
  },
  {
-  "specification": "en_10088_2",
+  "specification": "EN-10088-2",
   "grade": "1.4404",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10088_2__1_4404",
+  "name": "EN-10088-2--1.4404",
   "uns_number": "S31603",
   "product_forms": [
    {
@@ -3638,17 +3460,16 @@
     "thickness_max": 3
    }
   ],
-  "notes": "European 316L low-C austenitic.",
-  "display_name": "EN 10088-2 1.4404"
+  "notes": "European 316L low-C austenitic."
  },
  {
-  "specification": "en_10088_2",
+  "specification": "EN-10088-2",
   "grade": "1.4571",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10088_2__1_4571",
+  "name": "EN-10088-2--1.4571",
   "uns_number": "S31635",
   "product_forms": [
    {
@@ -3662,17 +3483,16 @@
     "thickness_max": 3
    }
   ],
-  "notes": "European 316Ti \u2014 Ti stabilized 316.",
-  "display_name": "EN 10088-2 1.4571"
+  "notes": "European 316Ti — Ti stabilized 316."
  },
  {
-  "specification": "en_10088_2",
+  "specification": "EN-10088-2",
   "grade": "1.4541",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10088_2__1_4541",
+  "name": "EN-10088-2--1.4541",
   "uns_number": "S32100",
   "product_forms": [
    {
@@ -3686,17 +3506,16 @@
     "thickness_max": 3
    }
   ],
-  "notes": "European 321 Ti-stabilized austenitic.",
-  "display_name": "EN 10088-2 1.4541"
+  "notes": "European 321 Ti-stabilized austenitic."
  },
  {
-  "specification": "en_10088_2",
+  "specification": "EN-10088-2",
   "grade": "1.4550",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10088_2__1_4550",
+  "name": "EN-10088-2--1.4550",
   "uns_number": "S34700",
   "product_forms": [
    {
@@ -3710,17 +3529,16 @@
     "thickness_max": 3
    }
   ],
-  "notes": "European 347 Nb-stabilized austenitic.",
-  "display_name": "EN 10088-2 1.4550"
+  "notes": "European 347 Nb-stabilized austenitic."
  },
  {
-  "specification": "en_10088_2",
+  "specification": "EN-10088-2",
   "grade": "1.4462",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10088_2__1_4462",
+  "name": "EN-10088-2--1.4462",
   "uns_number": "S31803",
   "product_forms": [
    {
@@ -3734,17 +3552,16 @@
     "thickness_max": 3
    }
   ],
-  "notes": "European 2205 duplex stainless.",
-  "display_name": "EN 10088-2 1.4462"
+  "notes": "European 2205 duplex stainless."
  },
  {
-  "specification": "en_10088_2",
+  "specification": "EN-10088-2",
   "grade": "1.4410",
   "is_standard": 1,
   "enabled": 1,
   "doctype": "Material Grade",
   "docstatus": 0,
-  "name": "en_10088_2__1_4410",
+  "name": "EN-10088-2--1.4410",
   "uns_number": "S32750",
   "product_forms": [
    {
@@ -3758,1229 +3575,1134 @@
     "thickness_max": 3
    }
   ],
-  "notes": "European 2507 super-duplex stainless.",
-  "display_name": "EN 10088-2 1.4410"
+  "notes": "European 2507 super-duplex stainless."
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a148__a148",
-  "specification": "astm_a148",
+  "name": "ASTM-A148--A148",
+  "specification": "ASTM-A148",
   "grade": "A148",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A148-Cast-Steel",
-  "display_name": "ASTM A148 Cast Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a182__f1",
-  "specification": "astm_a182",
+  "name": "ASTM-A182--F1",
+  "specification": "ASTM-A182",
   "grade": "F1",
   "uns_number": "K12822",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A182-Grade-F1-K12822-Steel",
-  "display_name": "ASTM A182 Grade F1 (K12822) Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a182__f10",
-  "specification": "astm_a182",
+  "name": "ASTM-A182--F10",
+  "specification": "ASTM-A182",
   "grade": "F10",
   "uns_number": "S33100",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A182-Grade-F10-S33100-Steel",
-  "display_name": "ASTM A182 Grade F10 (S33100) Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a182__f11",
-  "specification": "astm_a182",
+  "name": "ASTM-A182--F11",
+  "specification": "ASTM-A182",
   "grade": "F11",
   "uns_number": "K11597",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A182-Grade-F11-Class-1-K11597-Steel\n[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A182-Grade-F11-Class-2-K11572-Steel",
-  "display_name": "ASTM A182 Grade F11 Class 1 (K11597) Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a182__f12",
-  "specification": "astm_a182",
+  "name": "ASTM-A182--F12",
+  "specification": "ASTM-A182",
   "grade": "F12",
   "uns_number": "K11562",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A182-Grade-F12-Class-1-K11562-Steel\n[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A182-Grade-F12-Class-2-K11564-Steel",
-  "display_name": "ASTM A182 Grade F12 Class 1 (K11562) Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a182__f122",
-  "specification": "astm_a182",
+  "name": "ASTM-A182--F122",
+  "specification": "ASTM-A182",
   "grade": "F122",
   "uns_number": "K91271",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A182-Grade-F122-K91271-Steel",
-  "display_name": "ASTM A182 Grade F122 (K91271) Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a182__f2",
-  "specification": "astm_a182",
+  "name": "ASTM-A182--F2",
+  "specification": "ASTM-A182",
   "grade": "F2",
   "uns_number": "K12122",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A182-Grade-F2-K12122-Steel",
-  "display_name": "ASTM A182 Grade F2 (K12122) Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a182__f22v",
-  "specification": "astm_a182",
+  "name": "ASTM-A182--F22V",
+  "specification": "ASTM-A182",
   "grade": "F22V",
   "uns_number": "K31835",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A182-Grade-F22V-K31835-Steel",
-  "display_name": "ASTM A182 Grade F22V (K31835) Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a182__f23",
-  "specification": "astm_a182",
+  "name": "ASTM-A182--F23",
+  "specification": "ASTM-A182",
   "grade": "F23",
   "uns_number": "K41650",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A182-Grade-F23-K41650-Steel",
-  "display_name": "ASTM A182 Grade F23 (K41650) Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a182__f24",
-  "specification": "astm_a182",
+  "name": "ASTM-A182--F24",
+  "specification": "ASTM-A182",
   "grade": "F24",
   "uns_number": "K30736",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A182-Grade-F24-K30736-Steel",
-  "display_name": "ASTM A182 Grade F24 (K30736) Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a182__f36",
-  "specification": "astm_a182",
+  "name": "ASTM-A182--F36",
+  "specification": "ASTM-A182",
   "grade": "F36",
   "uns_number": "K21001",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A182-Grade-F36-K21001-Steel",
-  "display_name": "ASTM A182 Grade F36 (K21001) Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a182__f3v",
-  "specification": "astm_a182",
+  "name": "ASTM-A182--F3V",
+  "specification": "ASTM-A182",
   "grade": "F3V",
   "uns_number": "K31830",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A182-Grade-F3V-K31830-Steel",
-  "display_name": "ASTM A182 Grade F3V (K31830) Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a182__f3vcb",
-  "specification": "astm_a182",
+  "name": "ASTM-A182--F3VCb",
+  "specification": "ASTM-A182",
   "grade": "F3VCb",
   "uns_number": "K31390",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A182-Grade-F3VCb-K31390-Steel",
-  "display_name": "ASTM A182 Grade F3VCb (K31390) Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a182__f5",
-  "specification": "astm_a182",
+  "name": "ASTM-A182--F5",
+  "specification": "ASTM-A182",
   "grade": "F5",
   "uns_number": "K41545",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A182-Grade-F5-K41545-Steel",
-  "display_name": "ASTM A182 Grade F5 (K41545) Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a182__f5a",
-  "specification": "astm_a182",
+  "name": "ASTM-A182--F5a",
+  "specification": "ASTM-A182",
   "grade": "F5a",
   "uns_number": "K42544",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A182-Grade-F5a-K42544-Steel",
-  "display_name": "ASTM A182 Grade F5a (K42544) Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a182__f6b",
-  "specification": "astm_a182",
+  "name": "ASTM-A182--F6b",
+  "specification": "ASTM-A182",
   "grade": "F6b",
   "uns_number": "S41026",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A182-Grade-F6b-S41026-Stainless-Steel",
-  "display_name": "ASTM A182 Grade F6b (S41026) Stainless Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a182__f911",
-  "specification": "astm_a182",
+  "name": "ASTM-A182--F911",
+  "specification": "ASTM-A182",
   "grade": "F911",
   "uns_number": "K91061",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A182-Grade-F911-K91061-Steel",
-  "display_name": "ASTM A182 Grade F911 (K91061) Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a182__f92",
-  "specification": "astm_a182",
+  "name": "ASTM-A182--F92",
+  "specification": "ASTM-A182",
   "grade": "F92",
   "uns_number": "K92460",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A182-Grade-F92-K92460-Steel",
-  "display_name": "ASTM A182 Grade F92 (K92460) Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a182__fr",
-  "specification": "astm_a182",
+  "name": "ASTM-A182--FR",
+  "specification": "ASTM-A182",
   "grade": "FR",
   "uns_number": "K22035",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A182-Grade-FR-K22035-Steel",
-  "display_name": "ASTM A182 Grade FR (K22035) Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a210__a210",
-  "specification": "astm_a210",
+  "name": "ASTM-A210--A210",
+  "specification": "ASTM-A210",
   "grade": "A210",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A210-Medium-Carbon-Steel",
-  "display_name": "ASTM A210 Medium-Carbon Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a283__a283",
-  "specification": "astm_a283",
+  "name": "ASTM-A283--A283",
+  "specification": "ASTM-A283",
   "grade": "A283",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A283-Carbon-Steel",
-  "display_name": "ASTM A283 Carbon Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a285__a285",
-  "specification": "astm_a285",
+  "name": "ASTM-A285--A285",
+  "specification": "ASTM-A285",
   "grade": "A285",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A285-Carbon-Steel",
-  "display_name": "ASTM A285 Carbon Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a302__a302",
-  "specification": "astm_a302",
+  "name": "ASTM-A302--A302",
+  "specification": "ASTM-A302",
   "grade": "A302",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A302-Alloy-Steel",
-  "display_name": "ASTM A302 Alloy Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a387__11",
-  "specification": "astm_a387",
+  "name": "ASTM-A387--11",
+  "specification": "ASTM-A387",
   "grade": "11",
   "uns_number": "K11789",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A387-Grade-11-K11789-1.25Cr-0.5Mo-Steel",
-  "display_name": "ASTM A387 Grade 11 (K11789) 1.25Cr-0.5Mo Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a387__12",
-  "specification": "astm_a387",
+  "name": "ASTM-A387--12",
+  "specification": "ASTM-A387",
   "grade": "12",
   "uns_number": "K11757",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A387-Grade-12-K11757-1Cr-0.5Mo-Steel",
-  "display_name": "ASTM A387 Grade 12 (K11757) 1Cr-0.5Mo Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a387__2",
-  "specification": "astm_a387",
+  "name": "ASTM-A387--2",
+  "specification": "ASTM-A387",
   "grade": "2",
   "uns_number": "S50460",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A387-Grade-2-S50460-0.5Cr-0.5Mo-Steel",
-  "display_name": "ASTM A387 Grade 2 (S50460) 0.5Cr-0.5Mo Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a387__21",
-  "specification": "astm_a387",
+  "name": "ASTM-A387--21",
+  "specification": "ASTM-A387",
   "grade": "21",
   "uns_number": "K31545",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A387-Grade-21-K31545-3Cr-1Mo-Steel",
-  "display_name": "ASTM A387 Grade 21 (K31545) 3Cr-1Mo Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a387__21l",
-  "specification": "astm_a387",
+  "name": "ASTM-A387--21L",
+  "specification": "ASTM-A387",
   "grade": "21L",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A387-Grade-21L-Class-1-3Cr-1Mo-Steel",
-  "display_name": "ASTM A387 Grade 21L Class 1 3Cr-1Mo Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a387__22",
-  "specification": "astm_a387",
+  "name": "ASTM-A387--22",
+  "specification": "ASTM-A387",
   "grade": "22",
   "uns_number": "K21590",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A387-Grade-22-K21590-2.25Cr-1Mo-Steel",
-  "display_name": "ASTM A387 Grade 22 (K21590) 2.25Cr-1Mo Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a387__22l",
-  "specification": "astm_a387",
+  "name": "ASTM-A387--22L",
+  "specification": "ASTM-A387",
   "grade": "22L",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A387-Grade-22L-Class-1-2.25Cr-1Mo-Steel",
-  "display_name": "ASTM A387 Grade 22L Class 1 2.25Cr-1Mo Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a387__5",
-  "specification": "astm_a387",
+  "name": "ASTM-A387--5",
+  "specification": "ASTM-A387",
   "grade": "5",
   "uns_number": "S50200",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A387-Grade-5-S50200-5Cr-0.5Mo-Steel",
-  "display_name": "ASTM A387 Grade 5 (S50200) 5Cr-0.5Mo Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a387__9",
-  "specification": "astm_a387",
+  "name": "ASTM-A387--9",
+  "specification": "ASTM-A387",
   "grade": "9",
   "uns_number": "K90941",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A387-Grade-9-K90941-9Cr-1Mo-Steel",
-  "display_name": "ASTM A387 Grade 9 (K90941) 9Cr-1Mo Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a387__91",
-  "specification": "astm_a387",
+  "name": "ASTM-A387--91",
+  "specification": "ASTM-A387",
   "grade": "91",
   "uns_number": "K90901",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A387-Grade-91-Class-2-K90901-9Cr-1Mo-Steel",
-  "display_name": "ASTM A387 Grade 91 Class 2 (K90901) 9Cr-1Mo Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a572__a572",
-  "specification": "astm_a572",
+  "name": "ASTM-A572--A572",
+  "specification": "ASTM-A572",
   "grade": "A572",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A572-HSLA-Steel",
-  "display_name": "ASTM A572 HSLA Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a588__a588",
-  "specification": "astm_a588",
+  "name": "ASTM-A588--A588",
+  "specification": "ASTM-A588",
   "grade": "A588",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A588-HSLA-Steel",
-  "display_name": "ASTM A588 HSLA Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a890__1c",
-  "specification": "astm_a890",
+  "name": "ASTM-A890--1C",
+  "specification": "ASTM-A890",
   "grade": "1C",
   "uns_number": "J93373",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ACI-ASTM-CD3MCuN-ASTM-A890-Grade-1C-J93373-Cast-Stainless-Steel",
-  "display_name": "ACI-ASTM CD3MCuN (ASTM A890 Grade 1C, J93373) Cast Stainless Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a890__4a",
-  "specification": "astm_a890",
+  "name": "ASTM-A890--4A",
+  "specification": "ASTM-A890",
   "grade": "4A",
   "uns_number": "J92205",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ACI-ASTM-CD3MN-ASTM-A890-Grade-4A-J92205-Cast-Stainless-Steel",
-  "display_name": "ACI-ASTM CD3MN (ASTM A890 Grade 4A, J92205) Cast Stainless Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a890__6a",
-  "specification": "astm_a890",
+  "name": "ASTM-A890--6A",
+  "specification": "ASTM-A890",
   "grade": "6A",
   "uns_number": "J93380",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ACI-ASTM-CD3MWCuN-ASTM-A890-Grade-6A-J93380-Cast-Stainless-Steel",
-  "display_name": "ACI-ASTM CD3MWCuN (ASTM A890 Grade 6A, J93380) Cast Stainless Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a890__1a",
-  "specification": "astm_a890",
+  "name": "ASTM-A890--1A",
+  "specification": "ASTM-A890",
   "grade": "1A",
   "uns_number": "J93370",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ACI-ASTM-CD4MCu-ASTM-A890-Grade-1A-J93370-Cast-Stainless-Steel",
-  "display_name": "ACI-ASTM CD4MCu (ASTM A890 Grade 1A, J93370) Cast Stainless Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a890__1b",
-  "specification": "astm_a890",
+  "name": "ASTM-A890--1B",
+  "specification": "ASTM-A890",
   "grade": "1B",
   "uns_number": "J93372",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ACI-ASTM-CD4MCuN-ASTM-A890-Grade-1B-J93372-Cast-Stainless-Steel",
-  "display_name": "ACI-ASTM CD4MCuN (ASTM A890 Grade 1B, J93372) Cast Stainless Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a890__3a",
-  "specification": "astm_a890",
+  "name": "ASTM-A890--3A",
+  "specification": "ASTM-A890",
   "grade": "3A",
   "uns_number": "J93371",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ACI-ASTM-CD6MN-ASTM-A890-Grade-3A-J93371-Cast-Stainless-Steel",
-  "display_name": "ACI-ASTM CD6MN (ASTM A890 Grade 3A, J93371) Cast Stainless Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a890__5a",
-  "specification": "astm_a890",
+  "name": "ASTM-A890--5A",
+  "specification": "ASTM-A890",
   "grade": "5A",
   "uns_number": "J93404",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ACI-ASTM-CE3MN-ASTM-A890-Grade-5A-J93404-Cast-Stainless-Steel",
-  "display_name": "ACI-ASTM CE3MN (ASTM A890 Grade 5A, J93404) Cast Stainless Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a890__2a",
-  "specification": "astm_a890",
+  "name": "ASTM-A890--2A",
+  "specification": "ASTM-A890",
   "grade": "2A",
   "uns_number": "J93345",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ACI-ASTM-CE8MN-ASTM-A890-Grade-2A-J93345-Cast-Stainless-Steel",
-  "display_name": "ACI-ASTM CE8MN (ASTM A890 Grade 2A, J93345) Cast Stainless Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a202__a202",
-  "specification": "astm_a202",
+  "name": "ASTM-A202--A202",
+  "specification": "ASTM-A202",
   "grade": "A202",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A202-Cr-Mn-Si-Steel",
-  "display_name": "ASTM A202 Cr-Mn-Si Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a203__a203",
-  "specification": "astm_a203",
+  "name": "ASTM-A203--A203",
+  "specification": "ASTM-A203",
   "grade": "A203",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A203-Nickel-Steel",
-  "display_name": "ASTM A203 Nickel Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a204__a204",
-  "specification": "astm_a204",
+  "name": "ASTM-A204--A204",
+  "specification": "ASTM-A204",
   "grade": "A204",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A204-Molybdenum-Steel",
-  "display_name": "ASTM A204 Molybdenum Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a209__a209",
-  "specification": "astm_a209",
+  "name": "ASTM-A209--A209",
+  "specification": "ASTM-A209",
   "grade": "A209",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A209-Carbon-Molybdenum-Steel",
-  "display_name": "ASTM A209 Carbon-Molybdenum Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a216__a216",
-  "specification": "astm_a216",
+  "name": "ASTM-A216--A216",
+  "specification": "ASTM-A216",
   "grade": "A216",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A216-Cast-Carbon-Steel",
-  "display_name": "ASTM A216 Cast Carbon Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a217__a217",
-  "specification": "astm_a217",
+  "name": "ASTM-A217--A217",
+  "specification": "ASTM-A217",
   "grade": "A217",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A217-Cast-Alloy-Steel",
-  "display_name": "ASTM A217 Cast Alloy Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a225__a225",
-  "specification": "astm_a225",
+  "name": "ASTM-A225--A225",
+  "specification": "ASTM-A225",
   "grade": "A225",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A225-Manganese-Vanadium-Nickel-Steel",
-  "display_name": "ASTM A225 Manganese-Vanadium-Nickel Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a227__a227",
-  "specification": "astm_a227",
+  "name": "ASTM-A227--A227",
+  "specification": "ASTM-A227",
   "grade": "A227",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A227-Spring-Steel",
-  "display_name": "ASTM A227 Spring Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a228__a228",
-  "specification": "astm_a228",
+  "name": "ASTM-A228--A228",
+  "specification": "ASTM-A228",
   "grade": "A228",
   "uns_number": "K08500",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A228-SWP-A-K08500-Music-Wire",
-  "display_name": "ASTM A228 (SWP-A,K08500) Music Wire",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a229__a229",
-  "specification": "astm_a229",
+  "name": "ASTM-A229--A229",
+  "specification": "ASTM-A229",
   "grade": "A229",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A229-Oil-Tempered-Spring-Steel",
-  "display_name": "ASTM A229 Oil-Tempered Spring Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a231__a231",
-  "specification": "astm_a231",
+  "name": "ASTM-A231--A231",
+  "specification": "ASTM-A231",
   "grade": "A231",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A231-Chromium-Vanadium-Spring-Steel",
-  "display_name": "ASTM A231 Chromium-Vanadium Spring Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a232__a232",
-  "specification": "astm_a232",
+  "name": "ASTM-A232--A232",
+  "specification": "ASTM-A232",
   "grade": "A232",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A232-Chromium-Vanadium-Spring-Steel",
-  "display_name": "ASTM A232 Chromium-Vanadium Spring Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a242__a242",
-  "specification": "astm_a242",
+  "name": "ASTM-A242--A242",
+  "specification": "ASTM-A242",
   "grade": "A242",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A242-HSLA-Steel",
-  "display_name": "ASTM A242 HSLA Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a266__a266",
-  "specification": "astm_a266",
+  "name": "ASTM-A266--A266",
+  "specification": "ASTM-A266",
   "grade": "A266",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A266-Carbon-Steel",
-  "display_name": "ASTM A266 Carbon Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a27__a27",
-  "specification": "astm_a27",
+  "name": "ASTM-A27--A27",
+  "specification": "ASTM-A27",
   "grade": "A27",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A27-Cast-Carbon-Steel",
-  "display_name": "ASTM A27 Cast Carbon Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a299__a299",
-  "specification": "astm_a299",
+  "name": "ASTM-A299--A299",
+  "specification": "ASTM-A299",
   "grade": "A299",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A299-Manganese-Silicon-Steel",
-  "display_name": "ASTM A299 Manganese-Silicon Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a321__a321",
-  "specification": "astm_a321",
+  "name": "ASTM-A321--A321",
+  "specification": "ASTM-A321",
   "grade": "A321",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A321-Carbon-Steel",
-  "display_name": "ASTM A321 Carbon Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a356__1",
-  "specification": "astm_a356",
+  "name": "ASTM-A356--1",
+  "specification": "ASTM-A356",
   "grade": "1",
   "uns_number": "J03502",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A356-Grade-1-J03502-Cast-Carbon-Steel",
-  "display_name": "ASTM A356 Grade 1 (J03502) Cast Carbon Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a356__10",
-  "specification": "astm_a356",
+  "name": "ASTM-A356--10",
+  "specification": "ASTM-A356",
   "grade": "10",
   "uns_number": "J22090",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A356-Grade-10-J22090-Cast-Steel",
-  "display_name": "ASTM A356 Grade 10 (J22090) Cast Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a356__2",
-  "specification": "astm_a356",
+  "name": "ASTM-A356--2",
+  "specification": "ASTM-A356",
   "grade": "2",
   "uns_number": "J12523",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A356-Grade-2-J12523-Cast-Steel",
-  "display_name": "ASTM A356 Grade 2 (J12523) Cast Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a356__5",
-  "specification": "astm_a356",
+  "name": "ASTM-A356--5",
+  "specification": "ASTM-A356",
   "grade": "5",
   "uns_number": "J12540",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A356-Grade-5-J12540-Cast-Steel",
-  "display_name": "ASTM A356 Grade 5 (J12540) Cast Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a356__6",
-  "specification": "astm_a356",
+  "name": "ASTM-A356--6",
+  "specification": "ASTM-A356",
   "grade": "6",
   "uns_number": "J12073",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A356-Grade-6-J12073-Cast-Steel",
-  "display_name": "ASTM A356 Grade 6 (J12073) Cast Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a356__8",
-  "specification": "astm_a356",
+  "name": "ASTM-A356--8",
+  "specification": "ASTM-A356",
   "grade": "8",
   "uns_number": "J11697",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A356-Grade-8-J11697-Cast-Steel",
-  "display_name": "ASTM A356 Grade 8 (J11697) Cast Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a356__9",
-  "specification": "astm_a356",
+  "name": "ASTM-A356--9",
+  "specification": "ASTM-A356",
   "grade": "9",
   "uns_number": "J21610",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A356-Grade-9-J21610-Cast-Steel",
-  "display_name": "ASTM A356 Grade 9 (J21610) Cast Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a369__fp1",
-  "specification": "astm_a369",
+  "name": "ASTM-A369--FP1",
+  "specification": "ASTM-A369",
   "grade": "FP1",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A369-Grade-FP1-Molybdenum-Steel",
-  "display_name": "ASTM A369 Grade FP1 Molybdenum Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a369__fp11",
-  "specification": "astm_a369",
+  "name": "ASTM-A369--FP11",
+  "specification": "ASTM-A369",
   "grade": "FP11",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A369-Grade-FP11-Cr-Mo-Steel",
-  "display_name": "ASTM A369 Grade FP11 Cr-Mo Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a369__fp12",
-  "specification": "astm_a369",
+  "name": "ASTM-A369--FP12",
+  "specification": "ASTM-A369",
   "grade": "FP12",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A369-Grade-FP12-Cr-Mo-Steel",
-  "display_name": "ASTM A369 Grade FP12 Cr-Mo Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a369__fp2",
-  "specification": "astm_a369",
+  "name": "ASTM-A369--FP2",
+  "specification": "ASTM-A369",
   "grade": "FP2",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A369-Grade-FP2-Cr-Mo-Steel",
-  "display_name": "ASTM A369 Grade FP2 Cr-Mo Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a369__fp21",
-  "specification": "astm_a369",
+  "name": "ASTM-A369--FP21",
+  "specification": "ASTM-A369",
   "grade": "FP21",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A369-Grade-FP21-Cr-Mo-Steel",
-  "display_name": "ASTM A369 Grade FP21 Cr-Mo Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a369__fp22",
-  "specification": "astm_a369",
+  "name": "ASTM-A369--FP22",
+  "specification": "ASTM-A369",
   "grade": "FP22",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A369-Grade-FP22-Cr-Mo-Steel",
-  "display_name": "ASTM A369 Grade FP22 Cr-Mo Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a369__fp5",
-  "specification": "astm_a369",
+  "name": "ASTM-A369--FP5",
+  "specification": "ASTM-A369",
   "grade": "FP5",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A369-Grade-FP5-Cr-Mo-Steel",
-  "display_name": "ASTM A369 Grade FP5 Cr-Mo Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a369__fp9",
-  "specification": "astm_a369",
+  "name": "ASTM-A369--FP9",
+  "specification": "ASTM-A369",
   "grade": "FP9",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A369-Grade-FP9-Cr-Mo-Steel",
-  "display_name": "ASTM A369 Grade FP9 Cr-Mo Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a369__fp91",
-  "specification": "astm_a369",
+  "name": "ASTM-A369--FP91",
+  "specification": "ASTM-A369",
   "grade": "FP91",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A369-Grade-FP91-High-Chromium-Steel",
-  "display_name": "ASTM A369 Grade FP91 High-Chromium Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a369__fp92",
-  "specification": "astm_a369",
+  "name": "ASTM-A369--FP92",
+  "specification": "ASTM-A369",
   "grade": "FP92",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A369-Grade-FP92-High-Chromium-Steel",
-  "display_name": "ASTM A369 Grade FP92 High-Chromium Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a369__fpa",
-  "specification": "astm_a369",
+  "name": "ASTM-A369--FPA",
+  "specification": "ASTM-A369",
   "grade": "FPA",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A369-Grade-FPA-Carbon-Steel",
-  "display_name": "ASTM A369 Grade FPA Carbon Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a369__fpb",
-  "specification": "astm_a369",
+  "name": "ASTM-A369--FPB",
+  "specification": "ASTM-A369",
   "grade": "FPB",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A369-Grade-FPB-Carbon-Steel",
-  "display_name": "ASTM A369 Grade FPB Carbon Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a372__a",
-  "specification": "astm_a372",
+  "name": "ASTM-A372--A",
+  "specification": "ASTM-A372",
   "grade": "A",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A372-Grade-A-Carbon-Steel",
-  "display_name": "ASTM A372 Grade A Carbon Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a372__b",
-  "specification": "astm_a372",
+  "name": "ASTM-A372--B",
+  "specification": "ASTM-A372",
   "grade": "B",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A372-Grade-B-Carbon-Steel",
-  "display_name": "ASTM A372 Grade B Carbon Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a372__c",
-  "specification": "astm_a372",
+  "name": "ASTM-A372--C",
+  "specification": "ASTM-A372",
   "grade": "C",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A372-Grade-C-Carbon-Steel",
-  "display_name": "ASTM A372 Grade C Carbon Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a372__d",
-  "specification": "astm_a372",
+  "name": "ASTM-A372--D",
+  "specification": "ASTM-A372",
   "grade": "D",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A372-Grade-D-Carbon-Steel",
-  "display_name": "ASTM A372 Grade D Carbon Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a372__e",
-  "specification": "astm_a372",
+  "name": "ASTM-A372--E",
+  "specification": "ASTM-A372",
   "grade": "E",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A372-Grade-E-Alloy-Steel",
-  "display_name": "ASTM A372 Grade E Alloy Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a372__f",
-  "specification": "astm_a372",
+  "name": "ASTM-A372--F",
+  "specification": "ASTM-A372",
   "grade": "F",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A372-Grade-F-Alloy-Steel",
-  "display_name": "ASTM A372 Grade F Alloy Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a372__g",
-  "specification": "astm_a372",
+  "name": "ASTM-A372--G",
+  "specification": "ASTM-A372",
   "grade": "G",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A372-Grade-G-Alloy-Steel",
-  "display_name": "ASTM A372 Grade G Alloy Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a372__h",
-  "specification": "astm_a372",
+  "name": "ASTM-A372--H",
+  "specification": "ASTM-A372",
   "grade": "H",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A372-Grade-H-Alloy-Steel",
-  "display_name": "ASTM A372 Grade H Alloy Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a372__j",
-  "specification": "astm_a372",
+  "name": "ASTM-A372--J",
+  "specification": "ASTM-A372",
   "grade": "J",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A372-Grade-J-Alloy-Steel",
-  "display_name": "ASTM A372 Grade J Alloy Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a372__k",
-  "specification": "astm_a372",
+  "name": "ASTM-A372--K",
+  "specification": "ASTM-A372",
   "grade": "K",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A372-Grade-K-Alloy-Steel",
-  "display_name": "ASTM A372 Grade K Alloy Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a372__l",
-  "specification": "astm_a372",
+  "name": "ASTM-A372--L",
+  "specification": "ASTM-A372",
   "grade": "L",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A372-Grade-L-Alloy-Steel",
-  "display_name": "ASTM A372 Grade L Alloy Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a372__m",
-  "specification": "astm_a372",
+  "name": "ASTM-A372--M",
+  "specification": "ASTM-A372",
   "grade": "M",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A372-Grade-M-Alloy-Steel",
-  "display_name": "ASTM A372 Grade M Alloy Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a414__a414",
-  "specification": "astm_a414",
+  "name": "ASTM-A414--A414",
+  "specification": "ASTM-A414",
   "grade": "A414",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A414-Pressure-Vessel-Steel",
-  "display_name": "ASTM A414 Pressure Vessel Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a514__a514",
-  "specification": "astm_a514",
+  "name": "ASTM-A514--A514",
+  "specification": "ASTM-A514",
   "grade": "A514",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A514-Alloy-Steel",
-  "display_name": "ASTM A514 Alloy Steel",
   "product_forms": []
  },
  {
   "doctype": "Material Grade",
-  "name": "astm_a732__a732",
-  "specification": "astm_a732",
+  "name": "ASTM-A732--A732",
+  "specification": "ASTM-A732",
   "grade": "A732",
   "uns_number": "",
   "is_standard": 1,
   "enabled": 1,
   "docstatus": 0,
   "notes": "[MakeItFrom.com] https://www.makeitfrom.com/material-properties/ASTM-A732-Investment-Cast-Steel",
-  "display_name": "ASTM A732 Investment Cast Steel",
   "product_forms": []
  }
 ]

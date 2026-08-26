@@ -1,0 +1,1487 @@
+[
+ {
+  "doctype": "Standard",
+  "name": "API-5CT",
+  "organization": "API",
+  "standard_number": "5CT",
+  "domain": "Mechanical",
+  "scope_description": "Casing and Tubing",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "API-5D",
+  "organization": "API",
+  "standard_number": "5D",
+  "domain": "Mechanical",
+  "scope_description": "Specification for Drill Pipe",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "API-5DP",
+  "organization": "API",
+  "standard_number": "5DP",
+  "domain": "Mechanical",
+  "scope_description": "Specification for Drill Pipe",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "API-5L",
+  "organization": "API",
+  "standard_number": "5L",
+  "domain": "Mechanical",
+  "scope_description": "Specification for Line Pipe",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "API-5LC",
+  "organization": "API",
+  "standard_number": "5LC",
+  "domain": "Mechanical",
+  "scope_description": "Specification for CRA Line Pipe",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "API-5LCP",
+  "organization": "API",
+  "standard_number": "5LCP",
+  "domain": "Mechanical",
+  "scope_description": "Coiled Line Pipe",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "API-5LD",
+  "organization": "API",
+  "standard_number": "5LD",
+  "domain": "Mechanical",
+  "scope_description": "Specification for CRA Clad or Lined Steel Pipe",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "API-5LF",
+  "organization": "API",
+  "standard_number": "5LF",
+  "domain": "Mechanical",
+  "scope_description": "Filler Metal Specification for API 5L Pipe",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASME-BPVC-II-A",
+  "organization": "ASME",
+  "standard_number": "BPVC-II-A",
+  "domain": "Mechanical",
+  "scope_description": "Pressure Vessel Plates, Carbon Steel, for Moderate- and Lower-Temperature Service",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A1011",
+  "organization": "ASTM",
+  "standard_number": "A1011",
+  "domain": "Mechanical",
+  "scope_description": "Steel, Sheet and Strip, Hot-Rolled, Carbon, Structural, High-Strength Low-Alloy",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A1018",
+  "organization": "ASTM",
+  "standard_number": "A1018",
+  "domain": "Mechanical",
+  "scope_description": "Steel, Sheet and Strip, Heavy-Thickness Coils, Hot-Rolled, Carbon, Structural",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A105",
+  "organization": "ASTM",
+  "standard_number": "A105",
+  "domain": "Mechanical",
+  "scope_description": "Carbon Steel Forgings for Piping Applications",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A106",
+  "organization": "ASTM",
+  "standard_number": "A106",
+  "domain": "Mechanical",
+  "scope_description": "Standard Specification for Seamless Carbon Steel Pipe for High-Temperature Service",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A148",
+  "organization": "ASTM",
+  "standard_number": "A148",
+  "domain": "Mechanical",
+  "scope_description": "Steel Castings, High Strength, for Structural Purposes",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A179",
+  "organization": "ASTM",
+  "standard_number": "A179",
+  "domain": "Mechanical",
+  "scope_description": "Seamless Cold-Drawn Low-Carbon Steel Heat-Exchanger and Condenser Tubes",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A181",
+  "organization": "ASTM",
+  "standard_number": "A181",
+  "domain": "Mechanical",
+  "scope_description": "Carbon Steel Forgings, for General-Purpose Piping",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A182",
+  "organization": "ASTM",
+  "standard_number": "A182",
+  "domain": "Mechanical",
+  "scope_description": "Forged or Rolled Alloy and Stainless Steel Pipe Flanges, Forged Fittings",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A192",
+  "organization": "ASTM",
+  "standard_number": "A192",
+  "domain": "Mechanical",
+  "scope_description": "Seamless Carbon Steel Boiler Tubes for High-Pressure Service",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A193",
+  "organization": "ASTM",
+  "standard_number": "A193",
+  "domain": "Mechanical",
+  "scope_description": "Alloy-Steel and Stainless Steel Bolting for High Temperature or High Pressure Service",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A194",
+  "organization": "ASTM",
+  "standard_number": "A194",
+  "domain": "Mechanical",
+  "scope_description": "Carbon Steel, Alloy Steel, and Stainless Steel Nuts for Bolts for High Pressure or High Temperature Service",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A202",
+  "organization": "ASTM",
+  "standard_number": "A202",
+  "domain": "Mechanical",
+  "scope_description": "Pressure Vessel Plates, Alloy Steel, Chromium-Manganese-Silicon",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A203",
+  "organization": "ASTM",
+  "standard_number": "A203",
+  "domain": "Mechanical",
+  "scope_description": "Pressure Vessel Plates, Alloy Steel, Nickel",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A204",
+  "organization": "ASTM",
+  "standard_number": "A204",
+  "domain": "Mechanical",
+  "scope_description": "Pressure Vessel Plates, Alloy Steel, Molybdenum",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A209",
+  "organization": "ASTM",
+  "standard_number": "A209",
+  "domain": "Mechanical",
+  "scope_description": "Seamless Carbon-Molybdenum Alloy-Steel Boiler and Superheater Tubes",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A210",
+  "organization": "ASTM",
+  "standard_number": "A210",
+  "domain": "Mechanical",
+  "scope_description": "Seamless Medium-Carbon Steel Boiler and Superheater Tubes",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A213",
+  "organization": "ASTM",
+  "standard_number": "A213",
+  "domain": "Mechanical",
+  "scope_description": "Seamless Ferritic and Austenitic Alloy-Steel Boiler, Superheater, and Heat-Exchanger Tubes",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A216",
+  "organization": "ASTM",
+  "standard_number": "A216",
+  "domain": "Mechanical",
+  "scope_description": "Steel Castings, Carbon, Suitable for Fusion Welding, for High-Temperature Service",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A217",
+  "organization": "ASTM",
+  "standard_number": "A217",
+  "domain": "Mechanical",
+  "scope_description": "Steel Castings, Martensitic Stainless and Alloy, for Pressure-Containing Parts, for High-Temperature Service",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A225",
+  "organization": "ASTM",
+  "standard_number": "A225",
+  "domain": "Mechanical",
+  "scope_description": "Pressure Vessel Plates, Alloy Steel, Manganese-Vanadium-Nickel",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A227",
+  "organization": "ASTM",
+  "standard_number": "A227",
+  "domain": "Mechanical",
+  "scope_description": "Steel Wire, Cold-Drawn for Mechanical Springs",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A228",
+  "organization": "ASTM",
+  "standard_number": "A228",
+  "domain": "Mechanical",
+  "scope_description": "Steel Wire, Music Spring Quality",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A229",
+  "organization": "ASTM",
+  "standard_number": "A229",
+  "domain": "Mechanical",
+  "scope_description": "Steel Wire, Quenched and Tempered for Mechanical Springs",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A231",
+  "organization": "ASTM",
+  "standard_number": "A231",
+  "domain": "Mechanical",
+  "scope_description": "Chromium-Vanadium Alloy Steel Spring Wire",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A232",
+  "organization": "ASTM",
+  "standard_number": "A232",
+  "domain": "Mechanical",
+  "scope_description": "Chromium-Vanadium Alloy Steel Valve Spring Quality Wire",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A234",
+  "organization": "ASTM",
+  "standard_number": "A234",
+  "domain": "Mechanical",
+  "scope_description": "Piping Fittings of Wrought Carbon Steel and Alloy Steel for Moderate and High Temperature Service",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A240",
+  "organization": "ASTM",
+  "standard_number": "A240",
+  "domain": "Mechanical",
+  "scope_description": "Cr and Cr-Ni Stainless Steel Plate, Sheet, and Strip for Pressure Vessels and General Applications",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A242",
+  "organization": "ASTM",
+  "standard_number": "A242",
+  "domain": "Mechanical",
+  "scope_description": "High-Strength Low-Alloy Structural Steel",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A249",
+  "organization": "ASTM",
+  "standard_number": "A249",
+  "domain": "Mechanical",
+  "scope_description": "Welded Austenitic Steel Boiler, Superheater, Heat-Exchanger, and Condenser Tubes",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A266",
+  "organization": "ASTM",
+  "standard_number": "A266",
+  "domain": "Mechanical",
+  "scope_description": "Carbon Steel Forgings for Pressure Vessel Components",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A269",
+  "organization": "ASTM",
+  "standard_number": "A269",
+  "domain": "Mechanical",
+  "scope_description": "Seamless and Welded Austenitic Stainless Steel Tubing for General Service",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A27",
+  "organization": "ASTM",
+  "standard_number": "A27",
+  "domain": "Mechanical",
+  "scope_description": "Steel Castings, Carbon, for General Application",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A276",
+  "organization": "ASTM",
+  "standard_number": "A276",
+  "domain": "Mechanical",
+  "scope_description": "Stainless Steel Bars and Shapes",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A283",
+  "organization": "ASTM",
+  "standard_number": "A283",
+  "domain": "Mechanical",
+  "scope_description": "Standard Specification for Low and Intermediate Tensile Strength Carbon Steel Plates",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A285",
+  "organization": "ASTM",
+  "standard_number": "A285",
+  "domain": "Mechanical",
+  "scope_description": "Standard Specification for Pressure Vessel Plates, Carbon Steel, Low- and Intermediate-Tensile Strength",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A299",
+  "organization": "ASTM",
+  "standard_number": "A299",
+  "domain": "Mechanical",
+  "scope_description": "Pressure Vessel Plates, Carbon Steel, Manganese-Silicon",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A302",
+  "organization": "ASTM",
+  "standard_number": "A302",
+  "domain": "Mechanical",
+  "scope_description": "Pressure Vessel Plates, Alloy Steel, Manganese-Molybdenum and Manganese-Molybdenum-Nickel",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A312",
+  "organization": "ASTM",
+  "standard_number": "A312",
+  "domain": "Mechanical",
+  "scope_description": "Standard Specification for Seamless, Welded, and Heavily Cold Worked Austenitic Stainless Steel Pipes",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A320",
+  "organization": "ASTM",
+  "standard_number": "A320",
+  "domain": "Mechanical",
+  "scope_description": "Alloy-Steel and Stainless Steel Bolting for Low-Temperature Service",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A321",
+  "organization": "ASTM",
+  "standard_number": "A321",
+  "domain": "Mechanical",
+  "scope_description": "Steel Bars, Carbon, Quenched and Tempered",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A335",
+  "organization": "ASTM",
+  "standard_number": "A335",
+  "domain": "Mechanical",
+  "scope_description": "Standard Specification for Seamless Ferritic Alloy-Steel Pipe for High-Temperature Service",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A350",
+  "organization": "ASTM",
+  "standard_number": "A350",
+  "domain": "Mechanical",
+  "scope_description": "Carbon and Low-Alloy Steel Forgings, Requiring Notch Toughness Testing for Piping Components",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A352",
+  "organization": "ASTM",
+  "standard_number": "A352",
+  "domain": "Mechanical",
+  "scope_description": "Steel Castings, Ferritic and Martensitic, for Pressure-Containing Parts, Suitable for Low-Temperature Service",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A356",
+  "organization": "ASTM",
+  "standard_number": "A356",
+  "domain": "Mechanical",
+  "scope_description": "Steel Castings, Carbon, Low Alloy, and Stainless Steel, Heavy-Walled for Steam Turbines",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A358",
+  "organization": "ASTM",
+  "standard_number": "A358",
+  "domain": "Mechanical",
+  "scope_description": "Electric-Fusion-Welded Austenitic Chromium-Nickel Stainless Steel Pipe for High-Temperature Service",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A36",
+  "organization": "ASTM",
+  "standard_number": "A36",
+  "domain": "Mechanical",
+  "scope_description": "Standard Specification for Carbon Structural Steel",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A369",
+  "organization": "ASTM",
+  "standard_number": "A369",
+  "domain": "Mechanical",
+  "scope_description": "Carbon and Ferritic Alloy Steel Forged and Bored Pipe for High-Temperature Service",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A370",
+  "organization": "ASTM",
+  "standard_number": "A370",
+  "domain": "Mechanical",
+  "scope_description": "Standard Test Methods and Definitions for Mechanical Testing of Steel Products",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A372",
+  "organization": "ASTM",
+  "standard_number": "A372",
+  "domain": "Mechanical",
+  "scope_description": "Carbon and Alloy Steel Forgings for Thin-Walled Pressure Vessels",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A387",
+  "organization": "ASTM",
+  "standard_number": "A387",
+  "domain": "Mechanical",
+  "scope_description": "Standard Specification for Pressure Vessel Plates, Alloy Steel, Chromium-Molybdenum",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A403",
+  "organization": "ASTM",
+  "standard_number": "A403",
+  "domain": "Mechanical",
+  "scope_description": "Wrought Austenitic Stainless Steel Piping Fittings",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A414",
+  "organization": "ASTM",
+  "standard_number": "A414",
+  "domain": "Mechanical",
+  "scope_description": "Carbon Steel Sheet for Pressure Vessels",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A487",
+  "organization": "ASTM",
+  "standard_number": "A487",
+  "domain": "Mechanical",
+  "scope_description": "Steel Castings Suitable for Pressure Service",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A500",
+  "organization": "ASTM",
+  "standard_number": "A500",
+  "domain": "Mechanical",
+  "scope_description": "Cold-Formed Welded and Seamless Carbon Steel Structural Tubing in Rounds and Shapes",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A501",
+  "organization": "ASTM",
+  "standard_number": "A501",
+  "domain": "Mechanical",
+  "scope_description": "Hot-Formed Welded and Seamless Carbon Steel Structural Tubing",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A514",
+  "organization": "ASTM",
+  "standard_number": "A514",
+  "domain": "Mechanical",
+  "scope_description": "High-Yield-Strength, Quenched and Tempered Alloy Steel Plate, Suitable for Welding",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A516",
+  "organization": "ASTM",
+  "standard_number": "A516",
+  "domain": "Mechanical",
+  "scope_description": "Standard Specification for Pressure Vessel Plates, Carbon Steel",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A517",
+  "organization": "ASTM",
+  "standard_number": "A517",
+  "domain": "Mechanical",
+  "scope_description": "Pressure Vessel Plates, Alloy Steel, High-Strength, Quenched and Tempered",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A53",
+  "organization": "ASTM",
+  "standard_number": "A53",
+  "domain": "Mechanical",
+  "scope_description": "Standard Specification for Pipe, Steel, Black and Hot-Dipped, Zinc-Coated, Welded and Seamless",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A537",
+  "organization": "ASTM",
+  "standard_number": "A537",
+  "domain": "Mechanical",
+  "scope_description": "Pressure Vessel Plates, Heat-Treated, Carbon-Manganese-Silicon Steel",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A553",
+  "organization": "ASTM",
+  "standard_number": "A553",
+  "domain": "Mechanical",
+  "scope_description": "Pressure Vessel Plates, Alloy Steel, Quenched and Tempered 7, 8, and 9 % Nickel",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A572",
+  "organization": "ASTM",
+  "standard_number": "A572",
+  "domain": "Mechanical",
+  "scope_description": "Standard Specification for High-Strength Low-Alloy Columbium-Vanadium Structural Steel",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A588",
+  "organization": "ASTM",
+  "standard_number": "A588",
+  "domain": "Mechanical",
+  "scope_description": "Standard Specification for High-Strength Low-Alloy Structural Steel with Atmospheric Corrosion Resistance",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A608",
+  "organization": "ASTM",
+  "standard_number": "A608",
+  "domain": "Mechanical",
+  "scope_description": "Centrifugally Cast Iron-Chromium-Nickel High-Alloy Tubing for Pressure Application",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A615",
+  "organization": "ASTM",
+  "standard_number": "A615",
+  "domain": "Mechanical",
+  "scope_description": "Deformed and Plain Carbon-Steel Bars for Concrete Reinforcement",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A671",
+  "organization": "ASTM",
+  "standard_number": "A671",
+  "domain": "Mechanical",
+  "scope_description": "Standard Specification for Electric-Fusion-Welded Steel Pipe for Atmospheric and Lower Temperatures",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A672",
+  "organization": "ASTM",
+  "standard_number": "A672",
+  "domain": "Mechanical",
+  "scope_description": "Standard Specification for Electric-Fusion-Welded Steel Pipe for High-Pressure Service at Moderate Temperatures",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A691",
+  "organization": "ASTM",
+  "standard_number": "A691",
+  "domain": "Mechanical",
+  "scope_description": "Standard Specification for Carbon and Alloy Steel Pipe, Electric-Fusion-Welded, for High-Pressure Service at High Temperatures",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A694",
+  "organization": "ASTM",
+  "standard_number": "A694",
+  "domain": "Mechanical",
+  "scope_description": "Carbon and Alloy Steel Forgings for Pipe Flanges, Fittings, Valves and Parts for High-Pressure Transmission Service",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A707",
+  "organization": "ASTM",
+  "standard_number": "A707",
+  "domain": "Mechanical",
+  "scope_description": "Forged Carbon and Alloy Steel Flanges for Low-Temperature Service",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A710",
+  "organization": "ASTM",
+  "standard_number": "A710",
+  "domain": "Mechanical",
+  "scope_description": "Age-Hardening Low-Carbon Nickel-Copper-Chromium-Molybdenum-Columbium Alloy Structural Steel Plates",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A732",
+  "organization": "ASTM",
+  "standard_number": "A732",
+  "domain": "Mechanical",
+  "scope_description": "Castings, Investment, Carbon and Low Alloy Steel for General Application",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A743",
+  "organization": "ASTM",
+  "standard_number": "A743",
+  "domain": "Mechanical",
+  "scope_description": "Castings, Iron-Chromium, Iron-Chromium-Nickel, Corrosion Resistant, for General Application",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A744",
+  "organization": "ASTM",
+  "standard_number": "A744",
+  "domain": "Mechanical",
+  "scope_description": "Castings, Iron-Chromium-Nickel, Corrosion Resistant, for Severe Service",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A789",
+  "organization": "ASTM",
+  "standard_number": "A789",
+  "domain": "Mechanical",
+  "scope_description": "Seamless and Welded Ferritic/Austenitic Stainless Steel Tubing for General Service (Duplex)",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A790",
+  "organization": "ASTM",
+  "standard_number": "A790",
+  "domain": "Mechanical",
+  "scope_description": "Standard Specification for Seamless and Welded Ferritic/Austenitic Stainless Steel Pipe",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A815",
+  "organization": "ASTM",
+  "standard_number": "A815",
+  "domain": "Mechanical",
+  "scope_description": "Wrought Ferritic, Ferritic/Austenitic, and Martensitic Stainless Steel Piping Fittings",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A847",
+  "organization": "ASTM",
+  "standard_number": "A847",
+  "domain": "Mechanical",
+  "scope_description": "Cold-Formed Welded and Seamless High-Strength, Low-Alloy Structural Tubing With Improved Atmospheric Corrosion Resistance",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A860",
+  "organization": "ASTM",
+  "standard_number": "A860",
+  "domain": "Mechanical",
+  "scope_description": "Wrought High-Strength Ferritic Steel Butt-Welding Fittings",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A871",
+  "organization": "ASTM",
+  "standard_number": "A871",
+  "domain": "Mechanical",
+  "scope_description": "High-Strength Low-Alloy Structural Steel Plate With Atmospheric Corrosion Resistance",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A890",
+  "organization": "ASTM",
+  "standard_number": "A890",
+  "domain": "Mechanical",
+  "scope_description": "Castings, Iron-Chromium-Nickel-Molybdenum Corrosion-Resistant, Duplex (Austenitic/Ferritic)",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A913",
+  "organization": "ASTM",
+  "standard_number": "A913",
+  "domain": "Mechanical",
+  "scope_description": "High-Strength Low-Alloy Steel Shapes of Structural Quality, Produced by Quenching and Self-Tempering Process (QST)",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A923",
+  "organization": "ASTM",
+  "standard_number": "A923",
+  "domain": "Mechanical",
+  "scope_description": "Detecting Detrimental Intermetallic Phase in Duplex Austenitic/Ferritic Stainless Steels",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A924",
+  "organization": "ASTM",
+  "standard_number": "A924",
+  "domain": "Mechanical",
+  "scope_description": "General Requirements for Steel Sheet, Metallic-Coated by the Hot-Dip Process",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A928",
+  "organization": "ASTM",
+  "standard_number": "A928",
+  "domain": "Mechanical",
+  "scope_description": "Ferritic/Austenitic Stainless Steel Pipe Electric Fusion Welded with Addition of Filler Metal",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-A992",
+  "organization": "ASTM",
+  "standard_number": "A992",
+  "domain": "Mechanical",
+  "scope_description": "Standard Specification for Structural Steel Shapes",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-B127",
+  "organization": "ASTM",
+  "standard_number": "B127",
+  "domain": "Mechanical",
+  "scope_description": "Nickel-Copper Alloy (UNS N04400) Plate, Sheet, and Strip (Monel 400)",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-B137",
+  "organization": "ASTM",
+  "standard_number": "B137",
+  "domain": "Mechanical",
+  "scope_description": "Measurement of Coating Mass Per Unit Area on Anodically Coated Aluminum",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-B148",
+  "organization": "ASTM",
+  "standard_number": "B148",
+  "domain": "Mechanical",
+  "scope_description": "Aluminum-Bronze Sand Castings",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-B150",
+  "organization": "ASTM",
+  "standard_number": "B150",
+  "domain": "Mechanical",
+  "scope_description": "Aluminum-Bronze Rod, Bar, and Shapes",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-B152",
+  "organization": "ASTM",
+  "standard_number": "B152",
+  "domain": "Mechanical",
+  "scope_description": "Copper Sheet, Strip, Plate, and Rolled Bar",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-B161",
+  "organization": "ASTM",
+  "standard_number": "B161",
+  "domain": "Mechanical",
+  "scope_description": "Nickel Seamless Pipe and Tube",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-B162",
+  "organization": "ASTM",
+  "standard_number": "B162",
+  "domain": "Mechanical",
+  "scope_description": "Nickel Plate, Sheet, and Strip",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-B163",
+  "organization": "ASTM",
+  "standard_number": "B163",
+  "domain": "Mechanical",
+  "scope_description": "Seamless Nickel and Nickel Alloy Condenser and Heat-Exchanger Tubes",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-B164",
+  "organization": "ASTM",
+  "standard_number": "B164",
+  "domain": "Mechanical",
+  "scope_description": "Nickel-Copper Alloy Rod, Bar, and Wire (Monel)",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-B165",
+  "organization": "ASTM",
+  "standard_number": "B165",
+  "domain": "Mechanical",
+  "scope_description": "Nickel-Copper Alloy (UNS N04400) Seamless Pipe and Tube",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-B166",
+  "organization": "ASTM",
+  "standard_number": "B166",
+  "domain": "Mechanical",
+  "scope_description": "Nickel-Chromium-Iron Alloys Rod, Bar, and Wire (Inconel 600, 601, 690, 800)",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-B167",
+  "organization": "ASTM",
+  "standard_number": "B167",
+  "domain": "Mechanical",
+  "scope_description": "Nickel-Chromium-Iron Alloys Seamless Pipe and Tube",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-B168",
+  "organization": "ASTM",
+  "standard_number": "B168",
+  "domain": "Mechanical",
+  "scope_description": "Nickel-Chromium-Iron Alloys Plate, Sheet, and Strip",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-B209",
+  "organization": "ASTM",
+  "standard_number": "B209",
+  "domain": "Mechanical",
+  "scope_description": "Aluminum and Aluminum-Alloy Sheet and Plate",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-B210",
+  "organization": "ASTM",
+  "standard_number": "B210",
+  "domain": "Mechanical",
+  "scope_description": "Aluminum and Aluminum-Alloy Drawn Seamless Tubes",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-B221",
+  "organization": "ASTM",
+  "standard_number": "B221",
+  "domain": "Mechanical",
+  "scope_description": "Aluminum and Aluminum-Alloy Extruded Bars, Rods, Wire, Profiles, and Tubes",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-B26",
+  "organization": "ASTM",
+  "standard_number": "B26",
+  "domain": "Mechanical",
+  "scope_description": "Aluminum-Alloy Sand Castings",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-B265",
+  "organization": "ASTM",
+  "standard_number": "B265",
+  "domain": "Mechanical",
+  "scope_description": "Titanium and Titanium Alloy Strip, Sheet, and Plate",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-B338",
+  "organization": "ASTM",
+  "standard_number": "B338",
+  "domain": "Mechanical",
+  "scope_description": "Seamless and Welded Titanium and Titanium Alloy Tubes for Condensers and Heat Exchangers",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-B348",
+  "organization": "ASTM",
+  "standard_number": "B348",
+  "domain": "Mechanical",
+  "scope_description": "Titanium and Titanium Alloy Bars and Billets",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-B381",
+  "organization": "ASTM",
+  "standard_number": "B381",
+  "domain": "Mechanical",
+  "scope_description": "Titanium and Titanium Alloy Forgings",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-B407",
+  "organization": "ASTM",
+  "standard_number": "B407",
+  "domain": "Mechanical",
+  "scope_description": "Nickel-Iron-Chromium Alloy Seamless Pipe and Tube (Incoloy 800)",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-B408",
+  "organization": "ASTM",
+  "standard_number": "B408",
+  "domain": "Mechanical",
+  "scope_description": "Nickel-Iron-Chromium Alloy Rod and Bar",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-B409",
+  "organization": "ASTM",
+  "standard_number": "B409",
+  "domain": "Mechanical",
+  "scope_description": "Nickel-Iron-Chromium Alloy Plate, Sheet, and Strip",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-B423",
+  "organization": "ASTM",
+  "standard_number": "B423",
+  "domain": "Mechanical",
+  "scope_description": "Nickel-Iron-Chromium-Molybdenum-Copper Alloy (UNS N08825) Seamless Pipe and Tube",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-B424",
+  "organization": "ASTM",
+  "standard_number": "B424",
+  "domain": "Mechanical",
+  "scope_description": "Ni-Fe-Cr-Mo-Cu Alloy (UNS N08825) Plate, Sheet, and Strip",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-B443",
+  "organization": "ASTM",
+  "standard_number": "B443",
+  "domain": "Mechanical",
+  "scope_description": "Ni-Cr-Mo-Cb Alloy (UNS N06625 / Inconel 625) and Ni-Cr-Mo-Si Alloy Plate, Sheet, and Strip",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-B444",
+  "organization": "ASTM",
+  "standard_number": "B444",
+  "domain": "Mechanical",
+  "scope_description": "Ni-Cr-Mo-Cb (UNS N06625) and Ni-Cr-Mo-Si (UNS N06219) Alloys Pipe and Tube",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-B564",
+  "organization": "ASTM",
+  "standard_number": "B564",
+  "domain": "Mechanical",
+  "scope_description": "Nickel Alloy Forgings",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-B574",
+  "organization": "ASTM",
+  "standard_number": "B574",
+  "domain": "Mechanical",
+  "scope_description": "Low-Carbon Nickel-Chromium-Molybdenum, Low-Carbon Nickel-Molybdenum-Chromium-Tantalum (Hastelloy C-22, C-276)",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "ASTM-B575",
+  "organization": "ASTM",
+  "standard_number": "B575",
+  "domain": "Mechanical",
+  "scope_description": "Low-Carbon Nickel-Chromium-Molybdenum-Iron-Tungsten Alloy (Hastelloy C-22, C-276) Plate, Sheet, and Strip",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "EN-10025-2",
+  "organization": "EN",
+  "standard_number": "10025-2",
+  "domain": "Mechanical",
+  "scope_description": "Hot rolled products of structural steels - Technical delivery conditions",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "EN-10025-3",
+  "organization": "EN",
+  "standard_number": "10025-3",
+  "domain": "Mechanical",
+  "scope_description": "Hot rolled structural steels - Part 3: Normalized/normalized-rolled weldable fine grain steels",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "EN-10025-4",
+  "organization": "EN",
+  "standard_number": "10025-4",
+  "domain": "Mechanical",
+  "scope_description": "Hot rolled structural steels - Part 4: Thermomechanical-rolled weldable fine grain steels",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "EN-10025-5",
+  "organization": "EN",
+  "standard_number": "10025-5",
+  "domain": "Mechanical",
+  "scope_description": "Hot rolled structural steels - Part 5: Steels with improved atmospheric corrosion resistance",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "EN-10025-6",
+  "organization": "EN",
+  "standard_number": "10025-6",
+  "domain": "Mechanical",
+  "scope_description": "Hot rolled structural steels - Part 6: High-yield flat products, quenched and tempered",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "EN-10028-2",
+  "organization": "EN",
+  "standard_number": "10028-2",
+  "domain": "Mechanical",
+  "scope_description": "Flat products made of steels for pressure purposes - Non-alloy and alloy steels",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "EN-10028-3",
+  "organization": "EN",
+  "standard_number": "10028-3",
+  "domain": "Mechanical",
+  "scope_description": "Flat products made of steels for pressure purposes - Part 3: Weldable fine grain steels, normalized",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "EN-10028-4",
+  "organization": "EN",
+  "standard_number": "10028-4",
+  "domain": "Mechanical",
+  "scope_description": "Flat products made of steels for pressure purposes - Part 4: Nickel-alloy steels with specified low temperature properties",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "EN-10028-5",
+  "organization": "EN",
+  "standard_number": "10028-5",
+  "domain": "Mechanical",
+  "scope_description": "Flat products made of steels for pressure purposes - Part 5: Weldable fine grain steels, thermomechanically rolled",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "EN-10028-6",
+  "organization": "EN",
+  "standard_number": "10028-6",
+  "domain": "Mechanical",
+  "scope_description": "Flat products made of steels for pressure purposes - Part 6: Weldable fine grain steels, quenched and tempered",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "EN-10028-7",
+  "organization": "EN",
+  "standard_number": "10028-7",
+  "domain": "Mechanical",
+  "scope_description": "Flat products made of steels for pressure purposes - Part 7: Stainless steels",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "EN-10088-2",
+  "organization": "EN",
+  "standard_number": "10088-2",
+  "domain": "Mechanical",
+  "scope_description": "Stainless steels - Technical delivery conditions for sheet/plate and strip",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "EN-10130",
+  "organization": "EN",
+  "standard_number": "10130",
+  "domain": "Mechanical",
+  "scope_description": "Cold rolled low carbon steel flat products for cold forming - Technical delivery conditions",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "EN-10210-1",
+  "organization": "EN",
+  "standard_number": "10210-1",
+  "domain": "Mechanical",
+  "scope_description": "Hot finished structural hollow sections of non-alloy and fine grain steels - Part 1: Technical delivery conditions",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "EN-10216-1",
+  "organization": "EN",
+  "standard_number": "10216-1",
+  "domain": "Mechanical",
+  "scope_description": "Seamless steel tubes for pressure purposes - Part 1: Non-alloy steel tubes with specified room temperature properties",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "EN-10216-2",
+  "organization": "EN",
+  "standard_number": "10216-2",
+  "domain": "Mechanical",
+  "scope_description": "Seamless steel tubes for pressure purposes - Part 2: Non-alloy/alloy steel tubes for elevated temperature",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "EN-10216-3",
+  "organization": "EN",
+  "standard_number": "10216-3",
+  "domain": "Mechanical",
+  "scope_description": "Seamless steel tubes for pressure purposes - Part 3: Alloy fine grain steel tubes",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "EN-10216-4",
+  "organization": "EN",
+  "standard_number": "10216-4",
+  "domain": "Mechanical",
+  "scope_description": "Seamless steel tubes for pressure purposes - Part 4: Non-alloy and alloy steel tubes with specified low temperature properties",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "EN-10216-5",
+  "organization": "EN",
+  "standard_number": "10216-5",
+  "domain": "Mechanical",
+  "scope_description": "Seamless steel tubes for pressure purposes - Technical delivery conditions - Part 5: Stainless steel tubes",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "EN-10217-1",
+  "organization": "EN",
+  "standard_number": "10217-1",
+  "domain": "Mechanical",
+  "scope_description": "Welded steel tubes for pressure purposes - Part 1: Non-alloy steel tubes with specified room temperature properties",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "EN-10217-2",
+  "organization": "EN",
+  "standard_number": "10217-2",
+  "domain": "Mechanical",
+  "scope_description": "Welded steel tubes for pressure purposes - Part 2: Electric welded non-alloy and alloy steel tubes with specified elevated temperature pr...",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "EN-10217-3",
+  "organization": "EN",
+  "standard_number": "10217-3",
+  "domain": "Mechanical",
+  "scope_description": "Welded steel tubes for pressure purposes - Part 3: Alloy fine grain steel tubes",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "EN-10217-4",
+  "organization": "EN",
+  "standard_number": "10217-4",
+  "domain": "Mechanical",
+  "scope_description": "Welded steel tubes for pressure purposes - Part 4: Electric welded non-alloy steel tubes with specified low temperature properties",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "EN-10217-5",
+  "organization": "EN",
+  "standard_number": "10217-5",
+  "domain": "Mechanical",
+  "scope_description": "Welded steel tubes for pressure purposes - Part 5: Submerged arc welded non-alloy and alloy steel tubes with specified elevated temperatu...",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "EN-10217-7",
+  "organization": "EN",
+  "standard_number": "10217-7",
+  "domain": "Mechanical",
+  "scope_description": "Welded steel tubes for pressure purposes - Technical delivery conditions - Part 7: Stainless steel tubes",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "EN-10219-1",
+  "organization": "EN",
+  "standard_number": "10219-1",
+  "domain": "Mechanical",
+  "scope_description": "Cold formed welded structural hollow sections of non-alloy and fine grain steels - Part 1: Technical delivery conditions",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "EN-10222-2",
+  "organization": "EN",
+  "standard_number": "10222-2",
+  "domain": "Mechanical",
+  "scope_description": "Steel forgings for pressure purposes - Part 2: Ferritic and martensitic steels with specified elevated temperature properties",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "EN-10222-4",
+  "organization": "EN",
+  "standard_number": "10222-4",
+  "domain": "Mechanical",
+  "scope_description": "Steel forgings for pressure purposes - Part 4: Weldable fine grain steels with high proof strength",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "JIS-G-3101",
+  "organization": "JIS",
+  "standard_number": "G-3101",
+  "domain": "Mechanical",
+  "scope_description": "Rolled steels for general structure (SS materials: SS330, SS400, SS490, SS540)",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "JIS-G-3106",
+  "organization": "JIS",
+  "standard_number": "G-3106",
+  "domain": "Mechanical",
+  "scope_description": "Rolled steels for welded structure (SM materials: SM400, SM490, SM520, SM570)",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "JIS-G-3454",
+  "organization": "JIS",
+  "standard_number": "G-3454",
+  "domain": "Mechanical",
+  "scope_description": "Carbon steel pipes for pressure service (STPG)",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "JIS-G-3456",
+  "organization": "JIS",
+  "standard_number": "G-3456",
+  "domain": "Mechanical",
+  "scope_description": "Carbon steel pipes for high temperature service (STPT)",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "JIS-G-3458",
+  "organization": "JIS",
+  "standard_number": "G-3458",
+  "domain": "Mechanical",
+  "scope_description": "Alloy steel pipes (STPA)",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "JIS-G-3460",
+  "organization": "JIS",
+  "standard_number": "G-3460",
+  "domain": "Mechanical",
+  "scope_description": "Steel pipes for low temperature service (STPL)",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "JIS-G-3463",
+  "organization": "JIS",
+  "standard_number": "G-3463",
+  "domain": "Mechanical",
+  "scope_description": "Stainless steel pipes for boiler and heat exchanger (SUS-TB)",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "JIS-G-4051",
+  "organization": "JIS",
+  "standard_number": "G-4051",
+  "domain": "Mechanical",
+  "scope_description": "Carbon steels for machine structural use (S-C series: S20C, S35C, S45C)",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "JIS-G-4053",
+  "organization": "JIS",
+  "standard_number": "G-4053",
+  "domain": "Mechanical",
+  "scope_description": "Low-alloyed steels for machine structural use (SCM, SNCM series)",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "JIS-G-4304",
+  "organization": "JIS",
+  "standard_number": "G-4304",
+  "domain": "Mechanical",
+  "scope_description": "Hot-rolled stainless steel plates, sheets and strip (SUS304, SUS316L, SUS321)",
+  "is_active": 1
+ },
+ {
+  "doctype": "Standard",
+  "name": "JIS-G-4305",
+  "organization": "JIS",
+  "standard_number": "G-4305",
+  "domain": "Mechanical",
+  "scope_description": "Cold-rolled stainless steel plates, sheets and strip",
+  "is_active": 1
+ }
+]

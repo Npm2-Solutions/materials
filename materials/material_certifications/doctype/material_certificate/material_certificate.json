@@ -21,7 +21,7 @@
   "issuing_body",
   "testing_laboratory",
   "cb_issuer",
-  "applicable_standard",
+  "standard_edition",
   "third_party_verified",
   "heat_tab",
   "heat_section",
@@ -145,11 +145,11 @@
    "fieldtype": "Column Break"
   },
   {
-   "description": "Specific Standard edition this certificate validates against (e.g. ASTM A516:2020). The \"under WHICH RULES\" snapshot per platform-guides ch.10 Flow 2 RULES. NOT enforced as reqd=1 yet because demo data is 100% NULL; backfill required first.",
-   "fieldname": "applicable_standard",
+   "description": "The printing whose acceptance limits this certificate reports against. One name across the platform — see Design 28.",
+   "fieldname": "standard_edition",
    "fieldtype": "Link",
-   "label": "Applicable Standard",
-   "options": "Standard"
+   "label": "Standard Edition",
+   "options": "Standard Edition"
   },
   {
    "default": "0",

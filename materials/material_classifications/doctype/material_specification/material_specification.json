@@ -17,7 +17,6 @@
   "spec_status",
   "section_break_details",
   "column_break_2",
-  "supersedes",
   "description",
   "section_break_settings",
   "is_standard",
@@ -25,12 +24,12 @@
  ],
  "fields": [
   {
-   "description": "Optisuites Standard row representing this base-material spec doc edition (e.g., astm_a516_2017, en_10028_2_2017).",
+   "description": "The document this specification belongs to. A designation is named by a document, not by one printing of it.",
    "fieldname": "standard",
    "fieldtype": "Link",
    "in_list_view": 1,
    "in_standard_filter": 1,
-   "label": "Standard (Edition)",
+   "label": "Standard",
    "options": "Standard",
    "reqd": 1
   },
@@ -45,7 +44,7 @@
    "reqd": 1
   },
   {
-   "description": "Computed in before_save: '{designation} \u2014 {standard label}'. Drives form title + link dropdowns.",
+   "description": "Computed in before_save: '{designation} — {standard label}'. Drives form title + link dropdowns.",
    "fieldname": "display_name",
    "fieldtype": "Data",
    "hidden": 1,
@@ -81,7 +80,8 @@
    "in_standard_filter": 1,
    "label": "Status",
    "options": "Active\nSuperseded\nWithdrawn",
-   "read_only": 1
+   "read_only": 1,
+   "description": "Set by hand, or by the Withdraw action. It used to be derived from a <code>supersedes</code> Link on this record — a second supersession model beside <code>Standard Edition.supersedes</code>, empty on all 178 rows, and the same duplicate Design 24 dropped from the filler specifications."
   },
   {
    "fieldname": "section_break_details",
@@ -91,13 +91,6 @@
   {
    "fieldname": "column_break_2",
    "fieldtype": "Column Break"
-  },
-  {
-   "description": "Previous specification this replaces",
-   "fieldname": "supersedes",
-   "fieldtype": "Link",
-   "label": "Supersedes",
-   "options": "Material Specification"
   },
   {
    "fieldname": "description",

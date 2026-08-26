@@ -18,23 +18,24 @@ class MaterialSpecification(Document):
     2. Material Grade - the specific grade (Gr.70)
 
     Naming pattern: {standard}-{designation}
-    Examples: ASME-SA-516, EN-10025-2, ASTM-A516
+    Examples: asme_sa_516, en_10025_2, astm_a516
     """
 
     def autoname(self):
         """Slug name: '{org_slug}_{slug(designation)}'.
 
-        Example: organization 'ASME' + designation 'SA-516' → 'asme_sa_516'.
+        Example: organization 'ASME' + designation 'SA-516' → 'ASME-SA-516'.
         Falls back to slug of designation alone if the Standard is unset.
         """
+        from worgify.utils.record_key import record_key
+
+        # The publisher comes from the DOCUMENT. This read `Standard Edition`,
+        # which the field stopped pointing at in Design 22 phase 3 — so every new
+        # specification would have been named without its organisation.
         org = ""
         if self.standard:
             org = frappe.db.get_value("Standard", self.standard, "organization") or ""
-        desig = slugify(self.designation)
-        if org:
-            self.name = f"{slugify(org)}_{desig}"
-        else:
-            self.name = desig
+        self.name = record_key(org, self.designation)
 
     def before_save(self):
         # Computed human label for dropdowns + lists.
@@ -45,29 +46,13 @@ class MaterialSpecification(Document):
     def validate(self):
         if not self.designation:
             frappe.throw("Specification designation is required")
-        self._guard_supersedes_cycle()
-        self.update_spec_status()
 
-    def _guard_supersedes_cycle(self):
-        # A spec can't supersede itself or form a supersession loop.
-        start = self.supersedes
-        if not start:
-            return
-        seen = {self.name}
-        while start:
-            if start in seen:
-                frappe.throw("A Material Specification cannot supersede itself (supersession cycle).")
-            seen.add(start)
-            start = frappe.db.get_value("Material Specification", start, "supersedes")
 
-    def update_spec_status(self):
-        """Auto-compute spec_status based on supersedes link."""
-        if self.spec_status == "Withdrawn":
-            return  # Withdrawn is set manually via button
-        if self.supersedes:
-            self.spec_status = "Superseded"
-        else:
-            self.spec_status = "Active"
+    # `_guard_supersedes_cycle` and `update_spec_status` went with the
+    # `supersedes` Link they served. It was a second supersession model beside
+    # `Standard Edition.supersedes` / `.superseded_by`, empty on all 178 rows —
+    # the same duplicate Design 24 dropped from the filler specifications, whose
+    # note read: "`Standard Edition.supersedes` already models it."
 
     @frappe.whitelist()
     def withdraw(self):

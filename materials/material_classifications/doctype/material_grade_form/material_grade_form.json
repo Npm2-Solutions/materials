@@ -10,8 +10,7 @@
   "thickness_min",
   "thickness_max",
   "diameter_min",
-  "diameter_max",
-  "notes"
+  "diameter_max"
  ],
  "fields": [
   {
@@ -48,11 +47,6 @@
    "fieldtype": "Float",
    "label": "Diameter Max (mm)",
    "description": "Maximum diameter (for pipe/tube)"
-  },
-  {
-   "fieldname": "notes",
-   "fieldtype": "Small Text",
-   "label": "Notes"
   }
  ],
  "index_web_pages_for_search": 1,

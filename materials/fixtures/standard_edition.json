@@ -1,7 +1,7 @@
 [
  {
-  "doctype": "Standard",
-  "name": "api_5ct_2018",
+  "doctype": "Standard Edition",
+  "name": "API-5CT-2018",
   "organization": "API",
   "standard_number": "5CT",
   "year": 2018,
@@ -15,8 +15,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "api_5d_2018",
+  "doctype": "Standard Edition",
+  "name": "API-5D-2018",
   "organization": "API",
   "standard_number": "5D",
   "year": 2018,
@@ -30,8 +30,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "api_5dp_2018",
+  "doctype": "Standard Edition",
+  "name": "API-5DP-2018",
   "organization": "API",
   "standard_number": "5DP",
   "year": 2018,
@@ -45,8 +45,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "api_5l_2018",
+  "doctype": "Standard Edition",
+  "name": "API-5L-2018",
   "organization": "API",
   "standard_number": "5L",
   "year": 2018,
@@ -57,8 +57,8 @@
   "display_name": "API 5L:2018"
  },
  {
-  "doctype": "Standard",
-  "name": "api_5lcp_2018",
+  "doctype": "Standard Edition",
+  "name": "API-5LCP-2018",
   "organization": "API",
   "standard_number": "5LCP",
   "year": 2018,
@@ -72,8 +72,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "api_5lf_2018",
+  "doctype": "Standard Edition",
+  "name": "API-5LF-2018",
   "organization": "API",
   "standard_number": "5LF",
   "year": 2018,
@@ -87,8 +87,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "api_6a_2018",
+  "doctype": "Standard Edition",
+  "name": "API-6A-2018",
   "organization": "API",
   "standard_number": "6A",
   "year": 2018,
@@ -102,8 +102,8 @@
   "display_name": "API 6A:2018"
  },
  {
-  "doctype": "Standard",
-  "name": "asme_bpvc_ii_a_2025",
+  "doctype": "Standard Edition",
+  "name": "ASME-BPVC-II-A-2025",
   "organization": "ASME",
   "standard_number": "BPVC II-A",
   "year": 2025,
@@ -114,8 +114,8 @@
   "display_name": "ASME BPVC II-A:2025"
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a1011_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A1011-2024",
   "organization": "ASTM",
   "standard_number": "A1011",
   "year": 2024,
@@ -129,8 +129,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a1018_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A1018-2024",
   "organization": "ASTM",
   "standard_number": "A1018",
   "year": 2024,
@@ -144,8 +144,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a105_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A105-2024",
   "organization": "ASTM",
   "standard_number": "A105",
   "year": 2024,
@@ -159,8 +159,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a106_2019",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A106-2019",
   "organization": "ASTM",
   "standard_number": "A106",
   "year": 2019,
@@ -171,8 +171,8 @@
   "display_name": "ASTM A106:2019"
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a148_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A148-2024",
   "organization": "ASTM",
   "standard_number": "A148",
   "year": 2024,
@@ -186,8 +186,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a179_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A179-2024",
   "organization": "ASTM",
   "standard_number": "A179",
   "year": 2024,
@@ -201,8 +201,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a181_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A181-2024",
   "organization": "ASTM",
   "standard_number": "A181",
   "year": 2024,
@@ -216,8 +216,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a182_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A182-2024",
   "organization": "ASTM",
   "standard_number": "A182",
   "year": 2024,
@@ -228,8 +228,8 @@
   "display_name": "ASTM A182:2024"
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a192_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A192-2024",
   "organization": "ASTM",
   "standard_number": "A192",
   "year": 2024,
@@ -243,8 +243,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a193_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A193-2024",
   "organization": "ASTM",
   "standard_number": "A193",
   "year": 2024,
@@ -258,8 +258,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a194_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A194-2024",
   "organization": "ASTM",
   "standard_number": "A194",
   "year": 2024,
@@ -273,8 +273,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a202_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A202-2024",
   "organization": "ASTM",
   "standard_number": "A202",
   "year": 2024,
@@ -288,8 +288,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a203_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A203-2024",
   "organization": "ASTM",
   "standard_number": "A203",
   "year": 2024,
@@ -303,8 +303,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a204_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A204-2024",
   "organization": "ASTM",
   "standard_number": "A204",
   "year": 2024,
@@ -318,8 +318,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a209_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A209-2024",
   "organization": "ASTM",
   "standard_number": "A209",
   "year": 2024,
@@ -333,8 +333,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a210_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A210-2024",
   "organization": "ASTM",
   "standard_number": "A210",
   "year": 2024,
@@ -348,8 +348,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a213_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A213-2024",
   "organization": "ASTM",
   "standard_number": "A213",
   "year": 2024,
@@ -363,8 +363,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a216_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A216-2024",
   "organization": "ASTM",
   "standard_number": "A216",
   "year": 2024,
@@ -378,8 +378,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a217_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A217-2024",
   "organization": "ASTM",
   "standard_number": "A217",
   "year": 2024,
@@ -393,8 +393,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a225_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A225-2024",
   "organization": "ASTM",
   "standard_number": "A225",
   "year": 2024,
@@ -408,8 +408,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a227_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A227-2024",
   "organization": "ASTM",
   "standard_number": "A227",
   "year": 2024,
@@ -423,8 +423,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a228_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A228-2024",
   "organization": "ASTM",
   "standard_number": "A228",
   "year": 2024,
@@ -438,8 +438,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a229_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A229-2024",
   "organization": "ASTM",
   "standard_number": "A229",
   "year": 2024,
@@ -453,8 +453,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a231_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A231-2024",
   "organization": "ASTM",
   "standard_number": "A231",
   "year": 2024,
@@ -468,8 +468,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a232_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A232-2024",
   "organization": "ASTM",
   "standard_number": "A232",
   "year": 2024,
@@ -483,8 +483,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a234_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A234-2024",
   "organization": "ASTM",
   "standard_number": "A234",
   "year": 2024,
@@ -498,8 +498,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a240_2020",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A240-2020",
   "organization": "ASTM",
   "standard_number": "A240",
   "year": 2020,
@@ -510,8 +510,8 @@
   "display_name": "ASTM A240:2020"
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a242_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A242-2024",
   "organization": "ASTM",
   "standard_number": "A242",
   "year": 2024,
@@ -525,8 +525,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a249_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A249-2024",
   "organization": "ASTM",
   "standard_number": "A249",
   "year": 2024,
@@ -540,8 +540,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a266_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A266-2024",
   "organization": "ASTM",
   "standard_number": "A266",
   "year": 2024,
@@ -555,8 +555,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a269_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A269-2024",
   "organization": "ASTM",
   "standard_number": "A269",
   "year": 2024,
@@ -570,8 +570,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a276_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A276-2024",
   "organization": "ASTM",
   "standard_number": "A276",
   "year": 2024,
@@ -585,8 +585,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a27_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A27-2024",
   "organization": "ASTM",
   "standard_number": "A27",
   "year": 2024,
@@ -600,8 +600,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a283_2018",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A283-2018",
   "organization": "ASTM",
   "standard_number": "A283",
   "year": 2018,
@@ -612,8 +612,8 @@
   "display_name": "ASTM A283:2018"
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a285_2018",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A285-2018",
   "organization": "ASTM",
   "standard_number": "A285",
   "year": 2018,
@@ -624,8 +624,8 @@
   "display_name": "ASTM A285:2018"
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a299_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A299-2024",
   "organization": "ASTM",
   "standard_number": "A299",
   "year": 2024,
@@ -639,8 +639,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a302_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A302-2024",
   "organization": "ASTM",
   "standard_number": "A302",
   "year": 2024,
@@ -654,8 +654,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a312_2020",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A312-2020",
   "organization": "ASTM",
   "standard_number": "A312",
   "year": 2020,
@@ -666,8 +666,8 @@
   "display_name": "ASTM A312:2020"
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a320_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A320-2024",
   "organization": "ASTM",
   "standard_number": "A320",
   "year": 2024,
@@ -681,8 +681,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a321_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A321-2024",
   "organization": "ASTM",
   "standard_number": "A321",
   "year": 2024,
@@ -696,8 +696,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a333_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A333-2024",
   "organization": "ASTM",
   "standard_number": "A333",
   "year": 2024,
@@ -711,8 +711,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a335_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A335-2024",
   "organization": "ASTM",
   "standard_number": "A335",
   "year": 2024,
@@ -723,8 +723,8 @@
   "display_name": "ASTM A335:2024"
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a350_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A350-2024",
   "organization": "ASTM",
   "standard_number": "A350",
   "year": 2024,
@@ -738,8 +738,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a352_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A352-2024",
   "organization": "ASTM",
   "standard_number": "A352",
   "year": 2024,
@@ -753,8 +753,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a356_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A356-2024",
   "organization": "ASTM",
   "standard_number": "A356",
   "year": 2024,
@@ -768,8 +768,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a358_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A358-2024",
   "organization": "ASTM",
   "standard_number": "A358",
   "year": 2024,
@@ -783,8 +783,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a369_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A369-2024",
   "organization": "ASTM",
   "standard_number": "A369",
   "year": 2024,
@@ -798,8 +798,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a36_2019",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A36-2019",
   "organization": "ASTM",
   "standard_number": "A36",
   "year": 2019,
@@ -810,8 +810,8 @@
   "display_name": "ASTM A36:2019"
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a370_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A370-2024",
   "organization": "ASTM",
   "standard_number": "A370",
   "year": 2024,
@@ -825,8 +825,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a372_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A372-2024",
   "organization": "ASTM",
   "standard_number": "A372",
   "year": 2024,
@@ -840,8 +840,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a387_2020",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A387-2020",
   "organization": "ASTM",
   "standard_number": "A387",
   "year": 2020,
@@ -852,8 +852,8 @@
   "display_name": "ASTM A387:2020"
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a403_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A403-2024",
   "organization": "ASTM",
   "standard_number": "A403",
   "year": 2024,
@@ -867,8 +867,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a414_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A414-2024",
   "organization": "ASTM",
   "standard_number": "A414",
   "year": 2024,
@@ -882,8 +882,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a479_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A479-2024",
   "organization": "ASTM",
   "standard_number": "A479",
   "year": 2024,
@@ -897,8 +897,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a487_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A487-2024",
   "organization": "ASTM",
   "standard_number": "A487",
   "year": 2024,
@@ -912,8 +912,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a500_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A500-2024",
   "organization": "ASTM",
   "standard_number": "A500",
   "year": 2024,
@@ -927,8 +927,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a501_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A501-2024",
   "organization": "ASTM",
   "standard_number": "A501",
   "year": 2024,
@@ -942,8 +942,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a514_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A514-2024",
   "organization": "ASTM",
   "standard_number": "A514",
   "year": 2024,
@@ -957,8 +957,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a516_2017",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A516-2017",
   "organization": "ASTM",
   "standard_number": "A516",
   "year": 2017,
@@ -969,8 +969,8 @@
   "display_name": "ASTM A516:2017"
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a517_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A517-2024",
   "organization": "ASTM",
   "standard_number": "A517",
   "year": 2024,
@@ -984,8 +984,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a537_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A537-2024",
   "organization": "ASTM",
   "standard_number": "A537",
   "year": 2024,
@@ -999,8 +999,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a53_2020",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A53-2020",
   "organization": "ASTM",
   "standard_number": "A53",
   "year": 2020,
@@ -1011,8 +1011,8 @@
   "display_name": "ASTM A53:2020"
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a553_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A553-2024",
   "organization": "ASTM",
   "standard_number": "A553",
   "year": 2024,
@@ -1026,8 +1026,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a572_2021",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A572-2021",
   "organization": "ASTM",
   "standard_number": "A572",
   "year": 2021,
@@ -1038,8 +1038,8 @@
   "display_name": "ASTM A572:2021"
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a588_2019",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A588-2019",
   "organization": "ASTM",
   "standard_number": "A588",
   "year": 2019,
@@ -1050,8 +1050,8 @@
   "display_name": "ASTM A588:2019"
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a608_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A608-2024",
   "organization": "ASTM",
   "standard_number": "A608",
   "year": 2024,
@@ -1065,8 +1065,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a615_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A615-2024",
   "organization": "ASTM",
   "standard_number": "A615",
   "year": 2024,
@@ -1080,8 +1080,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a671_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A671-2024",
   "organization": "ASTM",
   "standard_number": "A671",
   "year": 2024,
@@ -1092,8 +1092,8 @@
   "display_name": "ASTM A671:2024"
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a694_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A694-2024",
   "organization": "ASTM",
   "standard_number": "A694",
   "year": 2024,
@@ -1107,8 +1107,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a707_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A707-2024",
   "organization": "ASTM",
   "standard_number": "A707",
   "year": 2024,
@@ -1122,8 +1122,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a710_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A710-2024",
   "organization": "ASTM",
   "standard_number": "A710",
   "year": 2024,
@@ -1137,8 +1137,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a732_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A732-2024",
   "organization": "ASTM",
   "standard_number": "A732",
   "year": 2024,
@@ -1152,8 +1152,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a743_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A743-2024",
   "organization": "ASTM",
   "standard_number": "A743",
   "year": 2024,
@@ -1167,8 +1167,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a744_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A744-2024",
   "organization": "ASTM",
   "standard_number": "A744",
   "year": 2024,
@@ -1182,8 +1182,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a789_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A789-2024",
   "organization": "ASTM",
   "standard_number": "A789",
   "year": 2024,
@@ -1197,8 +1197,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a815_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A815-2024",
   "organization": "ASTM",
   "standard_number": "A815",
   "year": 2024,
@@ -1212,8 +1212,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a847_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A847-2024",
   "organization": "ASTM",
   "standard_number": "A847",
   "year": 2024,
@@ -1227,8 +1227,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a860_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A860-2024",
   "organization": "ASTM",
   "standard_number": "A860",
   "year": 2024,
@@ -1242,8 +1242,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a871_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A871-2024",
   "organization": "ASTM",
   "standard_number": "A871",
   "year": 2024,
@@ -1257,8 +1257,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a890_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A890-2024",
   "organization": "ASTM",
   "standard_number": "A890",
   "year": 2024,
@@ -1272,8 +1272,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a913_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A913-2024",
   "organization": "ASTM",
   "standard_number": "A913",
   "year": 2024,
@@ -1287,8 +1287,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a923_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A923-2024",
   "organization": "ASTM",
   "standard_number": "A923",
   "year": 2024,
@@ -1302,8 +1302,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a924_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A924-2024",
   "organization": "ASTM",
   "standard_number": "A924",
   "year": 2024,
@@ -1317,8 +1317,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_a928_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-A928-2024",
   "organization": "ASTM",
   "standard_number": "A928",
   "year": 2024,
@@ -1332,8 +1332,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_b127_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-B127-2024",
   "organization": "ASTM",
   "standard_number": "B127",
   "year": 2024,
@@ -1347,8 +1347,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_b137_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-B137-2024",
   "organization": "ASTM",
   "standard_number": "B137",
   "year": 2024,
@@ -1362,8 +1362,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_b148_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-B148-2024",
   "organization": "ASTM",
   "standard_number": "B148",
   "year": 2024,
@@ -1377,8 +1377,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_b150_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-B150-2024",
   "organization": "ASTM",
   "standard_number": "B150",
   "year": 2024,
@@ -1392,8 +1392,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_b152_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-B152-2024",
   "organization": "ASTM",
   "standard_number": "B152",
   "year": 2024,
@@ -1407,8 +1407,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_b161_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-B161-2024",
   "organization": "ASTM",
   "standard_number": "B161",
   "year": 2024,
@@ -1422,8 +1422,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_b162_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-B162-2024",
   "organization": "ASTM",
   "standard_number": "B162",
   "year": 2024,
@@ -1437,8 +1437,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_b163_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-B163-2024",
   "organization": "ASTM",
   "standard_number": "B163",
   "year": 2024,
@@ -1452,8 +1452,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_b164_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-B164-2024",
   "organization": "ASTM",
   "standard_number": "B164",
   "year": 2024,
@@ -1467,8 +1467,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_b165_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-B165-2024",
   "organization": "ASTM",
   "standard_number": "B165",
   "year": 2024,
@@ -1482,8 +1482,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_b166_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-B166-2024",
   "organization": "ASTM",
   "standard_number": "B166",
   "year": 2024,
@@ -1497,8 +1497,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_b167_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-B167-2024",
   "organization": "ASTM",
   "standard_number": "B167",
   "year": 2024,
@@ -1512,8 +1512,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_b168_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-B168-2024",
   "organization": "ASTM",
   "standard_number": "B168",
   "year": 2024,
@@ -1527,8 +1527,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_b209_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-B209-2024",
   "organization": "ASTM",
   "standard_number": "B209",
   "year": 2024,
@@ -1542,8 +1542,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_b210_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-B210-2024",
   "organization": "ASTM",
   "standard_number": "B210",
   "year": 2024,
@@ -1557,8 +1557,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_b221_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-B221-2024",
   "organization": "ASTM",
   "standard_number": "B221",
   "year": 2024,
@@ -1572,8 +1572,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_b265_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-B265-2024",
   "organization": "ASTM",
   "standard_number": "B265",
   "year": 2024,
@@ -1587,8 +1587,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_b26_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-B26-2024",
   "organization": "ASTM",
   "standard_number": "B26",
   "year": 2024,
@@ -1602,8 +1602,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_b338_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-B338-2024",
   "organization": "ASTM",
   "standard_number": "B338",
   "year": 2024,
@@ -1617,8 +1617,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_b348_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-B348-2024",
   "organization": "ASTM",
   "standard_number": "B348",
   "year": 2024,
@@ -1632,8 +1632,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_b381_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-B381-2024",
   "organization": "ASTM",
   "standard_number": "B381",
   "year": 2024,
@@ -1647,8 +1647,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_b407_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-B407-2024",
   "organization": "ASTM",
   "standard_number": "B407",
   "year": 2024,
@@ -1662,8 +1662,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_b408_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-B408-2024",
   "organization": "ASTM",
   "standard_number": "B408",
   "year": 2024,
@@ -1677,8 +1677,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_b409_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-B409-2024",
   "organization": "ASTM",
   "standard_number": "B409",
   "year": 2024,
@@ -1692,8 +1692,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_b423_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-B423-2024",
   "organization": "ASTM",
   "standard_number": "B423",
   "year": 2024,
@@ -1707,8 +1707,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_b424_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-B424-2024",
   "organization": "ASTM",
   "standard_number": "B424",
   "year": 2024,
@@ -1722,8 +1722,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_b443_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-B443-2024",
   "organization": "ASTM",
   "standard_number": "B443",
   "year": 2024,
@@ -1737,8 +1737,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_b444_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-B444-2024",
   "organization": "ASTM",
   "standard_number": "B444",
   "year": 2024,
@@ -1752,8 +1752,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_b564_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-B564-2024",
   "organization": "ASTM",
   "standard_number": "B564",
   "year": 2024,
@@ -1767,8 +1767,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_b574_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-B574-2024",
   "organization": "ASTM",
   "standard_number": "B574",
   "year": 2024,
@@ -1782,8 +1782,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "astm_b575_2024",
+  "doctype": "Standard Edition",
+  "name": "ASTM-B575-2024",
   "organization": "ASTM",
   "standard_number": "B575",
   "year": 2024,
@@ -1797,8 +1797,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "en_10025_2_2019",
+  "doctype": "Standard Edition",
+  "name": "EN-10025-2-2019",
   "organization": "EN",
   "standard_number": "10025-2",
   "year": 2019,
@@ -1809,8 +1809,8 @@
   "display_name": "EN 10025-2:2019"
  },
  {
-  "doctype": "Standard",
-  "name": "en_10028_2_2017",
+  "doctype": "Standard Edition",
+  "name": "EN-10028-2-2017",
   "organization": "EN",
   "standard_number": "10028-2",
   "year": 2017,
@@ -1821,8 +1821,8 @@
   "display_name": "EN 10028-2:2017"
  },
  {
-  "doctype": "Standard",
-  "name": "en_10028_4_2019",
+  "doctype": "Standard Edition",
+  "name": "EN-10028-4-2019",
   "organization": "EN",
   "standard_number": "10028-4",
   "year": 2019,
@@ -1833,8 +1833,8 @@
   "display_name": "EN 10028-4:2019"
  },
  {
-  "doctype": "Standard",
-  "name": "en_10028_5_2019",
+  "doctype": "Standard Edition",
+  "name": "EN-10028-5-2019",
   "organization": "EN",
   "standard_number": "10028-5",
   "year": 2019,
@@ -1845,8 +1845,8 @@
   "display_name": "EN 10028-5:2019"
  },
  {
-  "doctype": "Standard",
-  "name": "en_10028_6_2019",
+  "doctype": "Standard Edition",
+  "name": "EN-10028-6-2019",
   "organization": "EN",
   "standard_number": "10028-6",
   "year": 2019,
@@ -1857,8 +1857,8 @@
   "display_name": "EN 10028-6:2019"
  },
  {
-  "doctype": "Standard",
-  "name": "en_10216_1_2019",
+  "doctype": "Standard Edition",
+  "name": "EN-10216-1-2019",
   "organization": "EN",
   "standard_number": "10216-1",
   "year": 2019,
@@ -1869,8 +1869,8 @@
   "display_name": "EN 10216-1:2019"
  },
  {
-  "doctype": "Standard",
-  "name": "en_10216_2_2014",
+  "doctype": "Standard Edition",
+  "name": "EN-10216-2-2014",
   "organization": "EN",
   "standard_number": "10216-2",
   "year": 2014,
@@ -1881,8 +1881,8 @@
   "display_name": "EN 10216-2:2014"
  },
  {
-  "doctype": "Standard",
-  "name": "en_10216_3_2019",
+  "doctype": "Standard Edition",
+  "name": "EN-10216-3-2019",
   "organization": "EN",
   "standard_number": "10216-3",
   "year": 2019,
@@ -1893,8 +1893,8 @@
   "display_name": "EN 10216-3:2019"
  },
  {
-  "doctype": "Standard",
-  "name": "en_10216_4_2019",
+  "doctype": "Standard Edition",
+  "name": "EN-10216-4-2019",
   "organization": "EN",
   "standard_number": "10216-4",
   "year": 2019,
@@ -1905,8 +1905,8 @@
   "display_name": "EN 10216-4:2019"
  },
  {
-  "doctype": "Standard",
-  "name": "en_10217_1_2019",
+  "doctype": "Standard Edition",
+  "name": "EN-10217-1-2019",
   "organization": "EN",
   "standard_number": "10217-1",
   "year": 2019,
@@ -1917,8 +1917,8 @@
   "display_name": "EN 10217-1:2019"
  },
  {
-  "doctype": "Standard",
-  "name": "en_10217_2_2019",
+  "doctype": "Standard Edition",
+  "name": "EN-10217-2-2019",
   "organization": "EN",
   "standard_number": "10217-2",
   "year": 2019,
@@ -1929,8 +1929,8 @@
   "display_name": "EN 10217-2:2019"
  },
  {
-  "doctype": "Standard",
-  "name": "en_10217_3_2019",
+  "doctype": "Standard Edition",
+  "name": "EN-10217-3-2019",
   "organization": "EN",
   "standard_number": "10217-3",
   "year": 2019,
@@ -1941,8 +1941,8 @@
   "display_name": "EN 10217-3:2019"
  },
  {
-  "doctype": "Standard",
-  "name": "en_10217_4_2019",
+  "doctype": "Standard Edition",
+  "name": "EN-10217-4-2019",
   "organization": "EN",
   "standard_number": "10217-4",
   "year": 2019,
@@ -1953,8 +1953,8 @@
   "display_name": "EN 10217-4:2019"
  },
  {
-  "doctype": "Standard",
-  "name": "en_10217_5_2019",
+  "doctype": "Standard Edition",
+  "name": "EN-10217-5-2019",
   "organization": "EN",
   "standard_number": "10217-5",
   "year": 2019,
@@ -1965,8 +1965,8 @@
   "display_name": "EN 10217-5:2019"
  },
  {
-  "doctype": "Standard",
-  "name": "en_10222_2_2019",
+  "doctype": "Standard Edition",
+  "name": "EN-10222-2-2019",
   "organization": "EN",
   "standard_number": "10222-2",
   "year": 2019,
@@ -1977,8 +1977,8 @@
   "display_name": "EN 10222-2:2019"
  },
  {
-  "doctype": "Standard",
-  "name": "en_10222_4_2019",
+  "doctype": "Standard Edition",
+  "name": "EN-10222-4-2019",
   "organization": "EN",
   "standard_number": "10222-4",
   "year": 2019,
@@ -1989,20 +1989,8 @@
   "display_name": "EN 10222-4:2019"
  },
  {
-  "doctype": "Standard",
-  "name": "jis_g3101_2020",
-  "organization": "JIS",
-  "standard_number": "G3101",
-  "year": 2020,
-  "domain": "Mechanical",
-  "is_current": 1,
-  "is_active": 1,
-  "scope_description": "JIS G3101 — Rolled Steels for General Structure (SS400, SS490).",
-  "display_name": "JIS G3101:2020"
- },
- {
-  "doctype": "Standard",
-  "name": "jis_g_3101_2020",
+  "doctype": "Standard Edition",
+  "name": "JIS-G-3101-2020",
   "organization": "JIS",
   "standard_number": "G 3101",
   "year": 2020,
@@ -2016,8 +2004,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "jis_g_3106_2020",
+  "doctype": "Standard Edition",
+  "name": "JIS-G-3106-2020",
   "organization": "JIS",
   "standard_number": "G 3106",
   "year": 2020,
@@ -2031,8 +2019,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "jis_g_3454_2020",
+  "doctype": "Standard Edition",
+  "name": "JIS-G-3454-2020",
   "organization": "JIS",
   "standard_number": "G 3454",
   "year": 2020,
@@ -2046,8 +2034,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "jis_g_3456_2020",
+  "doctype": "Standard Edition",
+  "name": "JIS-G-3456-2020",
   "organization": "JIS",
   "standard_number": "G 3456",
   "year": 2020,
@@ -2061,8 +2049,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "jis_g_3458_2020",
+  "doctype": "Standard Edition",
+  "name": "JIS-G-3458-2020",
   "organization": "JIS",
   "standard_number": "G 3458",
   "year": 2020,
@@ -2076,8 +2064,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "jis_g_3460_2020",
+  "doctype": "Standard Edition",
+  "name": "JIS-G-3460-2020",
   "organization": "JIS",
   "standard_number": "G 3460",
   "year": 2020,
@@ -2091,8 +2079,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "jis_g_3463_2020",
+  "doctype": "Standard Edition",
+  "name": "JIS-G-3463-2020",
   "organization": "JIS",
   "standard_number": "G 3463",
   "year": 2020,
@@ -2106,8 +2094,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "jis_g_4051_2020",
+  "doctype": "Standard Edition",
+  "name": "JIS-G-4051-2020",
   "organization": "JIS",
   "standard_number": "G 4051",
   "year": 2020,
@@ -2121,8 +2109,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "jis_g_4053_2020",
+  "doctype": "Standard Edition",
+  "name": "JIS-G-4053-2020",
   "organization": "JIS",
   "standard_number": "G 4053",
   "year": 2020,
@@ -2136,8 +2124,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "jis_g_4304_2020",
+  "doctype": "Standard Edition",
+  "name": "JIS-G-4304-2020",
   "organization": "JIS",
   "standard_number": "G 4304",
   "year": 2020,
@@ -2151,8 +2139,8 @@
   "docstatus": 0
  },
  {
-  "doctype": "Standard",
-  "name": "jis_g_4305_2020",
+  "doctype": "Standard Edition",
+  "name": "JIS-G-4305-2020",
   "organization": "JIS",
   "standard_number": "G 4305",
   "year": 2020,

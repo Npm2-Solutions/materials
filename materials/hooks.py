@@ -35,7 +35,17 @@ fixtures = [
 	# The domain filter is load-bearing: unfiltered, an export pulls every app's
 	# editions (welding, NDT, structural) into this fixture. That is how 157
 	# material specs once ended up inside weldcore/fixtures/standard.json.
-	{"dt": "Standard", "filters": [["domain", "=", "Mechanical"]]},
+	# The DOCUMENTS, before the printings that belong to them and before the
+	# specifications that name them. They used to be shipped by nobody: a
+	# `Standard Edition` creates its document in `before_save`, so whichever
+	# documents happened to have an edition here existed and the rest did not.
+	# Eighteen specifications named a document with no edition — EN 10088-2,
+	# ASTM A992, API 5LC — so their Link was pointed at the nearest one that did
+	# exist, and EN 10088-2 (stainless) answered as EN 10025-2 (structural).
+	# A document is not derivable from its printings once it carries facts of its
+	# own; Design 24 §1 made `Standard` a fixture in weldcore for the same reason.
+	"Standard",
+	{"dt": "Standard Edition", "filters": [["domain", "=", "Mechanical"]]},
 	"Material Specification",
 	"Material Grade",
 ]
@@ -317,7 +327,6 @@ before_uninstall = "materials.setup.install.before_uninstall"
 # ------------
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
-
 
 # Avatar parts — this app's trade gear, offered to the avatar builder that
 # worgify runs. Collected via frappe.get_hooks; if worgify is absent nothing

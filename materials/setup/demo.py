@@ -9,7 +9,7 @@
 #   Material Specification → Material Grade → Material Heat → Material Certificate
 #
 # It deliberately does NOT recreate the SA-516 Gr.70 grade: that record is
-# shipped as a materials FIXTURE (`asme_sa_516__70`, is_standard=1) and is
+# shipped as a materials FIXTURE (`ASME-SA-516--70`, is_standard=1) and is
 # referenced here. Only the welding-consumable grades — which have no fixture —
 # are created as demo-owned rows (is_standard=0) so cleanup can remove them.
 #
@@ -30,7 +30,7 @@ from worgify.setup import persona  # shared multi-persona demo driver
 
 
 # SA-516 Gr.70 plate grade — shipped as a materials fixture. Referenced, not created.
-PLATE_GRADE_FIXTURE = "asme_sa_516__70"
+PLATE_GRADE_FIXTURE = "ASME-SA-516--70"
 
 # Demo-owned reference rows for welding consumables (no fixture exists for these).
 # is_standard stays 0 (the default) so cleanup is allowed to delete them.

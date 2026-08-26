@@ -24,7 +24,7 @@ class MaterialGrade(Document):
     - UNS number for cross-reference
 
     Naming pattern: {spec}-{grade}
-    Examples: ASME-SA-516-70, EN-10025-2-S355J2
+    Examples: asme_sa_516-70, en_10025_2-S355J2
     """
 
     def autoname(self):
@@ -35,7 +35,9 @@ class MaterialGrade(Document):
         Roman numerals, dashes — e.g. 'Gr B', 'TP304L').
         """
         if self.specification and self.grade:
-            self.name = f"{self.specification}__{slugify(self.grade)}"
+            from worgify.utils.record_key import child_key
+
+            self.name = child_key(self.specification, self.grade)
         else:
             self.name = frappe.generate_hash(length=10)
 
