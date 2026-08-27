@@ -4,6 +4,8 @@ authors = [
     { name = "NPM2 Solutions Srl", email = "info@npm2solutions.it"}
 ]
 description = "Universal materials library — base material grades, specifications, MTRs, testing labs. Tier-1 knowledge library consumed by weldcore, stock, ndtnext, inspecta."
+license = { file = "license.txt" }
+classifiers = ["License :: Other/Proprietary License"]
 requires-python = ">=3.14"
 readme = "README.md"
 dynamic = ["version"]

@@ -1,21 +1,46 @@
-MIT License
+Copyright (c) 2026 NPM2 Solutions Srl. All rights reserved.
 
-Copyright (c) [year] [fullname]
+NPM2 Solutions Srl
+Via San Gregorio 55, Milano (MI), Italia
+P. IVA IT13832480969 - Capitale sociale EUR 10.000
+info@npm2solutions.com
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+PROPRIETARY SOFTWARE - THIS IS NOT OPEN SOURCE
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+This software, including its source code, data, database schemas, reference
+tables and documentation (the "Software"), is the exclusive property of
+NPM2 Solutions Srl and is protected by copyright law and international
+treaties, including Italian Law 633/1941 and Legislative Decree 518/1992.
+
+NO LICENCE IS GRANTED BY THIS FILE.
+
+No right to use, copy, reproduce, modify, adapt, translate, merge, publish,
+distribute, sublicense, sell, lease, rent, decompile or create derivative
+works of the Software is granted to any person, in source or object form,
+except under a separate written agreement signed by NPM2 Solutions Srl.
+
+The Software is operated as a hosted service. Access to that service is
+governed solely by the applicable subscription agreement between NPM2
+Solutions Srl and the subscriber. That agreement conveys no right in, and no
+copy of, the source code, which is not distributed.
+
+Any unauthorised use, reproduction or distribution is a violation of copyright
+and will be pursued to the fullest extent of the law.
+
+
+TRADEMARKS
+
+"Worgify" is a registered trademark of NPM2 Solutions Srl. Nothing in this
+file grants any right to use the trademark, the logo, or any other
+distinctive sign of NPM2 Solutions Srl.
+
+
+THIRD-PARTY COMPONENTS
+
+Third-party components retain their own licences and are used under them; see
+the notices distributed with each. The Frappe Framework is used under the MIT
+Licence, Copyright (c) Frappe Technologies Pvt. Ltd.
+
+
+Licensing enquiries: info@npm2solutions.com
