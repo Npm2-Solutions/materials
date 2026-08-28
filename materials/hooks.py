@@ -332,3 +332,17 @@ before_uninstall = "materials.setup.install.before_uninstall"
 # worgify runs. Collected via frappe.get_hooks; if worgify is absent nothing
 # reads this and nothing breaks.
 avatar_parts = {"materials": "materials.avatar_parts.get_parts"}
+
+# ── A shipped catalogue row belongs to the document it was transcribed from ──
+#
+# Guide 22 §6. The roster is `materials.catalogues`; the rule is the kernel's, so
+# two apps cannot come to disagree about what a customer may edit.
+from materials.catalogues import SHIPPED as _SHIPPED_CATALOGUES
+
+doc_events = globals().get("doc_events") or {}
+
+for _doctype in _SHIPPED_CATALOGUES:
+	doc_events.setdefault(_doctype, {}).update({
+		"validate": "worgify.utils.catalogues.refuse_edits_to_shipped_rows",
+		"on_trash": "worgify.utils.catalogues.refuse_deleting_shipped_rows",
+	})
