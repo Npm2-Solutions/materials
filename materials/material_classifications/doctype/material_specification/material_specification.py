@@ -27,7 +27,7 @@ class MaterialSpecification(Document):
         Example: organization 'ASME' + designation 'SA-516' → 'ASME-SA-516'.
         Falls back to slug of designation alone if the Standard is unset.
         """
-        from worgify.utils.record_key import record_key
+        from worgify.utils.record_key import owned_key
 
         # The publisher comes from the DOCUMENT. This read `Standard Edition`,
         # which the field stopped pointing at in Design 22 phase 3 — so every new
@@ -35,7 +35,7 @@ class MaterialSpecification(Document):
         org = ""
         if self.standard:
             org = frappe.db.get_value("Standard", self.standard, "organization") or ""
-        self.name = record_key(org, self.designation)
+        self.name = owned_key(self, org, self.designation)
 
     def before_save(self):
         # Computed human label for dropdowns + lists.

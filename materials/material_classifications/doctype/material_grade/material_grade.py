@@ -35,9 +35,9 @@ class MaterialGrade(Document):
         Roman numerals, dashes — e.g. 'Gr B', 'TP304L').
         """
         if self.specification and self.grade:
-            from worgify.utils.record_key import child_key
+            from worgify.utils.record_key import owned_child_key
 
-            self.name = child_key(self.specification, self.grade)
+            self.name = owned_child_key(self, self.specification, self.grade)
         else:
             self.name = frappe.generate_hash(length=10)
 
