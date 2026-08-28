@@ -13,7 +13,8 @@
   "withdrawal_date": null,
   "scope_description": "Casing and Tubing",
   "display_name": "API 5CT:2018",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -29,7 +30,8 @@
   "withdrawal_date": null,
   "scope_description": "Specification for Drill Pipe",
   "display_name": "API 5D:2018",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -45,7 +47,8 @@
   "withdrawal_date": null,
   "scope_description": "Specification for Drill Pipe",
   "display_name": "API 5DP:2018",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -58,7 +61,8 @@
   "is_current": 1,
   "is_active": 1,
   "scope_description": "Line Pipe specification. Welded and seamless line pipe for use in pipeline transportation systems in oil and gas industry.",
-  "display_name": "API 5L:2018"
+  "display_name": "API 5L:2018",
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -74,7 +78,8 @@
   "withdrawal_date": null,
   "scope_description": "Coiled Line Pipe",
   "display_name": "API 5LCP:2018",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -90,7 +95,8 @@
   "withdrawal_date": null,
   "scope_description": "Filler Metal Specification for API 5L Pipe",
   "display_name": "API 5LF:2018",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -106,7 +112,8 @@
   "withdrawal_date": null,
   "scope_description": "Specification for Wellhead and Christmas Tree Equipment. Surface and subsea wellhead components. Welding and weld cladding requirements per Annex M.",
   "is_active": 1,
-  "display_name": "API 6A:2018"
+  "display_name": "API 6A:2018",
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -119,7 +126,8 @@
   "is_current": 1,
   "is_active": 1,
   "scope_description": "ASME Boiler and Pressure Vessel Code, Section II Part A — Ferrous Materials Specifications. SA-x designations mirror ASTM.",
-  "display_name": "ASME BPVC II-A:2025"
+  "display_name": "ASME BPVC II-A:2025",
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -135,7 +143,8 @@
   "withdrawal_date": null,
   "scope_description": "Steel, Sheet and Strip, Hot-Rolled, Carbon, Structural, High-Strength Low-Alloy",
   "display_name": "ASTM A1011:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -151,7 +160,8 @@
   "withdrawal_date": null,
   "scope_description": "Steel, Sheet and Strip, Heavy-Thickness Coils, Hot-Rolled, Carbon, Structural",
   "display_name": "ASTM A1018:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -167,7 +177,8 @@
   "withdrawal_date": null,
   "scope_description": "Carbon Steel Forgings for Piping Applications",
   "display_name": "ASTM A105:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -180,7 +191,8 @@
   "is_current": 1,
   "is_active": 1,
   "scope_description": "ASTM A106 — Seamless Carbon Steel Pipe for High-Temp Service (Gr A/B/C).",
-  "display_name": "ASTM A106:2019"
+  "display_name": "ASTM A106:2019",
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -196,7 +208,8 @@
   "withdrawal_date": null,
   "scope_description": "Steel Castings, High Strength, for Structural Purposes",
   "display_name": "ASTM A148:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -212,7 +225,8 @@
   "withdrawal_date": null,
   "scope_description": "Seamless Cold-Drawn Low-Carbon Steel Heat-Exchanger and Condenser Tubes",
   "display_name": "ASTM A179:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -228,7 +242,8 @@
   "withdrawal_date": null,
   "scope_description": "Carbon Steel Forgings, for General-Purpose Piping",
   "display_name": "ASTM A181:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -241,7 +256,8 @@
   "is_current": 1,
   "is_active": 1,
   "scope_description": "Standard Specification for Forged or Rolled Alloy and Stainless Steel Pipe Flanges, Fittings, Valves, and Parts.",
-  "display_name": "ASTM A182:2024"
+  "display_name": "ASTM A182:2024",
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -257,7 +273,8 @@
   "withdrawal_date": null,
   "scope_description": "Seamless Carbon Steel Boiler Tubes for High-Pressure Service",
   "display_name": "ASTM A192:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -273,7 +290,8 @@
   "withdrawal_date": null,
   "scope_description": "Alloy-Steel and Stainless Steel Bolting for High Temperature or High Pressure Service",
   "display_name": "ASTM A193:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -289,7 +307,8 @@
   "withdrawal_date": null,
   "scope_description": "Carbon Steel, Alloy Steel, and Stainless Steel Nuts for Bolts for High Pressure or High Temperature Service",
   "display_name": "ASTM A194:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -305,7 +324,8 @@
   "withdrawal_date": null,
   "scope_description": "Pressure Vessel Plates, Alloy Steel, Chromium-Manganese-Silicon",
   "display_name": "ASTM A202:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -321,7 +341,8 @@
   "withdrawal_date": null,
   "scope_description": "Pressure Vessel Plates, Alloy Steel, Nickel",
   "display_name": "ASTM A203:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -337,7 +358,8 @@
   "withdrawal_date": null,
   "scope_description": "Pressure Vessel Plates, Alloy Steel, Molybdenum",
   "display_name": "ASTM A204:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -353,7 +375,8 @@
   "withdrawal_date": null,
   "scope_description": "Seamless Carbon-Molybdenum Alloy-Steel Boiler and Superheater Tubes",
   "display_name": "ASTM A209:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -369,7 +392,8 @@
   "withdrawal_date": null,
   "scope_description": "Seamless Medium-Carbon Steel Boiler and Superheater Tubes",
   "display_name": "ASTM A210:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -385,7 +409,8 @@
   "withdrawal_date": null,
   "scope_description": "Seamless Ferritic and Austenitic Alloy-Steel Boiler, Superheater, and Heat-Exchanger Tubes",
   "display_name": "ASTM A213:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -401,7 +426,8 @@
   "withdrawal_date": null,
   "scope_description": "Steel Castings, Carbon, Suitable for Fusion Welding, for High-Temperature Service",
   "display_name": "ASTM A216:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -417,7 +443,8 @@
   "withdrawal_date": null,
   "scope_description": "Steel Castings, Martensitic Stainless and Alloy, for Pressure-Containing Parts, for High-Temperature Service",
   "display_name": "ASTM A217:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -433,7 +460,8 @@
   "withdrawal_date": null,
   "scope_description": "Pressure Vessel Plates, Alloy Steel, Manganese-Vanadium-Nickel",
   "display_name": "ASTM A225:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -449,7 +477,8 @@
   "withdrawal_date": null,
   "scope_description": "Steel Wire, Cold-Drawn for Mechanical Springs",
   "display_name": "ASTM A227:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -465,7 +494,8 @@
   "withdrawal_date": null,
   "scope_description": "Steel Wire, Music Spring Quality",
   "display_name": "ASTM A228:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -481,7 +511,8 @@
   "withdrawal_date": null,
   "scope_description": "Steel Wire, Quenched and Tempered for Mechanical Springs",
   "display_name": "ASTM A229:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -497,7 +528,8 @@
   "withdrawal_date": null,
   "scope_description": "Chromium-Vanadium Alloy Steel Spring Wire",
   "display_name": "ASTM A231:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -513,7 +545,8 @@
   "withdrawal_date": null,
   "scope_description": "Chromium-Vanadium Alloy Steel Valve Spring Quality Wire",
   "display_name": "ASTM A232:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -529,7 +562,8 @@
   "withdrawal_date": null,
   "scope_description": "Piping Fittings of Wrought Carbon Steel and Alloy Steel for Moderate and High Temperature Service",
   "display_name": "ASTM A234:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -542,7 +576,8 @@
   "is_current": 1,
   "is_active": 1,
   "scope_description": "Standard Specification for Chromium and Chromium-Nickel Stainless Steel Plate, Sheet, and Strip for Pressure Vessels.",
-  "display_name": "ASTM A240:2020"
+  "display_name": "ASTM A240:2020",
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -558,7 +593,8 @@
   "withdrawal_date": null,
   "scope_description": "High-Strength Low-Alloy Structural Steel",
   "display_name": "ASTM A242:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -574,7 +610,8 @@
   "withdrawal_date": null,
   "scope_description": "Welded Austenitic Steel Boiler, Superheater, Heat-Exchanger, and Condenser Tubes",
   "display_name": "ASTM A249:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -590,7 +627,8 @@
   "withdrawal_date": null,
   "scope_description": "Carbon Steel Forgings for Pressure Vessel Components",
   "display_name": "ASTM A266:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -606,7 +644,8 @@
   "withdrawal_date": null,
   "scope_description": "Seamless and Welded Austenitic Stainless Steel Tubing for General Service",
   "display_name": "ASTM A269:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -622,7 +661,8 @@
   "withdrawal_date": null,
   "scope_description": "Stainless Steel Bars and Shapes",
   "display_name": "ASTM A276:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -638,7 +678,8 @@
   "withdrawal_date": null,
   "scope_description": "Steel Castings, Carbon, for General Application",
   "display_name": "ASTM A27:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -651,7 +692,8 @@
   "is_current": 1,
   "is_active": 1,
   "scope_description": "Standard Specification for Low and Intermediate Tensile Strength Carbon Steel Plates. Grades A/B/C/D.",
-  "display_name": "ASTM A283:2018"
+  "display_name": "ASTM A283:2018",
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -664,7 +706,8 @@
   "is_current": 1,
   "is_active": 1,
   "scope_description": "Standard Specification for Pressure Vessel Plates, Carbon Steel, Low and Intermediate Tensile Strength.",
-  "display_name": "ASTM A285:2018"
+  "display_name": "ASTM A285:2018",
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -680,7 +723,8 @@
   "withdrawal_date": null,
   "scope_description": "Pressure Vessel Plates, Carbon Steel, Manganese-Silicon",
   "display_name": "ASTM A299:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -696,7 +740,8 @@
   "withdrawal_date": null,
   "scope_description": "Pressure Vessel Plates, Alloy Steel, Manganese-Molybdenum and Manganese-Molybdenum-Nickel",
   "display_name": "ASTM A302:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -709,7 +754,8 @@
   "is_current": 1,
   "is_active": 1,
   "scope_description": "Standard Specification for Seamless, Welded, and Heavily Cold Worked Austenitic Stainless Steel Pipes.",
-  "display_name": "ASTM A312:2020"
+  "display_name": "ASTM A312:2020",
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -725,7 +771,8 @@
   "withdrawal_date": null,
   "scope_description": "Alloy-Steel and Stainless Steel Bolting for Low-Temperature Service",
   "display_name": "ASTM A320:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -741,7 +788,8 @@
   "withdrawal_date": null,
   "scope_description": "Steel Bars, Carbon, Quenched and Tempered",
   "display_name": "ASTM A321:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -757,7 +805,8 @@
   "withdrawal_date": null,
   "scope_description": "Seamless and Welded Steel Pipe for Low-Temperature Service",
   "display_name": "ASTM A333:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -770,7 +819,8 @@
   "is_current": 1,
   "is_active": 1,
   "scope_description": "ASTM A335 — Seamless Ferritic Alloy Steel Pipe for High-Temp Service (P11, P22, P91, etc.).",
-  "display_name": "ASTM A335:2024"
+  "display_name": "ASTM A335:2024",
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -786,7 +836,8 @@
   "withdrawal_date": null,
   "scope_description": "Carbon and Low-Alloy Steel Forgings, Requiring Notch Toughness Testing for Piping Components",
   "display_name": "ASTM A350:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -802,7 +853,8 @@
   "withdrawal_date": null,
   "scope_description": "Steel Castings, Ferritic and Martensitic, for Pressure-Containing Parts, Suitable for Low-Temperature Service",
   "display_name": "ASTM A352:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -818,7 +870,8 @@
   "withdrawal_date": null,
   "scope_description": "Steel Castings, Carbon, Low Alloy, and Stainless Steel, Heavy-Walled for Steam Turbines",
   "display_name": "ASTM A356:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -834,7 +887,8 @@
   "withdrawal_date": null,
   "scope_description": "Electric-Fusion-Welded Austenitic Chromium-Nickel Stainless Steel Pipe for High-Temperature Service",
   "display_name": "ASTM A358:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -850,7 +904,8 @@
   "withdrawal_date": null,
   "scope_description": "Carbon and Ferritic Alloy Steel Forged and Bored Pipe for High-Temperature Service",
   "display_name": "ASTM A369:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -863,7 +918,8 @@
   "is_current": 1,
   "is_active": 1,
   "scope_description": "ASTM A36 — Carbon Structural Steel.",
-  "display_name": "ASTM A36:2019"
+  "display_name": "ASTM A36:2019",
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -879,7 +935,8 @@
   "withdrawal_date": null,
   "scope_description": "Standard Test Methods and Definitions for Mechanical Testing of Steel Products",
   "display_name": "ASTM A370:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -895,7 +952,8 @@
   "withdrawal_date": null,
   "scope_description": "Carbon and Alloy Steel Forgings for Thin-Walled Pressure Vessels",
   "display_name": "ASTM A372:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -908,7 +966,8 @@
   "is_current": 1,
   "is_active": 1,
   "scope_description": "Standard Specification for Pressure Vessel Plates, Alloy Steel, Chromium-Molybdenum.",
-  "display_name": "ASTM A387:2020"
+  "display_name": "ASTM A387:2020",
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -924,7 +983,8 @@
   "withdrawal_date": null,
   "scope_description": "Wrought Austenitic Stainless Steel Piping Fittings",
   "display_name": "ASTM A403:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -940,7 +1000,8 @@
   "withdrawal_date": null,
   "scope_description": "Carbon Steel Sheet for Pressure Vessels",
   "display_name": "ASTM A414:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -956,7 +1017,8 @@
   "withdrawal_date": null,
   "scope_description": "Stainless Steel Bars and Shapes for Use in Boilers and Other Pressure Vessels",
   "display_name": "ASTM A479:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -972,7 +1034,8 @@
   "withdrawal_date": null,
   "scope_description": "Steel Castings Suitable for Pressure Service",
   "display_name": "ASTM A487:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -988,7 +1051,8 @@
   "withdrawal_date": null,
   "scope_description": "Cold-Formed Welded and Seamless Carbon Steel Structural Tubing in Rounds and Shapes",
   "display_name": "ASTM A500:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1004,7 +1068,8 @@
   "withdrawal_date": null,
   "scope_description": "Hot-Formed Welded and Seamless Carbon Steel Structural Tubing",
   "display_name": "ASTM A501:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1020,7 +1085,8 @@
   "withdrawal_date": null,
   "scope_description": "High-Yield-Strength, Quenched and Tempered Alloy Steel Plate, Suitable for Welding",
   "display_name": "ASTM A514:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1033,7 +1099,8 @@
   "is_current": 1,
   "is_active": 1,
   "scope_description": "ASTM A516 — Carbon Steel Pressure Vessel Plate (Gr 55/60/65/70).",
-  "display_name": "ASTM A516:2017"
+  "display_name": "ASTM A516:2017",
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1049,7 +1116,8 @@
   "withdrawal_date": null,
   "scope_description": "Pressure Vessel Plates, Alloy Steel, High-Strength, Quenched and Tempered",
   "display_name": "ASTM A517:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1065,7 +1133,8 @@
   "withdrawal_date": null,
   "scope_description": "Pressure Vessel Plates, Heat-Treated, Carbon-Manganese-Silicon Steel",
   "display_name": "ASTM A537:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1078,7 +1147,8 @@
   "is_current": 1,
   "is_active": 1,
   "scope_description": "Standard Specification for Pipe, Steel, Black and Hot-Dipped, Zinc-Coated, Welded and Seamless.",
-  "display_name": "ASTM A53:2020"
+  "display_name": "ASTM A53:2020",
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1094,7 +1164,8 @@
   "withdrawal_date": null,
   "scope_description": "Pressure Vessel Plates, Alloy Steel, Quenched and Tempered 7, 8, and 9 % Nickel",
   "display_name": "ASTM A553:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1107,7 +1178,8 @@
   "is_current": 1,
   "is_active": 1,
   "scope_description": "ASTM A572 — High-Strength Low-Alloy Niobium-Vanadium Structural Steel.",
-  "display_name": "ASTM A572:2021"
+  "display_name": "ASTM A572:2021",
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1120,7 +1192,8 @@
   "is_current": 1,
   "is_active": 1,
   "scope_description": "Standard Specification for High-Strength Low-Alloy Structural Steel, up to 50 ksi.",
-  "display_name": "ASTM A588:2019"
+  "display_name": "ASTM A588:2019",
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1136,7 +1209,8 @@
   "withdrawal_date": null,
   "scope_description": "Centrifugally Cast Iron-Chromium-Nickel High-Alloy Tubing for Pressure Application",
   "display_name": "ASTM A608:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1152,7 +1226,8 @@
   "withdrawal_date": null,
   "scope_description": "Deformed and Plain Carbon-Steel Bars for Concrete Reinforcement",
   "display_name": "ASTM A615:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1165,7 +1240,8 @@
   "is_current": 1,
   "is_active": 1,
   "scope_description": "Standard Specification for Electric-Fusion-Welded Steel Pipe for Atmospheric and Lower Temperatures.",
-  "display_name": "ASTM A671:2024"
+  "display_name": "ASTM A671:2024",
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1181,7 +1257,8 @@
   "withdrawal_date": null,
   "scope_description": "Carbon and Alloy Steel Forgings for Pipe Flanges, Fittings, Valves and Parts for High-Pressure Transmission Service",
   "display_name": "ASTM A694:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1197,7 +1274,8 @@
   "withdrawal_date": null,
   "scope_description": "Forged Carbon and Alloy Steel Flanges for Low-Temperature Service",
   "display_name": "ASTM A707:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1213,7 +1291,8 @@
   "withdrawal_date": null,
   "scope_description": "Age-Hardening Low-Carbon Nickel-Copper-Chromium-Molybdenum-Columbium Alloy Structural Steel Plates",
   "display_name": "ASTM A710:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1229,7 +1308,8 @@
   "withdrawal_date": null,
   "scope_description": "Castings, Investment, Carbon and Low Alloy Steel for General Application",
   "display_name": "ASTM A732:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1245,7 +1325,8 @@
   "withdrawal_date": null,
   "scope_description": "Castings, Iron-Chromium, Iron-Chromium-Nickel, Corrosion Resistant, for General Application",
   "display_name": "ASTM A743:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1261,7 +1342,8 @@
   "withdrawal_date": null,
   "scope_description": "Castings, Iron-Chromium-Nickel, Corrosion Resistant, for Severe Service",
   "display_name": "ASTM A744:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1277,7 +1359,8 @@
   "withdrawal_date": null,
   "scope_description": "Seamless and Welded Ferritic/Austenitic Stainless Steel Tubing for General Service (Duplex)",
   "display_name": "ASTM A789:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1293,7 +1376,8 @@
   "withdrawal_date": null,
   "scope_description": "Wrought Ferritic, Ferritic/Austenitic, and Martensitic Stainless Steel Piping Fittings",
   "display_name": "ASTM A815:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1309,7 +1393,8 @@
   "withdrawal_date": null,
   "scope_description": "Cold-Formed Welded and Seamless High-Strength, Low-Alloy Structural Tubing With Improved Atmospheric Corrosion Resistance",
   "display_name": "ASTM A847:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1325,7 +1410,8 @@
   "withdrawal_date": null,
   "scope_description": "Wrought High-Strength Ferritic Steel Butt-Welding Fittings",
   "display_name": "ASTM A860:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1341,7 +1427,8 @@
   "withdrawal_date": null,
   "scope_description": "High-Strength Low-Alloy Structural Steel Plate With Atmospheric Corrosion Resistance",
   "display_name": "ASTM A871:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1357,7 +1444,8 @@
   "withdrawal_date": null,
   "scope_description": "Castings, Iron-Chromium-Nickel-Molybdenum Corrosion-Resistant, Duplex (Austenitic/Ferritic)",
   "display_name": "ASTM A890:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1373,7 +1461,8 @@
   "withdrawal_date": null,
   "scope_description": "High-Strength Low-Alloy Steel Shapes of Structural Quality, Produced by Quenching and Self-Tempering Process (QST)",
   "display_name": "ASTM A913:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1389,7 +1478,8 @@
   "withdrawal_date": null,
   "scope_description": "Detecting Detrimental Intermetallic Phase in Duplex Austenitic/Ferritic Stainless Steels",
   "display_name": "ASTM A923:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1405,7 +1495,8 @@
   "withdrawal_date": null,
   "scope_description": "General Requirements for Steel Sheet, Metallic-Coated by the Hot-Dip Process",
   "display_name": "ASTM A924:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1421,7 +1512,8 @@
   "withdrawal_date": null,
   "scope_description": "Ferritic/Austenitic Stainless Steel Pipe Electric Fusion Welded with Addition of Filler Metal",
   "display_name": "ASTM A928:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1437,7 +1529,8 @@
   "withdrawal_date": null,
   "scope_description": "Nickel-Copper Alloy (UNS N04400) Plate, Sheet, and Strip (Monel 400)",
   "display_name": "ASTM B127:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1453,7 +1546,8 @@
   "withdrawal_date": null,
   "scope_description": "Measurement of Coating Mass Per Unit Area on Anodically Coated Aluminum",
   "display_name": "ASTM B137:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1469,7 +1563,8 @@
   "withdrawal_date": null,
   "scope_description": "Aluminum-Bronze Sand Castings",
   "display_name": "ASTM B148:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1485,7 +1580,8 @@
   "withdrawal_date": null,
   "scope_description": "Aluminum-Bronze Rod, Bar, and Shapes",
   "display_name": "ASTM B150:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1501,7 +1597,8 @@
   "withdrawal_date": null,
   "scope_description": "Copper Sheet, Strip, Plate, and Rolled Bar",
   "display_name": "ASTM B152:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1517,7 +1614,8 @@
   "withdrawal_date": null,
   "scope_description": "Nickel Seamless Pipe and Tube",
   "display_name": "ASTM B161:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1533,7 +1631,8 @@
   "withdrawal_date": null,
   "scope_description": "Nickel Plate, Sheet, and Strip",
   "display_name": "ASTM B162:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1549,7 +1648,8 @@
   "withdrawal_date": null,
   "scope_description": "Seamless Nickel and Nickel Alloy Condenser and Heat-Exchanger Tubes",
   "display_name": "ASTM B163:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1565,7 +1665,8 @@
   "withdrawal_date": null,
   "scope_description": "Nickel-Copper Alloy Rod, Bar, and Wire (Monel)",
   "display_name": "ASTM B164:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1581,7 +1682,8 @@
   "withdrawal_date": null,
   "scope_description": "Nickel-Copper Alloy (UNS N04400) Seamless Pipe and Tube",
   "display_name": "ASTM B165:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1597,7 +1699,8 @@
   "withdrawal_date": null,
   "scope_description": "Nickel-Chromium-Iron Alloys Rod, Bar, and Wire (Inconel 600, 601, 690, 800)",
   "display_name": "ASTM B166:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1613,7 +1716,8 @@
   "withdrawal_date": null,
   "scope_description": "Nickel-Chromium-Iron Alloys Seamless Pipe and Tube",
   "display_name": "ASTM B167:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1629,7 +1733,8 @@
   "withdrawal_date": null,
   "scope_description": "Nickel-Chromium-Iron Alloys Plate, Sheet, and Strip",
   "display_name": "ASTM B168:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1645,7 +1750,8 @@
   "withdrawal_date": null,
   "scope_description": "Aluminum and Aluminum-Alloy Sheet and Plate",
   "display_name": "ASTM B209:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1661,7 +1767,8 @@
   "withdrawal_date": null,
   "scope_description": "Aluminum and Aluminum-Alloy Drawn Seamless Tubes",
   "display_name": "ASTM B210:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1677,7 +1784,8 @@
   "withdrawal_date": null,
   "scope_description": "Aluminum and Aluminum-Alloy Extruded Bars, Rods, Wire, Profiles, and Tubes",
   "display_name": "ASTM B221:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1693,7 +1801,8 @@
   "withdrawal_date": null,
   "scope_description": "Titanium and Titanium Alloy Strip, Sheet, and Plate",
   "display_name": "ASTM B265:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1709,7 +1818,8 @@
   "withdrawal_date": null,
   "scope_description": "Aluminum-Alloy Sand Castings",
   "display_name": "ASTM B26:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1725,7 +1835,8 @@
   "withdrawal_date": null,
   "scope_description": "Seamless and Welded Titanium and Titanium Alloy Tubes for Condensers and Heat Exchangers",
   "display_name": "ASTM B338:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1741,7 +1852,8 @@
   "withdrawal_date": null,
   "scope_description": "Titanium and Titanium Alloy Bars and Billets",
   "display_name": "ASTM B348:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1757,7 +1869,8 @@
   "withdrawal_date": null,
   "scope_description": "Titanium and Titanium Alloy Forgings",
   "display_name": "ASTM B381:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1773,7 +1886,8 @@
   "withdrawal_date": null,
   "scope_description": "Nickel-Iron-Chromium Alloy Seamless Pipe and Tube (Incoloy 800)",
   "display_name": "ASTM B407:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1789,7 +1903,8 @@
   "withdrawal_date": null,
   "scope_description": "Nickel-Iron-Chromium Alloy Rod and Bar",
   "display_name": "ASTM B408:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1805,7 +1920,8 @@
   "withdrawal_date": null,
   "scope_description": "Nickel-Iron-Chromium Alloy Plate, Sheet, and Strip",
   "display_name": "ASTM B409:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1821,7 +1937,8 @@
   "withdrawal_date": null,
   "scope_description": "Nickel-Iron-Chromium-Molybdenum-Copper Alloy (UNS N08825) Seamless Pipe and Tube",
   "display_name": "ASTM B423:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1837,7 +1954,8 @@
   "withdrawal_date": null,
   "scope_description": "Ni-Fe-Cr-Mo-Cu Alloy (UNS N08825) Plate, Sheet, and Strip",
   "display_name": "ASTM B424:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1853,7 +1971,8 @@
   "withdrawal_date": null,
   "scope_description": "Ni-Cr-Mo-Cb Alloy (UNS N06625 / Inconel 625) and Ni-Cr-Mo-Si Alloy Plate, Sheet, and Strip",
   "display_name": "ASTM B443:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1869,7 +1988,8 @@
   "withdrawal_date": null,
   "scope_description": "Ni-Cr-Mo-Cb (UNS N06625) and Ni-Cr-Mo-Si (UNS N06219) Alloys Pipe and Tube",
   "display_name": "ASTM B444:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1885,7 +2005,8 @@
   "withdrawal_date": null,
   "scope_description": "Nickel Alloy Forgings",
   "display_name": "ASTM B564:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1901,7 +2022,8 @@
   "withdrawal_date": null,
   "scope_description": "Low-Carbon Nickel-Chromium-Molybdenum, Low-Carbon Nickel-Molybdenum-Chromium-Tantalum (Hastelloy C-22, C-276)",
   "display_name": "ASTM B574:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1917,7 +2039,8 @@
   "withdrawal_date": null,
   "scope_description": "Low-Carbon Nickel-Chromium-Molybdenum-Iron-Tungsten Alloy (Hastelloy C-22, C-276) Plate, Sheet, and Strip",
   "display_name": "ASTM B575:2024",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1930,7 +2053,8 @@
   "is_current": 1,
   "is_active": 1,
   "scope_description": "EN 10025-2 — Hot-Rolled Structural Steels (S235, S275, S355, S420, S460).",
-  "display_name": "EN 10025-2:2019"
+  "display_name": "EN 10025-2:2019",
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1943,7 +2067,8 @@
   "is_current": 1,
   "is_active": 1,
   "scope_description": "EN 10028-2 — Pressure-Vessel Steels (P235GH, P265GH, P355GH, etc.).",
-  "display_name": "EN 10028-2:2017"
+  "display_name": "EN 10028-2:2017",
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1956,7 +2081,8 @@
   "is_current": 1,
   "is_active": 1,
   "scope_description": "EN 10028-4 — Flat products for pressure purposes — Nickel alloy steels with specified low-temperature properties",
-  "display_name": "EN 10028-4:2019"
+  "display_name": "EN 10028-4:2019",
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1969,7 +2095,8 @@
   "is_current": 1,
   "is_active": 1,
   "scope_description": "EN 10028-5 — Flat products for pressure purposes — Weldable fine grain steels, thermomechanically rolled",
-  "display_name": "EN 10028-5:2019"
+  "display_name": "EN 10028-5:2019",
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1982,7 +2109,8 @@
   "is_current": 1,
   "is_active": 1,
   "scope_description": "EN 10028-6 — Flat products for pressure purposes — Weldable fine grain steels, quenched and tempered",
-  "display_name": "EN 10028-6:2019"
+  "display_name": "EN 10028-6:2019",
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -1995,7 +2123,8 @@
   "is_current": 1,
   "is_active": 1,
   "scope_description": "EN 10216-1 — Seamless steel tubes for pressure purposes — Non-alloy steel tubes with room-temperature properties",
-  "display_name": "EN 10216-1:2019"
+  "display_name": "EN 10216-1:2019",
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -2008,7 +2137,8 @@
   "is_current": 1,
   "is_active": 1,
   "scope_description": "EN 10216-2 — Seamless Steel Tubes for Pressure Purposes.",
-  "display_name": "EN 10216-2:2014"
+  "display_name": "EN 10216-2:2014",
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -2021,7 +2151,8 @@
   "is_current": 1,
   "is_active": 1,
   "scope_description": "EN 10216-3 — Seamless steel tubes for pressure purposes — Alloy fine grain steel tubes",
-  "display_name": "EN 10216-3:2019"
+  "display_name": "EN 10216-3:2019",
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -2034,7 +2165,8 @@
   "is_current": 1,
   "is_active": 1,
   "scope_description": "EN 10216-4 — Seamless steel tubes for pressure purposes — Non-alloy and alloy steel tubes with low-temperature properties",
-  "display_name": "EN 10216-4:2019"
+  "display_name": "EN 10216-4:2019",
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -2047,7 +2179,8 @@
   "is_current": 1,
   "is_active": 1,
   "scope_description": "EN 10217-1 — Welded steel tubes for pressure purposes — Non-alloy steel tubes with room-temperature properties",
-  "display_name": "EN 10217-1:2019"
+  "display_name": "EN 10217-1:2019",
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -2060,7 +2193,8 @@
   "is_current": 1,
   "is_active": 1,
   "scope_description": "EN 10217-2 — Welded steel tubes for pressure purposes — Electric welded non-alloy and alloy tubes with elevated-temperature properties",
-  "display_name": "EN 10217-2:2019"
+  "display_name": "EN 10217-2:2019",
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -2073,7 +2207,8 @@
   "is_current": 1,
   "is_active": 1,
   "scope_description": "EN 10217-3 — Welded steel tubes for pressure purposes — Alloy fine grain steel tubes",
-  "display_name": "EN 10217-3:2019"
+  "display_name": "EN 10217-3:2019",
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -2086,7 +2221,8 @@
   "is_current": 1,
   "is_active": 1,
   "scope_description": "EN 10217-4 — Welded steel tubes for pressure purposes — Electric welded non-alloy tubes with low-temperature properties",
-  "display_name": "EN 10217-4:2019"
+  "display_name": "EN 10217-4:2019",
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -2099,7 +2235,8 @@
   "is_current": 1,
   "is_active": 1,
   "scope_description": "EN 10217-5 — Welded steel tubes for pressure purposes — Submerged arc welded non-alloy and alloy tubes with elevated-temperature properties",
-  "display_name": "EN 10217-5:2019"
+  "display_name": "EN 10217-5:2019",
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -2112,7 +2249,8 @@
   "is_current": 1,
   "is_active": 1,
   "scope_description": "EN 10222-2 — Steel forgings for pressure purposes — Ferritic and martensitic steels with elevated-temperature properties",
-  "display_name": "EN 10222-2:2019"
+  "display_name": "EN 10222-2:2019",
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -2125,7 +2263,8 @@
   "is_current": 1,
   "is_active": 1,
   "scope_description": "EN 10222-4 — Steel forgings for pressure purposes — Weldable fine grain steels with high proof strength",
-  "display_name": "EN 10222-4:2019"
+  "display_name": "EN 10222-4:2019",
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -2141,7 +2280,8 @@
   "withdrawal_date": null,
   "scope_description": "Rolled steels for general structure (SS materials: SS330, SS400, SS490, SS540)",
   "display_name": "JIS G 3101:2020",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -2157,7 +2297,8 @@
   "withdrawal_date": null,
   "scope_description": "Rolled steels for welded structure (SM materials: SM400, SM490, SM520, SM570)",
   "display_name": "JIS G 3106:2020",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -2173,7 +2314,8 @@
   "withdrawal_date": null,
   "scope_description": "Carbon steel pipes for pressure service (STPG)",
   "display_name": "JIS G 3454:2020",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -2189,7 +2331,8 @@
   "withdrawal_date": null,
   "scope_description": "Carbon steel pipes for high temperature service (STPT)",
   "display_name": "JIS G 3456:2020",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -2205,7 +2348,8 @@
   "withdrawal_date": null,
   "scope_description": "Alloy steel pipes (STPA)",
   "display_name": "JIS G 3458:2020",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -2221,7 +2365,8 @@
   "withdrawal_date": null,
   "scope_description": "Steel pipes for low temperature service (STPL)",
   "display_name": "JIS G 3460:2020",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -2237,7 +2382,8 @@
   "withdrawal_date": null,
   "scope_description": "Stainless steel pipes for boiler and heat exchanger (SUS-TB)",
   "display_name": "JIS G 3463:2020",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -2253,7 +2399,8 @@
   "withdrawal_date": null,
   "scope_description": "Carbon steels for machine structural use (S-C series: S20C, S35C, S45C)",
   "display_name": "JIS G 4051:2020",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -2269,7 +2416,8 @@
   "withdrawal_date": null,
   "scope_description": "Low-alloyed steels for machine structural use (SCM, SNCM series)",
   "display_name": "JIS G 4053:2020",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -2285,7 +2433,8 @@
   "withdrawal_date": null,
   "scope_description": "Hot-rolled stainless steel plates, sheets and strip (SUS304, SUS316L, SUS321)",
   "display_name": "JIS G 4304:2020",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  },
  {
   "doctype": "Standard Edition",
@@ -2301,6 +2450,7 @@
   "withdrawal_date": null,
   "scope_description": "Cold-rolled stainless steel plates, sheets and strip",
   "display_name": "JIS G 4305:2020",
-  "docstatus": 0
+  "docstatus": 0,
+  "is_standard": 1
  }
 ]
