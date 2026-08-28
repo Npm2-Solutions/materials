@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_import": 1,
- "allow_rename": 1,
+ "allow_rename": 0,
  "autoname": "",
  "creation": "2025-01-29 00:00:00.000000",
  "doctype": "DocType",
@@ -101,7 +101,7 @@
    "label": "Enabled"
   },
   {
-   "description": "Computed in before_save: '{grade} — {specification designation}'. Drives form title + link dropdowns.",
+   "description": "Computed in before_save: '{grade} \u2014 {specification designation}'. Drives form title + link dropdowns.",
    "fieldname": "display_name",
    "fieldtype": "Data",
    "hidden": 1,

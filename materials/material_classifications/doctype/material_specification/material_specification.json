@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_import": 1,
- "allow_rename": 1,
+ "allow_rename": 0,
  "autoname": "",
  "creation": "2025-01-29 00:00:00.000000",
  "doctype": "DocType",
@@ -44,7 +44,7 @@
    "reqd": 1
   },
   {
-   "description": "Computed in before_save: '{designation} — {standard label}'. Drives form title + link dropdowns.",
+   "description": "Computed in before_save: '{designation} \u2014 {standard label}'. Drives form title + link dropdowns.",
    "fieldname": "display_name",
    "fieldtype": "Data",
    "hidden": 1,
@@ -74,14 +74,14 @@
   },
   {
    "default": "Active",
+   "description": "Set by hand, or by the Withdraw action. It used to be derived from a <code>supersedes</code> Link on this record \u2014 a second supersession model beside <code>Standard Edition.supersedes</code>, empty on all 178 rows, and the same duplicate Design 24 dropped from the filler specifications.",
    "fieldname": "spec_status",
    "fieldtype": "Select",
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Status",
    "options": "Active\nSuperseded\nWithdrawn",
-   "read_only": 1,
-   "description": "Set by hand, or by the Withdraw action. It used to be derived from a <code>supersedes</code> Link on this record — a second supersession model beside <code>Standard Edition.supersedes</code>, empty on all 178 rows, and the same duplicate Design 24 dropped from the filler specifications."
+   "read_only": 1
   },
   {
    "fieldname": "section_break_details",
