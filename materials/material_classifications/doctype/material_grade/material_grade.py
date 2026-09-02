@@ -106,10 +106,3 @@ class MaterialGrade(Document):
             for row in self.get("group_assignments") or []
         }
 
-    def on_trash(self):
-        """Prevent deletion of system standard records."""
-        if self.is_standard:
-            frappe.throw(
-                _("Cannot delete system standard '{0}'. This base material grade is required by the system.").format(self.name),
-                title=_("Deletion Not Allowed")
-            )
