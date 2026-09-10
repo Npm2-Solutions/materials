@@ -213,7 +213,12 @@ def setup(context):
     ledger = persona.Ledger("Materials")
     personas = persona.ensure({"inspector": ("material_inspector", "STK Material Inspector")}, ledger)
     for c in DEMO_CERTS:
-        if c["heat"] not in heat_ok:
+        # Not every MTR documents a heat: a consumable certificate documents a
+        # BATCH, and the body below already knows that (`heats_covered` is left
+        # empty, `_attach_to_batch` takes over). Only the guard did not, so the
+        # two consumable certificates took the whole materials demo down with a
+        # KeyError before either of them could be issued.
+        if c.get("heat") and c["heat"] not in heat_ok:
             continue  # the heat this MTR documents wasn't created → skip
         # Guard idempotency: sequential autoname never collides, so check number.
         existing = frappe.db.get_value(
