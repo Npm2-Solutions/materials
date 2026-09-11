@@ -346,3 +346,16 @@ for _doctype in _SHIPPED_CATALOGUES:
 		"validate": "worgify.utils.catalogues.refuse_edits_to_shipped_rows",
 		"on_trash": "worgify.utils.catalogues.refuse_deleting_shipped_rows",
 	})
+
+
+# ---------------------------------------------------------------------------
+# Internal project roles — contributed to the kernel's project substrate
+# (worgify.utils.project_access). Internal staff work across the whole
+# portfolio; there is no per-project membership tier to fall back on, so a role
+# missing from here is denied every row that carries a project.
+# The catalogue is maintained once, for every job.
+# ---------------------------------------------------------------------------
+project_internal_roles = [
+	"Material Catalog Curator",
+	"Material Record Author",
+]
