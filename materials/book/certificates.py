@@ -50,7 +50,7 @@ def _facts(doc) -> str:
 		("Date", fmtdate(doc.certificate_date)),
 		("Supplier", doc.supplier),
 		("Issuing Body", doc.issuing_body),
-		("Applicable Standard", doc.applicable_standard),
+		("Applicable Standard", doc.get("standard_edition")),
 	]
 	cells = "".join(
 		f"<div style='min-width:160px'><label class='text-muted' style='display:block;font-size:11px'>{esc(label)}</label>"

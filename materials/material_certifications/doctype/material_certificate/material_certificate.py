@@ -343,7 +343,8 @@ def get_batch_certificates(batch):
 			"verified",
 			"issuing_organization",
 			"issuing_body",
-			"applicable_standard",
+			# The field is `standard_edition` now; the key the callers read stays.
+			"standard_edition as applicable_standard",
 		],
 	)
 

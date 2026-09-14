@@ -61,9 +61,6 @@ frappe.ui.form.on("Material Certificate", {
 				return {};
 			});
 
-			frm.set_query("applicable_standard", function() {
-				return {};
-			});
 		}
 	},
 

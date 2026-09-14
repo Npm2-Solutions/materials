@@ -279,8 +279,6 @@ def cleanup():
     """Remove materials demo data. Never touches fixture (is_standard=1) records."""
     cert_numbers = [c["certificate_number"] for c in DEMO_CERTS]
     heat_numbers = [h["heat_number"] for h in DEMO_HEATS]
-    grade_names = [g["grade"] for g in DEMO_GRADES]
-    spec_designations = [s["designation"] for s in DEMO_SPECS]
 
     # Certificates first — their child rows hold the only links to the heats.
     for name in frappe.get_all(
@@ -307,26 +305,8 @@ def cleanup():
         except Exception:
             pass
 
-    # Demo-owned grades (is_standard=0 only — protects the SA-516 fixture grade).
-    for name in frappe.get_all(
-        "Material Grade",
-        filters={"grade": ["in", grade_names], "is_standard": 0},
-        pluck="name",
-    ):
-        try:
-            frappe.delete_doc("Material Grade", name, force=True, ignore_permissions=True)
-        except Exception:
-            pass
-
-    # Demo-owned specs (is_standard=0 only).
-    for name in frappe.get_all(
-        "Material Specification",
-        filters={"designation": ["in", spec_designations], "is_standard": 0},
-        pluck="name",
-    ):
-        try:
-            frappe.delete_doc("Material Specification", name, force=True, ignore_permissions=True)
-        except Exception:
-            pass
+    # No grades or specifications are demo-owned any more (the plate grade is a
+    # fixture, see DEMO_HEATS). The two lists this cleanup read went with them,
+    # and the NameError stopped the whole cleanup before it removed anything.
 
     frappe.db.commit()
