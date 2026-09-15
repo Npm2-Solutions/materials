@@ -359,3 +359,7 @@ project_internal_roles = [
 	"Material Catalog Curator",
 	"Material Record Author",
 ]
+
+# ── The Worgify assistant (worgify Design 36 §23) ───────────────────────────
+# Material certificates read from a PDF in the chat: checks, heats, the lot.
+agent_tools = ["materials.agent_tools"]

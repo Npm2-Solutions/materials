@@ -1409,3 +1409,135 @@ msgstr "Carico di snervamento"
 msgid "{} Total"
 msgstr "{} totali"
 
+
+#: materials/agent_tools.py
+msgid " from another issuer — one of the two may be forged"
+msgstr " da un altro emittente — uno dei due potrebbe essere falso"
+
+#: materials/agent_tools.py
+msgid "Cast: {0}"
+msgstr "Colata: {0}"
+
+#: materials/agent_tools.py
+msgid "Certificate number {0} is already recorded as {1}{2}"
+msgstr "Il numero di certificato {0} è già registrato come {1}{2}"
+
+#: materials/agent_tools.py
+msgid "Certificate number: {0}"
+msgstr "Numero certificato: {0}"
+
+#: materials/agent_tools.py
+msgid "Certificate type {0} is not one of: {1}"
+msgstr "Il tipo di certificato {0} non è tra: {1}"
+
+#: materials/agent_tools.py
+msgid "Chemical"
+msgstr "Chimica"
+
+#: materials/agent_tools.py
+msgid "Create heat {0}, grade {1}"
+msgstr "Crea la colata {0}, grado {1}"
+
+#: materials/agent_tools.py
+msgid "Element {0} is not in the list: use element \"Other\" with element_other"
+msgstr "L'elemento {0} non è nell'elenco: usa l'elemento \"Other\" con element_other"
+
+#: materials/agent_tools.py
+msgid "Give the heat number."
+msgstr "Indica il numero di colata."
+
+#: materials/agent_tools.py
+msgid "Grade {0} as printed is not a Material Grade name; candidates: {1}"
+msgstr "Il grado {0} come stampato non è il nome di un Material Grade; candidati: {1}"
+
+#: materials/agent_tools.py
+msgid "Heat {0} already exists."
+msgstr "La colata {0} esiste già."
+
+#: materials/agent_tools.py
+msgid "Heat {0} created"
+msgstr "Colata {0} creata"
+
+#: materials/agent_tools.py
+msgid "Heat {0} is not in the system: create it with create_material_heat before the certificate"
+msgstr "La colata {0} non è a sistema: creala con create_material_heat prima del certificato"
+
+#: materials/agent_tools.py
+msgid "Heat {0} is recorded as grade {1}; the certificate says {2}"
+msgstr "La colata {0} è registrata con grado {1}; il certificato dice {2}"
+
+#: materials/agent_tools.py
+msgid "Link certificate {0} ({1}) to lot {2}"
+msgstr "Collega il certificato {0} ({1}) al lotto {2}"
+
+#: materials/agent_tools.py
+msgid "Lot {0} still needs {1}; this certificate is {2}"
+msgstr "Al lotto {0} serve ancora {1}; questo certificato è {2}"
+
+#: materials/agent_tools.py
+msgid "Mechanical"
+msgstr "Meccanica"
+
+#: materials/agent_tools.py
+msgid "Mill not recorded"
+msgstr "Acciaieria non registrata"
+
+#: materials/agent_tools.py
+msgid "Mill: {0}"
+msgstr "Acciaieria: {0}"
+
+#: materials/agent_tools.py
+msgid "Supplier {0} does not exist."
+msgstr "Il fornitore {0} non esiste."
+
+#: materials/agent_tools.py
+msgid "Test {0} is not in the list ({1}): use \"Other\" with test_type_other"
+msgstr "La prova {0} non è nell'elenco ({1}): usa \"Other\" con test_type_other"
+
+#: materials/agent_tools.py
+msgid "The certificate covers none of lot {0}'s heats ({1})"
+msgstr "Il certificato non copre nessuna colata del lotto {0} ({1})"
+
+#: materials/agent_tools.py
+msgid "The certificate covers only some of lot {0}'s heats"
+msgstr "Il certificato copre solo alcune colate del lotto {0}"
+
+#: materials/agent_tools.py
+msgid "none found"
+msgstr "nessuno trovato"
+
+#: materials/agent_tools.py
+msgid "{0} is already linked to {1}."
+msgstr "{0} è già collegato a {1}."
+
+#: materials/agent_tools.py
+msgid "{0} is not a Material Grade. Candidates: {1}"
+msgstr "{0} non è un Material Grade. Candidati: {1}"
+
+#: materials/agent_tools.py
+msgid "{0} row {1} is not an object."
+msgstr "{0} riga {1} non è un oggetto."
+
+#: materials/agent_tools.py
+msgid "{0} {1} = {2} is outside {3} – {4}"
+msgstr "{0} {1} = {2} è fuori da {3} – {4}"
+
+#: materials/agent_tools.py
+msgid "{0} {1}: minimum {2} is above maximum {3} — misread?"
+msgstr "{0} {1}: il minimo {2} è sopra il massimo {3} — letto male?"
+
+#: materials/agent_tools.py
+msgid "{0} {1}: no limits printed — the person supplies them, or leaves them empty"
+msgstr "{0} {1}: nessun limite stampato — li indica la persona, oppure restano vuoti"
+
+#: materials/agent_tools.py
+msgid "Record a certificate from a PDF I attach"
+msgstr "Registra un certificato da un PDF che allego"
+
+#: materials/agent_tools.py
+msgid "Is this lot's certificate complete and within spec?"
+msgstr "Il certificato di questo lotto è completo e nei limiti?"
+
+#: materials/agent_tools.py
+msgid "Which certificates cover this heat?"
+msgstr "Quali certificati coprono questa colata?"
