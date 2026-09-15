@@ -1541,3 +1541,19 @@ msgstr "Il certificato di questo lotto è completo e nei limiti?"
 #: materials/agent_tools.py
 msgid "Which certificates cover this heat?"
 msgstr "Quali certificati coprono questa colata?"
+
+#: materials/agent_tools.py
+msgid "Looking for the certificates of heat {heat}"
+msgstr "Cerco i certificati della colata {heat}"
+
+#: materials/agent_tools.py
+msgid "Checking whether certificate {certificate} still stands"
+msgstr "Verifico se il certificato {certificate} è ancora valido"
+
+#: materials/agent_tools.py
+msgid "Looking for certificates that could cover lot {batch}"
+msgstr "Cerco i certificati che potrebbero coprire il lotto {batch}"
+
+#: materials/agent_tools.py
+msgid "The stored status says {0}; on today's date it is {1}. Saving the record brings it up to date."
+msgstr "Lo stato registrato dice {0}; alla data di oggi è {1}. Salvando il record lo si aggiorna."

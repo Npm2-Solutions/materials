@@ -42,11 +42,16 @@ AGENT_GUIDES = {
 		"page of every value, and attach_file with attach_field \"attachment\" so the PDF goes with the "
 		"record. within_spec is computed by the record itself. Never tick verified. Spec limits the "
 		"certificate does not print are not yours to supply. After it is saved, "
-		"link_certificate_to_batch attaches it to a lot."
+		"link_certificate_to_batch attaches it to a lot. Its status (Valid, Expired, Revoked) is only "
+		"recomputed when the record is saved and nothing ages it on a schedule: ask certificate_standing, "
+		"which judges the expiry date, rather than reading status. Revoking is a quality decision on the "
+		"form, never yours."
 	),
 	"Material Heat": (
 		"A heat (cast) of steel, named by its heat number, with its grade. Certificates cover heats; "
-		"lots (Batch) carry heats. Create one with create_material_heat."
+		"lots (Batch) carry heats. Create one with create_material_heat. certificates_for_heat lists the "
+		"certificates that cover it and the lots that carry it. Its status (Active, Released, Quarantined, "
+		"Recalled — final) is a quality decision the person saves on the form, never yours."
 	),
 }
 
@@ -59,8 +64,11 @@ AGENT_JUDGEMENT = {
 }
 
 AGENT_SUGGESTIONS = {
-	"Material Certificate": {"list": ["Record a certificate from a PDF I attach"]},
-	"Batch": {"form": ["Is this lot's certificate complete and within spec?"]},
+	"Material Certificate": {
+		"list": ["Record a certificate from a PDF I attach"],
+		"form": ["Does this certificate still stand, and which lots carry it?"],
+	},
+	"Batch": {"form": ["Is this lot's certificate complete and within spec?", "Which certificates could cover this lot?"]},
 	"Material Heat": {"form": ["Which certificates cover this heat?"]},
 }
 
@@ -277,3 +285,134 @@ def link_certificate_to_batch(batch: str, certificate: str):
 		details=[_("Certificate number: {0}").format(cert.certificate_number)],
 		reversible=True,
 	)
+
+
+# ── Where a certificate stands, and what it covers ───────────────────────────
+
+
+def _standing(cert) -> dict:
+	"""A certificate's verdict judged on its date, beside the status it has stored.
+
+	Material Certificate recomputes its status only when it is saved, and nothing ages it on
+	a schedule, so a certificate past its expiry date can still say Valid. The verdict here is
+	the one stock's release rule uses (stock.certificates.evaluate): the date wins."""
+	from frappe.utils import getdate, nowdate
+
+	stored = cert.get("status") or ""
+	if stored == "Revoked":
+		verdict = "Revoked"
+	elif cert.get("expiry_date") and getdate(cert.get("expiry_date")) < getdate(nowdate()):
+		verdict = "Expired"
+	else:
+		verdict = "Valid"
+	return {"verdict": verdict, "stored_status": stored, "stale": stored != verdict}
+
+
+def _readable_certificates(names) -> list[dict]:
+	names = [n for n in dict.fromkeys(names or []) if n]
+	if not names:
+		return []
+	rows = frappe.get_list(
+		"Material Certificate", filters={"name": ["in", names]},
+		fields=["name", "certificate_number", "certificate_type", "certificate_date", "status", "expiry_date",
+				"verified", "supplier", "issuing_body"],
+	)
+	for r in rows:
+		r.update(_standing(r))
+	return rows
+
+
+@agent_tool(kind="explain", step=("file-badge", "Looking for the certificates of heat {heat}"))
+def certificates_for_heat(heat: str):
+	"""The certificates that cover a heat — each judged on its expiry date — and the lots that carry the heat.
+
+	Call this for "which certificates cover heat X", "is heat X documented", before linking a certificate to a lot.
+
+	Args:
+		heat: The heat number (Material Heat name).
+	"""
+	h = load("Material Heat", heat, "read")
+	frappe.has_permission("Material Certificate", "read", throw=True)
+	parents = frappe.get_all("Material Heat Coverage", filters={"heat": heat, "parenttype": "Material Certificate"}, pluck="parent")
+	certificates = _readable_certificates(parents)
+	lots = []
+	if "stock" in frappe.get_installed_apps() and frappe.has_permission("Batch", "read"):
+		lots = frappe.get_list("Batch", filters={"heat_number": heat}, fields=["name", "item", "lot_status", "certificate_status", "project"], limit=50)
+		child = frappe.get_all("Batch Heat Number", filters={"heat_number": heat, "parenttype": "Batch"}, pluck="parent") if frappe.db.exists("DocType", "Batch Heat Number") else []
+		extra = [n for n in child if n not in {lot.name for lot in lots}]
+		if extra:
+			lots += frappe.get_list("Batch", filters={"name": ["in", extra]}, fields=["name", "item", "lot_status", "certificate_status", "project"], limit=50)
+	return {
+		"heat": heat, "grade": h.grade, "heat_status": h.status, "mill": h.mill,
+		"certificates": certificates,
+		"covered": ("by a valid certificate" if any(c["verdict"] == "Valid" for c in certificates)
+					else "no valid certificate" if certificates else "no certificate you can read"),
+		"lots": lots,
+		"decided_by": "the materials heat register and each certificate's expiry date",
+	}
+
+
+@agent_tool(kind="explain", step=("file-check", "Checking whether certificate {certificate} still stands"))
+def certificate_standing(certificate: str):
+	"""Whether a material certificate still stands on today's date — valid, expired or revoked — with the heats it covers and the lots that carry it.
+
+	Call this for "is this certificate still valid", "which lots depend on it". The stored status can be stale:
+	the verdict here judges the expiry date.
+
+	Args:
+		certificate: The Material Certificate name, e.g. "MCERT-2026-00014".
+	"""
+	cert = load("Material Certificate", certificate, "read")
+	standing = _standing(cert)
+	lots = []
+	if "stock" in frappe.get_installed_apps() and frappe.has_permission("Batch", "read"):
+		from stock.certificates import lots_carrying
+
+		carrying = lots_carrying(certificate)
+		if carrying:
+			lots = frappe.get_list("Batch", filters={"name": ["in", carrying]}, fields=["name", "item", "lot_status", "certificate_status"], limit=50)
+	return {
+		"certificate": certificate, "certificate_number": cert.certificate_number, "certificate_type": cert.certificate_type,
+		"expiry_date": cert.expiry_date, **standing, "verified": bool(cert.verified),
+		"heats": [r.heat for r in cert.get("heats_covered") or []],
+		"lots": lots,
+		"note": _("The stored status says {0}; on today's date it is {1}. Saving the record brings it up to date.").format(
+			_(standing["stored_status"]), _(standing["verdict"])) if standing["stale"] else None,
+		"decided_by": "the certificate's expiry date and revocation (the rule the lot's release uses)",
+	}
+
+
+@agent_tool(kind="explain", step=("scan-search", "Looking for certificates that could cover lot {batch}"))
+def certificate_matches_for_lot(batch: str):
+	"""The recorded certificates that cover a lot's heats and are not linked to it yet — exact or partial — and the ones already linked, each judged on its date.
+
+	Call this for "which certificate goes with this lot", before link_certificate_to_batch.
+
+	Args:
+		batch: The lot (Batch) name.
+	"""
+	from materials.material_certifications.doctype.material_certificate.material_certificate import suggest_certificate_matches
+
+	b = load("Batch", batch, "read")
+	frappe.has_permission("Material Certificate", "read", throw=True)
+	matches = [m for m in suggest_certificate_matches(batch) if frappe.has_permission("Material Certificate", "read", doc=m["name"])]
+	standing = {c["name"]: c for c in _readable_certificates([m["name"] for m in matches])}
+	for m in matches:
+		m.update({k: standing.get(m["name"], {}).get(k) for k in ("verdict", "expiry_date", "verified")})
+	linked = _readable_certificates([r.certificate for r in b.get("certificates") or []])
+	missing = []
+	if "stock" in frappe.get_installed_apps():
+		from stock.certificates import missing_types
+
+		missing = missing_types(batch, b.item, b.get("project"))
+	return {
+		"batch": batch, "heats": sorted(_batch_heat_names_safe(b)),
+		"candidates": matches, "linked": linked, "missing_certificate_types": missing,
+		"decided_by": "the materials heat coverage match (exact: every heat of the lot is covered)",
+	}
+
+
+def _batch_heat_names_safe(batch_doc) -> set:
+	from materials.material_certifications.doctype.material_certificate.material_certificate import _batch_heat_names
+
+	return _batch_heat_names(batch_doc)
