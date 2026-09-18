@@ -37,6 +37,7 @@ AGENT_GUIDES = {
 		"you read — it checks the number is not already recorded, the heats and their grade, every "
 		"result against its printed limits, and the lot. Heats not in the system are created with "
 		"create_material_heat first (heats_covered links to existing heats). Then prepare_new_record "
+		"with certificate_number, certificate_type and certificate_date as printed, "
 		"with heats_covered, chemical_results (element, value_percent, spec_min, spec_max) and "
 		"mechanical_results (test_type, value, unit, spec_min, spec_max, temperature), sources with the "
 		"page of every value, and attach_file with attach_field \"attachment\" so the PDF goes with the "
