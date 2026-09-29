@@ -1383,7 +1383,7 @@ msgstr "W"
 
 #: materials/material_classifications/doctype/material_specification/material_specification.js:13
 msgid "Withdraw"
-msgstr "Preleva"
+msgstr "Ritira"
 
 #. Option for the 'Status' (Select) field in DocType 'Material Specification'
 #: materials/material_classifications/doctype/material_specification/material_specification.json
