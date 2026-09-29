@@ -7,14 +7,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Materials VERSION\n"
 "Report-Msgid-Bugs-To: info@npm2solutions.it\n"
-"POT-Creation-Date: 2026-07-20 17:45+0000\n"
-"PO-Revision-Date: 2026-07-20 17:45+0000\n"
+"POT-Creation-Date: 2026-09-29 13:44+0000\n"
+"PO-Revision-Date: 2026-09-29 13:44+0000\n"
 "Last-Translator: info@npm2solutions.it\n"
 "Language-Team: info@npm2solutions.it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.16.0\n"
+
+#: materials/agent_tools.py:153
+msgid " from another issuer — one of the two may be forged"
+msgstr ""
 
 #. Header text in the Materials Workspace
 #: materials/material_classifications/workspace/materials/materials.json
@@ -41,6 +45,12 @@ msgstr ""
 msgid "<span class=\"h4\"><b>Trends & Distribution</b></span>"
 msgstr ""
 
+#. Description of the 'Product Form' (Select) field in DocType 'Material Grade
+#. Form'
+#: materials/material_classifications/doctype/material_grade_form/material_grade_form.json
+msgid "ASTM A6 covers structural shapes — beams, angles, channels — and A36, A572, A992 and EN 10025-2 are supplied as them. The value was in the data on 16 rows and missing from this list, so those grades could not be saved at all: a Select is validated on the server."
+msgstr ""
+
 #: materials/material_certifications/doctype/material_certificate/material_certificate.js:32
 #: materials/material_classifications/doctype/material_specification/material_specification.js:22
 msgid "Actions"
@@ -65,13 +75,7 @@ msgstr ""
 msgid "Aluminum Alloy"
 msgstr ""
 
-#. Label of the applicable_standard (Link) field in DocType 'Material
-#. Certificate'
-#: materials/material_certifications/doctype/material_certificate/material_certificate.json
-msgid "Applicable Standard"
-msgstr ""
-
-#: materials/material_certifications/doctype/material_certificate/material_certificate.js:132
+#: materials/material_certifications/doctype/material_certificate/material_certificate.js:129
 msgid "Apply"
 msgstr ""
 
@@ -122,14 +126,6 @@ msgstr ""
 msgid "Cannot change Material Heat status from {0} to {1}."
 msgstr ""
 
-#: materials/material_classifications/doctype/material_grade/material_grade.py:111
-msgid "Cannot delete system standard '{0}'. This base material grade is required by the system."
-msgstr ""
-
-#: materials/material_classifications/doctype/material_specification/material_specification.py:86
-msgid "Cannot delete system standard '{0}'. This base material specification is required by the system."
-msgstr ""
-
 #. Option for the 'Material Category' (Select) field in DocType 'Material
 #. Specification'
 #: materials/material_classifications/doctype/material_specification/material_specification.json
@@ -145,6 +141,10 @@ msgstr ""
 #. Label of the cast_number (Data) field in DocType 'Material Heat'
 #: materials/material_certifications/doctype/material_heat/material_heat.json
 msgid "Cast Number"
+msgstr ""
+
+#: materials/agent_tools.py:262
+msgid "Cast: {0}"
 msgstr ""
 
 #. Option for the 'Product Form' (Select) field in DocType 'Material Grade
@@ -191,13 +191,12 @@ msgstr ""
 msgid "Certificate Number"
 msgstr ""
 
-#. Label of the certificate_type (Select) field in DocType 'Material
-#. Certificate'
+#. Label of the certificate_type (Link) field in DocType 'Material Certificate'
 #: materials/material_certifications/doctype/material_certificate/material_certificate.json
 msgid "Certificate Type"
 msgstr ""
 
-#: materials/material_certifications/doctype/material_certificate/material_certificate.py:363
+#: materials/material_certifications/doctype/material_certificate/material_certificate.py:364
 msgid "Certificate extraction is not enabled in Stock Settings."
 msgstr ""
 
@@ -205,11 +204,27 @@ msgstr ""
 msgid "Certificate number {0} already exists: {1}. If the data differs, one may be fraudulent."
 msgstr ""
 
+#: materials/agent_tools.py:152
+msgid "Certificate number {0} is already recorded as {1}{2}"
+msgstr ""
+
+#: materials/agent_tools.py:286
+msgid "Certificate number: {0}"
+msgstr ""
+
+#: materials/agent_tools.py:143
+msgid "Certificate type {0} is not one of: {1}"
+msgstr ""
+
 #. Label of a Card Break in the Materials Workspace
 #. Label of a Workspace Sidebar Item
 #: materials/material_classifications/workspace/materials/materials.json
 #: materials/workspace_sidebar/materials.json
 msgid "Certifications"
+msgstr ""
+
+#: materials/agent_tools.py:182
+msgid "Chemical"
 msgstr ""
 
 #. Label of the chemical_section (Section Break) field in DocType 'Material
@@ -220,7 +235,7 @@ msgstr ""
 
 #. Label of the chemical_tab (Tab Break) field in DocType 'Material
 #. Certificate'
-#: materials/material_certifications/doctype/material_certificate/material_certificate.js:106
+#: materials/material_certifications/doctype/material_certificate/material_certificate.js:103
 #: materials/material_certifications/doctype/material_certificate/material_certificate.json
 msgid "Chemical Composition"
 msgstr ""
@@ -246,12 +261,6 @@ msgstr ""
 msgid "Co"
 msgstr ""
 
-#. Option for the 'Certificate Type' (Select) field in DocType 'Material
-#. Certificate'
-#: materials/material_certifications/doctype/material_certificate/material_certificate.json
-msgid "Coating Certificate"
-msgstr ""
-
 #. Description of the 'Display Name' (Data) field in DocType 'Material
 #. Specification'
 #: materials/material_classifications/doctype/material_specification/material_specification.json
@@ -275,7 +284,7 @@ msgstr ""
 msgid "Copper Alloy"
 msgstr ""
 
-#: materials/material_certifications/doctype/material_certificate/material_certificate.py:391
+#: materials/material_certifications/doctype/material_certificate/material_certificate.py:392
 msgid "Could not extract text from PDF. The file may be image-based."
 msgstr ""
 
@@ -285,19 +294,18 @@ msgstr ""
 msgid "Cr"
 msgstr ""
 
+#: materials/agent_tools.py:259
+msgid "Create heat {0}, grade {1}"
+msgstr ""
+
 #. Option for the 'Element' (Select) field in DocType 'Certificate Chemical
 #. Result'
 #: materials/material_certifications/doctype/certificate_chemical_result/certificate_chemical_result.json
 msgid "Cu"
 msgstr ""
 
-#: materials/material_certifications/doctype/material_certificate/material_certificate.js:154
+#: materials/material_certifications/doctype/material_certificate/material_certificate.js:151
 msgid "Data applied. Review and save."
-msgstr ""
-
-#: materials/material_classifications/doctype/material_grade/material_grade.py:112
-#: materials/material_classifications/doctype/material_specification/material_specification.py:87
-msgid "Deletion Not Allowed"
 msgstr ""
 
 #. Label of the description (Small Text) field in DocType 'Material
@@ -343,26 +351,8 @@ msgstr ""
 msgid "Duplicate Certificate Number"
 msgstr ""
 
-#: materials/material_classifications/doctype/material_grade/material_grade.py:77
+#: materials/material_classifications/doctype/material_grade/material_grade.py:79
 msgid "Duplicate grouping system: {0}. Each material can only have one group per grouping system."
-msgstr ""
-
-#. Option for the 'Certificate Type' (Select) field in DocType 'Material
-#. Certificate'
-#: materials/material_certifications/doctype/material_certificate/material_certificate.json
-msgid "EN 10204 2.2"
-msgstr ""
-
-#. Option for the 'Certificate Type' (Select) field in DocType 'Material
-#. Certificate'
-#: materials/material_certifications/doctype/material_certificate/material_certificate.json
-msgid "EN 10204 3.1"
-msgstr ""
-
-#. Option for the 'Certificate Type' (Select) field in DocType 'Material
-#. Certificate'
-#: materials/material_certifications/doctype/material_certificate/material_certificate.json
-msgid "EN 10204 3.2"
 msgstr ""
 
 #. Label of the section_break_details (Section Break) field in DocType
@@ -374,6 +364,10 @@ msgstr ""
 #. Label of the element (Select) field in DocType 'Certificate Chemical Result'
 #: materials/material_certifications/doctype/certificate_chemical_result/certificate_chemical_result.json
 msgid "Element"
+msgstr ""
+
+#: materials/agent_tools.py:189
+msgid "Element {0} is not in the list: use element \"Other\" with element_other"
 msgstr ""
 
 #. Option for the 'Test Type' (Select) field in DocType 'Certificate Mechanical
@@ -420,7 +414,7 @@ msgstr ""
 msgid "Extract from PDF"
 msgstr ""
 
-#: materials/material_certifications/doctype/material_certificate/material_certificate.js:85
+#: materials/material_certifications/doctype/material_certificate/material_certificate.js:82
 msgid "Extracting data from PDF..."
 msgstr ""
 
@@ -466,10 +460,20 @@ msgstr ""
 msgid "Free-text name when organization is not in the system"
 msgstr ""
 
+#. Description of the 'Certificate Type' (Link) field in DocType 'Material
+#. Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "From the shared Certificate Type list."
+msgstr ""
+
 #. Description of the 'Long Title' (Data) field in DocType 'Material
 #. Specification'
 #: materials/material_classifications/doctype/material_specification/material_specification.json
 msgid "Full specification title (e.g., 'Pressure Vessel Plates, Carbon Steel, for Moderate- and Lower-Temperature Service')"
+msgstr ""
+
+#: materials/agent_tools.py:243
+msgid "Give the heat number."
 msgstr ""
 
 #. Label of the grade (Data) field in DocType 'Material Grade'
@@ -485,6 +489,10 @@ msgstr ""
 #. Description of the 'Material Grade' (Link) field in DocType 'Material Heat'
 #: materials/material_certifications/doctype/material_heat/material_heat.json
 msgid "Grade specification the heat was poured to. Required — a heat without a grade is untraceable."
+msgstr ""
+
+#: materials/agent_tools.py:159
+msgid "Grade {0} as printed is not a Material Grade name; candidates: {1}"
 msgstr ""
 
 #. Option for the 'Test Type' (Select) field in DocType 'Certificate Mechanical
@@ -526,8 +534,24 @@ msgstr ""
 msgid "Heat Numbers Covered"
 msgstr ""
 
-#: materials/material_certifications/doctype/material_certificate/material_certificate.js:97
+#: materials/material_certifications/doctype/material_certificate/material_certificate.js:94
 msgid "Heat Numbers Found (add via Heats Covered)"
+msgstr ""
+
+#: materials/agent_tools.py:245
+msgid "Heat {0} already exists."
+msgstr ""
+
+#: materials/agent_tools.py:256
+msgid "Heat {0} created"
+msgstr ""
+
+#: materials/agent_tools.py:172
+msgid "Heat {0} is not in the system: create it with create_material_heat before the certificate"
+msgstr ""
+
+#: materials/agent_tools.py:176
+msgid "Heat {0} is recorded as grade {1}; the certificate says {2}"
 msgstr ""
 
 #. Label of the heats_covered (Table) field in DocType 'Material Certificate'
@@ -544,12 +568,6 @@ msgstr ""
 #. Label of a Workspace Sidebar Item
 #: materials/workspace_sidebar/materials.json
 msgid "Home"
-msgstr ""
-
-#. Option for the 'Certificate Type' (Select) field in DocType 'Material
-#. Certificate'
-#: materials/material_certifications/doctype/material_certificate/material_certificate.json
-msgid "Hydrostatic Test"
 msgstr ""
 
 #. Label of the identity_section (Section Break) field in DocType 'Material
@@ -597,17 +615,25 @@ msgstr ""
 msgid "Issuing Organization"
 msgstr ""
 
-#: materials/material_certifications/doctype/material_certificate/material_certificate.js:197
+#: materials/material_certifications/doctype/material_certificate/material_certificate.js:194
 msgid "Link"
 msgstr ""
 
-#: materials/material_certifications/doctype/material_certificate/material_certificate.js:209
+#: materials/agent_tools.py:282
+msgid "Link certificate {0} ({1}) to lot {2}"
+msgstr ""
+
+#: materials/material_certifications/doctype/material_certificate/material_certificate.js:206
 msgid "Linked to batch {0}"
 msgstr ""
 
 #. Label of the title (Data) field in DocType 'Material Specification'
 #: materials/material_classifications/doctype/material_specification/material_specification.json
 msgid "Long Title"
+msgstr ""
+
+#: materials/agent_tools.py:213
+msgid "Lot {0} still needs {1}; this certificate is {2}"
 msgstr ""
 
 #. Option for the 'Material Category' (Select) field in DocType 'Material
@@ -622,7 +648,7 @@ msgstr ""
 msgid "MPa, %, J, HB, etc."
 msgstr ""
 
-#: materials/material_certifications/doctype/material_certificate/material_certificate.js:188
+#: materials/material_certifications/doctype/material_certificate/material_certificate.js:185
 msgid "Matching Batches"
 msgstr ""
 
@@ -748,7 +774,11 @@ msgstr ""
 msgid "Maximum diameter (for pipe/tube)"
 msgstr ""
 
-#: materials/material_certifications/doctype/material_certificate/material_certificate.js:116
+#: materials/agent_tools.py:183
+msgid "Mechanical"
+msgstr ""
+
+#: materials/material_certifications/doctype/material_certificate/material_certificate.js:113
 msgid "Mechanical Properties"
 msgstr ""
 
@@ -779,10 +809,8 @@ msgstr ""
 msgid "Mill (Supplier)"
 msgstr ""
 
-#. Option for the 'Certificate Type' (Select) field in DocType 'Material
-#. Certificate'
-#: materials/material_certifications/doctype/material_certificate/material_certificate.json
-msgid "Mill Test Report"
+#: materials/agent_tools.py:262
+msgid "Mill not recorded"
 msgstr ""
 
 #. Description of the 'Mill (Supplier)' (Link) field in DocType 'Material Heat'
@@ -793,6 +821,10 @@ msgstr ""
 #. Description of the 'Heat Number' (Data) field in DocType 'Material Heat'
 #: materials/material_certifications/doctype/material_heat/material_heat.json
 msgid "Mill-assigned identifier for this molten-metal pour. Becomes the row's primary key."
+msgstr ""
+
+#: materials/agent_tools.py:262
+msgid "Mill: {0}"
 msgstr ""
 
 #. Description of the 'Thickness Min (mm)' (Float) field in DocType 'Material
@@ -847,19 +879,19 @@ msgstr ""
 msgid "Nickel Alloy"
 msgstr ""
 
-#: materials/material_certifications/doctype/material_certificate/material_certificate.py:367
+#: materials/material_certifications/doctype/material_certificate/material_certificate.py:368
 msgid "No PDF attachment found on this certificate."
 msgstr ""
 
-#: materials/material_certifications/doctype/material_certificate/material_certificate.js:169
+#: materials/material_certifications/doctype/material_certificate/material_certificate.js:166
 msgid "No covered heats to search for."
 msgstr ""
 
-#: materials/material_certifications/doctype/material_certificate/material_certificate.js:124
+#: materials/material_certifications/doctype/material_certificate/material_certificate.js:121
 msgid "No data could be extracted from the PDF."
 msgstr ""
 
-#: materials/material_certifications/doctype/material_certificate/material_certificate.js:183
+#: materials/material_certifications/doctype/material_certificate/material_certificate.js:180
 msgid "No matching batches found."
 msgstr ""
 
@@ -876,11 +908,9 @@ msgstr ""
 #. Label of the notes (Small Text) field in DocType 'PMI Test Point'
 #. Label of the section_notes (Section Break) field in DocType 'Material Grade'
 #. Label of the notes (Text) field in DocType 'Material Grade'
-#. Label of the notes (Small Text) field in DocType 'Material Grade Form'
 #: materials/material_certifications/doctype/material_heat/material_heat.json
 #: materials/material_certifications/doctype/pmi_test_point/pmi_test_point.json
 #: materials/material_classifications/doctype/material_grade/material_grade.json
-#: materials/material_classifications/doctype/material_grade_form/material_grade_form.json
 msgid "Notes"
 msgstr ""
 
@@ -900,23 +930,14 @@ msgstr ""
 msgid "Optional: portion of the heat that this certificate covers (e.g. kg, m, pieces)."
 msgstr ""
 
-#. Description of the 'Standard (Edition)' (Link) field in DocType 'Material
-#. Specification'
-#: materials/material_classifications/doctype/material_specification/material_specification.json
-msgid "Optisuites Standard row representing this base-material spec doc edition (e.g., astm_a516_2017, en_10028_2_2017)."
-msgstr ""
-
 #. Option for the 'Element' (Select) field in DocType 'Certificate Chemical
 #. Result'
 #. Option for the 'Test Type' (Select) field in DocType 'Certificate Mechanical
 #. Result'
-#. Option for the 'Certificate Type' (Select) field in DocType 'Material
-#. Certificate'
 #. Option for the 'Material Category' (Select) field in DocType 'Material
 #. Specification'
 #: materials/material_certifications/doctype/certificate_chemical_result/certificate_chemical_result.json
 #: materials/material_certifications/doctype/certificate_mechanical_result/certificate_mechanical_result.json
-#: materials/material_certifications/doctype/material_certificate/material_certificate.json
 #: materials/material_classifications/doctype/material_specification/material_specification.json
 msgid "Other"
 msgstr ""
@@ -949,7 +970,7 @@ msgstr ""
 msgid "P"
 msgstr ""
 
-#: materials/material_certifications/doctype/material_certificate/material_certificate.py:388
+#: materials/material_certifications/doctype/material_certificate/material_certificate.py:389
 msgid "PDF extraction requires pdfplumber or PyPDF2. Please install one."
 msgstr ""
 
@@ -972,12 +993,6 @@ msgstr ""
 #. Label of the pmi_procedure (Data) field in DocType 'Material Certificate'
 #: materials/material_certifications/doctype/material_certificate/material_certificate.json
 msgid "PMI Procedure"
-msgstr ""
-
-#. Option for the 'Certificate Type' (Select) field in DocType 'Material
-#. Certificate'
-#: materials/material_certifications/doctype/material_certificate/material_certificate.json
-msgid "PMI Report"
 msgstr ""
 
 #: materials/material_certifications/doctype/material_certificate/material_certificate.py:155
@@ -1018,12 +1033,6 @@ msgstr ""
 #. Form'
 #: materials/material_classifications/doctype/material_grade_form/material_grade_form.json
 msgid "Plate"
-msgstr ""
-
-#. Description of the 'Supersedes' (Link) field in DocType 'Material
-#. Specification'
-#: materials/material_classifications/doctype/material_specification/material_specification.json
-msgid "Previous specification this replaces"
 msgstr ""
 
 #. Label of the procedure_reference (Data) field in DocType 'PMI Test Point'
@@ -1084,7 +1093,7 @@ msgstr ""
 msgid "Result"
 msgstr ""
 
-#: materials/material_certifications/doctype/material_certificate/material_certificate.js:129
+#: materials/material_certifications/doctype/material_certificate/material_certificate.js:126
 msgid "Review Extracted Data"
 msgstr ""
 
@@ -1105,6 +1114,12 @@ msgstr ""
 #. Result'
 #: materials/material_certifications/doctype/certificate_chemical_result/certificate_chemical_result.json
 msgid "S"
+msgstr ""
+
+#. Description of the 'Status' (Select) field in DocType 'Material
+#. Specification'
+#: materials/material_classifications/doctype/material_specification/material_specification.json
+msgid "Set by hand, or by the Withdraw action. It used to be derived from a <code>supersedes</code> Link on this record — a second supersession model beside <code>Standard Edition.supersedes</code>, empty on all 178 rows, and the same duplicate Design 24 dropped from the filler specifications."
 msgstr ""
 
 #. Label of the section_settings (Section Break) field in DocType 'Material
@@ -1150,18 +1165,12 @@ msgstr ""
 msgid "Spec Min (%)"
 msgstr ""
 
-#. Description of the 'Applicable Standard' (Link) field in DocType 'Material
-#. Certificate'
-#: materials/material_certifications/doctype/material_certificate/material_certificate.json
-msgid "Specific Standard edition this certificate validates against (e.g. ASTM A516:2020). The \"under WHICH RULES\" snapshot per platform-guides ch.10 Flow 2 RULES. NOT enforced as reqd=1 yet because demo data is 100% NULL; backfill required first."
-msgstr ""
-
 #. Label of the specification (Link) field in DocType 'Material Grade'
 #: materials/material_classifications/doctype/material_grade/material_grade.json
 msgid "Specification"
 msgstr ""
 
-#: materials/material_classifications/doctype/material_specification/material_specification.py:78
+#: materials/material_classifications/doctype/material_specification/material_specification.py:63
 msgid "Specification {0} has been withdrawn."
 msgstr ""
 
@@ -1183,7 +1192,12 @@ msgstr ""
 
 #. Label of the standard (Link) field in DocType 'Material Specification'
 #: materials/material_classifications/doctype/material_specification/material_specification.json
-msgid "Standard (Edition)"
+msgid "Standard"
+msgstr ""
+
+#. Label of the standard_edition (Link) field in DocType 'Material Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "Standard Edition"
 msgstr ""
 
 #. Description of the 'Issuing Organization' (Link) field in DocType 'Material
@@ -1202,19 +1216,24 @@ msgstr ""
 msgid "Status"
 msgstr ""
 
+#. Option for the 'Product Form' (Select) field in DocType 'Material Grade
+#. Form'
+#: materials/material_classifications/doctype/material_grade_form/material_grade_form.json
+msgid "Structural Shape"
+msgstr ""
+
 #. Option for the 'Status' (Select) field in DocType 'Material Specification'
 #: materials/material_classifications/doctype/material_specification/material_specification.json
 msgid "Superseded"
 msgstr ""
 
-#. Label of the supersedes (Link) field in DocType 'Material Specification'
-#: materials/material_classifications/doctype/material_specification/material_specification.json
-msgid "Supersedes"
-msgstr ""
-
 #. Label of the supplier (Link) field in DocType 'Material Certificate'
 #: materials/material_certifications/doctype/material_certificate/material_certificate.json
 msgid "Supplier"
+msgstr ""
+
+#: materials/agent_tools.py:249
+msgid "Supplier {0} does not exist."
 msgstr ""
 
 #. Name of a role
@@ -1251,10 +1270,28 @@ msgstr ""
 msgid "Test Type"
 msgstr ""
 
+#: materials/agent_tools.py:192
+msgid "Test {0} is not in the list ({1}): use \"Other\" with test_type_other"
+msgstr ""
+
 #. Label of the testing_laboratory (Link) field in DocType 'Material
 #. Certificate'
 #: materials/material_certifications/doctype/material_certificate/material_certificate.json
 msgid "Testing Laboratory"
+msgstr ""
+
+#: materials/agent_tools.py:204
+msgid "The certificate covers none of lot {0}'s heats ({1})"
+msgstr ""
+
+#: materials/agent_tools.py:206
+msgid "The certificate covers only some of lot {0}'s heats"
+msgstr ""
+
+#. Description of the 'Standard' (Link) field in DocType 'Material
+#. Specification'
+#: materials/material_classifications/doctype/material_specification/material_specification.json
+msgid "The document this specification belongs to. A designation is named by a document, not by one printing of it."
 msgstr ""
 
 #: materials/material_certifications/doctype/material_certificate/material_certificate.py:112
@@ -1266,10 +1303,20 @@ msgstr ""
 msgid "The parent material specification (e.g., ASME-SA-516)"
 msgstr ""
 
+#. Description of the 'Standard Edition' (Link) field in DocType 'Material
+#. Certificate'
+#: materials/material_certifications/doctype/material_certificate/material_certificate.json
+msgid "The printing whose acceptance limits this certificate reports against. One name across the platform — see Design 28."
+msgstr ""
+
 #. Description of the 'Designation' (Data) field in DocType 'Material
 #. Specification'
 #: materials/material_classifications/doctype/material_specification/material_specification.json
 msgid "The specification number (e.g., SA-516, A516, 10025-2)"
+msgstr ""
+
+#: materials/agent_tools.py:380
+msgid "The stored status says {0}; on today's date it is {1}. Saving the record brings it up to date."
 msgstr ""
 
 #. Label of the thickness_max (Float) field in DocType 'Material Grade Form'
@@ -1402,6 +1449,42 @@ msgstr ""
 #. Result'
 #: materials/material_certifications/doctype/certificate_mechanical_result/certificate_mechanical_result.json
 msgid "Yield Strength"
+msgstr ""
+
+#: materials/agent_tools.py:160
+msgid "none found"
+msgstr ""
+
+#: materials/agent_tools.py:381
+msgid "stored_status"
+msgstr ""
+
+#: materials/agent_tools.py:381
+msgid "verdict"
+msgstr ""
+
+#: materials/agent_tools.py:280
+msgid "{0} is already linked to {1}."
+msgstr ""
+
+#: materials/agent_tools.py:247
+msgid "{0} is not a Material Grade. Candidates: {1}"
+msgstr ""
+
+#: materials/agent_tools.py:98
+msgid "{0} row {1} is not an object."
+msgstr ""
+
+#: materials/agent_tools.py:108
+msgid "{0} {1} = {2} is outside {3} – {4}"
+msgstr ""
+
+#: materials/agent_tools.py:105
+msgid "{0} {1}: minimum {2} is above maximum {3} — misread?"
+msgstr ""
+
+#: materials/agent_tools.py:111
+msgid "{0} {1}: no limits printed — the person supplies them, or leaves them empty"
 msgstr ""
 
 #. Count format of shortcut in the Materials Workspace

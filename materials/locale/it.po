@@ -1201,7 +1201,7 @@ msgstr "Ente normatore che ha emesso/governa questa certificazione (es. AWS, ASM
 #: materials/material_certifications/doctype/material_heat/material_heat.json
 #: materials/material_classifications/doctype/material_specification/material_specification.json
 msgid "Status"
-msgstr "Stati"
+msgstr "Stato"
 
 #. Option for the 'Status' (Select) field in DocType 'Material Specification'
 #: materials/material_classifications/doctype/material_specification/material_specification.json
@@ -1557,3 +1557,33 @@ msgstr "Cerco i certificati che potrebbero coprire il lotto {batch}"
 #: materials/agent_tools.py
 msgid "The stored status says {0}; on today's date it is {1}. Saving the record brings it up to date."
 msgstr "Lo stato registrato dice {0}; alla data di oggi è {1}. Salvando il record lo si aggiorna."
+
+msgid "ASTM A6 covers structural shapes — beams, angles, channels — and A36, A572, A992 and EN 10025-2 are supplied as them. The value was in the data on 16 rows and missing from this list, so those grades could not be saved at all: a Select is validated on the server."
+msgstr "La ASTM A6 copre i profilati strutturali (travi, angolari, profilati a U) e A36, A572, A992 e EN 10025-2 vengono forniti in questa forma. Il valore era presente nei dati su 16 righe ma mancava da questo elenco, quindi quei gradi non potevano proprio essere salvati: un campo Select viene validato sul server."
+
+msgid "From the shared Certificate Type list."
+msgstr "Dall'elenco condiviso dei tipi di certificato."
+
+msgid "Set by hand, or by the Withdraw action. It used to be derived from a <code>supersedes</code> Link on this record — a second supersession model beside <code>Standard Edition.supersedes</code>, empty on all 178 rows, and the same duplicate Design 24 dropped from the filler specifications."
+msgstr "Impostato a mano o dall'azione Ritira. Prima veniva ricavato da un Link <code>supersedes</code> su questo record: un secondo modello di sostituzione accanto a <code>Standard Edition.supersedes</code>, vuoto su tutte le 178 righe, e lo stesso duplicato che il Design 24 ha eliminato dalle specifiche dei materiali d'apporto."
+
+msgid "Standard"
+msgstr "Standard"
+
+msgid "Standard Edition"
+msgstr "Edizione della norma"
+
+msgid "Structural Shape"
+msgstr "Profilato strutturale"
+
+msgid "The document this specification belongs to. A designation is named by a document, not by one printing of it."
+msgstr "Il documento a cui appartiene questa specifica. Una designazione è definita da un documento, non da una sua singola edizione."
+
+msgid "The printing whose acceptance limits this certificate reports against. One name across the platform — see Design 28."
+msgstr "L'edizione rispetto ai cui limiti di accettazione riporta questo certificato. Un solo nome in tutta la piattaforma: vedi Design 28."
+
+msgid "stored_status"
+msgstr "stored_status"
+
+msgid "verdict"
+msgstr "verdict"
