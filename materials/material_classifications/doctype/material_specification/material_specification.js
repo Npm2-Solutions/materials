@@ -10,7 +10,7 @@ frappe.ui.form.on("Material Specification", {
 		}));
 
 		if (!frm.is_new() && frm.doc.spec_status !== "Withdrawn") {
-			frm.add_custom_button(__("Withdraw"), function () {
+			frm.add_custom_button(__("Withdraw", null, "Material Specification"), function () {
 				frappe.confirm(
 					__("Are you sure you want to withdraw specification {0}?", [frm.doc.name]),
 					function () {

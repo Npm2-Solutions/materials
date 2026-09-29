@@ -1587,3 +1587,7 @@ msgstr "stored_status"
 
 msgid "verdict"
 msgstr "verdict"
+
+msgctxt "Material Specification"
+msgid "Withdraw"
+msgstr "Ritira"
