@@ -7,10 +7,12 @@ import frappe
 
 def after_install():
 	_sync_sidebar_and_icon_files()
+	_compose_homes()
 
 
 def after_migrate():
 	_sync_sidebar_and_icon_files()
+	_compose_homes()
 
 
 def _sync_sidebar_and_icon_files():
@@ -42,3 +44,15 @@ def before_uninstall():
 		return
 
 	cleanup_app_nav("materials")
+
+
+def _compose_homes():
+	"""The *Materials* home is composed by the kernel: this app's files are its
+	baseline, stock adds the warehouse (hooks.worgify_homes, Design 41). After
+	the file sync above, the composition is rebuilt."""
+	try:
+		from worgify.desk.homes import compose_for_app
+
+		compose_for_app("materials")
+	except Exception:
+		frappe.log_error(title="desk homes: compose failed", message=frappe.get_traceback())

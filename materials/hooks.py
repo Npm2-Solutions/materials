@@ -363,3 +363,15 @@ project_internal_roles = [
 # ── The Worgify assistant (worgify Design 36 §23) ───────────────────────────
 # Material certificates read from a PDF in the chat: checks, heats, the lot.
 agent_tools = ["materials.agent_tools"]
+
+
+# A few homes, not forty-seven doors (Design 41, decision O3): materials owns the
+# shared *Materials* home (Materiali e magazzino) — certificates and heats here,
+# the warehouse added by stock where it is installed. Grades and specifications
+# are read, not worked: a workspace card. ONE Settings link closes the rail,
+# computed by the kernel.
+worgify_homes = [
+	{"home": "Materials", "module": "Material Classifications",
+	 "covers": ["Material Classifications", "Material Certifications"], "tier": "op", "order": 70,
+	 "settings": ["Stock Settings"]},
+]
