@@ -1607,3 +1607,15 @@ msgstr "Ricevimenti, lotti, controlli in accettazione, acquisti."
 #. Design 43: can it be used
 msgid "Heat status: {0}"
 msgstr "Stato della colata: {0}"
+
+#. Design 43: the moment of choosing
+msgid "Material certificate"
+msgstr "Certificato del materiale"
+
+#. Design 43: the moment of choosing
+msgid "Certificate"
+msgstr "Certificato"
+
+#. Design 43: the moment of choosing
+msgid "Certificate status: {0}"
+msgstr "Stato del certificato: {0}"
