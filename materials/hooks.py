@@ -373,7 +373,9 @@ agent_tools = ["materials.agent_tools"]
 worgify_homes = [
 	{"home": "Materials", "module": "Material Classifications",
 	 "covers": ["Material Classifications", "Material Certifications"], "tier": "op", "order": 70,
-	 "settings": ["materials"]},
+	 "settings": ["materials"],
+	 # Design 43: what the home's "Today" cards count — the heats (a certificate is evidence on one)
+	 "readiness": {"Material Heat": {}}},
 ]
 
 

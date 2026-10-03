@@ -1,7 +1,7 @@
 {
  "app": "materials",
  "charts": [],
- "content": "[{\"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>Key Metrics</b></span>\", \"col\": 12}}, {\"type\": \"number_card\", \"data\": {\"number_card_name\": \"Material Certificates\", \"col\": 3}}, {\"type\": \"number_card\", \"data\": {\"number_card_name\": \"Material Heats\", \"col\": 3}}, {\"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>Quick Actions</b></span>\", \"col\": 12}}, {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Material Certificates\", \"col\": 3}}, {\"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>Recent Activity</b></span>\", \"col\": 12}}, {\"type\": \"quick_list\", \"data\": {\"quick_list_name\": \"Recent Certificates\", \"col\": 6}}, {\"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>Explore</b></span>\", \"col\": 12}}, {\"type\": \"card\", \"data\": {\"card_name\": \"Certificates\", \"col\": 6}}, {\"type\": \"card\", \"data\": {\"card_name\": \"Reference\", \"col\": 6}}]",
+ "content": "[{\"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>Today</b></span>\", \"col\": 12}, \"id\": \"wgtoday0\"}, {\"type\": \"number_card\", \"data\": {\"number_card_name\": \"Materials Usable\", \"col\": 3}, \"id\": \"wgtoday1\"}, {\"type\": \"number_card\", \"data\": {\"number_card_name\": \"Materials Expiring\", \"col\": 3}, \"id\": \"wgtoday2\"}, {\"type\": \"number_card\", \"data\": {\"number_card_name\": \"Materials Suspended\", \"col\": 3}, \"id\": \"wgtoday3\"}, {\"type\": \"number_card\", \"data\": {\"number_card_name\": \"Materials Not Usable\", \"col\": 3}, \"id\": \"wgtoday4\"}, {\"type\": \"spacer\", \"data\": {\"col\": 12}, \"id\": \"wgtodaysp\"}, {\"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>Key Metrics</b></span>\", \"col\": 12}}, {\"type\": \"number_card\", \"data\": {\"number_card_name\": \"Material Certificates\", \"col\": 3}}, {\"type\": \"number_card\", \"data\": {\"number_card_name\": \"Material Heats\", \"col\": 3}}, {\"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>Quick Actions</b></span>\", \"col\": 12}}, {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Material Certificates\", \"col\": 3}}, {\"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>Recent Activity</b></span>\", \"col\": 12}}, {\"type\": \"quick_list\", \"data\": {\"quick_list_name\": \"Recent Certificates\", \"col\": 6}}, {\"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>Explore</b></span>\", \"col\": 12}}, {\"type\": \"card\", \"data\": {\"card_name\": \"Certificates\", \"col\": 6}}, {\"type\": \"card\", \"data\": {\"card_name\": \"Reference\", \"col\": 6}}]",
  "creation": "2026-06-18 19:20:36.146508",
  "custom_blocks": [],
  "docstatus": 0,
@@ -73,18 +73,40 @@
    "type": "Link"
   }
  ],
- "modified": "2026-10-03 17:03:07.783122",
+ "modified": "2026-10-03 23:30:00.000000",
  "modified_by": "Administrator",
  "module": "Material Classifications",
  "name": "Materials",
  "number_cards": [
   {
+   "idx": 1,
    "label": "Material Certificates",
    "number_card_name": "Material Certificates"
   },
   {
+   "idx": 2,
    "label": "Material Heats",
    "number_card_name": "Material Heats"
+  },
+  {
+   "idx": 3,
+   "label": "Materials Usable",
+   "number_card_name": "Materials Usable"
+  },
+  {
+   "idx": 4,
+   "label": "Materials Expiring",
+   "number_card_name": "Materials Expiring"
+  },
+  {
+   "idx": 5,
+   "label": "Materials Suspended",
+   "number_card_name": "Materials Suspended"
+  },
+  {
+   "idx": 6,
+   "label": "Materials Not Usable",
+   "number_card_name": "Materials Not Usable"
   }
  ],
  "owner": "Administrator",

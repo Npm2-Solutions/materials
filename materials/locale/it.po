@@ -1619,3 +1619,19 @@ msgstr "Certificato"
 #. Design 43: the moment of choosing
 msgid "Certificate status: {0}"
 msgstr "Stato del certificato: {0}"
+
+#. Design 43: the homes' Today cards
+msgid "Materials Usable"
+msgstr "Materiali utilizzabili"
+
+#. Design 43: the homes' Today cards
+msgid "Materials Expiring"
+msgstr "Materiali in scadenza"
+
+#. Design 43: the homes' Today cards
+msgid "Materials Suspended"
+msgstr "Materiali sospesi"
+
+#. Design 43: the homes' Today cards
+msgid "Materials Not Usable"
+msgstr "Materiali non utilizzabili"
