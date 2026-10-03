@@ -1603,3 +1603,7 @@ msgstr "Colate"
 #. Design 41: the Settings home
 msgid "Receipts, lots, incoming inspections, purchasing."
 msgstr "Ricevimenti, lotti, controlli in accettazione, acquisti."
+
+#. Design 43: can it be used
+msgid "Heat status: {0}"
+msgstr "Stato della colata: {0}"

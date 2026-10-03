@@ -388,3 +388,8 @@ worgify_settings = [
 		],
 	},
 ]
+
+# Can it be used? (Design 43): this app's answer for what it owns.
+can_use_providers = {
+	"Material Heat": ["materials.readiness.heat"],
+}
