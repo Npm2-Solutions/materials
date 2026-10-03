@@ -373,5 +373,18 @@ agent_tools = ["materials.agent_tools"]
 worgify_homes = [
 	{"home": "Materials", "module": "Material Classifications",
 	 "covers": ["Material Classifications", "Material Certifications"], "tier": "op", "order": 70,
-	 "settings": ["Stock Settings"]},
+	 "settings": ["materials"]},
+]
+
+
+# Settings (Design 41 Part 4): the Materials page of the Settings home.
+worgify_settings = [
+	{
+		"area": "materials", "label": "Materials", "group": "shared", "order": 70, "icon": "package-check",
+		"description": "Receipts, lots, incoming inspections, purchasing.",
+		"lists": [
+			{"label": "Material Grades", "doctype": "Material Grade"},
+			{"label": "Material Specifications", "doctype": "Material Specification"},
+		],
+	},
 ]
