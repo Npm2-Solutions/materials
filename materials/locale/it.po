@@ -1639,3 +1639,10 @@ msgstr "Materiali non utilizzabili"
 #. The rails read in dividers: section names (owner, 2026-10-05) — workspace_sidebar/materials.json
 msgid "Traceability"
 msgstr "Tracciabilità"
+
+#. the metal module's own section of the Materials home (2026-10-05)
+msgid "Metal Traceability"
+msgstr "Tracciabilità del metallo"
+
+msgid "Masters"
+msgstr "Anagrafiche"

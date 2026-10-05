@@ -366,14 +366,19 @@ agent_tools = ["materials.agent_tools"]
 
 
 # A few homes, not forty-seven doors (Design 41, decision O3): materials owns the
-# shared *Materials* home (Materiali e magazzino) — certificates and heats here,
-# the warehouse added by stock where it is installed. Grades and specifications
-# are read, not worked: a workspace card. ONE Settings link closes the rail,
-# computed by the kernel.
+# shared *Materials* home — it is on every bench that has the metal (Serenissima
+# has no warehouse). It stands on stock where stock is installed (owner,
+# 2026-10-05: «prima di tutto deve essere un vero magazzino a cui sopra viene
+# applicato un sistema di tracciabilità, e nel caso nostro verticalizzato gli si
+# aggiunge un modulo di tracciabilità del metallo»): the warehouse, its purchasing
+# and the lot traceability come first, then this module's heats and certificates
+# (`base`, worgify/desk/homes.py). Grades and specifications are read, not
+# worked: a workspace card. ONE Settings link closes the rail, computed by the
+# kernel.
 worgify_homes = [
 	{"home": "Materials", "module": "Material Classifications",
 	 "covers": ["Material Classifications", "Material Certifications"], "tier": "op", "order": 70,
-	 "settings": ["materials"],
+	 "settings": ["materials"], "base": "stock",
 	 # Design 43: what the home's "Today" cards count — the heats (a certificate is evidence on one)
 	 "readiness": {"Material Heat": {}}},
 ]

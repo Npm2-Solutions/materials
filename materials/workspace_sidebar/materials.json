@@ -21,24 +21,13 @@
   {
    "child": 0,
    "collapsible": 1,
-   "icon": "file-badge",
+   "icon": "flame",
    "indent": 1,
    "keep_closed": 0,
-   "label": "Traceability",
+   "label": "Metal Traceability",
    "link_type": "DocType",
    "show_arrow": 0,
    "type": "Section Break"
-  },
-  {
-   "child": 1,
-   "collapsible": 0,
-   "indent": 0,
-   "keep_closed": 0,
-   "label": "Material Certificates",
-   "link_to": "Material Certificate",
-   "link_type": "DocType",
-   "show_arrow": 0,
-   "type": "Link"
   },
   {
    "child": 1,
@@ -50,9 +39,20 @@
    "link_type": "DocType",
    "show_arrow": 0,
    "type": "Link"
+  },
+  {
+   "child": 1,
+   "collapsible": 0,
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Material Certificates",
+   "link_to": "Material Certificate",
+   "link_type": "DocType",
+   "show_arrow": 0,
+   "type": "Link"
   }
  ],
- "modified": "2026-10-05 12:00:00.000000",
+ "modified": "2026-10-05 18:30:00.000000",
  "modified_by": "Administrator",
  "module": "Material Classifications",
  "name": "Materials",
