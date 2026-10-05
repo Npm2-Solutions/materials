@@ -1635,3 +1635,7 @@ msgstr "Materiali sospesi"
 #. Design 43: the homes' Today cards
 msgid "Materials Not Usable"
 msgstr "Materiali non utilizzabili"
+
+#. The rails read in dividers: section names (owner, 2026-10-05) — workspace_sidebar/materials.json
+msgid "Traceability"
+msgstr "Tracciabilità"
