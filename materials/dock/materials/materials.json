@@ -1,0 +1,24 @@
+{
+ "app": "materials",
+ "creation": "2026-10-06 20:00:00",
+ "docstatus": 0,
+ "doctype": "Dock",
+ "idx": 0,
+ "items": [
+  {
+   "added": 0,
+   "hidden": 0,
+   "icon": "package",
+   "link_to": "Materials",
+   "link_type": "Sidebar",
+   "title": "Materials"
+  }
+ ],
+ "modified": "2026-10-06 20:00:00.000000",
+ "modified_by": "Administrator",
+ "mount_on": "worgify",
+ "name": "materials",
+ "owner": "Administrator",
+ "standard": 1,
+ "user": ""
+}
