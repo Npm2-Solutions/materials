@@ -364,6 +364,11 @@ project_internal_roles = [
 # Material certificates read from a PDF in the chat: checks, heats, the lot.
 agent_tools = ["materials.agent_tools"]
 
+# The record pages in the Worgify interface (worgify_ui.api.ui): the certificate's
+# and the specification's acts, and the certificate matching on stock's lot —
+# described on the server (materials/ui.py).
+worgify_ui = ["materials.ui"]
+
 
 # A few homes, not forty-seven doors (Design 41, decision O3): materials owns the
 # shared *Materials* home — it is on every bench that has the metal (Serenissima
