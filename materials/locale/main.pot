@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Materials VERSION\n"
 "Report-Msgid-Bugs-To: info@npm2solutions.it\n"
-"POT-Creation-Date: 2026-09-29 13:44+0000\n"
-"PO-Revision-Date: 2026-09-29 13:44+0000\n"
+"POT-Creation-Date: 2026-10-06 21:53+0000\n"
+"PO-Revision-Date: 2026-10-06 21:53+0000\n"
 "Last-Translator: info@npm2solutions.it\n"
 "Language-Team: info@npm2solutions.it\n"
 "MIME-Version: 1.0\n"
@@ -18,6 +18,14 @@ msgstr ""
 
 #: materials/agent_tools.py:153
 msgid " from another issuer — one of the two may be forged"
+msgstr ""
+
+#: materials/screens.py:245
+msgid "1 lot of its heats does not carry it"
+msgstr ""
+
+#: materials/screens.py:225
+msgid "1 lot on the shelf"
 msgstr ""
 
 #. Header text in the Materials Workspace
@@ -42,7 +50,7 @@ msgstr ""
 
 #. Header text in the Materials Workspace
 #: materials/material_classifications/workspace/materials/materials.json
-msgid "<span class=\"h4\"><b>Trends & Distribution</b></span>"
+msgid "<span class=\"h4\"><b>Today</b></span>"
 msgstr ""
 
 #. Description of the 'Product Form' (Select) field in DocType 'Material Grade
@@ -53,6 +61,7 @@ msgstr ""
 
 #: materials/material_certifications/doctype/material_certificate/material_certificate.js:32
 #: materials/material_classifications/doctype/material_specification/material_specification.js:22
+#: materials/ui.py:80 materials/ui.py:138 materials/ui.py:176
 msgid "Actions"
 msgstr ""
 
@@ -67,6 +76,10 @@ msgstr ""
 #. Result'
 #: materials/material_certifications/doctype/certificate_chemical_result/certificate_chemical_result.json
 msgid "Al"
+msgstr ""
+
+#: materials/screens.py:287
+msgid "All"
 msgstr ""
 
 #. Option for the 'Material Category' (Select) field in DocType 'Material
@@ -87,6 +100,10 @@ msgstr ""
 msgid "Are you sure you want to withdraw specification {0}?"
 msgstr ""
 
+#: materials/screens.py:255
+msgid "Attach"
+msgstr ""
+
 #. Label of the section_products (Section Break) field in DocType 'Material
 #. Grade'
 #: materials/material_classifications/doctype/material_grade/material_grade.json
@@ -104,6 +121,10 @@ msgstr ""
 msgid "B"
 msgstr ""
 
+#: materials/screens.py:36
+msgid "Back to active"
+msgstr ""
+
 #. Option for the 'Product Form' (Select) field in DocType 'Material Grade
 #. Form'
 #: materials/material_classifications/doctype/material_grade_form/material_grade_form.json
@@ -114,6 +135,10 @@ msgstr ""
 #. Result'
 #: materials/material_certifications/doctype/certificate_mechanical_result/certificate_mechanical_result.json
 msgid "Bend Test"
+msgstr ""
+
+#: materials/screens.py:366
+msgid "Built into something"
 msgstr ""
 
 #. Option for the 'Element' (Select) field in DocType 'Certificate Chemical
@@ -153,6 +178,10 @@ msgstr ""
 msgid "Casting"
 msgstr ""
 
+#: materials/readiness.py:39
+msgid "Certificate"
+msgstr ""
+
 #. Name of a DocType
 #: materials/material_certifications/doctype/certificate_chemical_result/certificate_chemical_result.json
 msgid "Certificate Chemical Result"
@@ -178,6 +207,10 @@ msgstr ""
 #. Certificate'
 #: materials/material_certifications/doctype/material_certificate/material_certificate.json
 msgid "Certificate Identity"
+msgstr ""
+
+#: materials/ui.py:83
+msgid "Certificate Matches for {0}"
 msgstr ""
 
 #. Name of a DocType
@@ -212,15 +245,28 @@ msgstr ""
 msgid "Certificate number: {0}"
 msgstr ""
 
+#: materials/readiness.py:40
+msgid "Certificate status: {0}"
+msgstr ""
+
 #: materials/agent_tools.py:143
 msgid "Certificate type {0} is not one of: {1}"
 msgstr ""
 
-#. Label of a Card Break in the Materials Workspace
-#. Label of a Workspace Sidebar Item
-#: materials/material_classifications/workspace/materials/materials.json
-#: materials/workspace_sidebar/materials.json
-msgid "Certifications"
+#: materials/ui.py:84 materials/ui.py:211
+msgid "Certificates linked"
+msgstr ""
+
+#: materials/screens.py:248
+msgid "Certificates to tie to their lots"
+msgstr ""
+
+#: materials/screens.py:256
+msgid "Certificates to verify"
+msgstr ""
+
+#: materials/screens.py:255
+msgid "Certificates without their PDF"
 msgstr ""
 
 #: materials/agent_tools.py:182
@@ -250,9 +296,8 @@ msgstr ""
 msgid "Chemical: {0} = {1}% (spec: {2} - {3})"
 msgstr ""
 
-#. Label of a Card Break in the Materials Workspace
-#: materials/material_classifications/workspace/materials/materials.json
-msgid "Classifications"
+#: materials/ui.py:224
+msgid "Choose at least one lot."
 msgstr ""
 
 #. Option for the 'Element' (Select) field in DocType 'Certificate Chemical
@@ -306,6 +351,10 @@ msgstr ""
 
 #: materials/material_certifications/doctype/material_certificate/material_certificate.js:151
 msgid "Data applied. Review and save."
+msgstr ""
+
+#: materials/ui.py:257
+msgid "Data applied: {0} chemical, {1} mechanical."
 msgstr ""
 
 #. Label of the description (Small Text) field in DocType 'Material
@@ -394,9 +443,21 @@ msgstr ""
 msgid "Equipment ID"
 msgstr ""
 
+#: materials/ui.py:156
+msgid "Every lot of these heats already carries this certificate."
+msgstr ""
+
+#: materials/screens.py:466
+msgid "Every lot of this heat still Released or waiting for inspection goes to Quarantine. What is already built in is a telephone call, not a click."
+msgstr ""
+
 #. Option for the 'Status' (Select) field in DocType 'Material Certificate'
 #: materials/material_certifications/doctype/material_certificate/material_certificate.json
 msgid "Expired"
+msgstr ""
+
+#: materials/screens.py:503
+msgid "Expired or revoked"
 msgstr ""
 
 #. Label of the expiry_section (Section Break) field in DocType 'Material
@@ -411,6 +472,7 @@ msgid "Expiry Date"
 msgstr ""
 
 #: materials/material_certifications/doctype/material_certificate/material_certificate.js:43
+#: materials/ui.py:161
 msgid "Extract from PDF"
 msgstr ""
 
@@ -427,6 +489,7 @@ msgid "Fail"
 msgstr ""
 
 #: materials/material_certifications/doctype/material_certificate/material_certificate.js:52
+#: materials/ui.py:148
 msgid "Find Matching Batches"
 msgstr ""
 
@@ -515,6 +578,7 @@ msgstr ""
 
 #. Label of the heat (Link) field in DocType 'Material Heat Coverage'
 #: materials/material_certifications/doctype/material_heat_coverage/material_heat_coverage.json
+#: materials/readiness.py:20 materials/ui.py:121
 msgid "Heat"
 msgstr ""
 
@@ -538,6 +602,14 @@ msgstr ""
 msgid "Heat Numbers Found (add via Heats Covered)"
 msgstr ""
 
+#: materials/readiness.py:21
+msgid "Heat status: {0}"
+msgstr ""
+
+#: materials/screens.py:480
+msgid "Heat {0}"
+msgstr ""
+
 #: materials/agent_tools.py:245
 msgid "Heat {0} already exists."
 msgstr ""
@@ -554,6 +626,17 @@ msgstr ""
 msgid "Heat {0} is recorded as grade {1}; the certificate says {2}"
 msgstr ""
 
+#: materials/screens.py:465
+msgid "Heat {0} under investigation"
+msgstr ""
+
+#. Label of a Link in the Materials Workspace
+#. Label of a Workspace Sidebar Item
+#: materials/material_classifications/workspace/materials/materials.json
+#: materials/workspace_sidebar/materials.json
+msgid "Heats"
+msgstr ""
+
 #. Label of the heats_covered (Table) field in DocType 'Material Certificate'
 #: materials/material_certifications/doctype/material_certificate/material_certificate.json
 msgid "Heats Covered"
@@ -563,6 +646,22 @@ msgstr ""
 #. Certificate'
 #: materials/material_certifications/doctype/material_certificate/material_certificate.json
 msgid "Heats this certificate documents. Each row links to a Material Heat record — single source of truth for heat-level chemistry, mechanicals, and recall status."
+msgstr ""
+
+#: materials/ui.py:77
+msgid "Heats: {0}"
+msgstr ""
+
+#: materials/screens.py:223
+msgid "Held heats still on the shelf"
+msgstr ""
+
+#: materials/screens.py:223
+msgid "Hold it"
+msgstr ""
+
+#: materials/screens.py:460
+msgid "Hold what is still on the shelf"
 msgstr ""
 
 #. Label of a Workspace Sidebar Item
@@ -615,6 +714,10 @@ msgstr ""
 msgid "Issuing Organization"
 msgstr ""
 
+#: materials/screens.py:367 materials/screens.py:369
+msgid "Left, undeclared"
+msgstr ""
+
 #: materials/material_certifications/doctype/material_certificate/material_certificate.js:194
 msgid "Link"
 msgstr ""
@@ -623,8 +726,16 @@ msgstr ""
 msgid "Link certificate {0} ({1}) to lot {2}"
 msgstr ""
 
+#: materials/ui.py:123 materials/ui.py:154
+msgid "Linked"
+msgstr ""
+
 #: materials/material_certifications/doctype/material_certificate/material_certificate.js:206
 msgid "Linked to batch {0}"
+msgstr ""
+
+#: materials/ui.py:227
+msgid "Linked to {0} lot(s)"
 msgstr ""
 
 #. Label of the title (Data) field in DocType 'Material Specification'
@@ -632,8 +743,20 @@ msgstr ""
 msgid "Long Title"
 msgstr ""
 
+#: materials/ui.py:120
+msgid "Lot"
+msgstr ""
+
 #: materials/agent_tools.py:213
 msgid "Lot {0} still needs {1}; this certificate is {2}"
+msgstr ""
+
+#: materials/screens.py:467
+msgid "Lots held"
+msgstr ""
+
+#: materials/screens.py:364
+msgid "Lots reached"
 msgstr ""
 
 #. Option for the 'Material Category' (Select) field in DocType 'Material
@@ -648,7 +771,17 @@ msgstr ""
 msgid "MPa, %, J, HB, etc."
 msgstr ""
 
+#. Label of a Card Break in the Materials Workspace
+#: materials/material_classifications/workspace/materials/materials.json
+msgid "Masters"
+msgstr ""
+
+#: materials/ui.py:80
+msgid "Match Certificates"
+msgstr ""
+
 #: materials/material_certifications/doctype/material_certificate/material_certificate.js:185
+#: materials/ui.py:118
 msgid "Matching Batches"
 msgstr ""
 
@@ -665,17 +798,21 @@ msgid "Material Category"
 msgstr ""
 
 #. Name of a DocType
-#. Label of a Link in the Materials Workspace
-#. Label of a shortcut in the Materials Workspace
-#. Label of a Workspace Sidebar Item
 #: materials/material_certifications/doctype/material_certificate/material_certificate.json
-#: materials/material_classifications/workspace/materials/materials.json
-#: materials/workspace_sidebar/materials.json
 msgid "Material Certificate"
 msgstr ""
 
 #: materials/material_certifications/doctype/material_certificate/material_certificate.py:311
 msgid "Material Certificate {0} not found."
+msgstr ""
+
+#. Label of a number card in the Materials Workspace
+#. Label of a Link in the Materials Workspace
+#. Label of a shortcut in the Materials Workspace
+#. Label of a Workspace Sidebar Item
+#: materials/material_classifications/workspace/materials/materials.json
+#: materials/workspace_sidebar/materials.json
+msgid "Material Certificates"
 msgstr ""
 
 #. Label of the material_expected (Data) field in DocType 'PMI Test Point'
@@ -690,13 +827,8 @@ msgstr ""
 
 #. Label of the grade (Link) field in DocType 'Material Heat'
 #. Name of a DocType
-#. Label of a Link in the Materials Workspace
-#. Label of a shortcut in the Materials Workspace
-#. Label of a Workspace Sidebar Item
 #: materials/material_certifications/doctype/material_heat/material_heat.json
 #: materials/material_classifications/doctype/material_grade/material_grade.json
-#: materials/material_classifications/workspace/materials/materials.json
-#: materials/workspace_sidebar/materials.json
 msgid "Material Grade"
 msgstr ""
 
@@ -705,23 +837,26 @@ msgstr ""
 msgid "Material Grade Form"
 msgstr ""
 
-#. Label of a quick_list in the Materials Workspace
+#. Settings area materials: a list or a document
+#. Label of a Link in the Materials Workspace
+#: materials/hooks.py
 #: materials/material_classifications/workspace/materials/materials.json
 msgid "Material Grades"
 msgstr ""
 
 #. Name of a DocType
-#. Label of a Link in the Materials Workspace
-#. Label of a Workspace Sidebar Item
 #: materials/material_certifications/doctype/material_heat/material_heat.json
-#: materials/material_classifications/workspace/materials/materials.json
-#: materials/workspace_sidebar/materials.json
 msgid "Material Heat"
 msgstr ""
 
 #. Name of a DocType
 #: materials/material_certifications/doctype/material_heat_coverage/material_heat_coverage.json
 msgid "Material Heat Coverage"
+msgstr ""
+
+#. Label of a number card in the Materials Workspace
+#: materials/material_classifications/workspace/materials/materials.json
+msgid "Material Heats"
 msgstr ""
 
 #. Name of a role
@@ -731,27 +866,40 @@ msgid "Material Record Author"
 msgstr ""
 
 #. Name of a DocType
-#. Label of a Link in the Materials Workspace
-#. Label of a shortcut in the Materials Workspace
-#. Label of a Workspace Sidebar Item
 #: materials/material_classifications/doctype/material_specification/material_specification.json
-#: materials/material_classifications/workspace/materials/materials.json
-#: materials/workspace_sidebar/materials.json
 msgid "Material Specification"
 msgstr ""
 
-#. Label of a quick_list in the Materials Workspace
+#. Settings area materials: a list or a document
+#. Label of a Link in the Materials Workspace
+#: materials/hooks.py
 #: materials/material_classifications/workspace/materials/materials.json
 msgid "Material Specifications"
 msgstr ""
 
+#: materials/readiness.py:39
+msgid "Material certificate"
+msgstr ""
+
+#. Name of a home on the desk (tile, rail, workspace)
+#. Settings area materials: label
 #. Label of a Desktop Icon
 #. Name of a Workspace
 #. Title of a Workspace Sidebar
-#: materials/desktop_icon/materials.json
+#: materials/desktop_icon/materials.json materials/hooks.py
 #: materials/material_classifications/workspace/materials/materials.json
 #: materials/workspace_sidebar/materials.json
 msgid "Materials"
+msgstr ""
+
+#. Label of a number card in the Materials Workspace
+#: materials/material_classifications/workspace/materials/materials.json
+msgid "Materials Expiring"
+msgstr ""
+
+#. Label of a number card in the Materials Workspace
+#: materials/material_classifications/workspace/materials/materials.json
+msgid "Materials Not Usable"
 msgstr ""
 
 #. Name of a role
@@ -760,6 +908,16 @@ msgstr ""
 #: materials/material_classifications/doctype/material_grade/material_grade.json
 #: materials/material_classifications/doctype/material_specification/material_specification.json
 msgid "Materials Reader"
+msgstr ""
+
+#. Label of a number card in the Materials Workspace
+#: materials/material_classifications/workspace/materials/materials.json
+msgid "Materials Suspended"
+msgstr ""
+
+#. Label of a number card in the Materials Workspace
+#: materials/material_classifications/workspace/materials/materials.json
+msgid "Materials Usable"
 msgstr ""
 
 #. Description of the 'Thickness Max (mm)' (Float) field in DocType 'Material
@@ -802,6 +960,13 @@ msgstr ""
 
 #: materials/material_certifications/doctype/material_certificate/material_certificate.py:101
 msgid "Mechanical: {0} = {1} {2} (spec: {3} - {4})"
+msgstr ""
+
+#. Label of a Card Break in the Materials Workspace
+#. Label of a Workspace Sidebar Item
+#: materials/material_classifications/workspace/materials/materials.json
+#: materials/workspace_sidebar/materials.json
+msgid "Metal Traceability"
 msgstr ""
 
 #. Label of the mill (Link) field in DocType 'Material Heat'
@@ -879,8 +1044,16 @@ msgstr ""
 msgid "Nickel Alloy"
 msgstr ""
 
+#: materials/ui.py:126
+msgid "No"
+msgstr ""
+
 #: materials/material_certifications/doctype/material_certificate/material_certificate.py:368
 msgid "No PDF attachment found on this certificate."
+msgstr ""
+
+#: materials/ui.py:85
+msgid "No certificate documents this lot's heat yet. Match Certificates comes back on its own once one is recorded."
 msgstr ""
 
 #: materials/material_certifications/doctype/material_certificate/material_certificate.js:166
@@ -888,10 +1061,16 @@ msgid "No covered heats to search for."
 msgstr ""
 
 #: materials/material_certifications/doctype/material_certificate/material_certificate.js:121
+#: materials/ui.py:247
 msgid "No data could be extracted from the PDF."
 msgstr ""
 
+#: materials/ui.py:157
+msgid "No lot carries a heat this certificate covers. It comes back on its own once one does."
+msgstr ""
+
 #: materials/material_certifications/doctype/material_certificate/material_certificate.js:180
+#: materials/ui.py:119
 msgid "No matching batches found."
 msgstr ""
 
@@ -912,6 +1091,10 @@ msgstr ""
 #: materials/material_certifications/doctype/pmi_test_point/pmi_test_point.json
 #: materials/material_classifications/doctype/material_grade/material_grade.json
 msgid "Notes"
+msgstr ""
+
+#: materials/screens.py:468
+msgid "Nothing of this heat is on the shelf in a state a hold can stop."
 msgstr ""
 
 #. Label of the operator (Link) field in DocType 'PMI Test Point'
@@ -1035,6 +1218,10 @@ msgstr ""
 msgid "Plate"
 msgstr ""
 
+#: materials/ui.py:208
+msgid "Please select certificates to link."
+msgstr ""
+
 #. Label of the procedure_reference (Data) field in DocType 'PMI Test Point'
 #: materials/material_certifications/doctype/pmi_test_point/pmi_test_point.json
 msgid "Procedure Reference"
@@ -1060,9 +1247,29 @@ msgstr ""
 msgid "Qty Covered"
 msgstr ""
 
+#: materials/screens.py:35
+msgid "Quarantine the heat"
+msgstr ""
+
 #. Option for the 'Status' (Select) field in DocType 'Material Heat'
 #: materials/material_certifications/doctype/material_heat/material_heat.json
 msgid "Quarantined"
+msgstr ""
+
+#: materials/screens.py:287
+msgid "Quarantined or recalled"
+msgstr ""
+
+#: materials/screens.py:458 materials/screens.py:477
+msgid "Recall"
+msgstr ""
+
+#: materials/screens.py:484
+msgid "Recall heat {0}? A recalled heat cannot come back. Its lots are not held by this: hold them with Hold what is still on the shelf."
+msgstr ""
+
+#: materials/screens.py:37
+msgid "Recall the heat"
 msgstr ""
 
 #. Option for the 'Status' (Select) field in DocType 'Material Heat'
@@ -1075,10 +1282,24 @@ msgstr ""
 msgid "Recalled propagates downstream — every consumer linking to this heat surfaces it as recalled."
 msgstr ""
 
+#. Settings area materials: description
+#: materials/hooks.py
+msgid "Receipts, lots, incoming inspections, purchasing."
+msgstr ""
+
+#. Label of a quick_list in the Materials Workspace
+#: materials/material_classifications/workspace/materials/materials.json
+msgid "Recent Certificates"
+msgstr ""
+
 #. Option for the 'Test Type' (Select) field in DocType 'Certificate Mechanical
 #. Result'
 #: materials/material_certifications/doctype/certificate_mechanical_result/certificate_mechanical_result.json
 msgid "Reduction of Area"
+msgstr ""
+
+#: materials/screens.py:34
+msgid "Release the heat"
 msgstr ""
 
 #. Option for the 'Status' (Select) field in DocType 'Material Heat'
@@ -1098,7 +1319,12 @@ msgid "Review Extracted Data"
 msgstr ""
 
 #: materials/material_certifications/doctype/material_certificate/material_certificate.js:23
+#: materials/ui.py:138
 msgid "Revoke"
+msgstr ""
+
+#: materials/ui.py:140
+msgid "Revoke certificate {0}? This cannot be undone."
 msgstr ""
 
 #. Option for the 'Status' (Select) field in DocType 'Material Certificate'
@@ -1174,16 +1400,6 @@ msgstr ""
 msgid "Specification {0} has been withdrawn."
 msgstr ""
 
-#. Label of a chart in the Materials Workspace
-#: materials/material_classifications/workspace/materials/materials.json
-msgid "Specifications by Category"
-msgstr ""
-
-#. Label of a chart in the Materials Workspace
-#: materials/material_classifications/workspace/materials/materials.json
-msgid "Specifications by Status"
-msgstr ""
-
 #. Option for the 'Material Category' (Select) field in DocType 'Material
 #. Specification'
 #: materials/material_classifications/doctype/material_specification/material_specification.json
@@ -1213,7 +1429,12 @@ msgstr ""
 #: materials/material_certifications/doctype/material_certificate/material_certificate.json
 #: materials/material_certifications/doctype/material_heat/material_heat.json
 #: materials/material_classifications/doctype/material_specification/material_specification.json
+#: materials/ui.py:122
 msgid "Status"
+msgstr ""
+
+#: materials/screens.py:365
+msgid "Still on the shelf"
 msgstr ""
 
 #. Option for the 'Product Form' (Select) field in DocType 'Material Grade
@@ -1298,6 +1519,10 @@ msgstr ""
 msgid "The following results are outside specification limits:<br>{0}"
 msgstr ""
 
+#: materials/ui.py:153
+msgid "The lots whose heat this certificate covers, and that do not carry it yet."
+msgstr ""
+
 #. Description of the 'Specification' (Link) field in DocType 'Material Grade'
 #: materials/material_classifications/doctype/material_grade/material_grade.json
 msgid "The parent material specification (e.g., ASME-SA-516)"
@@ -1341,16 +1566,36 @@ msgstr ""
 msgid "Third-party testing lab that executed the mechanical/chemical/PMI tests cited in this certificate (TWI, EWI, NIST, etc.). Distinct from issuing_organization (who governs the standard) and issuing_body (who issued the document — usually the mill itself for EN 10204 3.1)."
 msgstr ""
 
+#: materials/screens.py:496
+msgid "This heat is quarantined in the register."
+msgstr ""
+
+#: materials/screens.py:495
+msgid "This heat is recalled: none of it may be used."
+msgstr ""
+
 #. Option for the 'Element' (Select) field in DocType 'Certificate Chemical
 #. Result'
 #: materials/material_certifications/doctype/certificate_chemical_result/certificate_chemical_result.json
 msgid "Ti"
 msgstr ""
 
+#: materials/screens.py:248
+msgid "Tie"
+msgstr ""
+
 #. Option for the 'Material Category' (Select) field in DocType 'Material
 #. Specification'
 #: materials/material_classifications/doctype/material_specification/material_specification.json
 msgid "Titanium Alloy"
+msgstr ""
+
+#: materials/screens.py:502
+msgid "To match"
+msgstr ""
+
+#: materials/screens.py:502
+msgid "To verify"
 msgstr ""
 
 #. Option for the 'Product Form' (Select) field in DocType 'Material Grade
@@ -1384,6 +1629,7 @@ msgstr ""
 
 #. Option for the 'Status' (Select) field in DocType 'Material Certificate'
 #: materials/material_certifications/doctype/material_certificate/material_certificate.json
+#: materials/screens.py:502
 msgid "Valid"
 msgstr ""
 
@@ -1413,6 +1659,7 @@ msgstr ""
 
 #. Label of the verified (Check) field in DocType 'Material Certificate'
 #: materials/material_certifications/doctype/material_certificate/material_certificate.json
+#: materials/screens.py:541
 msgid "Verified"
 msgstr ""
 
@@ -1421,14 +1668,28 @@ msgstr ""
 msgid "Verified By"
 msgstr ""
 
+#: materials/screens.py:256
+msgid "Verify"
+msgstr ""
+
 #. Option for the 'Element' (Select) field in DocType 'Certificate Chemical
 #. Result'
 #: materials/material_certifications/doctype/certificate_chemical_result/certificate_chemical_result.json
 msgid "W"
 msgstr ""
 
+#: materials/screens.py:464
+msgid "Why"
+msgstr ""
+
 #: materials/material_classifications/doctype/material_specification/material_specification.js:13
+#: materials/ui.py:176
+msgctxt "Material Specification"
 msgid "Withdraw"
+msgstr ""
+
+#: materials/ui.py:178
+msgid "Withdraw specification {0}?"
 msgstr ""
 
 #. Option for the 'Status' (Select) field in DocType 'Material Specification'
@@ -1445,14 +1706,46 @@ msgstr ""
 msgid "Within Spec"
 msgstr ""
 
+#: materials/screens.py:287
+msgid "Without a certificate"
+msgstr ""
+
+#: materials/ui.py:126
+msgid "Yes"
+msgstr ""
+
 #. Option for the 'Test Type' (Select) field in DocType 'Certificate Mechanical
 #. Result'
 #: materials/material_certifications/doctype/certificate_mechanical_result/certificate_mechanical_result.json
 msgid "Yield Strength"
 msgstr ""
 
+#: materials/screens.py:334
+msgid "cast {0}"
+msgstr ""
+
+#: materials/ui.py:75
+msgid "certificate_type"
+msgstr ""
+
+#: materials/ui.py:76
+msgid "exact match"
+msgstr ""
+
+#: materials/screens.py:210
+msgid "heat {0}"
+msgstr ""
+
+#: materials/screens.py:211
+msgid "heats {0}"
+msgstr ""
+
 #: materials/agent_tools.py:160
 msgid "none found"
+msgstr ""
+
+#: materials/ui.py:76
+msgid "partial match"
 msgstr ""
 
 #: materials/agent_tools.py:381
@@ -1469,6 +1762,14 @@ msgstr ""
 
 #: materials/agent_tools.py:247
 msgid "{0} is not a Material Grade. Candidates: {1}"
+msgstr ""
+
+#: materials/screens.py:246
+msgid "{0} lots of its heats do not carry it"
+msgstr ""
+
+#: materials/screens.py:225
+msgid "{0} lots on the shelf"
 msgstr ""
 
 #: materials/agent_tools.py:98

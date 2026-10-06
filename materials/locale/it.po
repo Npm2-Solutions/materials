@@ -1646,3 +1646,119 @@ msgstr "Tracciabilità del metallo"
 
 msgid "Masters"
 msgstr "Anagrafiche"
+
+#: materials/screens.py:245
+msgid "1 lot of its heats does not carry it"
+msgstr "1 lotto delle sue colate non lo riporta"
+
+#: materials/screens.py:225
+msgid "1 lot on the shelf"
+msgstr "1 lotto a scaffale"
+
+#: materials/screens.py:36
+msgid "Back to active"
+msgstr "Torna attiva"
+
+#: materials/screens.py:248
+msgid "Certificates to tie to their lots"
+msgstr "Certificati da collegare ai loro lotti"
+
+#: materials/screens.py:256
+msgid "Certificates to verify"
+msgstr "Certificati da verificare"
+
+#: materials/screens.py:255
+msgid "Certificates without their PDF"
+msgstr "Certificati senza PDF"
+
+#: materials/screens.py:466
+msgid "Every lot of this heat still Released or waiting for inspection goes to Quarantine. What is already built in is a telephone call, not a click."
+msgstr "Ogni lotto di questa colata ancora rilasciato o in attesa di controllo va in quarantena. Quello che è già incorporato è una telefonata, non un clic."
+
+#: materials/screens.py:503
+msgid "Expired or revoked"
+msgstr "Scaduti o revocati"
+
+#: materials/screens.py:480
+msgid "Heat {0}"
+msgstr "Colata {0}"
+
+#: materials/screens.py:465
+msgid "Heat {0} under investigation"
+msgstr "Colata {0} sotto indagine"
+
+#: materials/screens.py:223
+msgid "Held heats still on the shelf"
+msgstr "Colate bloccate ancora a scaffale"
+
+#: materials/screens.py:223
+msgid "Hold it"
+msgstr "Blocca"
+
+#: materials/screens.py:460
+msgid "Hold what is still on the shelf"
+msgstr "Blocca ciò che è ancora a scaffale"
+
+#: materials/screens.py:467
+msgid "Lots held"
+msgstr "Lotti bloccati"
+
+#: materials/screens.py:468
+msgid "Nothing of this heat is on the shelf in a state a hold can stop."
+msgstr "Niente di questa colata è a scaffale in uno stato che un blocco possa fermare."
+
+#: materials/screens.py:35
+msgid "Quarantine the heat"
+msgstr "Metti la colata in quarantena"
+
+#: materials/screens.py:287
+msgid "Quarantined or recalled"
+msgstr "In quarantena o richiamate"
+
+#: materials/screens.py:484
+msgid "Recall heat {0}? A recalled heat cannot come back. Its lots are not held by this: hold them with Hold what is still on the shelf."
+msgstr "Richiamare la colata {0}? Una colata richiamata non può tornare. Questo non blocca i suoi lotti: bloccali con Blocca ciò che è ancora a scaffale."
+
+#: materials/screens.py:37
+msgid "Recall the heat"
+msgstr "Richiama la colata"
+
+#: materials/screens.py:34
+msgid "Release the heat"
+msgstr "Rilascia la colata"
+
+#: materials/screens.py:496
+msgid "This heat is quarantined in the register."
+msgstr "Questa colata è in quarantena nel registro."
+
+#: materials/screens.py:495
+msgid "This heat is recalled: none of it may be used."
+msgstr "Questa colata è richiamata: non se ne può usare nulla."
+
+#: materials/screens.py:248
+msgid "Tie"
+msgstr "Collega"
+
+#: materials/screens.py:502
+msgid "To match"
+msgstr "Da collegare"
+
+#: materials/screens.py:287
+msgid "Without a certificate"
+msgstr "Senza certificato"
+
+#: materials/screens.py:334
+msgid "cast {0}"
+msgstr "fusione {0}"
+
+#: materials/screens.py:211
+msgid "heats {0}"
+msgstr "colate {0}"
+
+#: materials/screens.py:246
+msgid "{0} lots of its heats do not carry it"
+msgstr "{0} lotti delle sue colate non lo riportano"
+
+#: materials/screens.py:225
+msgid "{0} lots on the shelf"
+msgstr "{0} lotti a scaffale"
