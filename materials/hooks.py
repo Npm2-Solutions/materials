@@ -406,3 +406,12 @@ can_use_providers = {
 	"Material Heat": ["materials.readiness.heat"],
 	"Material Certificate": ["materials.readiness.certificate"],
 }
+
+
+# Frappe 16.50: a module that ships no navigation of its own, and the module whose
+# rail its doctypes open in (frappe.utils.modules.get_code_only_modules): certificates and, where stock is installed, the warehouse open in the Materials area; declared here, not in stock, because stock without materials keeps its own rail.
+# worgify.desk.homes.code_only_modules() is the registry these follow (a test).
+code_only_modules = {
+	"Material Certifications": ["Material Classifications"],
+	"Stock": ["Material Classifications"],
+}

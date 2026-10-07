@@ -1,8 +1,8 @@
 {
  "app": "materials",
- "creation": "2026-10-03 16:58:16.048950",
+ "creation": "2026-10-07 12:00:00.000000",
  "docstatus": 0,
- "doctype": "Workspace Sidebar",
+ "doctype": "Sidebar",
  "header_icon": "package-check",
  "idx": 0,
  "items": [
@@ -52,7 +52,7 @@
    "type": "Link"
   }
  ],
- "modified": "2026-10-05 18:30:00.000000",
+ "modified": "2026-10-07 18:00:00.000000",
  "modified_by": "Administrator",
  "module": "Material Classifications",
  "name": "Materials",

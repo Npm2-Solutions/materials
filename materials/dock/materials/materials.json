@@ -1,0 +1,23 @@
+{
+ "app": "materials",
+ "creation": "2026-10-07 18:00:00.000000",
+ "docstatus": 0,
+ "doctype": "Dock",
+ "idx": 0,
+ "items": [
+  {
+   "added": 0,
+   "hidden": 0,
+   "icon": "package-check",
+   "link_to": "Materials",
+   "link_type": "Sidebar",
+   "title": "Materials"
+  }
+ ],
+ "modified": "2026-10-07 18:00:00.000000",
+ "modified_by": "Administrator",
+ "name": "materials",
+ "owner": "Administrator",
+ "standard": 1,
+ "user": ""
+}
