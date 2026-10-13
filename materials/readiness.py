@@ -40,3 +40,17 @@ def certificate(name, on, for_what):
 		"reason": _("Certificate status: {0}").format(_(c.status)), "until": c.expiry_date,
 		"ref": {"doctype": "Material Certificate", "name": name},
 	}]
+
+
+def lot_for_job(name, on, for_what):
+	"""Is this lot fit for this job? (Design 55 MA-04) Released says the lot may be
+	used; the job's material requirements say whether it may be used *here*: the
+	grade, the document, the impact at the job's temperature, a recalled heat, the
+	PMI. Silent when no job is asked."""
+	from worgify.readiness import concerns
+
+	if not for_what or not concerns(for_what, "job"):
+		return []
+	from materials.conformity import fit_for_job
+
+	return fit_for_job(name, for_what["job"])

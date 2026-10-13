@@ -341,6 +341,10 @@ from materials.catalogues import SHIPPED as _SHIPPED_CATALOGUES
 
 doc_events = globals().get("doc_events") or {}
 
+# stainless kept apart from carbon steel (Design 55 MA-11): where stock is installed
+doc_events.setdefault("Stock Entry", {})["validate"] = "materials.separation.check_stock_entry"
+doc_events.setdefault("Goods Receipt", {})["validate"] = "materials.separation.check_goods_receipt"
+
 for _doctype in _SHIPPED_CATALOGUES:
 	doc_events.setdefault(_doctype, {}).update({
 		"validate": "worgify.utils.catalogues.refuse_edits_to_shipped_rows",
@@ -405,6 +409,8 @@ worgify_settings = [
 can_use_providers = {
 	"Material Heat": ["materials.readiness.heat"],
 	"Material Certificate": ["materials.readiness.certificate"],
+	# where stock is installed: is the lot fit for THIS job (Design 55 MA-04)
+	"Batch": ["materials.readiness.lot_for_job"],
 }
 
 
@@ -415,3 +421,42 @@ code_only_modules = {
 	"Material Certifications": ["Material Classifications"],
 	"Stock": ["Material Classifications"],
 }
+
+
+# the supplier's side of the portal (Design 55 MA-01): the orders addressed to it
+# and the certificates it sends before loading (worgify.utils.supplier_portal gates it)
+client_portal_modules = [
+	{"label": "Certificates before shipping", "route": "/supplier-certificates", "icon": "📄", "role": "OS Supplier Portal",
+	 "description": "Send each certificate before loading: it is checked against the standard and the order at once.",
+	 "code": "MA"},
+]
+
+# what a supplier owes, for the kernel's «who owes what» (Design 55 DO-02)
+# A supplier's evaluation writes itself (Design 55 OR-01): the certificates' checks, the
+# recalls, the certificates sent before shipping.
+supplier_evaluation_providers = ["materials.supplier_evaluation.criteria"]
+
+owed_providers = ["materials.owed.owed"]
+
+# The job's requirement review (Design 55 X-requisiti, worgify.jobs.requirements): materials
+# judges what the specification asks of the metal against the grade's standard, writes it
+# into the job's material requirements when asked, and when the review is signed.
+requirement_judges = ["materials.job_requirements.judge"]
+requirement_acts = ["materials.job_requirements.act"]
+requirement_act_labels = ["materials.job_requirements.act_label"]
+requirement_appliers = [{"label": "the material orders and issues", "keys": ["material."],
+						 "apply": "materials.job_requirements.apply"}]
+
+# A customer's change says what it touches in every product (Design 55 JO-02,
+# projects.change_impact): this app's part of it
+change_impact_providers = ["materials.change_impact"]
+
+# A job is billed on its evidence and closes when every product has finished (Design 55 JO-03,
+# worgify.jobs.closeout): this app"s part of it
+job_closeout_providers = ["materials.closeout"]
+
+# A job reads every product in one line (Design 55 JO-05, worgify.jobs.lines): this app's line
+job_line_providers = ["materials.job_line"]
+
+# The management review is written from the data (Design 55 QU-03, quality.review): this app's inputs
+review_input_providers = ["materials.review_inputs"]

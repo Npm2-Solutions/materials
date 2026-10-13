@@ -1,0 +1,151 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "creation": "2026-10-09 10:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "heat",
+  "status",
+  "cause",
+  "notice_date",
+  "cb1",
+  "cause_text",
+  "certificate",
+  "branches_section",
+  "branches",
+  "proposal",
+  "closed_on",
+  "closed_by"
+ ],
+ "fields": [
+  {
+   "fieldname": "heat",
+   "fieldtype": "Link",
+   "options": "Material Heat",
+   "label": "Heat",
+   "reqd": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Open\nClosed",
+   "default": "Open",
+   "read_only": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "cause",
+   "fieldtype": "Select",
+   "label": "Why",
+   "options": "The mill's notice\nOur own check",
+   "reqd": 1
+  },
+  {
+   "fieldname": "notice_date",
+   "fieldtype": "Date",
+   "label": "Since",
+   "reqd": 1,
+   "default": "Today"
+  },
+  {
+   "fieldname": "cb1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cause_text",
+   "fieldtype": "Small Text",
+   "label": "What was found",
+   "reqd": 1
+  },
+  {
+   "fieldname": "certificate",
+   "fieldtype": "Link",
+   "options": "Material Certificate",
+   "label": "Certificate contested"
+  },
+  {
+   "fieldname": "branches_section",
+   "fieldtype": "Section Break",
+   "label": "Where it went"
+  },
+  {
+   "fieldname": "branches",
+   "fieldtype": "Table",
+   "options": "Material Recall Branch",
+   "label": "Branches"
+  },
+  {
+   "fieldname": "proposal",
+   "fieldtype": "Small Text",
+   "label": "Proposal"
+  },
+  {
+   "fieldname": "closed_on",
+   "fieldtype": "Date",
+   "label": "Closed on",
+   "read_only": 1
+  },
+  {
+   "fieldname": "closed_by",
+   "fieldtype": "Link",
+   "options": "User",
+   "label": "Closed by",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "links": [],
+ "modified": "2026-10-09 10:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Material Certifications",
+ "name": "Material Recall",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "role": "System Manager",
+   "read": 1,
+   "report": 1,
+   "print": 1,
+   "export": 1,
+   "email": 1,
+   "share": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1
+  },
+  {
+   "role": "Material Record Author",
+   "read": 1,
+   "report": 1,
+   "print": 1,
+   "export": 1,
+   "email": 1,
+   "share": 1,
+   "write": 1,
+   "create": 1
+  },
+  {
+   "role": "Materials Reader",
+   "read": 1,
+   "report": 1,
+   "print": 1,
+   "export": 0,
+   "email": 1,
+   "share": 0
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "autoname": "format:RCL-{YYYY}-{#####}",
+ "naming_rule": "Expression",
+ "title_field": "heat",
+ "show_title_field_in_link": 1
+}

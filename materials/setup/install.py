@@ -8,11 +8,48 @@ import frappe
 def after_install():
 	_sync_sidebar_and_icon_files()
 	_compose_homes()
+	order_requirements_field()
+	steel_kept_field()
 
 
 def after_migrate():
 	_sync_sidebar_and_icon_files()
 	_compose_homes()
+	order_requirements_field()
+	steel_kept_field()
+
+
+def steel_kept_field():
+	"""Where stock is installed, a place may keep one family of steel only (Design 55
+	MA-11, materials.separation): the metal's field on the warehouse."""
+	if not frappe.db.exists("DocType", "Warehouse"):
+		return
+	from frappe.custom.doctype.custom_field.custom_field import create_custom_fields
+
+	create_custom_fields({"Warehouse": [
+		{"fieldname": "steel_kept", "fieldtype": "Select", "label": "Keeps only",
+		 "options": "\nStainless steel only\nCarbon and low-alloy steel only", "insert_after": "zone_purpose",
+		 "description": "Stainless steel and carbon steel kept apart: a movement that would put the other kind here is refused"},
+	]}, update=True)
+
+
+def order_requirements_field():
+	"""Where stock is installed, the order carries the metal's technical requirements
+	(Design 55 MA-01): grade, document, impact at temperature, CEV, PMI — what the
+	supplier received and what its certificates are checked against. The field is
+	materials': stock's order says what is bought, the metal says what it must be
+	(stock's rule: each trade contributes its fields from its own app)."""
+	if not frappe.db.exists("DocType", "Material Purchase Order"):
+		return
+	from frappe.custom.doctype.custom_field.custom_field import create_custom_fields
+
+	create_custom_fields({"Material Purchase Order": [
+		{"fieldname": "technical_requirements_section", "fieldtype": "Section Break", "label": "Technical requirements",
+		 "insert_after": "items", "collapsible": 0, "allow_on_submit": 1},
+		{"fieldname": "technical_requirements", "fieldtype": "Table", "options": "Material Order Requirement",
+		 "label": "Technical requirements", "insert_after": "technical_requirements_section", "allow_on_submit": 1,
+		 "description": "What the supplier receives with the order, and what its certificates are checked against"},
+	]}, update=True)
 
 
 def _sync_sidebar_and_icon_files():

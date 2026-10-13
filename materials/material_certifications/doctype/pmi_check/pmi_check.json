@@ -1,0 +1,218 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "creation": "2026-10-09 10:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "title",
+  "subject_doctype",
+  "subject",
+  "piece",
+  "heat",
+  "grade",
+  "inspection_request",
+  "cb1",
+  "instrument_doctype",
+  "instrument",
+  "instrument_checked",
+  "operator",
+  "tested_on",
+  "readings_section",
+  "readings",
+  "limits_from",
+  "outcome_section",
+  "photo",
+  "proposal",
+  "cb2",
+  "result",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title",
+   "hidden": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "subject_doctype",
+   "fieldtype": "Link",
+   "options": "DocType",
+   "label": "Checked on",
+   "default": "Batch",
+   "hidden": 1
+  },
+  {
+   "fieldname": "subject",
+   "fieldtype": "Dynamic Link",
+   "options": "subject_doctype",
+   "label": "Lot",
+   "reqd": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "piece",
+   "fieldtype": "Data",
+   "label": "Piece",
+   "description": "Which piece of the lot: tube 3 of 12",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "heat",
+   "fieldtype": "Link",
+   "options": "Material Heat",
+   "label": "Heat"
+  },
+  {
+   "fieldname": "grade",
+   "fieldtype": "Link",
+   "options": "Material Grade",
+   "label": "Grade",
+   "reqd": 1
+  },
+  {
+   "fieldname": "inspection_request",
+   "fieldtype": "Data",
+   "label": "Incoming inspection"
+  },
+  {
+   "fieldname": "cb1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "instrument_doctype",
+   "fieldtype": "Link",
+   "options": "DocType",
+   "label": "Instrument kind",
+   "default": "Instrument",
+   "hidden": 1
+  },
+  {
+   "fieldname": "instrument",
+   "fieldtype": "Dynamic Link",
+   "options": "instrument_doctype",
+   "label": "Instrument"
+  },
+  {
+   "fieldname": "instrument_checked",
+   "fieldtype": "Check",
+   "label": "Checked on today's sample"
+  },
+  {
+   "fieldname": "operator",
+   "fieldtype": "Link",
+   "options": "Personnel",
+   "label": "Done by"
+  },
+  {
+   "fieldname": "tested_on",
+   "fieldtype": "Datetime",
+   "label": "Done on",
+   "default": "Now"
+  },
+  {
+   "fieldname": "readings_section",
+   "fieldtype": "Section Break",
+   "label": "Readings"
+  },
+  {
+   "fieldname": "readings",
+   "fieldtype": "Table",
+   "options": "PMI Element Reading",
+   "label": "Readings"
+  },
+  {
+   "fieldname": "limits_from",
+   "fieldtype": "Data",
+   "label": "Limits from",
+   "read_only": 1
+  },
+  {
+   "fieldname": "outcome_section",
+   "fieldtype": "Section Break",
+   "label": "Outcome"
+  },
+  {
+   "fieldname": "photo",
+   "fieldtype": "Attach Image",
+   "label": "Photo of the spot"
+  },
+  {
+   "fieldname": "proposal",
+   "fieldtype": "Select",
+   "label": "Proposed",
+   "read_only": 1,
+   "options": "\nAlloy confirmed\nAlloy not confirmed\nIncomplete"
+  },
+  {
+   "fieldname": "cb2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "result",
+   "fieldtype": "Select",
+   "label": "Result",
+   "options": "\nPass\nFail\nInconclusive",
+   "in_list_view": 1,
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "links": [],
+ "modified": "2026-10-09 10:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Material Certifications",
+ "name": "PMI Check",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "role": "System Manager",
+   "read": 1,
+   "report": 1,
+   "print": 1,
+   "export": 1,
+   "email": 1,
+   "share": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1
+  },
+  {
+   "role": "Material Record Author",
+   "read": 1,
+   "report": 1,
+   "print": 1,
+   "export": 1,
+   "email": 1,
+   "share": 1,
+   "write": 1,
+   "create": 1
+  },
+  {
+   "role": "Materials Reader",
+   "read": 1,
+   "report": 1,
+   "print": 1,
+   "export": 0,
+   "email": 1,
+   "share": 0
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "autoname": "format:PMI-{YYYY}-{#####}",
+ "naming_rule": "Expression",
+ "title_field": "title",
+ "show_title_field_in_link": 1
+}

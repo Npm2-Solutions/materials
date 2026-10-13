@@ -1,0 +1,74 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "creation": "2026-10-09 10:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "element",
+  "read_percent",
+  "low",
+  "high",
+  "within"
+ ],
+ "fields": [
+  {
+   "fieldname": "element",
+   "fieldtype": "Select",
+   "label": "Element",
+   "reqd": 1,
+   "in_list_view": 1,
+   "options": "C\nMn\nSi\nP\nS\nCr\nNi\nMo\nV\nCu\nNb\nTi\nAl\nN\nW\nCo\nFe",
+   "columns": 1
+  },
+  {
+   "fieldname": "read_percent",
+   "fieldtype": "Float",
+   "label": "Read (%)",
+   "precision": "3",
+   "in_list_view": 1,
+   "non_negative": 1,
+   "columns": 2
+  },
+  {
+   "fieldname": "low",
+   "fieldtype": "Float",
+   "label": "At least (%)",
+   "precision": "3",
+   "read_only": 1,
+   "in_list_view": 1,
+   "columns": 2
+  },
+  {
+   "fieldname": "high",
+   "fieldtype": "Float",
+   "label": "At most (%)",
+   "precision": "3",
+   "read_only": 1,
+   "in_list_view": 1,
+   "columns": 2
+  },
+  {
+   "fieldname": "within",
+   "fieldtype": "Check",
+   "label": "Within",
+   "read_only": 1,
+   "in_list_view": 1,
+   "columns": 1
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "links": [],
+ "modified": "2026-10-09 10:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Material Certifications",
+ "name": "PMI Element Reading",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "istable": 1,
+ "editable_grid": 1
+}

@@ -11,6 +11,8 @@
   "spec_min",
   "spec_max",
   "temperature",
+  "direction",
+  "read_at",
   "within_spec"
  ],
  "fields": [
@@ -60,6 +62,19 @@
    "label": "Test Temp"
   },
   {
+   "fieldname": "direction",
+   "fieldtype": "Select",
+   "label": "Specimens",
+   "options": "\nTransverse\nLongitudinal"
+  },
+  {
+   "fieldname": "read_at",
+   "fieldtype": "Data",
+   "label": "Read at",
+   "hidden": 1,
+   "read_only": 1
+  },
+  {
    "default": "0",
    "fieldname": "within_spec",
    "fieldtype": "Check",
@@ -71,7 +86,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2026-02-23 00:00:00.000000",
+ "modified": "2026-10-09 10:00:00.000000",
  "modified_by": "Administrator",
  "module": "Material Certifications",
  "name": "Certificate Mechanical Result",

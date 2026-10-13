@@ -1,0 +1,171 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "creation": "2026-10-09 10:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "project",
+  "title",
+  "grade",
+  "delivery_condition",
+  "certificate_type",
+  "cb1",
+  "impact_energy",
+  "impact_temperature",
+  "impact_direction",
+  "cev_max",
+  "cev_elements",
+  "pmi_required",
+  "sb2",
+  "source",
+  "notes"
+ ],
+ "fields": [
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "options": "Project",
+   "label": "Job",
+   "reqd": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Applies to",
+   "reqd": 1,
+   "in_list_view": 1,
+   "description": "The material as the job names it: plates 13MnNi6-3, 20 mm"
+  },
+  {
+   "fieldname": "grade",
+   "fieldtype": "Link",
+   "options": "Material Grade",
+   "label": "Grade",
+   "reqd": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "delivery_condition",
+   "fieldtype": "Data",
+   "label": "Delivery condition"
+  },
+  {
+   "fieldname": "certificate_type",
+   "fieldtype": "Link",
+   "options": "Conformity Certificate Type",
+   "label": "Document"
+  },
+  {
+   "fieldname": "cb1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "impact_energy",
+   "fieldtype": "Float",
+   "label": "Mean impact energy (J)",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "impact_temperature",
+   "fieldtype": "Float",
+   "label": "At (°C)",
+   "depends_on": "eval:doc.impact_energy",
+   "mandatory_depends_on": "eval:doc.impact_energy"
+  },
+  {
+   "fieldname": "impact_direction",
+   "fieldtype": "Select",
+   "label": "Specimens",
+   "options": "Transverse\nLongitudinal",
+   "default": "Transverse",
+   "depends_on": "eval:doc.impact_energy"
+  },
+  {
+   "fieldname": "cev_max",
+   "fieldtype": "Float",
+   "label": "Carbon equivalent at most",
+   "precision": "2",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "cev_elements",
+   "fieldtype": "Check",
+   "label": "Cr, Mo and V declared",
+   "depends_on": "eval:doc.cev_max"
+  },
+  {
+   "fieldname": "pmi_required",
+   "fieldtype": "Check",
+   "label": "PMI on every piece"
+  },
+  {
+   "fieldname": "sb2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "source",
+   "fieldtype": "Data",
+   "label": "From",
+   "description": "The job's review, the specification and its clause"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "links": [],
+ "modified": "2026-10-09 10:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Material Certifications",
+ "name": "Job Material Requirement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "role": "System Manager",
+   "read": 1,
+   "report": 1,
+   "print": 1,
+   "export": 1,
+   "email": 1,
+   "share": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1
+  },
+  {
+   "role": "Material Record Author",
+   "read": 1,
+   "report": 1,
+   "print": 1,
+   "export": 1,
+   "email": 1,
+   "share": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1
+  },
+  {
+   "role": "Materials Reader",
+   "read": 1,
+   "report": 1,
+   "print": 1,
+   "export": 0,
+   "email": 1,
+   "share": 0
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "autoname": "format:JMR-{YYYY}-{#####}",
+ "naming_rule": "Expression",
+ "title_field": "title",
+ "show_title_field_in_link": 1
+}

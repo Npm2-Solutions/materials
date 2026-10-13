@@ -1,0 +1,106 @@
+{% extends "templates/ds3_portal.html" %}
+{% from "templates/ds3_macros.html" import empty %}
+
+{% block title %}{{ _("Certificates before shipping") }}{% endblock %}
+
+{% block page_head %}
+<div class="w3-page-head">
+	<div>
+		<h1>{{ _("Certificates before shipping") }}</h1>
+		<p>{{ _("{0} · send each certificate before loading: it is checked against the standard and the order at once.").format(mine.supplier) }}</p>
+	</div>
+</div>
+{% endblock %}
+
+{% block portal_body %}
+<style>
+.sp-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+.sp-table th { text-align: left; font-weight: 400; color: #737373; padding: 8px 12px; }
+.sp-table td { padding: 8px 12px; border-top: 1px solid #e5e5e5; vertical-align: top; }
+.sp-ok { color: #166534; font-weight: 600; }
+.sp-no { color: #b91c1c; font-weight: 600; }
+.sp-told { background: #fafafa; border: 1px solid #e5e5e5; border-radius: 8px; padding: 10px 14px; font-size: 14px; }
+.sp-said { margin-top: 6px; font-size: 13px; }
+</style>
+<div class="w3p-stack">
+	{% for o in mine.orders %}
+	<section class="w3-card">
+		<div class="w3-card-head"><h2>{{ _("Order {0}").format(o.name) }}</h2><span class="w3-sub">{{ _("delivery on {0}").format(o.due) if o.due else "" }}</span></div>
+		<div class="w3-card--pad w3p-stack">
+			{% for t in o.told %}
+			<div class="sp-told"><span class="w3-sub">{{ _("Your customer wrote on {0}").format(t.on) }}</span><br>{{ t.text }}</div>
+			{% endfor %}
+			{% if o.requirements %}
+			<div>
+				<p class="w3-sub" style="margin: 0 0 6px">{{ _("What the material must be") }}</p>
+				<table class="sp-table">
+					<tbody>
+					{% for r in o.requirements %}
+					<tr><td style="width: 30%">{{ r.what }}{% if r.line %} · {{ _("line {0}").format(r.line) }}{% endif %}</td><td>{{ r.value }}</td></tr>
+					{% endfor %}
+					</tbody>
+				</table>
+			</div>
+			{% endif %}
+			<div style="overflow-x: auto">
+			<table class="sp-table">
+				<thead><tr><th>{{ _("Line") }}</th><th>{{ _("What") }}</th><th>{{ _("Quantity") }}</th><th>{{ _("Certificates sent") }}</th><th></th></tr></thead>
+				<tbody>
+				{% for l in o.lines %}
+				<tr>
+					<td>{{ l.line }}</td>
+					<td>{{ l.item }}<div class="w3-sub">{{ l.due }}</div></td>
+					<td>{{ "%g" % l.qty }} {{ l.uom or "" }}</td>
+					<td>
+						{% for c in l.certificates %}
+						<div class="{{ 'sp-ok' if c.ok else 'sp-no' }}">{{ "✓" if c.ok else "✕" }} {{ c.number }} · {{ _("heat {0}").format(c.heat) }}</div>
+						{% if not c.ok %}<div class="w3-sub">{{ c.why }}</div>{% endif %}
+						{% else %}
+						<span class="w3-sub">{{ _("none yet") }}</span>
+						{% endfor %}
+						<div class="sp-said" data-said></div>
+					</td>
+					<td>{% if l.asks_certificate %}
+						<label class="w3-btn">{{ _("Send a certificate") }}<input type="file" accept="application/pdf" hidden data-order="{{ o.name }}" data-line="{{ l.line }}"></label>
+					{% endif %}</td>
+				</tr>
+				{% endfor %}
+				</tbody>
+			</table>
+			</div>
+		</div>
+	</section>
+	{% else %}
+	<div class="w3-card">{{ empty(_("No open order."), _("The orders addressed to you appear here, with what each line must be.")) }}</div>
+	{% endfor %}
+</div>
+
+<script>
+(function () {
+	document.querySelectorAll("input[type=file][data-order]").forEach(function (input) {
+		input.addEventListener("change", function () {
+			var file = input.files[0];
+			if (!file) return;
+			var said = input.closest("tr").querySelector("[data-said]");
+			said.textContent = {{ _("Reading the certificate…") | tojson }};
+			var form = new FormData();
+			form.append("file", file, file.name);
+			form.append("is_private", 1);
+			fetch("/api/method/upload_file", { method: "POST", body: form, headers: { "X-Frappe-CSRF-Token": frappe.csrf_token } })
+				.then(function (r) { return r.json(); })
+				.then(function (r) {
+					var url = r.message && r.message.file_url;
+					if (!url) throw new Error({{ _("The file could not be uploaded.") | tojson }});
+					frappe.call({ method: "materials.supplier_portal.send_certificate", args: { order: input.dataset.order, line: input.dataset.line, file_url: url },
+						callback: function (res) {
+							said.className = "sp-said " + (res.message.ok ? "sp-ok" : "sp-no");
+							said.textContent = res.message.message;
+						},
+						error: function () { said.textContent = ""; } });
+				})
+				.catch(function (e) { said.textContent = e.message; });
+		});
+	});
+})();
+</script>
+{% endblock %}

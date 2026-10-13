@@ -33481,6 +33481,33 @@
  },
  {
   "doctype": "Material Grade",
+  "name": "EN-10028-4--11MnNi5-3",
+  "specification": "EN-10028-4",
+  "grade": "11MnNi5-3",
+  "notes": "BS EN 10028-4:2017 — Table 1",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10028-4--13MnNi6-3",
+  "specification": "EN-10028-4",
+  "grade": "13MnNi6-3",
+  "notes": "BS EN 10028-4:2017 — Table 1",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
+  "name": "EN-10028-4--15NiMn6",
+  "specification": "EN-10028-4",
+  "grade": "15NiMn6",
+  "notes": "BS EN 10028-4:2017 — Table 1",
+  "is_standard": 1,
+  "enabled": 1
+ },
+ {
+  "doctype": "Material Grade",
   "name": "EN-10028-4--12Ni14",
   "specification": "EN-10028-4",
   "grade": "12Ni14",

@@ -255,3 +255,10 @@ def apply_extracted_results(certificate, chemical=None, mechanical=None):
 										  "value": flt(row.get("value")), "unit": row.get("unit") or ""})
 	doc.save()
 	return {"message": _("Data applied: {0} chemical, {1} mechanical.").format(len(chemical), len(mechanical))}
+
+# The supplier's page of an order, in their own space (guide 33 P1, D-9; level-up pass, phase 5): closed to
+# them at the API, opened by its page (materials.ui.outside).
+from materials.ui import outside  # noqa: E402
+
+OBJECTS["Material Purchase Order"] = {**OBJECTS.get("Material Purchase Order", {}), "outside": outside.order_page,
+									   "gate": outside.order_is_theirs}

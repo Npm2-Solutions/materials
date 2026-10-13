@@ -1,5 +1,5 @@
 {
- "color": "#7C7C7C",
+ "color": "#A16301",
  "creation": "2026-10-03 23:30:00.000000",
  "docstatus": 0,
  "document_type": "Material Heat",
@@ -10,7 +10,7 @@
  "is_standard": 1,
  "label": "Materials Suspended",
  "method": "worgify.readiness.home_card",
- "modified": "2026-10-05 18:40:00.000000",
+ "modified": "2026-10-10 23:16:09.367638",
  "modified_by": "Administrator",
  "module": "Material Classifications",
  "name": "Materials Suspended",

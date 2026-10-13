@@ -18,6 +18,7 @@ import frappe
 from frappe import _
 from frappe.utils import cint, flt, getdate, nowdate
 from frappe.utils.translations import N_
+from worgify.utils.units import unit_word
 
 CERT = "Material Certificate"
 HEAT = "Material Heat"
@@ -224,6 +225,12 @@ def today() -> dict:
 			_row(h.name, _join(_w(h.status, HEAT), h.grade,
 							   _("1 lot on the shelf") if len(h.live) == 1 else _("{0} lots on the shelf").format(len(h.live))),
 				 HEAT, h.name) for h in held], {"route": {"name": "materials-heats", "query": {"view": "held"}}}))
+	recalls = _open_recalls()
+	if recalls:
+		bands.append(_band("recalls", _("Recalls open"), _("Follow it"), "red", [
+			_row(r.heat or r.name, r.cause_text or _w(r.cause, "Material Recall"), "Material Recall", r.name,
+				 when=_d(r.creation)) for r in recalls],
+			{"route": {"name": "materials-recalls"}}))
 	if _stock():
 		bands += frappe.get_attr("stock.screens.today_bands")()
 	if _can(CERT):
@@ -279,7 +286,19 @@ def nav_counts() -> dict:
 		out["certificates"] = len(waiting)
 	if _can(BATCH, "write"):
 		out["heats"] = len(_held_heats_on_the_shelf())
+	recalls = _open_recalls()
+	if recalls:
+		out["recalls"] = len(recalls)
 	return out
+
+
+def _open_recalls():
+	"""The recalls still open, for whoever follows them to the last piece (may write them): the number beside
+	*Recalls* and the landing's band (guide 33 §19 V6)."""
+	if not _can("Material Recall", "write"):
+		return []
+	return frappe.get_list("Material Recall", filters={"status": "Open"}, order_by="creation asc", limit_page_length=50,
+						   fields=["name", "heat", "cause", "cause_text", "creation"])
 
 
 # ── Heats ────────────────────────────────────────────────────────────────────
@@ -321,7 +340,7 @@ def heats(view: str = "all", search: str | None = None) -> dict:
 				if b and b.lot_status != "Rejected":
 					total += flt(b.available_qty)
 					uoms.add(b.stock_uom)
-			shelf[h] = f"{_num(total)} {uoms.pop()}" if total and len(uoms) == 1 else (_num(total) if total else None)
+			shelf[h] = f"{_num(total)} {unit_word(uoms.pop())}" if total and len(uoms) == 1 else (_num(total) if total else None)
 	mills = _supplier_names([h.mill for h in every])
 	grades = _grade_names([h.grade for h in every])
 	tests = {"all": lambda h: True, "held": lambda h: h.status in HELD, "uncovered": lambda h: not covering.get(h.name)}
@@ -384,7 +403,7 @@ def _built_into(heat, lots):
 		readable = set(frappe.get_list("Assembly Part", filters={"name": ["in", [r.name for r in rows] or [""]]},
 									   pluck="name", limit_page_length=0))
 		out["parts"] = [{"name": r.name, "part": _join(r.part_id, r.mark_number), "assembly": r.assembly,
-						 "project": r.project, "qty": f"{_num(r.qty)} {r.uom or ''}".strip(), "lot": r.lot}
+						 "project": r.project, "qty": f"{_num(r.qty)} {unit_word(r.uom)}".strip(), "lot": r.lot}
 						for r in rows if r.name in readable]
 	if frappe.db.exists("DocType", "Assembly Joint") and _can("Assembly Joint"):
 		joints = frappe.get_list("Assembly Joint", or_filters={"heat_number_1": heat, "heat_number_2": heat},
@@ -440,7 +459,7 @@ def heat_workspace(name: str) -> dict:
 			lots.append({"name": b.name, "lot": b.batch_id or b.name, "item": b.item_name or b.item,
 						 "state": b.lot_status, "state_label": _w(b.lot_status, BATCH),
 						 "theme": LOT_THEME.get(b.lot_status, "gray"),
-						 "available": f"{_num(b.available_qty)} {b.stock_uom or ''}".strip(),
+						 "available": f"{_num(b.available_qty)} {unit_word(b.stock_uom)}".strip(),
 						 "where": ", ".join(f"{p.warehouse} {_num(p.actual_qty)}" for p in where) or None,
 						 "offcut": bool(b.is_remnant), "split_from": b.parent_batch, "project": b.project,
 						 "secondary": b.heat_number != doc.name,
@@ -471,8 +490,16 @@ def heat_workspace(name: str) -> dict:
 		from materials.material_certifications.doctype.material_heat.material_heat import MaterialHeat
 
 		allowed = MaterialHeat.ALLOWED_STATUS_TRANSITIONS.get(doc.status, set())
+		open_recall = frappe.db.get_value("Material Recall", {"heat": doc.name, "status": "Open"}) \
+			if frappe.db.exists("DocType", "Material Recall") else None
+		if open_recall or ("Recalled" in allowed and _can("Material Recall", "create")):
+			# a recall is a task with its end (Design 55 MA-06), not a status flipped
+			acts.append({"id": "recall_task", "icon": "siren", "theme": "red", "group": None if open_recall else _("Recall"),
+						 "label": _("Follow the recall") if open_recall else _("Recall the heat"),
+						 "route": {"doctype": "Material Recall", "name": open_recall} if open_recall
+						 else {"route": {"name": "materials-recalls", "query": {"heat": doc.name}}}})
 		for status, label, icon, theme in HEAT_ACTS:
-			if status not in allowed:
+			if status not in allowed or status == "Recalled":
 				continue
 			act = {"id": f"heat_{frappe.scrub(status)}", "label": _(label), "icon": icon, "group": _("Recall"),
 				   "method": "frappe.client.set_value",
@@ -581,7 +608,7 @@ def certificate_workspace(name: str) -> dict:
 			b = info[n]
 			return {"name": b.name, "lot": b.batch_id or b.name, "item": b.item_name or b.item, "heat": b.heat_number,
 					"state": _w(b.lot_status, BATCH), "theme": LOT_THEME.get(b.lot_status, "gray"),
-					"available": f"{_num(b.available_qty)} {b.stock_uom or ''}".strip()}
+					"available": f"{_num(b.available_qty)} {unit_word(b.stock_uom)}".strip()}
 
 		carrying = [lot(n) for n in sorted(on) if n in info]
 		should = [lot(n) for n in sorted(missing) if n in info]
@@ -613,4 +640,21 @@ def certificate_workspace(name: str) -> dict:
 		"chemistry": chemistry, "mechanics": mechanics, "pmi": pmi,
 		"pmi_result": _w(doc.pmi_overall_result, CERT),
 		"may_write": bool(frappe.has_permission(CERT, "write", doc)) and doc.status != "Revoked",
+		# against the standard and the order (Design 55 MA-03, proposal 17)
+		"check": _soft_check(doc.name), "order": doc.get("order_reference"), "order_line": doc.get("order_line"),
+		"contested": bool(doc.get("contested")), "contested_reason": doc.get("contested_reason"),
+		"before_shipping": bool(doc.get("sent_before_shipping")),
+		"may_ncr": "quality" in frappe.get_installed_apps() and _can("NCR", "create"),
 	}
+
+
+def _soft_check(name):
+	from materials.conformity import for_certificate
+
+	try:
+		return for_certificate(name)
+	except frappe.PermissionError:
+		return None
+	except Exception:
+		frappe.log_error(title="materials: certificate check failed")
+		return None

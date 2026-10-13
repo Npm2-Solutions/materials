@@ -1762,3 +1762,1273 @@ msgstr "{0} lotti delle sue colate non lo riportano"
 #: materials/screens.py:225
 msgid "{0} lots on the shelf"
 msgstr "{0} lotti a scaffale"
+
+# Design 55, built 2026-10-08
+msgid "The lots, and to which job"
+msgstr "I lotti, e per quale commessa"
+
+msgid "The checks on the material"
+msgstr "I controlli sul materiale"
+
+msgid "Heats and their papers"
+msgstr "Le colate e i loro documenti"
+
+msgid "What each job asks"
+msgstr "Cosa chiede ogni commessa"
+
+msgid "The warehouse"
+msgstr "Il magazzino"
+
+msgid "The grades and their standards"
+msgstr "I gradi e le loro norme"
+
+msgid "Confirm the alloy with the analyser, element by element"
+msgstr "Confermare la lega con l'analizzatore, elemento per elemento"
+
+msgid "the reading against the grade's limits"
+msgstr "la lettura contro i limiti del grado"
+
+msgid "Know where a heat is: on the shelf, in a part, in a weld"
+msgstr "Sapere dov'è una colata: a magazzino, in un pezzo, in una saldatura"
+
+msgid "held, recalled, without a certificate"
+msgstr "ferme, richiamate, senza certificato"
+
+msgid "held on the shelf"
+msgstr "ferme a magazzino"
+
+msgid "Read a mill certificate against its standard and the order"
+msgstr "Leggere un certificato dell'acciaieria contro la sua norma e l'ordine"
+
+msgid "to verify, to tie to their lots"
+msgstr "da verificare, da legare ai lotti"
+
+msgid "to verify"
+msgstr "da verificare"
+
+msgid "Recalls"
+msgstr "Richiami"
+
+msgid "Follow a recalled heat to the last piece, and close it"
+msgstr "Seguire una colata richiamata fino all'ultimo pezzo, e chiuderla"
+
+msgid "shelf, parts, welds, delivered, who to tell"
+msgstr "magazzino, pezzi, saldature, consegnato, chi avvisare"
+
+msgid "Material requirements of the jobs"
+msgstr "Requisiti del materiale delle commesse"
+
+msgid "Say what each job asks of its material, so orders and issues follow it"
+msgstr "Dire cosa chiede ogni commessa al suo materiale, perché ordini e prelievi lo seguano"
+
+msgid "grade, document, impact, carbon equivalent, PMI"
+msgstr "grado, documento, resilienza, carbonio equivalente, PMI"
+
+msgid "Grades"
+msgstr "Gradi"
+
+msgid "Keep the grades and the standards that define them"
+msgstr "Tenere i gradi e le norme che li definiscono"
+
+msgid "Material specifications"
+msgstr "Specifiche dei materiali"
+
+msgid "Keep the product standards grades belong to"
+msgstr "Tenere le norme di prodotto a cui appartengono i gradi"
+
+msgid "What is held, and where"
+msgstr "Cosa c'è, e dove"
+
+msgid "In and out"
+msgstr "Entrate e uscite"
+
+msgid "From the request to the order"
+msgstr "Dalla richiesta all'ordine"
+
+msgid "The warehouse in numbers"
+msgstr "Il magazzino in numeri"
+
+msgid "The material's quality in numbers"
+msgstr "La qualità del materiale in numeri"
+
+msgid "Know what is held, where, and whether it may be used"
+msgstr "Sapere cosa c'è, dove, e se si può usare"
+
+msgid "by item, with its lots and places"
+msgstr "per articolo, con i suoi lotti e i posti"
+
+msgid "Count a warehouse and settle what differs"
+msgstr "Contare un magazzino e sistemare le differenze"
+
+msgid "under way, to close"
+msgstr "in corso, da chiudere"
+
+msgid "Book in a delivery with its papers"
+msgstr "Registrare una consegna con i suoi documenti"
+
+msgid "the delivery note and the certificates read together"
+msgstr "il documento di trasporto e i certificati letti insieme"
+
+msgid "to book in"
+msgstr "da registrare"
+
+msgid "Move material between places, return it, scrap it"
+msgstr "Spostare il materiale, renderlo, rottamarlo"
+
+msgid "drafts first"
+msgstr "prima le bozze"
+
+msgid "Ask for material, and fulfil what is asked"
+msgstr "Chiedere materiale, ed evadere quello che è chiesto"
+
+msgid "to fulfil, to order, to approve"
+msgstr "da evadere, da ordinare, da approvare"
+
+msgid "to handle"
+msgstr "da gestire"
+
+msgid "Order material with its technical requirements, and check its certificates before shipping"
+msgstr "Ordinare il materiale con i requisiti tecnici, e controllarne i certificati prima della spedizione"
+
+msgid "open, late, certificates to redo"
+msgstr "aperti, in ritardo, certificati da rifare"
+
+msgid "to follow"
+msgstr "da seguire"
+
+msgid "Find a lot, its heat, its certificates and where it went"
+msgstr "Trovare un lotto, la sua colata, i suoi certificati e dove è andato"
+
+msgid "usable, held, offcuts"
+msgstr "utilizzabili, fermi, ritagli"
+
+msgid "Issue to a job only the lots fit for it"
+msgstr "Prelevare per una commessa solo i lotti adatti"
+
+msgid "fit for the job, offcuts first"
+msgstr "adatti alla commessa, prima i ritagli"
+
+msgid "Follow a heat from the order to the part"
+msgstr "Seguire una colata dall'ordine al pezzo"
+
+msgid "order, receipt, lot, movement, part"
+msgstr "ordine, ricevimento, lotto, movimento, pezzo"
+
+msgid "Judge a lot that arrived, with the mill's papers beside it"
+msgstr "Giudicare un lotto arrivato, con accanto i documenti dell'acciaieria"
+
+msgid "to inspect, to decide"
+msgstr "da controllare, da decidere"
+
+msgid "Stock ledger"
+msgstr "Libro di magazzino"
+
+msgid "Every movement, line by line"
+msgstr "Ogni movimento, riga per riga"
+
+msgid "Stock ageing"
+msgstr "Anzianità delle giacenze"
+
+msgid "How long material has waited"
+msgstr "Da quanto tempo il materiale aspetta"
+
+msgid "Balance by lot"
+msgstr "Saldo per lotto"
+
+msgid "What each lot holds"
+msgstr "Cosa contiene ogni lotto"
+
+msgid "What runs short of what is asked"
+msgstr "Cosa manca rispetto a quanto chiesto"
+
+msgid "Reserved stock"
+msgstr "Giacenze riservate"
+
+msgid "What is set aside, for which job"
+msgstr "Cosa è messo da parte, per quale commessa"
+
+msgid "Available offcuts"
+msgstr "Ritagli disponibili"
+
+msgid "The offcuts that can still be used"
+msgstr "I ritagli che si possono ancora usare"
+
+msgid "Certificates by lot"
+msgstr "Certificati per lotto"
+
+msgid "Which lots hold the certificates they need"
+msgstr "Quali lotti hanno i certificati che servono"
+
+msgid "How each supplier delivers"
+msgstr "Come consegna ogni fornitore"
+
+msgid "Recall simulation"
+msgstr "Simulazione di richiamo"
+
+msgid "Where a heat would have to be looked for"
+msgstr "Dove andrebbe cercata una colata"
+
+msgid "Material readiness by job"
+msgstr "Materiale pronto per commessa"
+
+msgid "Whether each job's material is ready"
+msgstr "Se il materiale di ogni commessa è pronto"
+
+msgid "Quarantine and non-conformities"
+msgstr "Quarantena e non conformità"
+
+msgid "What is held, and why"
+msgstr "Cosa è fermo, e perché"
+
+msgid "numbers to decide from"
+msgstr "numeri per decidere"
+
+msgid "Keep the places, and which steel each may hold"
+msgstr "Tenere i posti, e quale acciaio può tenere ciascuno"
+
+msgid "Keep the categories new items start from"
+msgstr "Tenere le categorie da cui partono i nuovi articoli"
+
+msgid "Keep who makes what the warehouse holds"
+msgstr "Tenere chi fabbrica quello che c'è a magazzino"
+
+msgid "Keep what is checked at arrival, supplier by supplier"
+msgstr "Tenere cosa si controlla all'arrivo, fornitore per fornitore"
+
+msgid "Cutting"
+msgstr "Taglio"
+
+msgid "Cut a plate: the parts inherit its heat, the offcut is born a lot"
+msgstr "Tagliare una lamiera: i pezzi ne ereditano la colata, il ritaglio nasce lotto"
+
+msgid "scan the plate, photograph the marking"
+msgstr "scansiona la lamiera, fotografa la marcatura"
+
+
+# Design 55, built 2026-10-08
+msgid "{0} J mean at {1}, longitudinal specimens"
+msgstr "{0} J medi a {1}, provini longitudinali"
+
+msgid "{0} J mean at {1}, transverse specimens"
+msgstr "{0} J medi a {1}, provini trasversali"
+
+msgid "CEV ≤ {0}"
+msgstr "CEV ≤ {0}"
+
+msgid ", with Cr, Mo, V declared"
+msgstr ", con Cr, Mo, V dichiarati"
+
+msgctxt "Material requirement"
+msgid "Document"
+msgstr "Documento"
+
+msgid "Impact energy"
+msgstr "Resilienza"
+
+msgid "Carbon equivalent"
+msgstr "Carbonio equivalente"
+
+msgid "✕ another material"
+msgstr "✕ altro materiale"
+
+msgid "The certificate is for {0}; the order asks {1}."
+msgstr "Il certificato è per {0}; l'ordine chiede {1}."
+
+msgid "another material"
+msgstr "altro materiale"
+
+msgid "another material: {0}"
+msgstr "altro materiale: {0}"
+
+msgid "(prints «max {0}»)"
+msgstr "(stampa «max {0}»)"
+
+msgid "not printed"
+msgstr "non stampato"
+
+msgid "! ask for it"
+msgstr "! chiedilo"
+
+msgid "✕ outside the standard"
+msgstr "✕ fuori norma"
+
+msgid "at most {0} %"
+msgstr "al più {0} %"
+
+msgid "at least {0} %"
+msgstr "almeno {0} %"
+
+msgid "{0} {1} %: {2} allows {3} for {4}."
+msgstr "{0} {1} %: la {2} ammette {3} per {4}."
+
+msgid "The certificate prints a limit of {0} and so calls itself compliant."
+msgstr "Il certificato stampa un limite di {0} e quindi si dichiara conforme."
+
+msgid "{0} above the standard"
+msgstr "{0} oltre la norma"
+
+msgid "{0} below the standard"
+msgstr "{0} sotto la norma"
+
+msgid "{0} {1} % over the {2} of the standard"
+msgstr "{0} {1} % oltre lo {2} della norma"
+
+msgid "{0} {1} % under the {2} of the standard"
+msgstr "{0} {1} % sotto lo {2} della norma"
+
+msgid "{0} not printed"
+msgstr "{0} non stampati"
+
+msgid "! ask for {0}"
+msgstr "! chiedi {0}"
+
+msgid "{0} = {1} %: the standard allows at most {2} %."
+msgstr "{0} = {1} %: la norma ammette al più {2} %."
+
+msgid "≤ {0}"
+msgstr "≤ {0}"
+
+msgid "CEV (recomputed)"
+msgstr "CEV (ricalcolato)"
+
+msgid "C, Mn not printed"
+msgstr "C, Mn non stampati"
+
+msgid "! ask for the analysis"
+msgstr "! chiedi l'analisi"
+
+msgid "✕ above the order"
+msgstr "✕ oltre l'ordine"
+
+msgid "Carbon equivalent {0}: the order asks at most {1}."
+msgstr "Carbonio equivalente {0}: l'ordine chiede al più {1}."
+
+msgid "carbon equivalent above the order"
+msgstr "carbonio equivalente oltre l'ordine"
+
+msgid "CEV {0} over the {1} of the order"
+msgstr "CEV {0} oltre lo {1} dell'ordine"
+
+msgid "! within, but ask for {0}"
+msgstr "! entro, ma chiedi {0}"
+
+msgid "CEV {0} with Cr, Mo, V"
+msgstr "CEV {0} con Cr, Mo, V"
+
+msgid "thickness not known"
+msgstr "spessore non noto"
+
+msgid "! say the thickness"
+msgstr "! di' lo spessore"
+
+msgid "{0} {1} {2}: {3} asks {4}."
+msgstr "{0} {1} {2}: la {3} chiede {4}."
+
+msgid "{0} outside the standard"
+msgstr "{0} fuori norma"
+
+msgid "{0} {1} {2} outside {3}"
+msgstr "{0} {1} {2} fuori da {3}"
+
+msgid "KV2 {0}"
+msgstr "KV2 {0}"
+
+msgid "{0} J at {1}"
+msgstr "{0} J a {1}"
+
+msgid "{0} J mean at {1}"
+msgstr "{0} J medi a {1}"
+
+msgid "no impact test printed"
+msgstr "nessuna prova di resilienza stampata"
+
+msgid "✕ no test at {0}"
+msgstr "✕ manca la prova a {0}"
+
+msgid "Impact tested at {0}: the order asks {1} J mean at {2} ({3}). At {2} there is no test."
+msgstr "Resilienza provata a {0}: l'ordine chiede {1} J medi a {2} ({3}). A {2} non c'è nessuna prova."
+
+msgid "no temperature"
+msgstr "nessuna temperatura"
+
+msgid "from the order"
+msgstr "dall'ordine"
+
+msgid "impact not tested at {0}"
+msgstr "resilienza non provata a {0}"
+
+msgid "impact tested at {0}, not at {1}"
+msgstr "resilienza provata a {0}, non a {1}"
+
+msgid "✕ mean {0} J"
+msgstr "✕ media {0} J"
+
+msgid "✓ mean {0} J"
+msgstr "✓ media {0} J"
+
+msgid "Impact energy mean {0} J at {1}: the order asks {2} J."
+msgstr "Resilienza media {0} J a {1}: l'ordine chiede {2} J."
+
+msgid "impact energy below the order"
+msgstr "resilienza sotto l'ordine"
+
+msgid "impact {0} J mean at {1}, asked {2}"
+msgstr "resilienza {0} J medi a {1}, chiesti {2}"
+
+msgid "Impact energy mean {0} J at {1}: the standard asks {2} J."
+msgstr "Resilienza media {0} J a {1}: la norma chiede {2} J."
+
+msgid "impact energy below the standard"
+msgstr "resilienza sotto la norma"
+
+msgid "Type of document"
+msgstr "Tipo di documento"
+
+msgid "not said"
+msgstr "non detto"
+
+msgid "✕ another document"
+msgstr "✕ altro documento"
+
+msgid "The certificate is a {0}; the order asks {1}."
+msgstr "Il certificato è un {0}; l'ordine chiede {1}."
+
+msgid "document of no type"
+msgstr "documento senza tipo"
+
+msgid "{0}, the order asks {1}"
+msgstr "{0}, l'ordine chiede {1}"
+
+msgid "Heat and quantity"
+msgstr "Colata e quantità"
+
+msgid "pieces"
+msgstr "pezzi"
+
+msgid "{0}, {1}"
+msgstr "{0}, {1}"
+
+msgid "The limits of {0} ({1}) are not transcribed yet: only the order was checked."
+msgstr "I limiti di {0} ({1}) non sono ancora trascritti: è stato controllato solo l'ordine."
+
+msgid "The certificate says «compliant». One thing is not."
+msgstr "Il certificato dice «conforme». Una cosa non lo è."
+
+msgid "The certificate says «compliant». {0} things are not."
+msgstr "Il certificato dice «conforme». {0} cose non lo sono."
+
+msgid "Within the standard and the order, with values to ask for."
+msgstr "Dentro la norma e l'ordine, con valori da chiedere."
+
+msgid "Everything within the standard and the order."
+msgstr "Tutto dentro la norma e l'ordine."
+
+msgid "Line {0}: heat {1} is not acceptable ({2})."
+msgstr "Riga {0}: la colata {1} non è accettabile ({2})."
+
+msgid "Heat {0} is not acceptable ({1})."
+msgstr "La colata {0} non è accettabile ({1})."
+
+msgid "Ship heat {0} or another heat, with its certificate, before loading."
+msgstr "Spedite la {0} o un'altra colata con il certificato prima del carico."
+
+msgid "Ship another heat, with its certificate, before loading."
+msgstr "Spedite un'altra colata con il certificato prima del carico."
+
+msgid "heat {0} recalled"
+msgstr "colata {0} richiamata"
+
+msgid "by the mill"
+msgstr "dall'acciaieria"
+
+msgid "another material: the job asks {0}"
+msgstr "materiale diverso: la commessa chiede {0}"
+
+msgid "no certificate"
+msgstr "nessun certificato"
+
+msgid "{0}, the job asks {1}"
+msgstr "certificato {0}, la commessa chiede {1}"
+
+msgid "no impact test at {0}"
+msgstr "nessuna prova di resilienza a {0}"
+
+msgid "impact {0} J at {1}, the job asks {2}"
+msgstr "resilienza {0} J a {1}, la commessa chiede {2}"
+
+msgid "impact {0} J at {1}"
+msgstr "resilienza {0} J a {1}"
+
+msgid "PMI not done yet"
+msgstr "PMI non ancora fatto"
+
+msgid "fit: {0}"
+msgstr "adatto: {0}"
+
+msgid "Say why the certificate is contested."
+msgstr "Di' perché il certificato è contestato."
+
+msgid "Certificate {0} marked as contested."
+msgstr "Certificato {0} segnato come contestato."
+
+msgid "Non-conformities live in the quality app, which is not installed."
+msgstr "Le non conformità stanno nell'app della qualità, che non è installata."
+
+msgid "Certificate {0}: {1}"
+msgstr "Certificato {0}: {1}"
+
+msgid "PMI on every piece"
+msgstr "PMI su ogni pezzo"
+
+msgid "Orders live in the warehouse app, which is not installed."
+msgstr "Gli ordini stanno nell'app del magazzino, che non è installata."
+
+msgid "within the standard and the order"
+msgstr "dentro la norma e l'ordine"
+
+msgid "everything within the standard and the order"
+msgstr "tutto dentro la norma e l'ordine"
+
+msgid "certificate to redo"
+msgstr "certificato da rifare"
+
+msgid "certificate compliant"
+msgstr "certificato conforme"
+
+msgid "certificate: values to ask"
+msgstr "certificato: valori da chiedere"
+
+msgid "certificate not sent yet"
+msgstr "certificato non ancora inviato"
+
+msgid "review of job {0}"
+msgstr "revisione della commessa {0}"
+
+msgid "{0} requirements on the order."
+msgstr "{0} requisiti sull'ordine."
+
+msgid "Requirement removed."
+msgstr "Requisito tolto."
+
+msgid "This PDF is a scan: there are no words to read. Send the certificate as the mill's system printed it."
+msgstr "Questo PDF è una scansione: non ci sono parole da leggere. Mandate il certificato come lo ha stampato il sistema dell'acciaieria."
+
+msgid "Certificate {0} was already received ({1})."
+msgstr "Il certificato {0} è già stato ricevuto ({1})."
+
+msgid "Write what to tell the supplier."
+msgstr "Scrivi cosa dire al fornitore."
+
+msgid "Order {0}: certificates before shipping"
+msgstr "Ordine {0}: certificati prima della spedizione"
+
+msgid "on its portal and by e-mail"
+msgstr "sul suo portale e per e-mail"
+
+msgid "on its portal (no outgoing mail on this site)"
+msgstr "sul suo portale (questo sito non invia e-mail)"
+
+msgid "Told {0} {1}."
+msgstr "Detto a {0} {1}."
+
+msgid "Lot {0} has no heat with a grade: the limits cannot be known."
+msgstr "Il lotto {0} non ha una colata con un grado: i limiti non si possono sapere."
+
+msgid "The limits of {0} are not transcribed yet: the reading is recorded, not judged."
+msgstr "I limiti di {0} non sono ancora trascritti: la lettura si registra, non si giudica."
+
+msgid "{0}, {1} and {2}"
+msgstr "{0}, {1} e {2}"
+
+msgid "Outside the grade: {0}."
+msgstr "Fuori dal grado: {0}."
+
+msgid "Read every element to propose a result."
+msgstr "Leggi ogni elemento per proporre un esito."
+
+msgid "{0}: within the grade."
+msgstr "{0}: dentro il grado."
+
+msgid "Within the grade."
+msgstr "Dentro il grado."
+
+msgid "The carbon the analyser cannot read is the certificate's: {0} %."
+msgstr "Il carbonio che l'analizzatore non legge lo dice il certificato: {0} %."
+
+msgid "The analyser cannot read carbon: the certificate says it, and it does not print it here."
+msgstr "L'analizzatore non legge il carbonio: lo dice il certificato, che qui non lo stampa."
+
+msgid "This PMI is decided: start a new one for another piece."
+msgstr "Questo PMI è deciso: iniziane uno nuovo per un altro pezzo."
+
+msgid "Pass, Fail or Inconclusive."
+msgstr "Conforme, non conforme o non concludente."
+
+msgid "Name the analyser and say it was checked on today's sample."
+msgstr "Indica l'analizzatore e di' che è stato verificato sul campione di oggi."
+
+msgid "Take a photo of the spot that was read."
+msgstr "Fotografa il punto letto."
+
+msgid "The readings do not confirm the alloy: it cannot pass."
+msgstr "Le letture non confermano la lega: non può essere conforme."
+
+msgid "PMI {0}: {1}."
+msgstr "PMI {0}: {1}."
+
+msgid "in quarantine since {0}"
+msgstr "in quarantena dal {0}"
+
+msgid "held: {0}"
+msgstr "fermato: {0}"
+
+msgid "{0} lots still usable"
+msgstr "{0} lotti ancora utilizzabili"
+
+msgid "nothing on the shelf"
+msgstr "niente a magazzino"
+
+msgid "Hold what is on the shelf"
+msgstr "Ferma quello che è a magazzino"
+
+msgid "all already welded"
+msgstr "tutti già saldati"
+
+msgid "no part was cut from it"
+msgstr "nessun pezzo è stato tagliato da lì"
+
+msgid "Put a stop on {0}"
+msgstr "Metti un arresto su {0}"
+
+msgid "no joint"
+msgstr "nessun giunto"
+
+msgid "non-conformity {0}"
+msgstr "non conformità {0}"
+
+msgid "Open the non-conformity"
+msgstr "Apri la non conformità"
+
+msgid "nothing delivered: no piece of this heat has left the shop"
+msgstr "niente consegnato: nessun pezzo con questa colata è uscito dall'officina"
+
+msgid "delivered: {0}"
+msgstr "consegnato: {0}"
+
+msgid "customer of {0}"
+msgstr "cliente di {0}"
+
+msgid "nobody outside"
+msgstr "nessuno fuori"
+
+msgid "Prepare the notices"
+msgstr "Prepara gli avvisi"
+
+msgid "The offcut {0} is of the same heat: a test on it says whether the parts of {1} are good, before deciding whether to cut them out."
+msgstr "Il ritaglio {0} è della stessa colata: una prova su di lui dice se i pezzi di {1} sono buoni, prima di decidere se tagliarli via."
+
+msgid "Ask for the test on {0}"
+msgstr "Chiedi la prova su {0}"
+
+msgid "nothing on the shelf can be used"
+msgstr "niente a magazzino si può usare"
+
+msgid "the parts are stopped on their route"
+msgstr "i pezzi sono fermi sul percorso"
+
+msgid "the non-conformity has its decision"
+msgstr "la non conformità ha la sua decisione"
+
+msgid "whoever had to know, knows"
+msgstr "chi doveva saperlo lo sa"
+
+msgid "Lot {0}, {1} {2}, received on {3}"
+msgstr "Lotto {0}, {1} {2}, ricevuto il {3}"
+
+msgid "to stop"
+msgstr "da fermare"
+
+msgid "Cut into parts"
+msgstr "Tagliata in pezzi"
+
+msgid "Welded into joints"
+msgstr "Saldata in giunti"
+
+msgid "Who to tell"
+msgstr "Chi avvisare"
+
+msgid "Heat {0} already has an open recall."
+msgstr "La colata {0} ha già un richiamo aperto."
+
+msgid "heat {0} recalled ({1})"
+msgstr "colata {0} richiamata ({1})"
+
+msgid "{0} lots held."
+msgstr "{0} lotti fermati."
+
+msgid "{0} stopped on their route."
+msgstr "{0} fermati sul percorso."
+
+msgid "Heat {0} recalled: parts and welds"
+msgstr "Colata {0} richiamata: pezzi e saldature"
+
+msgid "Which lot?"
+msgstr "Quale lotto?"
+
+msgid "Impact test on this offcut: heat {0} recalled ({1}). {2}"
+msgstr "Prova di resilienza su questo ritaglio: colata {0} richiamata ({1}). {2}"
+
+msgid "Test asked on {0}: {1}."
+msgstr "Prova chiesta su {0}: {1}."
+
+msgid "Marked as told."
+msgstr "Segnato come avvisato."
+
+msgid "Unknown step."
+msgstr "Passo sconosciuto."
+
+msgid "Not every branch is closed: {0}."
+msgstr "Non tutti i rami sono chiusi: {0}."
+
+msgid "Recall of heat {0} closed."
+msgstr "Richiamo della colata {0} chiuso."
+
+msgid "{0} is a scan: it could not be read."
+msgstr "{0} è una scansione: non si è potuta leggere."
+
+msgid "{0} read, not kept: you may not add certificates."
+msgstr "{0} letto, non tenuto: non puoi aggiungere certificati."
+
+msgid "no certificate for heat {0}"
+msgstr "nessun certificato per la colata {0}"
+
+msgid "This order is not addressed to you."
+msgstr "Questo ordine non è indirizzato a voi."
+
+msgid "Send a file you uploaded."
+msgstr "Mandate un file che avete caricato."
+
+msgid "Do not ship heat {0}: {1}."
+msgstr "Non spedite la colata {0}: {1}."
+
+msgid "Received. Your customer will ask for: {0}."
+msgstr "Ricevuto. Il vostro cliente chiederà: {0}."
+
+msgid "Heat {0} can ship: everything within the standard and the order."
+msgstr "La colata {0} si può spedire: tutto dentro la norma e l'ordine."
+
+msgid "{0}: {1} keeps only stainless steel, and {2} is carbon steel. Carbon steel next to stainless leaves iron on its surface."
+msgstr "{0}: {1} tiene solo acciaio inox, e {2} è acciaio al carbonio. Il carbonio accanto all'inox ne lascia ferro sulla superficie."
+
+msgid "{0}: {1} keeps only carbon and low-alloy steel; {2} is stainless and goes to a stainless area."
+msgstr "{0}: {1} tiene solo acciaio al carbonio e basso legato; {2} è inox e va in un'area inox."
+
+msgid "Stainless and carbon steel are kept apart"
+msgstr "Inox e carbonio si tengono separati"
+
+msgid "Row {0}: {1} keeps {2}; heat {3} is not."
+msgstr "Riga {0}: {1} tiene {2}; la colata {3} no."
+
+msgid "Follow the recall"
+msgstr "Segui il richiamo"
+
+msgid "Certificates before shipping"
+msgstr "Certificati prima della spedizione"
+
+msgid "{0} · send each certificate before loading: it is checked against the standard and the order at once."
+msgstr "{0} · mandate ogni certificato prima del carico: viene controllato subito contro la norma e l'ordine."
+
+msgid "Order {0}"
+msgstr "Ordine {0}"
+
+msgid "delivery on {0}"
+msgstr "consegna il {0}"
+
+msgid "Your customer wrote on {0}"
+msgstr "Il vostro cliente ha scritto il {0}"
+
+msgid "What the material must be"
+msgstr "Come deve essere il materiale"
+
+msgid "line {0}"
+msgstr "riga {0}"
+
+msgid "Certificates sent"
+msgstr "Certificati mandati"
+
+msgid "Send a certificate"
+msgstr "Manda un certificato"
+
+msgid "No open order."
+msgstr "Nessun ordine aperto."
+
+msgid "The orders addressed to you appear here, with what each line must be."
+msgstr "Gli ordini indirizzati a voi compaiono qui, con come deve essere ogni riga."
+
+msgid "The file could not be uploaded."
+msgstr "Il file non si è potuto caricare."
+
+msgid "Order line"
+msgstr "Riga dell'ordine"
+
+msgid "Empty: every line of the order"
+msgstr "Vuoto: ogni riga dell'ordine"
+
+msgid "Delivery condition"
+msgstr "Stato di fornitura"
+
+msgid "As the standard writes it: +N, +NT, +QT"
+msgstr "Come lo scrive la norma: +N, +NT, +QT"
+
+msgid "Mean impact energy (J)"
+msgstr "Resilienza media (J)"
+
+msgid "At (°C)"
+msgstr "A (°C)"
+
+msgid "Carbon equivalent at most"
+msgstr "Carbonio equivalente al più"
+
+msgid "Cr, Mo and V declared"
+msgstr "Cr, Mo e V dichiarati"
+
+msgid "As written"
+msgstr "Come scritto"
+
+msgid "Where the requirement comes from: the job's review, the specification and its clause"
+msgstr "Da dove viene il requisito: la revisione della commessa, la specifica e il suo punto"
+
+msgid "Added on"
+msgstr "Aggiunto il"
+
+msgid "Material Order Requirement"
+msgstr "Requisito dell'ordine di materiale"
+
+msgid "Applies to"
+msgstr "Vale per"
+
+msgid "The material as the job names it: plates 13MnNi6-3, 20 mm"
+msgstr "Il materiale come lo chiama la commessa: lamiere 13MnNi6-3, 20 mm"
+
+msgid "The job's review, the specification and its clause"
+msgstr "La revisione della commessa, la specifica e il suo punto"
+
+msgid "Job Material Requirement"
+msgstr "Requisito del materiale della commessa"
+
+msgid "Piece"
+msgstr "Pezzo"
+
+msgid "Which piece of the lot: tube 3 of 12"
+msgstr "Quale pezzo del lotto: tubo 3 di 12"
+
+msgid "Instrument kind"
+msgstr "Tipo di strumento"
+
+msgid "Checked on today's sample"
+msgstr "Verificato sul campione di oggi"
+
+msgid "Done by"
+msgstr "Fatto da"
+
+msgid "Limits from"
+msgstr "Limiti da"
+
+msgid "Photo of the spot"
+msgstr "Foto del punto"
+
+msgid "Alloy confirmed"
+msgstr "Lega confermata"
+
+msgid "Alloy not confirmed"
+msgstr "Lega non confermata"
+
+msgid "PMI Check"
+msgstr "Controllo PMI"
+
+msgid "Fe"
+msgstr "Fe"
+
+msgid "Read (%)"
+msgstr "Letto (%)"
+
+msgid "At least (%)"
+msgstr "Almeno (%)"
+
+msgid "At most (%)"
+msgstr "Al più (%)"
+
+msgid "Within"
+msgstr "Dentro"
+
+msgid "PMI Element Reading"
+msgstr "Lettura PMI per elemento"
+
+msgid "The mill's notice"
+msgstr "Avviso dell'acciaieria"
+
+msgid "Our own check"
+msgstr "Nostro controllo"
+
+msgid "Certificate contested"
+msgstr "Certificato contestato"
+
+msgid "Branches"
+msgstr "Rami"
+
+msgid "Closed on"
+msgstr "Chiuso il"
+
+msgid "Closed by"
+msgstr "Chiuso da"
+
+msgid "Material Recall"
+msgstr "Richiamo di materiale"
+
+msgid "People to tell"
+msgstr "Chi avvisare"
+
+msgid "Who closes it"
+msgstr "Chi lo chiude"
+
+msgid "What was done (kind)"
+msgstr "Cosa è stato fatto (tipo)"
+
+msgid "Material Recall Branch"
+msgstr "Ramo del richiamo"
+
+msgid "For the order"
+msgstr "Per l'ordine"
+
+msgid "The order the certificate names, as printed"
+msgstr "L'ordine che il certificato nomina, come stampato"
+
+msgid "Sent before shipping"
+msgstr "Mandato prima della spedizione"
+
+msgid "Nominal thickness (mm)"
+msgstr "Spessore nominale (mm)"
+
+msgid "Contested"
+msgstr "Contestato"
+
+msgid "Why contested"
+msgstr "Perché contestato"
+
+msgid "Read at"
+msgstr "Letto in"
+
+msgid "carbon"
+msgstr "carbonio"
+
+msgid "silicon"
+msgstr "silicio"
+
+msgid "manganese"
+msgstr "manganese"
+
+msgid "phosphorus"
+msgstr "fosforo"
+
+msgid "sulphur"
+msgstr "zolfo"
+
+msgid "aluminium"
+msgstr "alluminio"
+
+msgid "chromium"
+msgstr "cromo"
+
+msgid "molybdenum"
+msgstr "molibdeno"
+
+msgid "niobium"
+msgstr "niobio"
+
+msgid "nickel"
+msgstr "nichel"
+
+msgid "vanadium"
+msgstr "vanadio"
+
+msgid "copper"
+msgstr "rame"
+
+msgid "nitrogen"
+msgstr "azoto"
+
+msgid "titanium"
+msgstr "titanio"
+
+msgid "transverse"
+msgstr "trasversale"
+
+msgid "longitudinal"
+msgstr "longitudinale"
+
+msgctxt "Recall cause"
+msgid "{0} of {1}"
+msgstr "{0} del {1}"
+
+
+# Design 55, built 2026-10-08
+msgid "table {0}"
+msgstr "tabella {0}"
+
+msgid "tables {0} and {1}"
+msgstr "tabelle {0} e {1}"
+
+
+# Design 55, built 2026-10-08
+msgid "everything held"
+msgstr "tutto fermato"
+
+msgctxt "Recall branch"
+msgid "On the shelf"
+msgstr "A magazzino"
+
+msgid "{0} read, not kept: it does not print {1}. Add it by hand from the paper."
+msgstr "{0} letto, non tenuto: non stampa {1}. Aggiungilo a mano dal documento."
+
+msgid "its number"
+msgstr "il suo numero"
+
+msgid "its heat"
+msgstr "la sua colata"
+
+msgid "its date"
+msgstr "la sua data"
+
+msgid "a required value"
+msgstr "un valore richiesto"
+
+msgid "Lot {0} has never been anywhere: say where its offcut goes."
+msgstr "Il lotto {0} non è mai stato in nessun posto: di' dove va il suo ritaglio."
+
+
+# Design 55, built 2026-10-08
+msgid "today's sample"
+msgstr "campione di oggi"
+
+msgid "You may not record the check of {0}: ask who keeps the instruments."
+msgstr "Non puoi registrare la verifica di {0}: chiedi a chi tiene gli strumenti."
+
+
+# Design 55, built 2026-10-08
+msgid "on time {0} %"
+msgstr "puntuale al {0} %"
+
+msgid "Order {0}, line {1}: {2} {3} of {4} still to deliver"
+msgstr "Ordine {0}, riga {1}: {2} {3} di {4} ancora da consegnare"
+
+
+# Design 55, built 2026-10-08
+msgctxt "Material Recall"
+msgid "Open"
+msgstr "Aperto"
+
+
+# Design 55, built 2026-10-08
+msgid "The specification asks more than the standard: {0} J at {1} °C on {2} specimens, where {3} guarantees {4} J for {5} at that temperature ({6}). The requirement goes into the order to the supplier, otherwise no certificate will prove it."
+msgstr "La specifica chiede più della norma: {0} J a {1} °C su provini {2}, dove {3} garantisce {4} J per {5} a quella temperatura ({6}). Il requisito va scritto nell'ordine al fornitore, altrimenti nessun certificato lo dimostrerà."
+
+msgid "Table 4"
+msgstr "Tabella 4"
+
+msgid "Add to the material order"
+msgstr "Aggiungi all'ordine dei materiali"
+
+msgid "Pressure-bearing material, {0}"
+msgstr "Materiale delle parti in pressione, {0}"
+
+msgid "Written in the job's material requirements ({0}): the orders and the issues follow it."
+msgstr "Scritto nei requisiti del materiale della commessa ({0}): gli ordini e i prelievi lo seguono."
+
+msgid "the job's material requirements ({0})"
+msgstr "i requisiti del materiale della commessa ({0})"
+
+msgid "the material orders and issues"
+msgstr "gli ordini e i prelievi del materiale"
+
+
+# Design 55, built 2026-10-08
+msgctxt "Specimens"
+msgid "transverse"
+msgstr "trasversali"
+
+msgctxt "Specimens"
+msgid "longitudinal"
+msgstr "longitudinali"
+
+
+# Design 55, built 2026-10-08
+msgid "with certificate {0}"
+msgstr "con certificato {0}"
+
+msgid "impact {0} J at {1} °C"
+msgstr "resilienza {0} J a {1} °C"
+
+msgid "and {0}"
+msgstr "e {0}"
+
+msgid "1 week from the last order"
+msgstr "1 settimana dall’ultimo ordine"
+
+msgid "{0} weeks from the last order"
+msgstr "{0} settimane dall’ultimo ordine"
+
+msgid "no order states a price: the amount is to write"
+msgstr "nessun ordine dice un prezzo: l’importo è da scrivere"
+
+
+# Design 55, built 2026-10-08
+msgid "The material in the shop"
+msgstr "I materiali in officina"
+
+msgid "no purchasing on this site"
+msgstr "nessun acquisto su questo sito"
+
+msgid "no order of material on the job"
+msgstr "nessun ordine di materiale sulla commessa"
+
+msgid "order {0} received at {1} %"
+msgstr "ordine {0} ricevuto al {1} %"
+
+msgid "receipts {0}, certificates registered"
+msgstr "ricevimenti {0}, certificati registrati"
+
+msgid "receipts {0}, certificates still to register"
+msgstr "ricevimenti {0}, certificati ancora da registrare"
+
+
+# Design 55, built 2026-10-08
+msgid "{0} lines received"
+msgstr "{0} righe ricevute"
+
+msgid "all with their certificate"
+msgstr "tutte con il loro certificato"
+
+msgid "{0} without a certificate"
+msgstr "{0} senza certificato"
+
+msgid "{0} on their way"
+msgstr "{0} in arrivo"
+
+
+# Design 55, built 2026-10-08
+msgid "unknown mill"
+msgstr "acciaieria sconosciuta"
+
+msgid "materials"
+msgstr "materiali"
+
+msgid "no heat recalled"
+msgstr "nessuna colata richiamata"
+
+msgid "{0}: heat {1} recalled"
+msgstr "{0}: colata {1} richiamata"
+
+msgid "Requalify {0}, or move its orders to another mill."
+msgstr "Riqualifica {0}, o sposta i suoi ordini su un'altra acciaieria."
+
+
+# Design 55, built 2026-10-08
+msgid "Certificates conforming"
+msgstr "Certificati conformi"
+
+msgid "the 3.1 checks"
+msgstr "controllo dei 3.1"
+
+msgid "No certificate in the period."
+msgstr "Nessun certificato nel periodo."
+
+msgid "{0} defective of {1}: {2}"
+msgstr "{0} difettosi su {1}: {2}"
+
+msgid "All {0} conforming."
+msgstr "Tutti i {0} conformi."
+
+msgid "the certificate checked before shipping"
+msgstr "il certificato controllato prima della spedizione"
+
+msgid "the impact test repeated by us on a sample of each delivery"
+msgstr "la prova di resilienza ripetuta da noi a campione su ogni consegna"
+
+msgid "No heat recalled."
+msgstr "Nessuna colata richiamata."
+
+msgid "Nothing received in the period."
+msgstr "Niente ricevuto nel periodo."
+
+msgid "by our check"
+msgstr "dal nostro controllo"
+
+msgid "heat {0} recalled {1}"
+msgstr "colata {0} richiamata {1}"
+
+msgid "already welded"
+msgstr "già saldata"
+
+msgid "Responses and documents"
+msgstr "Risposte e documenti"
+
+msgid "orders and portal"
+msgstr "ordini e portale"
+
+msgid "{0} of {1} certificates came before the material"
+msgstr "{0} certificati su {1} arrivati prima del materiale"
+
+
+# Design 55, built 2026-10-08
+msgid "Recalls open"
+msgstr "Richiami aperti"
+
+msgid "Follow it"
+msgstr "Seguilo"
+
+msgid "to chase"
+msgstr "da sollecitare"
+
+
+
+msgctxt "Material Heat"
+msgid "Cast Number"
+msgstr "Numero di colata continua"
+
+
+# phase 5: the supplier
+msgid "Our order"
+msgstr "Il nostro ordine"
+
+msgid "This order is not open any more."
+msgstr "Questo ordine non è più aperto."
+
+msgid "What the order asks"
+msgstr "Ciò che l'ordine richiede"
+
+msgid "Every certificate it asks has been sent."
+msgstr "Ogni certificato richiesto è stato inviato."
+
+msgid "The certificate (PDF)"
+msgstr "Il certificato (PDF)"
+
+msgid "to send"
+msgstr "da inviare"
+
+msgid "{0} certificates to send before shipping: each is read and judged when it arrives."
+msgstr "{0} certificati da inviare prima della spedizione: ognuno viene letto e giudicato appena arriva."
+
+msgid "{0} certificates to send"
+msgstr "{0} certificati da inviare"
+
+msgid "{0} certificates to send before shipping"
+msgstr "{0} certificati da inviare prima della spedizione"
+
+msgid "Send the certificates our orders ask, before you ship"
+msgstr "Inviate i certificati che i nostri ordini richiedono, prima di spedire"
+
+msgid "each line, the certificate it asks, how it was judged"
+msgstr "ogni riga, il certificato che richiede, come è stato giudicato"
+
+msgid "No order of ours is open with you."
+msgstr "Nessun nostro ordine è aperto con voi."

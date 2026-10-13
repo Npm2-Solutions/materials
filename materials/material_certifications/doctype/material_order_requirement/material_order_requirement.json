@@ -1,0 +1,149 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "creation": "2026-10-09 10:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "requirement",
+  "order_line",
+  "grade",
+  "delivery_condition",
+  "certificate_type",
+  "impact_energy",
+  "impact_temperature",
+  "impact_direction",
+  "cev_max",
+  "cev_elements",
+  "text",
+  "source",
+  "added_on"
+ ],
+ "fields": [
+  {
+   "fieldname": "requirement",
+   "fieldtype": "Select",
+   "label": "Requirement",
+   "reqd": 1,
+   "in_list_view": 1,
+   "options": "Material\nDocument\nImpact\nCarbon equivalent\nPMI\nOther",
+   "columns": 2,
+   "allow_on_submit": 1
+  },
+  {
+   "fieldname": "order_line",
+   "fieldtype": "Data",
+   "label": "Order line",
+   "in_list_view": 1,
+   "columns": 1,
+   "description": "Empty: every line of the order",
+   "allow_on_submit": 1
+  },
+  {
+   "fieldname": "grade",
+   "fieldtype": "Link",
+   "options": "Material Grade",
+   "label": "Grade",
+   "depends_on": "eval:doc.requirement==\"Material\"",
+   "mandatory_depends_on": "eval:doc.requirement==\"Material\"",
+   "allow_on_submit": 1
+  },
+  {
+   "fieldname": "delivery_condition",
+   "fieldtype": "Data",
+   "label": "Delivery condition",
+   "depends_on": "eval:doc.requirement==\"Material\"",
+   "description": "As the standard writes it: +N, +NT, +QT",
+   "allow_on_submit": 1
+  },
+  {
+   "fieldname": "certificate_type",
+   "fieldtype": "Link",
+   "options": "Conformity Certificate Type",
+   "label": "Document",
+   "depends_on": "eval:doc.requirement==\"Document\"",
+   "mandatory_depends_on": "eval:doc.requirement==\"Document\"",
+   "allow_on_submit": 1
+  },
+  {
+   "fieldname": "impact_energy",
+   "fieldtype": "Float",
+   "label": "Mean impact energy (J)",
+   "depends_on": "eval:doc.requirement==\"Impact\"",
+   "mandatory_depends_on": "eval:doc.requirement==\"Impact\"",
+   "non_negative": 1,
+   "allow_on_submit": 1
+  },
+  {
+   "fieldname": "impact_temperature",
+   "fieldtype": "Float",
+   "label": "At (°C)",
+   "depends_on": "eval:doc.requirement==\"Impact\"",
+   "allow_on_submit": 1
+  },
+  {
+   "fieldname": "impact_direction",
+   "fieldtype": "Select",
+   "label": "Specimens",
+   "options": "Transverse\nLongitudinal",
+   "default": "Transverse",
+   "depends_on": "eval:doc.requirement==\"Impact\"",
+   "allow_on_submit": 1
+  },
+  {
+   "fieldname": "cev_max",
+   "fieldtype": "Float",
+   "label": "Carbon equivalent at most",
+   "precision": "2",
+   "depends_on": "eval:doc.requirement==\"Carbon equivalent\"",
+   "mandatory_depends_on": "eval:doc.requirement==\"Carbon equivalent\"",
+   "non_negative": 1,
+   "allow_on_submit": 1
+  },
+  {
+   "fieldname": "cev_elements",
+   "fieldtype": "Check",
+   "label": "Cr, Mo and V declared",
+   "depends_on": "eval:doc.requirement==\"Carbon equivalent\"",
+   "allow_on_submit": 1
+  },
+  {
+   "fieldname": "text",
+   "fieldtype": "Small Text",
+   "label": "As written",
+   "depends_on": "eval:[\"PMI\",\"Other\"].includes(doc.requirement)",
+   "mandatory_depends_on": "eval:doc.requirement==\"Other\"",
+   "allow_on_submit": 1
+  },
+  {
+   "fieldname": "source",
+   "fieldtype": "Data",
+   "label": "From",
+   "in_list_view": 1,
+   "columns": 3,
+   "description": "Where the requirement comes from: the job's review, the specification and its clause",
+   "allow_on_submit": 1
+  },
+  {
+   "fieldname": "added_on",
+   "fieldtype": "Date",
+   "label": "Added on",
+   "default": "Today",
+   "allow_on_submit": 1
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "links": [],
+ "modified": "2026-10-09 10:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Material Certifications",
+ "name": "Material Order Requirement",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "istable": 1,
+ "editable_grid": 1
+}

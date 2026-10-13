@@ -1,0 +1,77 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "creation": "2026-10-09 10:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "branch",
+  "owner_person",
+  "closed",
+  "closed_on",
+  "act_doctype",
+  "act_name",
+  "note"
+ ],
+ "fields": [
+  {
+   "fieldname": "branch",
+   "fieldtype": "Select",
+   "label": "Branch",
+   "reqd": 1,
+   "in_list_view": 1,
+   "options": "On the shelf\nCut into parts\nWelded into joints\nDelivered\nPeople to tell"
+  },
+  {
+   "fieldname": "owner_person",
+   "fieldtype": "Link",
+   "options": "Personnel",
+   "label": "Who closes it",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "closed",
+   "fieldtype": "Check",
+   "label": "Closed",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "closed_on",
+   "fieldtype": "Date",
+   "label": "Closed on",
+   "read_only": 1
+  },
+  {
+   "fieldname": "act_doctype",
+   "fieldtype": "Link",
+   "options": "DocType",
+   "label": "What was done (kind)"
+  },
+  {
+   "fieldname": "act_name",
+   "fieldtype": "Dynamic Link",
+   "options": "act_doctype",
+   "label": "What was done"
+  },
+  {
+   "fieldname": "note",
+   "fieldtype": "Small Text",
+   "label": "Note",
+   "in_list_view": 1
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "links": [],
+ "modified": "2026-10-09 10:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Material Certifications",
+ "name": "Material Recall Branch",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "istable": 1,
+ "editable_grid": 1
+}

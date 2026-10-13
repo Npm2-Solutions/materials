@@ -21,7 +21,11 @@ import frappe
 from frappe.tests.utils import FrappeTestCase
 
 APP_MODULE = "materials.ui"
-PAGE_KEYS = {"headline", "primary", "acts", "facts", "steps", "overview", "tabs", "hide"}
+try:
+	# the contract's own keys, written once in the interface
+	from worgify_ui.api.ui import PAGE_KEYS
+except ImportError:  # worgify_ui is not installed: the tests skip
+	PAGE_KEYS = frozenset()
 LAYOUT = {"Section Break", "Column Break", "Tab Break", "HTML"}
 ROUTES = ({"doctype", "name"}, {"list"}, {"new"}, {"report"})
 COMPONENTS = {"materials.certificate_extraction", "materials.certificate_viewer"}
