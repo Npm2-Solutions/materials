@@ -167,7 +167,7 @@
  ],
  "index_web_pages_for_search": 0,
  "links": [],
- "modified": "2026-10-09 10:00:00.000000",
+ "modified": "2026-10-13 12:30:00.000000",
  "modified_by": "Administrator",
  "module": "Material Certifications",
  "name": "PMI Check",
@@ -211,7 +211,7 @@
  "sort_order": "DESC",
  "states": [],
  "track_changes": 1,
- "autoname": "format:PMI-{YYYY}-{#####}",
+ "autoname": "format:PMIC-{YYYY}-{#####}",
  "naming_rule": "Expression",
  "title_field": "title",
  "show_title_field_in_link": 1

@@ -28,8 +28,7 @@ SPACES = [{
 		 "sections": [{"id": "lots", "name": _lt("The lots, and to which job")},
 					  {"id": "checks", "name": _lt("The checks on the material")}]},
 		{"id": "metal", "name": _lt("Metal traceability"), "icon": "lucide-flame", "order": 40,
-		 "sections": [{"id": "heats", "name": _lt("Heats and their papers")},
-					  {"id": "jobs", "name": _lt("What each job asks")}]},
+		 "sections": [{"id": "heats", "name": _lt("Heats and their papers")}]},
 		{"id": "setup", "name": _lt("Set-up"), "icon": "lucide-settings-2", "order": 70,
 		 "sections": [{"id": "warehouse", "name": _lt("The warehouse")},
 					  {"id": "catalog", "name": _lt("The grades and their standards")}]},
@@ -70,7 +69,7 @@ APPS = [
 	{"id": "ma.requirements", "holds": ["Job Material Requirement"], "code": "MA-17",
 	 "title": _lt("Material requirements of the jobs"),
 	 "task": _lt("Say what each job asks of its material, so orders and issues follow it"), "use_case": "UC-MA-17",
-	 "kind": "register", "place": "materials.metal.jobs", "order": 10, "catalogs": EVERYONE,
+	 "kind": "register", "under": "ma.heats", "order": 90, "catalogs": EVERYONE,
 	 "opens": {"doctype": "Job Material Requirement"}, "devices": ["desktop"], "route": _list("Job Material Requirement"),
 	 "icon": "lucide-list-checks", "line": _lt("grade, document, impact, carbon equivalent, PMI")},
 	# ── Set-up › the grades and their standards ─────────────────────────────
@@ -81,7 +80,7 @@ APPS = [
 	 "icon": "lucide-layers", "line": _lt("reference data")},
 	{"id": "ma.specifications", "holds": ["Material Specification"], "code": "MA-S6", "title": _lt("Material specifications"),
 	 "task": _lt("Keep the product standards grades belong to"), "use_case": "UC-MA-S6",
-	 "kind": "admin", "place": "materials.setup.catalog", "order": 20, "catalogs": CURATOR,
+	 "kind": "admin", "under": "ma.grades", "order": 20, "catalogs": CURATOR,
 	 "opens": {"doctype": "Material Specification"}, "devices": ["desktop"], "route": _list("Material Specification"),
 	 "icon": "lucide-book-marked", "line": _lt("reference data")},
 ]
@@ -97,3 +96,7 @@ APPS += [
 	 "line": _lt("each line, the certificate it asks, how it was judged"), "rows": "materials.ui.outside.orders",
 	 "today": "materials.ui.outside.today", "empty": _lt("No order of ours is open with you.")},
 ]
+
+
+LISTS = [{"space": "materials", "label": _lt("Metal traceability"),
+		  "modules": ["Material Certifications", "Material Classifications"]}]
