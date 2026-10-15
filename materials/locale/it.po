@@ -3032,3 +3032,23 @@ msgstr "ogni riga, il certificato che richiede, come è stato giudicato"
 
 msgid "No order of ours is open with you."
 msgstr "Nessun nostro ordine è aperto con voi."
+
+msgid "no certificate covers it"
+msgstr "nessun certificato la copre"
+
+msgid "{0} lots to tie"
+msgstr "{0} lotti da abbinare"
+
+msgid "PMI {0}"
+msgstr "PMI {0}"
+
+msgctxt "Recalls"
+msgid "Open"
+msgstr "Aperti"
+
+msgctxt "Recalls"
+msgid "Closed"
+msgstr "Chiusi"
+
+msgid "expired {0}"
+msgstr "scaduto il {0}"

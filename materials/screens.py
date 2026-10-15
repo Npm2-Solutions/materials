@@ -306,19 +306,10 @@ def _open_recalls():
 HEAT_VIEWS = (("all", N_("All")), ("held", N_("Quarantined or recalled")), ("uncovered", N_("Without a certificate")))
 
 
-@frappe.whitelist()
-def heats(view: str = "all", search: str | None = None) -> dict:
-	"""Every heat in the register: its grade and mill, its status, the
-	certificates that cover it and — where the warehouse is installed — its lots
-	and what of it is still on the shelf."""
-	frappe.has_permission(HEAT, "read", throw=True)
-	or_filters = None
-	if search:
-		like = f"%{search}%"
-		or_filters = [["name", "like", like], ["cast_number", "like", like], ["grade", "like", like]]
-	every = frappe.get_list(HEAT, or_filters=or_filters, fields=["name", "cast_number", "grade", "mill", "status",
-																	 "production_date", "modified"],
-							order_by="modified desc", limit_page_length=1000)
+def _heat_rows(every) -> tuple[list, dict]:
+	"""The heats as the register says them — grade and mill, status, the certificates that cover it, its lots and
+	what of it is still on the shelf — and {heat: covering certificates}: one builder for the register and the
+	list's words."""
 	names = [h.name for h in every]
 	covering = {}
 	if names and _can(CERT):
@@ -343,17 +334,33 @@ def heats(view: str = "all", search: str | None = None) -> dict:
 			shelf[h] = f"{_num(total)} {unit_word(uoms.pop())}" if total and len(uoms) == 1 else (_num(total) if total else None)
 	mills = _supplier_names([h.mill for h in every])
 	grades = _grade_names([h.grade for h in every])
-	tests = {"all": lambda h: True, "held": lambda h: h.status in HELD, "uncovered": lambda h: not covering.get(h.name)}
-	counts = {k: len([h for h in every if t(h)]) for k, t in tests.items()}
-	rows = []
-	for h in every:
-		if not (tests.get(view) or tests["all"])(h):
-			continue
-		rows.append({"name": h.name, "link": {"doctype": HEAT, "name": h.name}, "title": h.name,
-					 "subtitle": _join(h.cast_number and _("cast {0}").format(h.cast_number), mills.get(h.mill) or h.mill),
-					 "grade": grades.get(h.grade) or h.grade, "status": _w(h.status, HEAT), "theme": HEAT_THEME.get(h.status, "gray"),
-					 "certificates": len(covering.get(h.name, ())), "lots": len(by_heat.get(h.name, ())) if _stock() else None,
-					 "shelf": shelf.get(h.name), "produced": _d(h.production_date)})
+	rows = [{"name": h.name, "link": {"doctype": HEAT, "name": h.name}, "title": h.name,
+			 "subtitle": _join(h.cast_number and _("cast {0}").format(h.cast_number), mills.get(h.mill) or h.mill),
+			 "grade": grades.get(h.grade) or h.grade, "status": _w(h.status, HEAT), "status_key": h.status,
+			 "theme": HEAT_THEME.get(h.status, "gray"),
+			 "certificates": len(covering.get(h.name, ())), "lots": len(by_heat.get(h.name, ())) if _stock() else None,
+			 "shelf": shelf.get(h.name), "produced": _d(h.production_date)} for h in every]
+	return rows, covering
+
+
+HEAT_FIELDS = ["name", "cast_number", "grade", "mill", "status", "production_date", "modified"]
+
+
+@frappe.whitelist()
+def heats(view: str = "all", search: str | None = None) -> dict:
+	"""Every heat in the register: its grade and mill, its status, the
+	certificates that cover it and — where the warehouse is installed — its lots
+	and what of it is still on the shelf."""
+	frappe.has_permission(HEAT, "read", throw=True)
+	or_filters = None
+	if search:
+		like = f"%{search}%"
+		or_filters = [["name", "like", like], ["cast_number", "like", like], ["grade", "like", like]]
+	every = frappe.get_list(HEAT, or_filters=or_filters, fields=HEAT_FIELDS, order_by="modified desc", limit_page_length=1000)
+	rows, covering = _heat_rows(every)
+	tests = {"all": lambda r: True, "held": lambda r: r["status_key"] in HELD, "uncovered": lambda r: not covering.get(r["name"])}
+	counts = {k: len([r for r in rows if t(r)]) for k, t in tests.items()}
+	rows = [r for r in rows if (tests.get(view) or tests["all"])(r)]
 	return {"views": [{"key": k, "label": _(label), "count": counts.get(k, 0)} for k, label in HEAT_VIEWS],
 			"rows": rows, "stock": _stock(), "may_create": bool(frappe.has_permission(HEAT, "create"))}
 
@@ -530,6 +537,38 @@ CERT_VIEWS = (("verify", N_("To verify")), ("match", N_("To match")), ("valid", 
 			  ("out", N_("Expired or revoked")))
 
 
+CERT_FIELDS = ["name", "certificate_number", "certificate_type", "certificate_date", "status", "supplier",
+			   "issuing_body", "attachment", "verified", "expiry_date"]
+
+
+def _cert_rows(every) -> tuple[list, dict]:
+	"""The mill certificates as the register says them — number and issuer, type and day, the heats each covers,
+	the lots that carry it, the lots of its heats still to tie — and {certificate: lots to tie}: one builder for
+	the register and the list's words."""
+	names = [c.name for c in every]
+	coverage = _coverage(names)
+	carrying = _carrying(names)
+	unlinked = _unlinked(names, coverage, carrying) if _stock() else {}
+	suppliers = _supplier_names([c.supplier for c in every])
+	rows = []
+	for c in every:
+		heats_ = coverage.get(c.name, [])
+		badges = []
+		if c.status != "Valid":
+			badges.append({"label": _w(c.status, CERT), "theme": CERT_STATUS_THEME.get(c.status, "gray")})
+		elif c.verified:
+			badges.append({"label": _("Verified"), "theme": "green"})
+		rows.append({"name": c.name, "link": {"doctype": CERT, "name": c.name}, "title": c.certificate_number or c.name,
+					 "subtitle": _join(c.issuing_body or suppliers.get(c.supplier) or c.supplier, c.name),
+					 "type": c.certificate_type, "date": _d(c.certificate_date), "status_key": c.status,
+					 "verified": bool(c.verified),
+					 "heats": ", ".join(heats_[:3]) + (f" +{len(heats_) - 3}" if len(heats_) > 3 else "") if heats_ else None,
+					 "lots": len(carrying.get(c.name, ())) if _stock() else None,
+					 "to_link": len(unlinked.get(c.name, ())) or None,
+					 "file": bool(c.attachment), "badges": badges})
+	return rows, unlinked
+
+
 @frappe.whitelist()
 def certificates(view: str = "valid", search: str | None = None) -> dict:
 	"""The mill certificates: to verify (no PDF, or not checked), to tie to the
@@ -540,39 +579,17 @@ def certificates(view: str = "valid", search: str | None = None) -> dict:
 	if search:
 		like = f"%{search}%"
 		or_filters = [["certificate_number", "like", like], ["name", "like", like], ["issuing_body", "like", like]]
-	every = frappe.get_list(CERT, or_filters=or_filters,
-							fields=["name", "certificate_number", "certificate_type", "certificate_date", "status",
-									"supplier", "issuing_body", "attachment", "verified", "expiry_date"],
-							order_by="certificate_date desc", limit_page_length=1000)
-	names = [c.name for c in every]
-	coverage = _coverage(names)
-	carrying = _carrying(names)
-	unlinked = _unlinked(names, coverage, carrying) if _stock() else {}
+	every = frappe.get_list(CERT, or_filters=or_filters, fields=CERT_FIELDS, order_by="certificate_date desc",
+							limit_page_length=1000)
+	rows, unlinked = _cert_rows(every)
 	tests = {
-		"verify": lambda c: c.status == "Valid" and not c.verified,
-		"match": lambda c: c.status == "Valid" and bool(unlinked.get(c.name)),
-		"valid": lambda c: c.status == "Valid",
-		"out": lambda c: c.status in ("Expired", "Revoked"),
+		"verify": lambda r: r["status_key"] == "Valid" and not r["verified"],
+		"match": lambda r: r["status_key"] == "Valid" and bool(unlinked.get(r["name"])),
+		"valid": lambda r: r["status_key"] == "Valid",
+		"out": lambda r: r["status_key"] in ("Expired", "Revoked"),
 	}
-	counts = {k: len([c for c in every if t(c)]) for k, t in tests.items()}
-	suppliers = _supplier_names([c.supplier for c in every])
-	rows = []
-	for c in every:
-		if not (tests.get(view) or tests["valid"])(c):
-			continue
-		heats_ = coverage.get(c.name, [])
-		badges = []
-		if c.status != "Valid":
-			badges.append({"label": _w(c.status, CERT), "theme": CERT_STATUS_THEME.get(c.status, "gray")})
-		elif c.verified:
-			badges.append({"label": _("Verified"), "theme": "green"})
-		rows.append({"name": c.name, "link": {"doctype": CERT, "name": c.name}, "title": c.certificate_number or c.name,
-					 "subtitle": _join(c.issuing_body or suppliers.get(c.supplier) or c.supplier, c.name),
-					 "type": c.certificate_type, "date": _d(c.certificate_date),
-					 "heats": ", ".join(heats_[:3]) + (f" +{len(heats_) - 3}" if len(heats_) > 3 else "") if heats_ else None,
-					 "lots": len(carrying.get(c.name, ())) if _stock() else None,
-					 "to_link": len(unlinked.get(c.name, ())) or None,
-					 "file": bool(c.attachment), "badges": badges})
+	counts = {k: len([r for r in rows if t(r)]) for k, t in tests.items()}
+	rows = [r for r in rows if (tests.get(view) or tests["valid"])(r)]
 	return {"views": [{"key": k, "label": _(label), "count": counts.get(k, 0)} for k, label in CERT_VIEWS],
 			"rows": rows, "stock": _stock(), "may_create": bool(frappe.has_permission(CERT, "create"))}
 
@@ -658,3 +675,95 @@ def _soft_check(name):
 	except Exception:
 		frappe.log_error(title="materials: certificate check failed")
 		return None
+
+
+# ── the one list (Design 60): the heats and the mill certificates ─────────
+
+
+def _names_asked(names) -> list:
+	"""The names a list asks words for (the rows on screen, at most 500) — never an empty `in`."""
+	return (frappe.parse_json(names) if isinstance(names, str) else list(names or []))[:500] or ["—"]
+
+
+@frappe.whitelist()
+def heat_layers() -> dict:
+	"""What *Colate* adds on the complete list of the heats (Design 60): every heat where it opens, the ones
+	quarantined or recalled, the ones no certificate covers."""
+	frappe.has_permission(HEAT, "read", throw=True)
+	from worgify.interface import lists
+
+	every = frappe.get_list(HEAT, fields=HEAT_FIELDS, limit_page_length=1000)
+	_rows_, covering = _heat_rows(every)
+	uncovered = [h.name for h in every if not covering.get(h.name)]
+	chips = [lists.chip("held", _("Quarantined or recalled"), filters=[["status", "in", list(HELD)]])]
+	if uncovered:
+		chips.append(lists.chip("uncovered", _("Without a certificate"), of=uncovered))
+	return {"chips": chips, "default_chip": "all", "may_create": bool(frappe.has_permission(HEAT, "create"))}
+
+
+@frappe.whitelist()
+def heat_words(names) -> dict:
+	"""The words of the heats on screen: the cast and the mill, the grade, what of it is on the shelf, the
+	certificates and the lots — and the one line of what is wrong (held, no certificate)."""
+	from worgify.interface import lists
+
+	every = frappe.get_list(HEAT, filters=[["name", "in", _names_asked(names)]], fields=HEAT_FIELDS, limit_page_length=500)
+	rows, covering = _heat_rows(every)
+	out = {}
+	for r in rows:
+		mark = (lists.mark("late", r["status"]) if r["status_key"] in HELD
+				else lists.mark("wait", _("no certificate covers it")) if not covering.get(r["name"]) else None)
+		words = lists.row(
+			r["title"], r["subtitle"], aside=r["shelf"], mark=mark,
+			cells={"grade": r["grade"] or "", "certificates": str(r["certificates"]) if r["certificates"] else "",
+				   "lots": str(r["lots"]) if r["lots"] else "", "shelf": r["shelf"] or ""},
+			sort={"certificates": r["certificates"], "lots": r["lots"] or 0},
+		)
+		words.pop("name", None)
+		out[r["name"]] = words
+	return out
+
+
+@frappe.whitelist()
+def cert_layers() -> dict:
+	"""What *Certificati* adds on the complete list of the mill certificates (Design 60): the valid ones where it
+	opens, the ones to verify, the ones whose heats' lots are still to tie, the ones out of force."""
+	frappe.has_permission(CERT, "read", throw=True)
+	from worgify.interface import lists
+
+	valid_f = [["status", "=", "Valid"]]
+	chips = [lists.chip("verify", _("To verify"), filters=[*valid_f, ["verified", "=", 0]])]
+	if _stock():
+		every = frappe.get_list(CERT, filters=valid_f, fields=CERT_FIELDS, limit_page_length=1000)
+		_rows_, unlinked = _cert_rows(every)
+		match = [c.name for c in every if unlinked.get(c.name)]
+		if match:
+			chips.append(lists.chip("match", _("To match"), of=match))
+	chips += [lists.chip("valid", _("Valid"), filters=valid_f),
+			  lists.chip("out", _("Expired or revoked"), filters=[["status", "in", ["Expired", "Revoked"]]])]
+	return {"chips": chips, "default_chip": "valid", "may_create": bool(frappe.has_permission(CERT, "create"))}
+
+
+@frappe.whitelist()
+def cert_words(names) -> dict:
+	"""The words of the certificates on screen: number and issuer, type and day, the heats it covers, the lots that
+	carry it — and the one line of what it waits for (no PDF, to verify, lots of its heats to tie)."""
+	from worgify.interface import lists
+
+	every = frappe.get_list(CERT, filters=[["name", "in", _names_asked(names)]], fields=CERT_FIELDS, limit_page_length=500)
+	rows, _unlinked_ = _cert_rows(every)
+	out = {}
+	for r in rows:
+		mark = (lists.mark("wait", _("No PDF attached")) if not r["file"]
+				else lists.mark("wait", _("{0} lots to tie").format(r["to_link"])) if r["to_link"]
+				else lists.mark("wait", _("to verify")) if r["status_key"] == "Valid" and not r["verified"] else None)
+		words = lists.row(
+			r["title"], r["subtitle"], leading=[r["type"]] if r["type"] else None, mark=mark, badges=r["badges"] or None,
+			when=lists.day(r["date"]) if r["date"] else None,
+			cells={"heats": r["heats"] or "", "lots": str(r["lots"]) if r["lots"] else ""},
+			sort={"when": r["date"] or "", "lots": r["lots"] or 0},
+		)
+		words.pop("name", None)
+		out[r["name"]] = words
+	return out
+

@@ -134,3 +134,53 @@ class TestScreens(FrappeTestCase):
 			self.skipTest("no website user to ask as")
 		with self.assertRaises(frappe.PermissionError):
 			self.as_(guest_like, screens.heat_workspace, heat)
+
+	# ── the one list (Design 60, every app to the level of NDT: owner 14/10) ──
+
+	def test_the_lists_answer_the_one_lists_words(self):
+		"""Heats, mill certificates, PMI checks and recalls: chips that are filters or computed names, and the words
+		of the rows asked for — a title, a mark in the kernel's tones, cells of words — as each person may read."""
+		from materials import pmi, recall
+
+		cases = ((screens.heat_layers, screens.heat_words, "Material Heat"),
+				 (screens.cert_layers, screens.cert_words, "Material Certificate"),
+				 (pmi.pmi_layers, pmi.pmi_words, "PMI Check"),
+				 (recall.recall_layers, recall.recall_words, "Material Recall"))
+		for user in PEOPLE:
+			for layers, words, doctype in cases:
+				frappe.set_user(user)
+				try:
+					lay = layers()
+				except frappe.PermissionError:
+					self.assertFalse(frappe.has_permission(doctype, "read"), f"{user} was refused {doctype}")
+					continue
+				keys = [c["key"] for c in lay["chips"]]
+				self.assertEqual(len(keys), len(set(keys)), f"{user}: {doctype}")
+				for c in lay["chips"]:
+					self.assertTrue(c["label"] and ("filters" in c or "names" in c), f"{user}: {c['key']}")
+				names = frappe.get_list(doctype, pluck="name", limit=20)
+				for w in words(names).values():
+					self.assertTrue(w.get("title"), f"{user}: {doctype}")
+					self.assertNotIn("name", w, user)
+					if w.get("mark"):
+						self.assertIn(w["mark"]["tone"], {"ok", "wait", "late", "none"}, user)
+					for key, cell in (w.get("cells") or {}).items():
+						self.assertIsInstance(cell, str, f"{user}: {doctype} {key}")
+		frappe.set_user("Administrator")
+
+	def test_a_recall_begins_the_same_from_every_door(self):
+		"""A recall is begun by its own insert — its page's start, the heat's act, the API alike: the five branches
+		of its task, the heat recalled, one open recall per heat (MaterialRecall.before_insert, after_insert)."""
+		from materials.recall import BRANCHES
+
+		heat = frappe.db.get_value("Material Heat", {"status": ["not in", ["Recalled"]]}, "name")
+		if not heat or frappe.db.exists("Material Recall", {"heat": heat, "status": "Open"}):
+			self.skipTest("no heat free to recall on this site")
+		doc = frappe.get_doc({"doctype": "Material Recall", "heat": heat, "cause": "Our own check",
+							  "cause_text": "test: a heat recalled by its own insert"}).insert()
+		self.assertEqual([b.branch for b in doc.branches], list(BRANCHES))
+		self.assertEqual(frappe.db.get_value("Material Heat", heat, "status"), "Recalled")
+		self.assertTrue(doc.notice_date)
+		with self.assertRaises(frappe.ValidationError):
+			frappe.get_doc({"doctype": "Material Recall", "heat": heat, "cause": "Our own check",
+							"cause_text": "a second open recall of the same heat"}).insert()

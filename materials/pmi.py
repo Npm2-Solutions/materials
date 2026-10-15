@@ -275,3 +275,47 @@ def queue(view: str = "recent") -> dict:
 					  "proposal": _(r.proposal) if r.proposal else "", "on": frappe.utils.format_datetime(r.tested_on, "d MMM HH:mm")}
 					 for r in rows],
 			"may_create": bool(frappe.has_permission(PMI, "create"))}
+
+
+# ── the one list (Design 60) ─────────────────────────────────────────────────
+
+
+@frappe.whitelist()
+def pmi_layers() -> dict:
+	"""What *PMI* adds on the complete list of the checks (Design 60): the ones still to decide where it opens when
+	there are some, then the passed and the failed ones."""
+	frappe.has_permission(PMI, "read", throw=True)
+	from worgify.interface import lists
+
+	open_f = [["result", "not in", ["Pass", "Fail"]]]
+	chips = [lists.chip("decide", _("To decide"), filters=open_f),
+			 lists.chip("pass", _("Pass"), filters=[["result", "=", "Pass"]]),
+			 lists.chip("fail", _("Fail"), filters=[["result", "=", "Fail"]])]
+	return {"chips": chips, "default_chip": "decide" if lists.count(PMI, open_f) else "all",
+			"sort": "tested_on desc", "may_create": False}
+
+
+@frappe.whitelist()
+def pmi_words(names) -> dict:
+	"""The words of the checks on screen: the lot and the piece, the grade, what the readings propose, when — and
+	the one line of the decision (passed, failed, still to decide)."""
+	from worgify.interface import lists
+
+	asked = (frappe.parse_json(names) if isinstance(names, str) else list(names or []))[:500] or ["—"]
+	rows = frappe.get_list(PMI, filters=[["name", "in", asked]],
+						   fields=["name", "subject", "piece", "grade", "proposal", "result", "tested_on"], limit=500)
+	grades = {g.name: g.display_name or g.grade for g in frappe.get_all(
+		"Material Grade", filters={"name": ["in", [r.grade for r in rows] or [""]]}, fields=["name", "grade", "display_name"])}
+	out = {}
+	for r in rows:
+		mark = (lists.mark("ok", _(r.result)) if r.result == "Pass"
+				else lists.mark("late", _(r.result)) if r.result == "Fail"
+				else lists.mark("wait", _("to decide")))
+		words = lists.row(" · ".join(x for x in [r.subject, r.piece] if x) or r.name,
+						  " · ".join(x for x in [grades.get(r.grade, r.grade), _(r.proposal) if r.proposal else ""] if x),
+						  mark=mark, when=lists.day(r.tested_on) if r.tested_on else None,
+						  cells={"grade": grades.get(r.grade, r.grade) or "", "proposal": _(r.proposal) if r.proposal else ""},
+						  sort={"when": str(r.tested_on or "")})
+		words.pop("name", None)
+		out[r.name] = words
+	return out

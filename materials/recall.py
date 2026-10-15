@@ -220,21 +220,11 @@ def _branch(kind, rows, state, line, items=None, act=None):
 @frappe.whitelist(methods=["POST"])
 def open_recall(heat: str, cause: str, cause_text: str, notice_date: str | None = None, certificate: str | None = None) -> dict:
 	"""The recall begins: the heat is recalled, its certificate contested, and the
-	task has its five branches."""
+	task has its five branches (MaterialRecall's own insert, the same from every door)."""
 	frappe.has_permission(RECALL, "create", throw=True)
-	if frappe.db.exists(RECALL, {"heat": heat, "status": "Open"}):
-		frappe.throw(_("Heat {0} already has an open recall.").format(heat))
 	doc = frappe.get_doc({"doctype": RECALL, "heat": heat, "cause": cause, "cause_text": cause_text,
-						  "notice_date": notice_date or nowdate(), "certificate": certificate,
-						  "branches": [{"branch": b} for b in BRANCHES]})
+						  "notice_date": notice_date or nowdate(), "certificate": certificate})
 	doc.insert()
-	frappe.db.set_value(HEAT, heat, "status", "Recalled")
-	if certificate:
-		c = frappe.get_doc(conformity.CERT, certificate)
-		c.contested = 1
-		c.contested_reason = cause_text
-		c.flags.ignore_permissions = True
-		c.save()
 	return {"name": doc.name}
 
 
@@ -335,3 +325,40 @@ def queue() -> dict:
 					  "cause": _(r.cause) if r.cause else "", "since": formatdate(r.notice_date, "d MMMM") if r.notice_date else "",
 					  "text": r.cause_text} for r in rows],
 			"may_create": bool(frappe.has_permission(RECALL, "create"))}
+
+
+# ── the one list (Design 60) ─────────────────────────────────────────────────
+
+
+@frappe.whitelist()
+def recall_layers() -> dict:
+	"""What *Richiami* adds on the complete list of the recalls (Design 60): the open ones where it opens, the closed
+	ones. A recall begins from what names it — the heat, why, what was found — through its own insert."""
+	frappe.has_permission(RECALL, "read", throw=True)
+	from worgify.interface import lists
+
+	chips = [lists.chip("open", _("Open", context="Recalls"), filters=[["status", "=", "Open"]]),
+			 lists.chip("closed", _("Closed", context="Recalls"), filters=[["status", "=", "Closed"]])]
+	return {"chips": chips, "default_chip": "open", "sort": "notice_date desc",
+			"may_create": bool(frappe.has_permission(RECALL, "create"))}
+
+
+@frappe.whitelist()
+def recall_words(names) -> dict:
+	"""The words of the recalls on screen: the heat, why and since when, what was found — and the one line of where
+	its task stands (open, its branches still to end)."""
+	from worgify.interface import lists
+
+	asked = (frappe.parse_json(names) if isinstance(names, str) else list(names or []))[:500] or ["—"]
+	rows = frappe.get_list(RECALL, filters=[["name", "in", asked]],
+						   fields=["name", "heat", "status", "cause", "notice_date", "cause_text"], limit=500)
+	out = {}
+	for r in rows:
+		words = lists.row(_("Heat {0}").format(r.heat), " · ".join(x for x in [_(r.cause) if r.cause else "", r.cause_text] if x),
+						  mark=lists.mark("late", _("open")) if r.status == "Open" else None,
+						  when=lists.day(r.notice_date) if r.notice_date else None,
+						  cells={"cause": _(r.cause) if r.cause else ""},
+						  sort={"when": str(r.notice_date or "")})
+		words.pop("name", None)
+		out[r.name] = words
+	return out
