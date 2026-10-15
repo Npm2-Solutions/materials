@@ -3052,3 +3052,6 @@ msgstr "Chiusi"
 
 msgid "expired {0}"
 msgstr "scaduto il {0}"
+
+msgid "from another issuer — one of the two may be forged"
+msgstr "da un altro emittente — uno dei due potrebbe essere falso"

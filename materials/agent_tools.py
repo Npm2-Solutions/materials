@@ -150,7 +150,7 @@ def check_material_certificate(certificate_number: str | None = None, certificat
 			findings.append({
 				"severity": "block" if same_issuer else "warn",
 				"text": _("Certificate number {0} is already recorded as {1}{2}").format(
-					certificate_number, s.name, "" if same_issuer else _(" from another issuer — one of the two may be forged")),
+					certificate_number, s.name, "" if same_issuer else " " + _("from another issuer — one of the two may be forged")),
 			})
 
 	grade_known = bool(grade and frappe.db.exists("Material Grade", grade))
