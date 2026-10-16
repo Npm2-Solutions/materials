@@ -23,6 +23,7 @@ COUNTS = "materials.screens.nav_counts"
 
 SPACES = [{
 	"id": "materials", "name": _lt("Materials"), "icon": "lucide-package", "order": 50,
+	"today": "materials.screens.today",
 	"pages": [
 		{"id": "traceability", "name": _lt("Traceability"), "icon": "lucide-route", "order": 30,
 		 "sections": [{"id": "lots", "name": _lt("The lots, and to which job")},

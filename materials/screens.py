@@ -272,10 +272,9 @@ def today() -> dict:
 
 @frappe.whitelist()
 def nav_counts() -> dict:
-	"""The numbers beside the place's rows: the viewer's own work only."""
+	"""The numbers beside the metal's rows: the viewer's own work only (the warehouse counts its own rows,
+	``stock.screens.nav_counts``)."""
 	out = {}
-	if _stock():
-		out.update(frappe.get_attr("stock.screens.nav_counts_part")())
 	if _can(CERT):
 		certs = frappe.get_list(CERT, filters={"status": "Valid"}, fields=["name", "verified"], limit_page_length=0)
 		waiting = set()
