@@ -2302,7 +2302,7 @@ msgid "certificate not sent yet"
 msgstr "certificato non ancora inviato"
 
 msgid "review of job {0}"
-msgstr "revisione della commessa {0}"
+msgstr "riesame della commessa {0}"
 
 msgid "{0} requirements on the order."
 msgstr "{0} requisiti sull'ordine."
@@ -2596,7 +2596,7 @@ msgid "As written"
 msgstr "Come scritto"
 
 msgid "Where the requirement comes from: the job's review, the specification and its clause"
-msgstr "Da dove viene il requisito: la revisione della commessa, la specifica e il suo punto"
+msgstr "Da dove viene il requisito: il riesame della commessa, la specifica e il suo punto"
 
 msgid "Added on"
 msgstr "Aggiunto il"
@@ -2611,7 +2611,7 @@ msgid "The material as the job names it: plates 13MnNi6-3, 20 mm"
 msgstr "Il materiale come lo chiama la commessa: lamiere 13MnNi6-3, 20 mm"
 
 msgid "The job's review, the specification and its clause"
-msgstr "La revisione della commessa, la specifica e il suo punto"
+msgstr "Il riesame della commessa, la specifica e il suo punto"
 
 msgid "Job Material Requirement"
 msgstr "Requisito del materiale della commessa"
